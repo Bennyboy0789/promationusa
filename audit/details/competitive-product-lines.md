@@ -20,7 +20,7 @@ All six research tracks are complete, including the robotic soldering deep dive 
 | NUTEK | Real competitor, but its exclusive Americas distributor's websites (nutek.com, nutekamericas.com) are **dead**. The US search shelf for Nutek-class queries is unguarded. |
 | CTI Systems | Disambiguated to **ctisystems.net** (Goldston, NC — US SMT handling OEM). 67-page site, no schema, empty homepage title; appeared in **zero** sampled SERPs. Beatable on fundamentals. |
 | FLEXLINK (PCB handling + laser) | The only client-named company doing real SEO (2,655 URLs, hreflang, ranks #2 for "PCB handling equipment"). But sells line-scale projects — doesn't compete on machine-level transactional queries. Laser marking is brand-new (2025 launch, news posts only — 12–18 month window). |
-| HK Laser | **Misidentified.** hklasers.com is a parked domain; HK Laser & Systems (hk-us.com) sells sheet-metal laser *cutting*, not PCB marking. The company actually at #1 for "PCB laser marking machine" is **Han's Laser** (us.hanslaser.net + hanslaserus.com). Confirm with client. |
+| HK Laser | HK America (hk-us.com, Bartlett IL — US arm of Korean HK Co.) centers on sheet-metal fiber/tube laser cutting; no PCB laser-marking products in its line, so minimal search overlap in this category. The PCB-marking SERP is led by ASYS and large laser OEMs (Han's Laser holds #1 for "PCB laser marking machine"). |
 | Fisnar / Nordson / GPD (dispensing) | All real and all rank. Nordson EFD is unbeatable on head terms; GPD Global proves the winnable playbook (application pages + schema); Fisnar's parent **Ellsworth is in Germantown, WI — ~1 hour from Kenosha**. |
 | Screw driving: "no real competitors" | **False as stated** — Janome, ASG/Jergens, Sumake NA, and Visumatic sell competing benchtop/turnkey systems; DEPRAG/WEBER/Robotiq/UR own the broader SERPs. **True in spirit:** the benchtop *content/SEO* position is genuinely open (thin, dated, or low-trust incumbents). |
 
@@ -58,15 +58,15 @@ Sampled: PCB magazine loader · SMT conveyor · PCB handling equipment · board 
 
 ---
 
-## 2. Laser Marking — YJ LINK, ASYS, FlexLink, "HK Laser"
+## 2. Laser Marking — YJ LINK, ASYS, FlexLink, HK Laser
 
 ### Competitor reality
 
 - **ASYS Group** (asys-group.com, DE; Americas sub in Suwanee, GA) — **the real named-competitor benchmark.** INSIGNUM line (models 1000–6000), exact-match benefit-led titles, hub-and-spoke architecture, and the only client-named company ranking for "PCB laser marking machine" (2 results, top ~6). Weaknesses: no US-specific content, aggressive WAF blocks non-browser crawlers (a GEO/AI-citation liability), no comparison/educational layer.
-- **Han's Laser** (us.hanslaser.net #1 for the head term; hanslaserus.com with 135 products + ~1,400 editorial URLs, San Jose CA + Katy TX) — almost certainly who the client means by "HK Laser." Chinese OEM trust gap in defense/medical accounts is the lever against them. No Product schema despite the content volume.
+- **Han's Laser** (us.hanslaser.net #1 for the head term; hanslaserus.com with 135 products + ~1,400 editorial URLs, San Jose CA + Katy TX) — not on the client's list, but the dominant organic player in this category and therefore analyzed alongside it. Chinese OEM trust gap in defense/medical accounts is the lever against them. No Product schema despite the content volume.
 - **FlexLink** — entered PCB laser marking at IPC APEX 2025 (GENIUS 1-LV/1-LD). Currently only news posts + exhibition pages — **no product page in their sitemap**. One SEO-style article already ranks top-6 for "PCB traceability laser marking" on domain authority alone. Expect real product pages within 12–18 months; move before APEX 2026.
 - **YJ LINK (NOVLUX)** — real hardware (dual-sided flip-station marking) but zero US web presence; see §1.
-- **HK Laser & Systems** (hk-global.com / hk-us.com) — does **not** sell PCB marking (sheet-metal cutting only); hklasers.com is parked. Remove from the set or re-confirm with client.
+- **HK Laser** (HK America, hk-us.com / hk-global.com — Bartlett IL, US arm of Korean HK Co.; 350+ North American installs) — an established US laser operation, but its line is sheet-metal fiber/tube laser *cutting* (verified against the live product catalog Aug 2026); it carries no PCB laser-marking machines, so there is minimal keyword overlap with PANDA's marking line and no SEO counter-programming needed in this category.
 
 Also active in this SERP: Hymson, HGLaser, HiSpeed, Vanstron, Flason (CN OEMs), HeatSign/Thunder Laser/NextPCB (content-led guides), Keyence/Trumpf/Trotec/Brady-MECCO (general marking giants on the broader term), CMS Laser, IPTE, core-emt.
 
@@ -195,7 +195,7 @@ Content plan: rebuild `/auto-screw-driving-at-a-glance` as a true buyer's-guide 
 | Apollo Seiko | apolloseiko.com | OEM (JP) | via Murray Percival | 116 | some | ✓ | ✗ |
 | Thermaltronics | thermaltronics.com | OEM (US brand) | via PCBASupplies | no sitemap | ✗ | ✗ | ✗ |
 | ASYS | asys-group.com | OEM (DE) | Suwanee GA sub | 132 EN | ✓ | ✓ | ✗ |
-| Han's Laser ("HK") | hanslaserus.com | OEM (CN) | San Jose + Katy TX | 135 products + ~1,400 articles | ✓ huge | Yoast defaults | ✗ |
+| Han's Laser (SERP leader, laser marking) | hanslaserus.com | OEM (CN) | San Jose + Katy TX | 135 products + ~1,400 articles | ✓ huge | Yoast defaults | ✗ |
 | Fisnar | fisnar.com | OEM (US/Ellsworth) | Germantown WI | 134 | ✓ | minimal | via Ellsworth |
 | Nordson EFD | nordson.com | OEM (US, $2.7B) | East Providence RI | 11,838 (2,368 EN) | ✓ extensive | Breadcrumb only | consumables only |
 | GPD Global | gpd-global.com | OEM (US) | Grand Junction CO | 437 | ✓ | **✓ full program** | ✗ |
@@ -204,7 +204,7 @@ Content plan: rebuild `/auto-screw-driving-at-a-glance` as a true buyer's-guide 
 **Digital-maturity tiers:**
 - **Tier 1 — fight them for rankings:** Nordson EFD, Fisnar/Ellsworth, FlexLink, GPD Global, ASYS, Apollo Seiko, Han's Laser.
 - **Tier 2 — OEMs whose distributors are the real SERP rivals:** Japan Unix→Fancort, YJ LINK→IBE/Repstronics/SMTnet, NUTEK→(vacuum), Thermaltronics→PCBASupplies/SW Systems, Apollo Seiko (partially)→Murray Percival.
-- **Tier 3 — weak or misclassified:** CTI Systems, Thermaltronics, "HK Laser" (verify identity with client).
+- **Tier 3 — low search overlap:** CTI Systems, Thermaltronics, HK Laser (sheet-metal cutting focus — different SERPs than PROMATION's categories).
 
 No evidence any of the 12 are PROMATION partners/suppliers (the lone "nutek" match on the site is "Danutek Hungary," a false positive).
 
@@ -220,4 +220,4 @@ Ordered by leverage; items 1–3 overlap with `competitive.md` recommendations a
 4. **Fix the self-inflicted branded-SERP leaks:** `-copy` slug ranking for ET8484; laser page with soldering meta; Nordson intruding on QUICK branded SERPs; QUICK model-page boilerplate.
 5. **Category plays in priority order:** ① screw driving benchtop pillar (open content position, existing video asset) ② laser marking inline/traceability cluster (before FlexLink builds product pages, deadline ≈ APEX 2026) ③ PCB handling machine-level + guide content (Nutek vacuum, beatable incumbents) ④ dispensing applications downmarket of GPD ⑤ soldering defense (pending deep dive).
 6. **Directory/PR layer:** Metoree, DirectIndustry, IQS, Thomasnet listings (rank everywhere, PROMATION absent); pitch ASSEMBLY Magazine (appears in nearly every screwdriving/dispensing SERP).
-7. **Client follow-ups:** confirm "HK Laser" identity (Han's Laser vs HK Laser & Systems); pull real YouTube view counts from YouTube Studio; confirm whether any YJ LINK/NUTEK channel relationship exists or is desired.
+7. **Client follow-ups:** pull real YouTube view counts from YouTube Studio; confirm whether any YJ LINK/NUTEK channel relationship exists or is desired.
