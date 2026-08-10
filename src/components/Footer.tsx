@@ -1,0 +1,124 @@
+import Link from "next/link";
+import { site, mainNav, productCategories } from "@/lib/site";
+
+const socials = [
+  { label: "YouTube", href: site.social.youtube },
+  { label: "Facebook", href: site.social.facebook },
+  { label: "Instagram", href: site.social.instagram },
+  { label: "LinkedIn", href: site.social.linkedin },
+];
+
+export function Footer() {
+  return (
+    <footer className="relative mt-24 border-t border-line">
+      <div className="grid-bg grid-fade pointer-events-none absolute inset-0 opacity-40" aria-hidden />
+      <div className="relative mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+          {/* Brand */}
+          <div className="space-y-4">
+            <Link href="/" className="font-display text-xl font-bold tracking-tight">
+              <span className="text-slate-900">PROMATION</span>{" "}
+              <span className="text-blue-600">USA</span>
+            </Link>
+            <p className="text-sm leading-relaxed text-muted">
+              Premium automated solutions for electronics manufacturing and
+              assembly. {site.tagline}.
+            </p>
+            <div className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-blue-600/70">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400 animate-ping-soft" />
+              Systems Online — Kenosha, WI
+            </div>
+          </div>
+
+          {/* Site */}
+          <div>
+            <h3 className="mb-4 font-mono text-[11px] uppercase tracking-[0.3em] text-blue-600">
+              {"// Navigate"}
+            </h3>
+            <ul className="space-y-2.5">
+              {mainNav
+                .filter((i) => i.href !== "/")
+                .map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className="text-sm text-muted transition-colors hover:text-blue-600"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+
+          {/* Products */}
+          <div>
+            <h3 className="mb-4 font-mono text-[11px] uppercase tracking-[0.3em] text-blue-600">
+              {"// Product Lines"}
+            </h3>
+            <ul className="space-y-2.5">
+              {productCategories.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-muted transition-colors hover:text-blue-600"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h3 className="mb-4 font-mono text-[11px] uppercase tracking-[0.3em] text-blue-600">
+              {"// Headquarters"}
+            </h3>
+            <address className="space-y-2.5 text-sm not-italic text-muted">
+              <p>
+                PROMATION INC. USA
+                <br />
+                {site.address.street}
+                <br />
+                {site.address.city}, {site.address.state} {site.address.zip}
+              </p>
+              <p>
+                <a href={`tel:+1${site.phone.replace(/\./g, "")}`} className="transition-colors hover:text-blue-600">
+                  {site.phone}
+                </a>
+              </p>
+              <p>
+                <a href={`mailto:${site.email}`} className="transition-colors hover:text-blue-600">
+                  {site.email}
+                </a>
+              </p>
+            </address>
+            <div className="mt-5 flex flex-wrap gap-3">
+              {socials.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="border border-line px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.15em] text-muted transition-all hover:border-blue-400/50 hover:text-blue-600"
+                >
+                  {s.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-line pt-8 sm:flex-row">
+          <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted/70">
+            © {new Date().getFullYear()} PROMATION INC. USA — All rights reserved
+          </p>
+          <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted/70">
+            Automation. Precision. Future.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}

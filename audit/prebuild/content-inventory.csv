@@ -1,0 +1,349 @@
+url,verdict,merge_target_or_new_slug,category,reason
+https://www.promationusa.com/7483kxz,KEEP,https://www.promationusa.com/promation-7483kxz-screw-driving-robot,product-screw-driving,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/9101,KEEP,https://www.promationusa.com/quick-9101,product-soldering,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/9152n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9153a,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9153n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9153na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9154n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9154na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9181,KEEP,https://www.promationusa.com/quick-9181,product-soldering,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/9244cj,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9252d,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9252k,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9252n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9253n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9253na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9254n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9254na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9264ec,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9333-light-curtain,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9334,KEEP,https://www.promationusa.com/quick-9334,product-soldering,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/9353n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9353na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9354n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9354na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9394f,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9433-vision,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9440-iru-infrared-preheating-robot,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9453na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9454n,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9454na,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9464,KEEP,https://www.promationusa.com/quick-9464,product-soldering,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/9494f,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9533y-dualslide,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9534y-dualslide,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9544cj,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9733d-pro-model,REWRITE,,product-soldering,Body copy describes the WRONG product (9433D) on the 9733D page — confirmed factual error; rewrite from correct spec sheet
+https://www.promationusa.com/9744cj-pro-model,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/9n393w-hot-air-soldering-robot,KEEP,,product-other,Product page; migrate as-is
+https://www.promationusa.com/9r393t-molten-drop-soldering-robot,KEEP,,product-other,Product page; migrate as-is
+https://www.promationusa.com/accumulation-stations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/agv,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/ar-smart-glasses,KEEP,,product-accessory,Accessory product page; migrate as-is
+https://www.promationusa.com/arc21-automatic-routing-machine,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/assembly-solutions,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/auto-dispensing-at-a-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/auto-label-placement-at-a-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/auto-screw-driving-at-a-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/automatic-scanning-conveyor,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/barcode-scanning-conveyor,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/bare-board-loading-stations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/bare-board-loading-stations-destacking,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/c100,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/careers,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/complimentary-services,MERGE,https://www.promationusa.com/robotic-soldering-complimentary-services,service,"99.1% identical to /robotic-soldering-complimentary-services; keep the descriptive slug, 301 this one"
+https://www.promationusa.com/contact,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/dual-lane-conveyors,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/e-series-soldering-collection,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/eco-series,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/et72h3ka,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et7383k,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et7383kc,MERGE,https://www.promationusa.com/et7383kc-screw-driving-robot,product-screw-driving,"93.8% identical to /et7383kc-screw-driving-robot; keep descriptive slug, 301 this one"
+https://www.promationusa.com/et7383kc-screw-driving-robot,KEEP,,product-screw-driving,Canonical survivor of the ET7383KC duplicate pair
+https://www.promationusa.com/et7483kxzc,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et7583k,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et7583kya,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et7583kyac,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et7683kya,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/et8253n-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8283-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8353n-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8383-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8384-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8393sf-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8483-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8484-dispensing-robot-copy,MERGE,https://www.promationusa.com/et8484-dispensing-robot,product-dispensing,Live '-copy' Squarespace clone slug; migrate content to canonical /et8484-dispensing-robot (new slug) and 301
+https://www.promationusa.com/et8493sf-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8583ya-dispensing-robot,REWRITE,,product-dispensing,ET8x dispensing series shares 88-91% boilerplate text across pages; page needed but copy must be differentiated per model
+https://www.promationusa.com/et8593-dispensing-robot-copy,MERGE,https://www.promationusa.com/et8593-dispensing-robot,product-dispensing,Live '-copy' Squarespace clone slug; migrate content to canonical /et8593-dispensing-robot (new slug) and 301
+https://www.promationusa.com/et9383e,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/et9384e,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/et9483e,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/et9484e,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/et9583eya,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/et9584eya,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/et9594fya,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/events,REWRITE,,events-index,Events hub is needed but all listed events are 2017-2023 stale; rebuild with current schedule or evergreen trade-show section
+https://www.promationusa.com/events/2017/10/4/2018-ipc-expo,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2017/10/4/smtai-expo-in-guadalajara-mx,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2018/5/22/smta-detroit,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2019/1/29/ipcapex-trade-show-san-diego,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2020/2/4/2020-ipc-apex-expo,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2022/10/19/smta-expo-long-island,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2022/5/12/automate-expo-detroit-mi-usa,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2022/5/2/2022-promation-usa-technology-demo-day-open-house,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2022/6/7/smta-expo-ohio-valley,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2022/6/7/smta-expo-space-coast,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2022/9/7/smta-expo-tampa-bay,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2023/5/16/smta-wisconsin-chapter-expo-amp-tech-forum,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2023/5/17/robotic-soldering-open-house-technology-day,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/2023/5/3/promation-usa-to-display-at-horizon-sales-technology-day,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/events/productronica2017,KILL,,event-page,Stale 2017-2023 event announcement; no evergreen value; 301 to /events
+https://www.promationusa.com/f-series-1,KEEP,https://www.promationusa.com/f-series-soldering,category-hub,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/flat-belt-conveyors,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/hand-assembly,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/heated-nitrogen-output-kit,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/heating-technology,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/hotbarsoldering,KEEP,https://www.promationusa.com/hot-bar-soldering,product-soldering,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/inline-custom-solutions,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/intelligent-mobile-robot-solutions,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/labelpro,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/landing-promationusa,KILL,,core-company,100% identical to homepage (verified live diff); duplicate landing page — 301 to /
+https://www.promationusa.com/large-platform-led-systems,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/laser-marking-at-a-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/laser-soldering,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/lead-frame-handlers,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/m-series,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/mobile-robot-line-loading,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/mobile-robot-line-unloading-copy,MERGE,https://www.promationusa.com/mobile-robot-line-loading,product-pcb-handling,"Unedited clone: title is identical 'AMR Magazine Line Loader' as /mobile-robot-line-loading (verified live); if a real unloader page is wanted, rewrite under a clean slug instead"
+https://www.promationusa.com/mobile-robot-solutions-1,MERGE,https://www.promationusa.com/intelligent-mobile-robot-solutions,category-hub,Identical title 'Intelligent Mobile Robot Solutions' as /intelligent-mobile-robot-solutions (verified live); '-1' rename leftover
+https://www.promationusa.com/n-series,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/new-page-1,KEEP,https://www.promationusa.com/book-service,utility,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/new-products,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/news,KEEP,,news-index,"News hub; keep, exclude tag archives from new build"
+https://www.promationusa.com/news/2017/11/7/promation-scheduled-to-attend-2017-productronica-in-munich-germany,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2017/12/20/promation-usa-offers-new-intelligent-hand-soldering-stations,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2018/2/2/altus-group-europe-and-danutek-hungary-complete-robotic-soldering-training-at-promation-usa,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2018/8/13/promation-launches-soldering-technology-initiative,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2019,KEEP,https://www.promationusa.com/news/2019-new-products,news-post,Press post living on a bare year slug (collides with year-archive convention); migrate content to descriptive slug [SLUG-CLEAN]
+https://www.promationusa.com/news/2020/1/27/kevin-brennan-announced-international-sales-manager-for-promation-usa,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2020/1/30/promation-introduces-quick-9394f-soldering-robot,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2020/2/7/panda-soldering-system-wins-2020-new-product-introduction-award,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2021/4/26/promation-usa-adds-30-robot-models-to-the-quick-robotic-product-line,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2022/1/3/innovation-winter-2022,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2022/10/25/horizon-sales-doubles-down-on-promation-usa-new-innovative-line-of-robotic-soldering-solutions,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2022/5/31/2022-international-sales-training-conference,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2022/8/3/panda-intelligent-soldering-solutions-featured-by-global-smt-amp-packaging-magazine,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2024/11/15/whats-new-november-2024,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2025/10/28/the-next-generation-of-laser-marking-by-panda-robotics-usa,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/2025/11/11/panda-robotics-usa-recognized-in-2025-titan-innovation-awards-season-2-for-excellence-in-robotic-technology,KEEP,,news-post,Dated press release; migrate to news archive as-is
+https://www.promationusa.com/news/panda-soldering-systems,KEEP,,news-post,'COMING SOON' PANDA launch post; migrate to news archive as-is (historical record)
+https://www.promationusa.com/news/tag/2020+IPC+APEX+EXPO,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/9544CJ,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Best+Soldering+Station,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Circuits+Assembly%27s+NPI+Award,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Circuits+Assembly+Magazine,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Estacion+de+Soldar,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Flux+Cored+Solder+Wire,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Lead-Free+Soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/NPI+AWARD,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/NPI+Award+PROMATION,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Network+Capable,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/PANDA+Robotics,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/PRO+4.0,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/PRO+4.1,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/PROMATION,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/PROMATION+USA,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/PROMATION+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Panda+Soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+300A,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+300B,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+372B,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+376DI,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+9544CJ+PRO,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+Hand+Soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+Soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+Soldering+Robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/QUICK+USA+Soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Sales,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/Soildering+Stations,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/TM+Robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/TM-14,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/TS+Series+Intelligent+Hand+Soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/aim+solder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/altus+group,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/apollo+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/auto+solder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/automated+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/autosolder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/best+soldering+machine,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/best+soldering+robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/best+soldering+station,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/cobotics,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/conveyors,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/global+smt+%26+packaging,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/hand+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/horizon+sales,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/how+to+solder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/indium+solder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/intelligent+line+control+solution,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/intelligent+soldering+machine,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/kester+solder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/kevin+brennan,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/kevin+brennan+promation,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/kevin+brennan+promation+usa,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/largest+soldering+robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/laser+mark,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/laser+marking,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/laser+marking+machine,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/lead-free+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/manufacturing,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/midwest+robotic+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+in-line+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+laser,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+laser+marker,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+laser+marking,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+promation,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+promation+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+robotics,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+robotics+interview,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+series,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/panda+soldering+usa,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/pandasoldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/pandasolderingsystems,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promation,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promation+conveyor,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promation+panda,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promation+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promation+usa,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promation+usa+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/promationusa,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/quick+9394F,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/quick+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/quick+soldering+robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/robotic+soldeirng,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/robotic+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/robotics,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/screw+driving+robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/soldadura,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/solder,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/solder+rob+ot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/solder+wire+perforation,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/soldering+machine,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/soldering+robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/techman+collaborative+robots,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/thermaltronics,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/thermaltronics+soldering,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/titan+innovation+award+2025,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/tm+robot,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/news/tag/wisconsin+manufacturing,KILL,,news-tag,Auto-generated Squarespace tag archive (101 of these = 29% of sitemap); thin/duplicate; 301 to /news or 410
+https://www.promationusa.com/official-robot-center,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/panda-laser-marking,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/panda-robotics,MERGE,https://www.promationusa.com/panda-robotics-usa,category-hub,77% similar to /panda-robotics-usa with same title intent ('PANDA ROBOTICS USA'); consolidate PANDA brand hub
+https://www.promationusa.com/panda-robotics-usa,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/panda-soldering,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/partners,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/pcb-handling,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-handling-buffering,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-handling-post-aoi-sorting-systems,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-inspection-stations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-inverter-stations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-magazine-line-loader,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-magazine-unloading-stations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-post-aoi-sorting-buffer,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-post-aoi-sorting-systems,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-routing-at-a-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/pcb-wave-loading,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/pcb-wave-unloading,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/products,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/qs-800,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-9430-series-with-base-vision,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/quick-9433d-dual-tip-soldering-robot,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-9434-soldering-robot,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-ts2200,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-100-155,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-100-6c,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-191ad,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-300-series,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/quick-usa-3202,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-372b,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-376di,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-440a,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-441b,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-442-2,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-442-3,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-443c,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-443c-2,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-447,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-492e,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-6101a1,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-6102a1,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-6301,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-854,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-870,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-885-1,KEEP,https://www.promationusa.com/quick-usa-885,product-soldering,Content is fine but slug is non-descriptive legacy; migrate under new slug + 301 [SLUG-CLEAN]
+https://www.promationusa.com/quick-usa-957d,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-tr1100,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-tr1300,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-ts1200,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/quick-usa-ts2300,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/robot-safety-enclosures,KEEP,,product-accessory,Accessory product page; migrate as-is
+https://www.promationusa.com/robotic-screw-driving-accessories,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/robotic-soldering-complimentary-services,KEEP,,service,Canonical survivor of the complimentary-services duplicate pair
+https://www.promationusa.com/robotic-soldering-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/robotics-division,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/s100-p4,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/s100t4,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/schedule-service,KEEP,,utility,Utility/service-booking page; migrate as-is
+https://www.promationusa.com/shuttle-gate,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/smart-line-control-solution,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/sn7353k,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/sn7453ka,KEEP,,product-screw-driving,Screw-driving robot model page; migrate as-is
+https://www.promationusa.com/soldering-integration-kits,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/soldering-robot-accessories,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/soldering-robot-central,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/store,KEEP,,store-index,Store hub; live commerce; migrate as-is
+https://www.promationusa.com/store/100-authentic-quick-solder-tips-912-series,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/100-authentic-quick-solder-tips-912-series-372mr,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/2020d-hot-air-rework-station,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/brass-rollers,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/conveyor-belts,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick,KEEP,,store-product,Live commerce; FLAG: title collides with other QUICK store pages ('/store/quick' title collision) — retitle on migration
+https://www.promationusa.com/store/quick-100-15s,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-100-6c,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-150watt-soldering-irons,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-180-watt-robot-soldering-irons,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-191ad,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-376di,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-6102a1,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-885-hot-air-gun,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-9039,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-feed-tube,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-feed-tube-zlbsm,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-ts1200,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-ts2200,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/quick-ylt4n,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/store/replacement-brass-mesh-insert,KEEP,,store-product,Live commerce page; migrate as-is
+https://www.promationusa.com/techman-collaborative-robots,KEEP,,product-cobot,"Canonical survivor of the 4-page TechMan duplicate cluster; absorbs /tm-robot-usa, /tm-robots-at-a-glance, /techman-usa"
+https://www.promationusa.com/techman-usa,MERGE,https://www.promationusa.com/techman-collaborative-robots,product-cobot,One of 4 identical TechMan pages (same title/meta); consolidate
+https://www.promationusa.com/techman-usa-1,KILL,,product-cobot,"Already 302-redirects to /tm-robots-at-a-glance; dead alias — 301 to /techman-collaborative-robots, do not migrate"
+https://www.promationusa.com/thank-you,KEEP,,utility,Form-confirmation utility page; keep but noindex and exclude from new sitemap
+https://www.promationusa.com/tm-14,KEEP,,product-cobot,TechMan cobot model page; migrate as-is
+https://www.promationusa.com/tm-mobile-robot-solutions,KEEP,,category-hub,Category/brand hub page; migrate as-is
+https://www.promationusa.com/tm-robot-usa,MERGE,https://www.promationusa.com/techman-collaborative-robots,product-cobot,One of 4 identical TechMan pages (same title/meta); consolidate into single canonical cobot hub
+https://www.promationusa.com/tm-robots-at-a-glance,MERGE,https://www.promationusa.com/techman-collaborative-robots,category-hub,One of 4 identical TechMan pages; consolidate into /techman-collaborative-robots (keyword-clear slug)
+https://www.promationusa.com/tm12,KEEP,,product-cobot,TechMan cobot model page; migrate as-is
+https://www.promationusa.com/tm16,KEEP,,product-cobot,TechMan cobot model page; migrate as-is
+https://www.promationusa.com/tm20,KEEP,,product-cobot,TechMan cobot model page; migrate as-is
+https://www.promationusa.com/tm5-700,KEEP,,product-cobot,TechMan cobot model page; migrate as-is
+https://www.promationusa.com/tm5-900,KEEP,,product-cobot,TechMan cobot model page; migrate as-is
+https://www.promationusa.com/transfer-conveyors,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/turning-stations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/virtual-training-gallery,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/what-we-do,KEEP,,core-company,Core site page; migrate as-is
+https://www.promationusa.com/workstations,KEEP,,product-pcb-handling,PCB handling / conveyor product page; migrate as-is
+https://www.promationusa.com/xc1000,KEEP,,product-soldering,Soldering robot / soldering product page; migrate as-is
+https://www.promationusa.com/xray-at-a-glance,KEEP,,category-hub,Category/brand hub page; migrate as-is

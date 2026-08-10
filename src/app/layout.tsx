@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { CursorGlow } from "@/components/fx/CursorGlow";
+import { ScrollProgress } from "@/components/fx/ScrollProgress";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,10 +16,19 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
-  title: "PROMATION USA | Premium Electronics Manufacturing Automation",
+  metadataBase: new URL("https://www.promationusa.com"),
+  title: {
+    default: "PROMATION USA | Premium Electronics Manufacturing Automation",
+    template: "%s | PROMATION USA",
+  },
   description:
-    "PROMATION USA provides premium automated solutions for electronics manufacturing and assembly — PCB Handling Systems, Robotic Soldering, Automatic Label Placement, Laser Mark and Work Flow Solutions.",
+    "PROMATION USA provides premium automated solutions for electronics manufacturing and assembly — PCB Handling Systems, Robotic Soldering, Dispensing, Screw Driving, Laser Marking, Cobots and X-Ray Inspection.",
   keywords: [
     "PCB handling",
     "robotic soldering",
@@ -43,10 +56,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-background text-foreground">
-        {children}
+      <body className="flex min-h-full flex-col bg-background text-foreground">
+        <ScrollProgress />
+        <CursorGlow />
+        <Navbar />
+        <main className="relative flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );

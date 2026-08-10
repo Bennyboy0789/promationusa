@@ -1,0 +1,576 @@
+{
+  "captured": "2026-08-10",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+  "site": "https://www.promationusa.com",
+  "pages": {
+    "/": {
+      "httpStatus": 200,
+      "title": "PROMATION USA",
+      "metaDescription": "PROMATION USA is a world class automation equipment supplier to the Micro-Electronics Manufacturing Industry.  Premium Automated Solutions Include: PCB Handling, Laser Marking, Robotic Soldering, Robotic Dispensing, Robotic Screw Fastening, TM AI Collaborative Robots, Automatic Label Placement, Conveyors, Autonomous Mobile Robots, and  Intelligent Production Line Control Solutions.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "[image-only, no alt]",
+        "START YOUR AUTOMATION JOURNEY"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/61d705838f11b646791a3a24/1641481606998/website+logo+2021+on+white.jpg?format=1500w",
+      "wordCount": 383,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/robotic-soldering-glance": {
+      "httpStatus": 200,
+      "title": "Robotic Soldering at a Glance — PROMATION USA",
+      "metaDescription": "The PROMATION Precision Soldering Robot Line effortlessly achieves high quality, repeatable, soldering results.  Our High Quality Soldering Machines Automate your Soldering Process with precision and consistency.  Go PRO Today with our \"proof-of-concept\" services and work with Certified IPC Experts.  All systems are backed by an award winning customer service team.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/robotic-soldering-glance",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "At a Glance",
+        "▲ What We Offer",
+        "▲ Soldering Lab",
+        "▲ Award Winning Service & Technology"
+      ],
+      "h2sFirst5": [],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Robotic Soldering at a Glance — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 957,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/auto-screw-driving-at-a-glance": {
+      "httpStatus": 200,
+      "title": "Robotic Screw Driving at a Glance — PROMATION USA",
+      "metaDescription": "The PROMATION Screw Driving Robots effortlessly achieve high quality, repeatable, torque monitored results.  Automate your screw driving process today with proof-of-concept services and work with certified IPC Experts.  All systems are backed by an award winning customer service team.  Visit with us today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/auto-screw-driving-at-a-glance",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "At a Glance"
+      ],
+      "h2sFirst5": [
+        "ROBOTIC SCREW DRIVING VIDEO INTRODUCTION:",
+        "Compatible Screw Types:",
+        "DOWNLOAD THE ROBOTIC SCREW DRIVING BROCHURE"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Robotic Screw Driving at a Glance — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 723,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/pcb-handling": {
+      "httpStatus": 200,
+      "title": "World Class PCB Handling Solutions — PROMATION USA",
+      "metaDescription": "World Class PCB Handling Solutions by PROMATION USA.  Our Signature Series Line of Premium Handling Equipment Includes:  Conveyors, Line Loaders, Line Unloaders, Vertical Buffers, Inspection Stations, Hand Assembly Stations, Linking Conveyors, Post AOI Sort Conveyors, Post SPI Sort Conveyors, Sorting Conveyors, Magazine Conveyors, Shuttle Conveyors, Passageway Station Conveyors, and much more!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/pcb-handling",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "PCB HANDLING",
+        "download the product catalog"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "World Class PCB Handling Solutions — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 786,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/panda-laser-marking": {
+      "httpStatus": 200,
+      "title": "PANDA ROBOTICS USA — PROMATION USA",
+      "metaDescription": "PROMATION USA is an 8-time technology award winner for Robotic Soldering.  With Patented Technology, our robotic soldering solutions take your manufacturing process to the next level of automation.  PANDA Robotics (a specialty division of PROMATION USA) unleashes truly innovative, state-of-the-art, robotic soldering technology to the world.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/panda-laser-marking",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "THE NEXT GENERATION: LASER MARKING",
+        "WORLD CLASS LASER MARKING SOLUTIONS",
+        "VIDEO INTRODUCTION"
+      ],
+      "h2sFirst5": [
+        "INTRODUCING"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "PANDA ROBOTICS USA — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/6900de635fc0535f5563492b/1610471430439/panda+head.jpg?format=1500w",
+      "wordCount": 505,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/laser-marking-at-a-glance": {
+      "httpStatus": 200,
+      "title": "Laser Marking at a Glance — PROMATION USA",
+      "metaDescription": "PROMATION",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/laser-marking-at-a-glance",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "At a Glance",
+        "The Next Generation of Laser Marking by PANDA ROBOTICS USA",
+        "▲ Award Winning Service & Technology▲"
+      ],
+      "h2sFirst5": [],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Laser Marking at a Glance — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 996,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/tm-robots-at-a-glance": {
+      "httpStatus": 200,
+      "title": "Collaborative Robots At a Glance — PROMATION USA",
+      "metaDescription": "Techman Collaborative Robots achieve high quality, repeatable, results while lowering overall operating costs.  Our High Quality Collaborative Robotics Automate a wide variety of applications with increased precision, speed, and consistency.  Explore our Integration Services or work with our consultants to define your customized automation project.  All systems are backed by an award winning customer service team.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/tm-robots-at-a-glance",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "At a Glance",
+        "[image-only, no alt]",
+        "GET TO KNOW OUR TM ROBOT SERIES:",
+        "Flexible Automation Regardless of Your Industry",
+        "▲ What We Offer",
+        "▲ Robotics Lab",
+        "▲ Award Winning Service & Technology"
+      ],
+      "h2sFirst5": [],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Collaborative Robots At a Glance — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 954,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/contact": {
+      "httpStatus": 200,
+      "title": "Contact Us Today! — PROMATION USA",
+      "metaDescription": "Contact our Certified Automation Expert Team Now!  Experience our Award Winning 5-Star Customer Service Team and Feel the Difference for Yourself Today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/contact",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "Contact our Award Winning Team Today!",
+        "Speak with the Experts NOW!",
+        "1.262.764.4832",
+        "PROMATION proudly Serves: USA, MeXico, CANADA, and EUROPE.",
+        "EmaiL us!"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Contact Us Today! — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 399,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/store": {
+      "httpStatus": 200,
+      "title": "Order Online Today! — PROMATION USA",
+      "metaDescription": "100% Authentic OEM Replacement Parts.  Fast Shipping & Satisfaction Guaranteed.  Order Online Today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/store",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Order Online Today! — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5c66e059eef1a18b3de5c8fe/1550245982607/IMG_5909.jpg?format=1500w",
+      "wordCount": 524,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/store/quick": {
+      "httpStatus": 200,
+      "title": "PROMATION 6101A1 Replacement Filters — PROMATION USA",
+      "metaDescription": "Replacement filters for PROMATION 6101A1 Fume Extraction Systems. This filtration system utilizes 3 stages of filtration: pre filter, mid filter, and main filter. See variants to select the appropriate filter in need of replacement.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/store/quick",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "PROMATION 6101A1 Replacement Filters",
+        "PROMATION 6101A1 Replacement Filters"
+      ],
+      "h2sFirst5": [
+        "You Might Also Like"
+      ],
+      "jsonLdCount": 4,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness",
+        "Product"
+      ],
+      "ogTitle": "PROMATION 6101A1 Replacement Filters — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/5a4b9d308165f549180373d9/5a553340e4966bd674194d6b/1515534225974/image2.JPG?format=1500w",
+      "wordCount": 492,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/careers": {
+      "httpStatus": 200,
+      "title": "Career Opportunities — PROMATION USA",
+      "metaDescription": "Put your love for robotic automation in the fast lane!  Seeking highly skilled and motivated individuals to become the latest member of the PROMATION NATION Family.  Find out More About PROMATION USA!  Apply Today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/careers",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "Career Opportunities",
+        "POSITIONS CURRENTLY AVAILABLE:"
+      ],
+      "h2sFirst5": [],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Career Opportunities — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 801,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/news": {
+      "httpStatus": 200,
+      "title": "Press Releases — PROMATION USA",
+      "metaDescription": "Welcome to PROMATION NATION!  Stay up to date with all the latest and greatest news from PROMATION USA!   New press releases and new product launches at your fingertips. Subscribe Now!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/news",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "PANDA Robotics USA Recognized in 2025 TITAN Innovation Awards: Season 2 for Excellence in Robotic Technology",
+        "The Next Generation of Laser Marking by PANDA ROBOTICS USA",
+        "PROMATION USA Launches Next-Generation PANDA Laser Marking System – Setting a New Standard in Electronics Manufacturing Automation",
+        "What's New : NOVEMBER 2024",
+        "HORIZON SALES “DOUBLES-DOWN” ON PROMATION USA : NEW INNOVATIVE LINE OF ROBOTIC SOLDERING SOLUTIONS",
+        "PANDA Intelligent Soldering Solutions featured by Global SMT & Packaging Magazine",
+        "2022 INTERNATIONAL SALES TRAINING CONFERENCE",
+        "INNOVATION | WINTER 2022",
+        "PROMATION USA Adds 30+ Robot Models to the QUICK Robotic Product Line",
+        "PANDA Soldering System Wins 2020 New Product Introduction Award",
+        "PROMATION Introduces QUICK 9394F Soldering Robot"
+      ],
+      "h2sFirst5": [
+        "Smarter, Faster, More Connected",
+        "Engineered for the Future of Smart Manufacturing",
+        "The Ultimate Laser Marker: Panda Robotics USA",
+        "Dual Slide Screw Driving Robot w/ Torque Monitoring Solution",
+        "The Most Popular Soldering Robot in Europe: The PROMATION 9544CJ PRO"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Press Releases — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 1872,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/quick-9434-soldering-robot": {
+      "httpStatus": 200,
+      "title": "QUICK 9434 Precision Soldering Robot — PROMATION USA",
+      "metaDescription": "The QUICK 9434 Precision Soldering Robot effortlessly achieves high quality, repeatable, soldering results.  Automate your soldering process today with proof-of-concept soldering services and work with certified IPC Soldering Experts.  All systems are backed by an award winning customer service team.  Visit with us today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/quick-9434-soldering-robot",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "9434 Soldering Robot"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "QUICK 9434 Precision Soldering Robot  — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 612,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/et9484e": {
+      "httpStatus": 200,
+      "title": "ET9484E Soldering Robot — PROMATION USA",
+      "metaDescription": "The ET9484E Soldering Robot effortlessly achieves high quality, repeatable, soldering results.  Automate your soldering process today with proof-of-concept soldering services and work with certified IPC Soldering Experts.  All systems are backed by an award winning customer service team.  Visit with us today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/et9484e",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "ET9484E SERIES Soldering Robot"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "ET9484E Soldering Robot — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 604,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/9252n": {
+      "httpStatus": 200,
+      "title": "9252N Soldering Robot — PROMATION USA",
+      "metaDescription": "The 9252N Soldering Robot effortlessly achieves high quality, repeatable, soldering results.  Automate your soldering process today with proof-of-concept soldering services and work with certified IPC Soldering Experts.  All systems are backed by an award winning customer service team.  Visit with us today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/9252n",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "9252N SERIES Soldering Robot"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "9252N Soldering Robot — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 587,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/et7383kc": {
+      "httpStatus": 200,
+      "title": "ET7383KC Screw Driving Robot — PROMATION USA",
+      "metaDescription": "The ET7383KC Screw Driving Robot effortlessly achieves high quality, repeatable, torque monitored results.  Automate your screw driving process today with proof-of-concept services and work with certified IPC Experts.  All systems are backed by an award winning customer service team.  Visit with us today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/et7383kc",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "ET7383KC Automatic Screw Driving Robot",
+        "MAchine specifications:",
+        "Compatible Screw Types:",
+        "DOWNLOAD The ROBOTIC SCREW DRIVING BROCHURE"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "ET7383KC Screw Driving Robot — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 563,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/et8484-dispensing-robot": {
+      "httpStatus": 404,
+      "title": "PROMATION USA",
+      "metaDescription": "",
+      "metaRobots": null,
+      "canonical": null,
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "PROMATION USA",
+      "ogImage": "http://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/c65497c1-6a5d-4936-a1fa-31e87b7049b6/website+logo+2021+on+white.jpg?format=1500w",
+      "wordCount": 421,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/quick-usa-6101a1": {
+      "httpStatus": 200,
+      "title": "QUICK 6101A1 Fume Extraction Solution — PROMATION USA",
+      "metaDescription": "The QUICK 6101A1 is a single port standalone fume extraction system.  The station comes complete with a 3-Stage HEPA Filtration System, Adjustable Hoses, and Adjustable Intake Controller; used for adjusting the system",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/quick-usa-6101a1",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "[image-only, no alt]",
+        "fume extraction system 6101a1"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "QUICK 6101A1 Fume Extraction Solution — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 631,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/pcb-magazine-line-loader": {
+      "httpStatus": 200,
+      "title": "Magazine Line Loader — PROMATION USA",
+      "metaDescription": "The LLD Series Magazine handler is a “Line Loading” solution that is used to populate the line with PCBs. This unit typically placed before a Screen Printer or Bare PCB line loading station, and provides an intelligent pathway between machines / processes via SMEMA interface and uses PLC timers to track PCB progress out of the magazine.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/pcb-magazine-line-loader",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "magazine line loading Solutions",
+        "DOWNLOAD THE PRODUCT CATALOG"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Magazine Line Loader — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 722,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/transfer-conveyors": {
+      "httpStatus": 200,
+      "title": "Transfer Conveyor — PROMATION USA",
+      "metaDescription": "Introducing the Best Selling Transport Conveyor on the Planet!  The CC Series conveyors are used to transport PCBs on 3mm ESD edge belts.  This unit provides an intelligent pathway between machine processes via SMEMA interface and uses PLC timers to track PCB progress.  A retractable hand crank is used to adjust rail width which folds neatly back into the panel so it never gets lost.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/transfer-conveyors",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "transfer / Interconnect CONVEYORS",
+        "download the product catalog"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Transfer Conveyor — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 663,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/what-we-do": {
+      "httpStatus": 200,
+      "title": "About Us — PROMATION USA",
+      "metaDescription": "PROMATION USA is a World Class Capital Equipment Supplier to the micro-electronics manufacturing industries.  Solutions range from:  PCB Handling, Automatic Label Placement, Automatic Laser Marking, Robotic Soldering, Robotic Dispensing, Robotic Screw Fastening, Robotic PCB Routing, and other Complimentary Hand Tools.",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/what-we-do",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]",
+        "Our devotion to providing customers with high quality products, expert services, and cutting edge ingenuity constitutes the foundation of PROMATION."
+      ],
+      "h2sFirst5": [
+        "Our Mission"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "About Us — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 613,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    },
+    "/partners": {
+      "httpStatus": 200,
+      "title": "Partnerships — PROMATION USA",
+      "metaDescription": "PROMATION USA maintains strategic partnerships within the micro-electronics manufacturing industry.  To find out more, clink the link above and see how PROMATION can assist you in your automation efforts; today!",
+      "metaRobots": null,
+      "canonical": "https://www.promationusa.com/partners",
+      "viewportPresent": false,
+      "h1s": [
+        "[image: PROMATION USA]"
+      ],
+      "h2sFirst5": [
+        "Partners"
+      ],
+      "jsonLdCount": 3,
+      "jsonLdTypes": [
+        "WebSite",
+        "Organization",
+        "LocalBusiness"
+      ],
+      "ogTitle": "Partnerships — PROMATION USA",
+      "ogImage": "http://static1.squarespace.com/static/553aaccde4b0f11dcc2284f2/t/5ffddac53f809a14235b6150/1610472138020/logo.jpg?format=1500w",
+      "wordCount": 367,
+      "bodyFirst200": "Home Products About What We Do Events Partners Press Releases Career Opportunities VIRTUAL TRAINING GALLERY Contact Store Home Products About What We Do Events Partners Press Releases Career Opportuni"
+    }
+  }
+}

@@ -1,556 +1,298 @@
-"use client";
+import Link from "next/link";
+import { CinematicHero } from "@/components/fx/CinematicHero";
+import { DecodeText } from "@/components/fx/DecodeText";
+import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
+import { TiltCard } from "@/components/fx/TiltCard";
+import { Counter } from "@/components/fx/Counter";
+import { Marquee } from "@/components/fx/Marquee";
+import { SectionHeading, GlowButton, Chip } from "@/components/ui";
+import { partners, homeVideo, whatWeDo } from "@/lib/content";
+import { articles, formatDate } from "@/lib/news";
 
-import { useState } from "react";
-
-const NAV_ITEMS = [
-  { label: "Home", href: "#home" },
-  { label: "Products", href: "#products" },
-  { label: "What We Do", href: "#services" },
-  { label: "Events", href: "#events" },
-  { label: "Partners", href: "#partners" },
-];
-
-const SERVICES = [
+const divisions = [
   {
-    title: "PCB Handling Systems",
-    description:
-      "Complete board handling solutions including bare board loading, magazine line loading/unloading, inspection stations, transfer conveyors, buffering, slide lines, turning stations, inverters, accumulation, dual lane systems, and post-AOI/SPI sorting.",
-    tags: ["Bare Board Loading", "Conveyors", "Buffering", "Sorting"],
+    index: "01",
+    title: "PCB Handling",
+    href: "/pcb-handling",
+    blurb:
+      "Loaders, unloaders, conveyors, buffers, turners and inspection stations — the complete SMEMA-compliant board-flow platform.",
+    tags: ["Conveyors", "Loaders", "Buffering"],
   },
   {
+    index: "02",
     title: "Robotic Soldering",
-    description:
-      "Advanced robotic soldering solutions featuring ECO, E, N, F, and M series robots with hot air, molten drop, and hot bar capabilities. Includes Panda Intelligent Soldering with inline and custom configurations.",
-    tags: ["ECO Series", "E Series", "N Series", "Hot Bar"],
+    href: "/robotic-soldering-glance",
+    blurb:
+      "QUICK and PANDA intelligent soldering robots — batch and in-line selective soldering with hot air, molten drop and hot bar.",
+    tags: ["QUICK", "PANDA", "In-Line"],
   },
   {
-    title: "Automatic Label Placement",
-    description:
-      "High-precision robotic dispensing and screw driving systems for automated label placement and assembly operations across electronics manufacturing lines.",
-    tags: ["Dispensing", "Screw Driving", "Precision"],
+    index: "03",
+    title: "Robotic Dispensing",
+    href: "/auto-dispensing-at-a-glance",
+    blurb:
+      "High-precision automated dispensing platforms for adhesives, coatings and solder paste across the ET and QS series.",
+    tags: ["ET Series", "Precision", "Coating"],
   },
   {
-    title: "Laser Mark Systems",
-    description:
-      "PCB laser marking solutions with Panda Robotics integration. Permanent, high-contrast marking for traceability, compliance, and quality control in electronics manufacturing.",
-    tags: ["PCB Marking", "Traceability", "Panda Robotics"],
+    index: "04",
+    title: "Robotic Screw Driving",
+    href: "/auto-screw-driving-at-a-glance",
+    blurb:
+      "Automated screw-feeding and driving robots engineered for repeatable, torque-controlled assembly.",
+    tags: ["Auto-Feed", "Torque Control"],
   },
   {
-    title: "Work Flow Solutions",
-    description:
-      "Intelligent mobile robot solutions including line loading/unloading, collaborative robots (Techman TM series), and X-ray inspection systems. End-to-end workflow automation for smart factories.",
-    tags: ["Mobile Robots", "Cobots", "X-Ray", "Smart Factory"],
+    index: "05",
+    title: "Laser Marking",
+    href: "/laser-marking-at-a-glance",
+    blurb:
+      "PANDA Robotics laser marking systems — permanent, high-contrast PCB traceability, awarded for innovation.",
+    tags: ["PANDA", "Traceability"],
   },
   {
-    title: "Complimentary Services",
-    description:
-      "Full-service support including integration kits, heated nitrogen output kits, robot safety enclosures, training, and ongoing technical support for all PROMATION automation solutions.",
-    tags: ["Integration", "Training", "Support", "Safety"],
+    index: "06",
+    title: "TechMan Cobots",
+    href: "/tm-robots-at-a-glance",
+    blurb:
+      "TechMan collaborative robots with built-in vision — TM5 to TM20 payload classes for flexible automation.",
+    tags: ["TM Series", "Vision", "Cobots"],
+  },
+  {
+    index: "07",
+    title: "Mobile Robots & X-Ray",
+    href: "/intelligent-mobile-robot-solutions",
+    blurb:
+      "OMRON autonomous mobile robots for line loading plus SEAMARK X-ray inspection for hidden-joint quality.",
+    tags: ["AMR", "SEAMARK", "Inspection"],
   },
 ];
 
-const PRODUCT_CATEGORIES = [
-  { name: "PCB Handling", count: "22+ products" },
-  { name: "Robotic Soldering", count: "18+ products" },
-  { name: "Robotic Dispensing", count: "12+ products" },
-  { name: "Robotic Screw Driving", count: "14+ products" },
-  { name: "Laser Marking", count: "Panda Robotics" },
-  { name: "Mobile Robots & Cobots", count: "Techman USA" },
-  { name: "X-Ray Inspection", count: "Seamark USA" },
-];
-
-const EVENTS = [
-  {
-    title: "Stay tuned for upcoming trade shows and events",
-    description:
-      "PROMATION USA regularly exhibits at major electronics manufacturing trade shows across North America. Check back for our 2026 schedule.",
-  },
-];
-
-const PARTNERS = [
-  { name: "Techman Robot", description: "Collaborative robot solutions" },
-  { name: "Seamark", description: "X-Ray inspection systems" },
-  { name: "Panda Robotics", description: "Intelligent laser marking & soldering" },
+const stats = [
+  { value: 20, suffix: "+", label: "Years of Experience" },
+  { value: 120, suffix: "+", label: "Automation Products" },
+  { value: 38, suffix: "", label: "Soldering Robot Models" },
+  { value: 4, suffix: "", label: "Regions Served" },
 ];
 
 export default function Home() {
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const latest = articles.slice(0, 3);
 
   return (
-    <div className="flex flex-col min-h-screen" id="home">
-      {/* SCAM WARNING BANNER */}
-      <div className="bg-red-700 text-white text-center py-3 px-4 text-sm font-semibold tracking-wide flex items-center justify-center gap-2">
-        <span className="text-yellow-300 text-lg">⚠</span>
-        <span>
-          BEWARE OF SCAMS INVOLVING UNAUTHORIZED PROMATION USA DISTRIBUTORS OR
-          SALES REPRESENTATIVES!
-        </span>
-        <span className="text-yellow-300 text-lg">⚠</span>
-      </div>
+    <>
+      {/* ================= HERO ================= */}
+      <CinematicHero />
 
-      {/* NAVIGATION */}
-      <header className="sticky top-0 z-50 bg-surface/95 backdrop-blur border-b border-border">
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            <a
-              href="#home"
-              className="text-xl font-bold tracking-tight text-primary"
-            >
-              <span className="text-white">PROMATION</span>{" "}
-              <span className="text-primary">USA</span>
-            </a>
+      {/* ================= STATS BAND ================= */}
+      <section className="border-b border-line">
+        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <RevealGroup className="grid grid-cols-2 divide-x divide-line sm:grid-cols-4">
+            {stats.map((s) => (
+              <RevealItem key={s.label} className="px-6 py-8">
+                <div className="font-display text-3xl font-bold text-blue-600 sm:text-4xl">
+                  <Counter value={s.value} suffix={s.suffix} />
+                </div>
+                <div className="mt-1 font-mono text-[10px] uppercase tracking-[0.2em] text-muted">
+                  {s.label}
+                </div>
+              </RevealItem>
+            ))}
+          </RevealGroup>
+        </div>
+      </section>
 
-            {/* Desktop Nav */}
-            <div className="hidden md:flex items-center gap-1">
-              {NAV_ITEMS.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="px-4 py-2 text-sm font-medium text-muted hover:text-white hover:bg-surface-light rounded-lg transition-colors"
+      {/* ================= DIVISIONS ================= */}
+      <section className="relative mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
+        <SectionHeading
+          eyebrow="Product Divisions"
+          title="Seven systems. One automated line."
+          intro="Every division of the PROMATION platform is engineered to slot into your production line — from bare-board loading to final inspection."
+          decode
+        />
+        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {divisions.map((d, i) => (
+            <Reveal key={d.href} delay={(i % 3) * 0.08}>
+              <TiltCard className="group relative h-full">
+                <Link
+                  href={d.href}
+                  className="glass clip-corner relative flex h-full flex-col gap-4 p-7 transition-colors duration-300 hover:border-blue-400/40"
                 >
-                  {item.label}
-                </a>
-              ))}
-              <a
-                href="#contact"
-                className="ml-2 px-5 py-2 text-sm font-semibold bg-primary text-black rounded-lg hover:bg-primary-dark transition-colors"
-              >
-                Contact
-              </a>
-            </div>
-
-            {/* Mobile menu button */}
-            <button
-              onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden p-2 text-muted hover:text-white"
-              aria-label="Toggle menu"
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                {mobileOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
-          </div>
-
-          {/* Mobile Nav */}
-          {mobileOpen && (
-            <div className="md:hidden pb-4 space-y-1">
-              {NAV_ITEMS.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block px-4 py-3 text-sm font-medium text-muted hover:text-white hover:bg-surface-light rounded-lg transition-colors"
-                >
-                  {item.label}
-                </a>
-              ))}
-              <a
-                href="#contact"
-                onClick={() => setMobileOpen(false)}
-                className="block px-4 py-3 text-sm font-semibold text-primary hover:bg-surface-light rounded-lg transition-colors"
-              >
-                Contact
-              </a>
-            </div>
-          )}
-        </nav>
-      </header>
-
-      <main className="flex-1">
-        {/* HERO SECTION */}
-        <section className="relative overflow-hidden">
-          {/* Background grid pattern */}
-          <div
-            className="absolute inset-0 opacity-10"
-            style={{
-              backgroundImage:
-                "linear-gradient(rgba(245,158,11,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(245,158,11,0.1) 1px, transparent 1px)",
-              backgroundSize: "60px 60px",
-            }}
-          />
-
-          {/* Gradient overlays */}
-          <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background" />
-
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 sm:py-40 lg:py-48">
-            <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
-                <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                North American Headquarters
-              </div>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
-                Premium{" "}
-                <span className="text-primary">Automation Solutions</span> for
-                Electronics Manufacturing
-              </h1>
-              <p className="mt-6 text-lg sm:text-xl text-muted max-w-2xl leading-relaxed">
-                PCB Handling Systems · Robotic Soldering · Automatic Label
-                Placement · Laser Mark · Work Flow Solutions — engineered for
-                reliability and precision.
-              </p>
-              <div className="mt-10 flex flex-wrap gap-4">
-                <a
-                  href="#products"
-                  className="px-8 py-3.5 bg-primary text-black font-semibold rounded-lg hover:bg-primary-dark transition-colors shadow-lg shadow-primary/25"
-                >
-                  Explore Products
-                </a>
-                <a
-                  href="#contact"
-                  className="px-8 py-3.5 border border-border text-white font-semibold rounded-lg hover:bg-surface-light hover:border-primary/50 transition-colors"
-                >
-                  Get in Touch
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Bottom fade */}
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
-        </section>
-
-        {/* PRODUCTS SECTION */}
-        <section id="products" className="py-24 sm:py-32">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                Our Products
-              </h2>
-              <p className="text-muted max-w-2xl mx-auto text-lg">
-                Comprehensive automation product lines serving every stage of
-                electronics manufacturing.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {PRODUCT_CATEGORIES.map((cat) => (
-                <div
-                  key={cat.name}
-                  className="group p-6 rounded-xl bg-surface border border-border hover:border-primary/40 hover:bg-surface-light transition-all"
-                >
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
-                    <span className="text-primary font-bold text-lg">
-                      {cat.name.charAt(0)}
+                  <div className="flex items-start justify-between">
+                    <span className="font-mono text-[11px] text-blue-600/60">
+                      [{d.index}]
+                    </span>
+                    <span
+                      aria-hidden
+                      className="font-mono text-blue-600/50 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
+                    >
+                      ↗
                     </span>
                   </div>
-                  <h3 className="font-semibold text-white mb-1">{cat.name}</h3>
-                  <p className="text-sm text-muted">{cat.count}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* SERVICES / WHAT WE DO SECTION */}
-        <section id="services" className="py-24 sm:py-32 bg-surface/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                What We Do
-              </h2>
-              <p className="text-muted max-w-2xl mx-auto text-lg">
-                End-to-end automated solutions for electronics manufacturing and
-                assembly — from PCB handling to robotic soldering and beyond.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {SERVICES.map((service) => (
-                <div
-                  key={service.title}
-                  className="p-6 rounded-xl bg-surface border border-border hover:border-primary/30 transition-all"
-                >
-                  <h3 className="text-lg font-semibold text-white mb-3">
-                    {service.title}
+                  <h3 className="font-display text-xl font-semibold text-slate-900 transition-colors group-hover:text-blue-500">
+                    {d.title}
                   </h3>
-                  <p className="text-muted text-sm leading-relaxed mb-4">
-                    {service.description}
-                  </p>
+                  <p className="flex-1 text-sm leading-relaxed text-muted">{d.blurb}</p>
                   <div className="flex flex-wrap gap-2">
-                    {service.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="px-2.5 py-0.5 text-xs font-medium rounded-full bg-primary/10 text-primary border border-primary/20"
-                      >
-                        {tag}
-                      </span>
+                    {d.tags.map((t) => (
+                      <Chip key={t}>{t}</Chip>
                     ))}
                   </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+                </Link>
+              </TiltCard>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
-        {/* EVENTS SECTION */}
-        <section id="events" className="py-24 sm:py-32">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                Events
-              </h2>
-              <p className="text-muted max-w-2xl mx-auto text-lg">
-                Meet PROMATION USA at industry events and trade shows.
-              </p>
-            </div>
-
-            <div className="max-w-2xl mx-auto">
-              {EVENTS.map((event) => (
-                <div
-                  key={event.title}
-                  className="p-8 rounded-xl bg-surface border border-border text-center"
-                >
-                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-5">
-                    <svg
-                      className="w-7 h-7 text-primary"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                  </div>
-                  <h3 className="text-lg font-semibold text-white mb-2">
-                    {event.title}
-                  </h3>
-                  <p className="text-muted text-sm">{event.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* PARTNERS SECTION */}
-        <section id="partners" className="py-24 sm:py-32 bg-surface/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                Our Partners
-              </h2>
-              <p className="text-muted max-w-2xl mx-auto text-lg">
-                Trusted technology partners powering our automation solutions.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              {PARTNERS.map((partner) => (
-                <div
-                  key={partner.name}
-                  className="p-6 rounded-xl bg-surface border border-border hover:border-primary/30 transition-all text-center"
-                >
-                  <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <span className="text-primary font-bold text-xl">
-                      {partner.name.charAt(0)}
-                    </span>
-                  </div>
-                  <h3 className="font-semibold text-white mb-1">
-                    {partner.name}
-                  </h3>
-                  <p className="text-sm text-muted">{partner.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ABOUT SECTION */}
-        <section id="about" className="py-24 sm:py-32">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div>
-                <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-                  About{" "}
-                  <span className="text-primary">PROMATION USA</span>
-                </h2>
-                <div className="space-y-4 text-muted leading-relaxed">
-                  <p>
-                    PROMATION USA is the North American headquarters for
-                    PROMATION Inc., delivering premium automated solutions for
-                    electronics manufacturing and assembly.
-                  </p>
-                  <p>
-                    Our comprehensive product portfolio spans PCB handling
-                    systems, robotic soldering, automatic label placement, laser
-                    marking, and workflow solutions. We serve manufacturers
-                    across North America with cutting-edge automation technology
-                    backed by expert engineering support.
-                  </p>
-                  <p>
-                    From individual assembly stations to complete smart factory
-                    integrations, PROMATION USA provides the reliability,
-                    precision, and innovation that modern electronics
-                    manufacturing demands.
-                  </p>
-                </div>
+      {/* ================= MISSION ================= */}
+      <section className="relative overflow-hidden border-y border-line py-28">
+        <div className="grid-bg grid-fade absolute inset-0 opacity-60" aria-hidden />
+        <div className="relative mx-auto grid w-full max-w-7xl gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div>
+            <SectionHeading
+              eyebrow="What We Do"
+              title="World-class automation, human-grade service."
+              intro={whatWeDo.intro}
+            />
+            <Reveal delay={0.2}>
+              <div className="mt-8">
+                <GlowButton href="/what-we-do" variant="ghost">
+                  About PROMATION
+                </GlowButton>
               </div>
+            </Reveal>
+          </div>
+          <Reveal direction="left" delay={0.15}>
+            <figure className="border-beam clip-corner relative h-full p-8 lg:p-10">
+              <span aria-hidden className="font-display text-6xl leading-none text-blue-600/30">
+                &ldquo;
+              </span>
+              <blockquote className="mt-2 text-lg leading-relaxed text-foreground/90">
+                {whatWeDo.quote.text}
+              </blockquote>
+              <figcaption className="mt-6 flex items-center gap-3">
+                <span className="h-px w-10 bg-blue-400/60" aria-hidden />
+                <span className="font-mono text-xs uppercase tracking-[0.2em] text-blue-600">
+                  {whatWeDo.quote.author} — {whatWeDo.quote.role}
+                </span>
+              </figcaption>
+            </figure>
+          </Reveal>
+        </div>
+      </section>
 
-              {/* Stats */}
-              <div className="grid grid-cols-2 gap-6">
-                {[
-                  { value: "22+", label: "Years of Innovation" },
-                  { value: "100+", label: "Product Models" },
-                  { value: "7", label: "Product Categories" },
-                  { value: "USA", label: "North American HQ" },
-                ].map((stat) => (
-                  <div
-                    key={stat.label}
-                    className="p-6 rounded-xl bg-surface border border-border text-center"
-                  >
-                    <div className="text-3xl font-bold text-primary mb-1">
-                      {stat.value}
-                    </div>
-                    <div className="text-sm text-muted">{stat.label}</div>
-                  </div>
-                ))}
+      {/* ================= VIDEO ================= */}
+      <section className="mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
+        <SectionHeading
+          eyebrow="See It Run"
+          title="Automation in motion"
+          intro="Watch the PROMATION platform at work — then book a live virtual demo with our engineers."
+          align="center"
+        />
+        <Reveal delay={0.15}>
+          <div className="mx-auto mt-12 max-w-4xl">
+            <div className="border-beam clip-corner p-1.5">
+              <div className="clip-corner relative aspect-video overflow-hidden bg-black">
+                <iframe
+                  src={homeVideo}
+                  title="PROMATION USA — automation in motion"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                  className="absolute inset-0 h-full w-full"
+                />
               </div>
             </div>
           </div>
-        </section>
+        </Reveal>
+      </section>
 
-        {/* CONTACT SECTION */}
-        <section id="contact" className="py-24 sm:py-32 bg-surface/50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                Contact Us
-              </h2>
-              <p className="text-muted max-w-2xl mx-auto text-lg">
-                Get in touch with our team for product inquiries, technical
-                support, or partnership opportunities.
-              </p>
-            </div>
-
-            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Address */}
-              <div className="p-6 rounded-xl bg-surface border border-border text-center">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <svg
-                    className="w-6 h-6 text-primary"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-white mb-2">
-                  Headquarters
+      {/* ================= LATEST NEWS ================= */}
+      <section className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="flex flex-wrap items-end justify-between gap-6">
+          <SectionHeading
+            eyebrow="Transmission Log"
+            title="Latest press releases"
+          />
+          <Reveal delay={0.1}>
+            <GlowButton href="/news" variant="ghost">
+              All News
+            </GlowButton>
+          </Reveal>
+        </div>
+        <div className="mt-12 grid gap-5 md:grid-cols-3">
+          {latest.map((a, i) => (
+            <Reveal key={a.slug} delay={i * 0.08}>
+              <Link
+                href={`/news/${a.path}`}
+                className="glass clip-corner group flex h-full flex-col gap-4 p-7 transition-colors hover:border-blue-400/40"
+              >
+                <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+                  {formatDate(a.date)}
+                </time>
+                <h3 className="font-display text-lg font-semibold leading-snug text-slate-900 transition-colors group-hover:text-blue-500">
+                  {a.title}
                 </h3>
-                <p className="text-sm text-muted leading-relaxed">
-                  9900 58TH PL. STE.#100
-                  <br />
-                  KENOSHA, WI 53144
+                <p className="flex-1 text-sm leading-relaxed text-muted line-clamp-3">
+                  {a.excerpt}
                 </p>
-              </div>
+                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70 transition-colors group-hover:text-blue-600">
+                  Read Transmission →
+                </span>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
-              {/* Phone */}
-              <div className="p-6 rounded-xl bg-surface border border-border text-center">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <svg
-                    className="w-6 h-6 text-primary"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-white mb-2">Phone</h3>
-                <a
-                  href="tel:+12627644832"
-                  className="text-sm text-primary hover:text-primary-dark transition-colors"
-                >
-                  262.764.4832
-                </a>
-              </div>
+      {/* ================= PARTNERS MARQUEE ================= */}
+      <section className="border-y border-line py-16">
+        <div className="mx-auto mb-10 w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            eyebrow="Alliance Network"
+            title="Trusted technology partners"
+            align="center"
+          />
+        </div>
+        <Marquee duration={45}>
+          {partners.map((p) => (
+            <span
+              key={p.name}
+              className="font-display text-2xl font-semibold tracking-tight text-muted/50 transition-colors hover:text-blue-600"
+            >
+              {p.name}
+            </span>
+          ))}
+        </Marquee>
+      </section>
 
-              {/* Email */}
-              <div className="p-6 rounded-xl bg-surface border border-border text-center">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <svg
-                    className="w-6 h-6 text-primary"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="font-semibold text-white mb-2">Email</h3>
-                <a
-                  href="mailto:Sales@PROMATIONUSA.com"
-                  className="text-sm text-primary hover:text-primary-dark transition-colors break-all"
-                >
-                  Sales@PROMATIONUSA.com
-                </a>
-              </div>
+      {/* ================= CTA ================= */}
+      <section className="relative mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
+        <div className="glass clip-corner relative overflow-hidden p-10 text-center sm:p-16">
+          <div className="grid-bg absolute inset-0 opacity-40" aria-hidden />
+          <div
+            aria-hidden
+            className="absolute -top-24 left-1/2 h-64 w-[560px] -translate-x-1/2 rounded-full bg-violet-500/15 blur-[100px]"
+          />
+          <div className="relative">
+            <DecodeText
+              as="h2"
+              text="READY TO AUTOMATE?"
+              className="font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl"
+            />
+            <p className="mx-auto mt-5 max-w-xl text-muted">
+              Speak with our award-winning team about your production line —
+              serving the USA, Mexico, Canada and Europe from Kenosha, Wisconsin.
+            </p>
+            <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
+              <GlowButton href="/contact">Contact Us Today</GlowButton>
+              <GlowButton href="/store" variant="ghost">
+                Order Parts Online
+              </GlowButton>
             </div>
-          </div>
-        </section>
-      </main>
-
-      {/* FOOTER */}
-      <footer className="bg-surface border-t border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div>
-              <p className="text-white font-bold text-lg">
-                PROMATION<span className="text-primary">USA</span>
-              </p>
-              <p className="text-sm text-muted mt-1">
-                North American Headquarters
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-6">
-              {NAV_ITEMS.map((item) => (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="text-sm text-muted hover:text-white transition-colors"
-                >
-                  {item.label}
-                </a>
-              ))}
-            </div>
-          </div>
-          <div className="mt-8 pt-6 border-t border-border text-center text-sm text-muted">
-            &copy; {new Date().getFullYear()} PROMATION USA. All rights
-            reserved. 17 U.S.C. &sect; 506(a) and 18 U.S.C. &sect; 2319.
           </div>
         </div>
-      </footer>
-    </div>
+      </section>
+    </>
   );
 }

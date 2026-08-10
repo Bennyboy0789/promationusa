@@ -1,0 +1,1185 @@
+{
+  "categories": [
+    "Calibration Tools",
+    "Conveyor Belts",
+    "Conveyor Parts",
+    "Fume Extraction",
+    "Hand Soldering",
+    "Nitrogen Kits",
+    "QUICK Solder Tips",
+    "Replacement Filters",
+    "Robot Consumables",
+    "Solder Pots",
+    "Utility Tools"
+  ],
+  "products": [
+    {
+      "slug": "quick-191ad",
+      "url": "https://www.promationusa.com/store/quick-191ad",
+      "name": "PROMATION 191AD",
+      "price": "$345.00",
+      "description": "The PROMATION 191AD is a thermometer suitable for measuring solder iron temperatures, or PCB / component temperatures. It is lightweight and handheld.\n\n- Temperature range: 0°C – 800°C\n- Max temperature hold toggle\n- Dimensions: 4\"W × 3\"H × 7\"L\n- Weight: 2 lbs",
+      "categories": [
+        "Calibration Tools",
+        "Hand Soldering",
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-191ad.webp",
+          "alt": "191AD thermometer with specifications"
+        }
+      ],
+      "sku": "SQ7024496"
+    },
+    {
+      "slug": "replacement-brass-mesh-insert",
+      "url": "https://www.promationusa.com/store/replacement-brass-mesh-insert",
+      "name": "Brass Mesh Tip Cleaner",
+      "price": "$27.50",
+      "description": "100% Authentic QUICK Brass Mesh Replacement for Solder Tip Air Cleaning Stations on QUICK Soldering Systems.\n\n- Highly Purified Replacement Brass Mesh Inserts for Compressed Air Solder Tip Cleaning Stations\n- For QUICK Robot Series\n- Compatible with QUICK Hand Soldering Series\n- Sold in Packs of 5pcs",
+      "categories": [
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/replacement-brass-mesh-insert.webp",
+          "alt": "Brass mesh tip cleaner inserts"
+        }
+      ],
+      "sku": "Replacement Brass Mesh Insert (Robot Series)"
+    },
+    {
+      "slug": "100-authentic-quick-solder-tips-912-series",
+      "url": "https://www.promationusa.com/store/100-authentic-quick-solder-tips-912-series",
+      "name": "100% Authentic QUICK Solder Tips (912 Series)",
+      "price": "$94.00",
+      "variants": [
+        {
+          "name": "9012 & 9012T — Style B-01",
+          "price": "$94.00",
+          "sku": "912-B-01"
+        },
+        {
+          "name": "9012 & 9012T — Style I-01",
+          "price": "$94.00",
+          "sku": "912-I-01"
+        },
+        {
+          "name": "9012 & 9012T — Style I-02",
+          "price": "$94.00",
+          "sku": "912-I-02"
+        },
+        {
+          "name": "9012 & 9012T — Style 08PC",
+          "price": "$94.00",
+          "sku": "912-08PC"
+        },
+        {
+          "name": "9012 & 9012T — Style 08PCV-01",
+          "price": "$94.00",
+          "sku": "912-08PCV-01"
+        },
+        {
+          "name": "9012 & 9012T — Style 16D",
+          "price": "$94.00",
+          "sku": "912-16D"
+        },
+        {
+          "name": "9012 & 9012T — Style 16D-01",
+          "price": "$94.00",
+          "sku": "912-16D-01"
+        },
+        {
+          "name": "9012 & 9012T — Style 16DV2",
+          "price": "$94.00",
+          "sku": "912-16DV2"
+        },
+        {
+          "name": "9012 & 9012T — Style 20D-01",
+          "price": "$94.00",
+          "sku": "912-20D-01"
+        },
+        {
+          "name": "9012 & 9012T — Style 24D-04",
+          "price": "$94.00",
+          "sku": "912-24D-04"
+        },
+        {
+          "name": "9012 & 9012T — Style 24DV1",
+          "price": "$94.00",
+          "sku": "912-24DV1"
+        },
+        {
+          "name": "9012 & 9012T — Style 24DV2",
+          "price": "$94.00",
+          "sku": "912-24DV2"
+        },
+        {
+          "name": "9012 & 9012T — Style 30D-01",
+          "price": "$94.00",
+          "sku": "912-30D-01"
+        },
+        {
+          "name": "9012 & 9012T — Style 30D-02",
+          "price": "$94.00",
+          "sku": "912-30D-02"
+        },
+        {
+          "name": "9012 & 9012T — Style 30H-01",
+          "price": "$94.00",
+          "sku": "912-30H-01"
+        },
+        {
+          "name": "9012 & 9012T — Style 40D",
+          "price": "$94.00",
+          "sku": "912-40D"
+        }
+      ],
+      "description": "The 912 Series Solder Tips feature an embedded thermal couple inside of the solder tip; this allows for a more rapid detection of temperature swing and improved feedback loop to the Power Supply.\n\n- 33% slimmer body profile for difficult-to-reach applications\n- Upgraded thermal capacity\n- Cartridge-style design with a positively located key aiding in solder tip orientation validation\n- Effortless tip exchange in 3 seconds or less\n- Compatible with 9012 & 9012T soldering irons",
+      "categories": [
+        "QUICK Solder Tips",
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/100-authentic-quick-solder-tips-912-series.webp",
+          "alt": "912 Series solder tips"
+        }
+      ],
+      "sku": "912 Series (per-style SKUs in variants)"
+    },
+    {
+      "slug": "brass-rollers",
+      "url": "https://www.promationusa.com/store/brass-rollers",
+      "name": "310C Brass Rollers",
+      "price": "$225.00",
+      "description": "Replacement Brass Rollers for PROMATION 310C (L&R).\n\n- Sold as a Set\n- Dimensions: 6\"W × 9\"H × 3\"L\n- Weight: 9 lbs\n- Note: 20% restocking fee applies to online orders (acknowledgement required at checkout)",
+      "categories": [
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/brass-rollers.webp",
+          "alt": "310C brass roller set"
+        }
+      ],
+      "sku": "L&R Set"
+    },
+    {
+      "slug": "conveyor-belts",
+      "url": "https://www.promationusa.com/store/conveyor-belts",
+      "name": "OEM ESD Conveyor Belts",
+      "price": "$37.50",
+      "variants": [
+        {
+          "name": "2.5mm x 1155mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (2.5 x 1155)"
+        },
+        {
+          "name": "3.0mm x 725mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (3.0 x 725)"
+        },
+        {
+          "name": "3.0mm x 1110mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (3.0 x 1110)"
+        },
+        {
+          "name": "3.0mm x 1116mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (3.0 x 1116)"
+        },
+        {
+          "name": "3.0mm x 1140mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (3.0 x 1140)"
+        },
+        {
+          "name": "5.0mm x 2575mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.0 x 2575)"
+        },
+        {
+          "name": "5.5mm x 1320mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1320)"
+        },
+        {
+          "name": "5.5mm x 1375mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1375)"
+        },
+        {
+          "name": "5.5mm x 1475mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1475)"
+        },
+        {
+          "name": "5.5mm x 1675mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1675)"
+        },
+        {
+          "name": "5.5mm x 1685mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1685)"
+        },
+        {
+          "name": "5.5mm x 1775mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1775)"
+        },
+        {
+          "name": "5.5mm x 1855mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1855)"
+        },
+        {
+          "name": "5.5mm x 1875mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 1875)"
+        },
+        {
+          "name": "5.5mm x 2575mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 2575)"
+        },
+        {
+          "name": "5.5mm x 3475mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (5.5 x 3475)"
+        },
+        {
+          "name": "6.0mm x 1020mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1020)"
+        },
+        {
+          "name": "6.0mm x 1080mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1080)"
+        },
+        {
+          "name": "6.0mm x 1210mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1210)"
+        },
+        {
+          "name": "6.0mm x 1220mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1220)"
+        },
+        {
+          "name": "6.0mm x 1230mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1230)"
+        },
+        {
+          "name": "6.0mm x 1255mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1255)"
+        },
+        {
+          "name": "6.0mm x 1270mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1270)"
+        },
+        {
+          "name": "6.0mm x 1360mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1360)"
+        },
+        {
+          "name": "6.0mm x 1395mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1395)"
+        },
+        {
+          "name": "6.0mm x 1410mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1410)"
+        },
+        {
+          "name": "6.0mm x 1430mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1430)"
+        },
+        {
+          "name": "6.0mm x 1450mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1450)"
+        },
+        {
+          "name": "6.0mm x 1470mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1470)"
+        },
+        {
+          "name": "6.0mm x 1490mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1490)"
+        },
+        {
+          "name": "6.0mm x 1510mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1510)"
+        },
+        {
+          "name": "6.0mm x 1540mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1540)"
+        },
+        {
+          "name": "6.0mm x 1545mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1545)"
+        },
+        {
+          "name": "6.0mm x 1610mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1610)"
+        },
+        {
+          "name": "6.0mm x 1630mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1630)"
+        },
+        {
+          "name": "6.0mm x 1640mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1640)"
+        },
+        {
+          "name": "6.0mm x 1710mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1710)"
+        },
+        {
+          "name": "6.0mm x 1730mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1730)"
+        },
+        {
+          "name": "6.0mm x 1810mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1810)"
+        },
+        {
+          "name": "6.0mm x 1830mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1830)"
+        },
+        {
+          "name": "6.0mm x 1840mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1840)"
+        },
+        {
+          "name": "6.0mm x 1890mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1890)"
+        },
+        {
+          "name": "6.0mm x 1920mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1920)"
+        },
+        {
+          "name": "6.0mm x 1960mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1960)"
+        },
+        {
+          "name": "6.0mm x 1970mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 1970)"
+        },
+        {
+          "name": "6.0mm x 2010mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2010)"
+        },
+        {
+          "name": "6.0mm x 2050mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2050)"
+        },
+        {
+          "name": "6.0mm x 2090mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2090)"
+        },
+        {
+          "name": "6.0mm x 2100mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2100)"
+        },
+        {
+          "name": "6.0mm x 2150mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2150)"
+        },
+        {
+          "name": "6.0mm x 2190mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2190)"
+        },
+        {
+          "name": "6.0mm x 2200mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2200)"
+        },
+        {
+          "name": "6.0mm x 2210mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2210)"
+        },
+        {
+          "name": "6.0mm x 2240mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2240)"
+        },
+        {
+          "name": "6.0mm x 2540mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2540)"
+        },
+        {
+          "name": "6.0mm x 2550mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2550)"
+        },
+        {
+          "name": "6.0mm x 2600mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2600)"
+        },
+        {
+          "name": "6.0mm x 2610mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2610)"
+        },
+        {
+          "name": "6.0mm x 2900mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 2900)"
+        },
+        {
+          "name": "6.0mm x 3030mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 3030)"
+        },
+        {
+          "name": "6.0mm x 3110mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 3110)"
+        },
+        {
+          "name": "6.0mm x 3190mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 3190)"
+        },
+        {
+          "name": "6.0mm x 3210mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 3210)"
+        },
+        {
+          "name": "6.0mm x 3440mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 3440)"
+        },
+        {
+          "name": "6.0mm x 3810mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.0 x 3810)"
+        },
+        {
+          "name": "6.5mm x 1135mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1135)"
+        },
+        {
+          "name": "6.5mm x 1220mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1220)"
+        },
+        {
+          "name": "6.5mm x 1380mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1380)"
+        },
+        {
+          "name": "6.5mm x 1410mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1410)"
+        },
+        {
+          "name": "6.5mm x 1620mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1620)"
+        },
+        {
+          "name": "6.5mm x 1830mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1830)"
+        },
+        {
+          "name": "6.5mm x 1850mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 1850)"
+        },
+        {
+          "name": "6.5mm x 2320mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 2320)"
+        },
+        {
+          "name": "6.5mm x 280mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 280)"
+        },
+        {
+          "name": "6.5mm x 365mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (6.5 x 365)"
+        },
+        {
+          "name": "7.0mm x 1250mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (7.0 x 1250)"
+        },
+        {
+          "name": "7.0mm x 1450mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (7.0 x 1450)"
+        },
+        {
+          "name": "7.0mm x 1535mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (7.0 x 1535)"
+        },
+        {
+          "name": "7.0mm x 2250mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (7.0 x 2250)"
+        },
+        {
+          "name": "7.0mm x 2465mm",
+          "price": "$37.50",
+          "sku": "ESD Edge Belt (7.0 x 2465)"
+        }
+      ],
+      "description": "100% Authentic Premium Quality OEM ESD Replacement Edge Belts. All Signature Series Edge Belts are Made in the USA!\n\n- High Quality Design\n- Direction ESD Edge Belt\n- OEM Replacement\n- Many Sizes Available! (80 width × length combinations, 2.5mm–7.0mm widths, 280mm–3810mm lengths)",
+      "categories": [
+        "Conveyor Belts",
+        "Conveyor Parts"
+      ],
+      "images": [
+        {
+          "src": "/images/store/conveyor-belts.webp",
+          "alt": "ESD edge conveyor belts"
+        }
+      ],
+      "sku": "ESD Edge Belt (per-size SKUs in variants)"
+    },
+    {
+      "slug": "100-authentic-quick-solder-tips-912-series-372mr",
+      "url": "https://www.promationusa.com/store/100-authentic-quick-solder-tips-912-series-372mr",
+      "name": "100% Authentic QUICK Solder Tips (911 Series)",
+      "price": "$364.00",
+      "variants": [
+        {
+          "name": "911G — Style 08PCV (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-08PCV"
+        },
+        {
+          "name": "911G — Style B-01 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-B-01"
+        },
+        {
+          "name": "911G — Style 10PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-10PC"
+        },
+        {
+          "name": "911G — Style 10DV2-01 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-10DV2-01"
+        },
+        {
+          "name": "911G — Style 10DV2-02 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-10DV2-02"
+        },
+        {
+          "name": "911G — Style 12D-01 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-12D-01"
+        },
+        {
+          "name": "911G — Style 13PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-13PC"
+        },
+        {
+          "name": "911G — Style 13DV2-01 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-13DV2-01"
+        },
+        {
+          "name": "911G — Style 16PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-16PC"
+        },
+        {
+          "name": "911G — Style 16D (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-16D"
+        },
+        {
+          "name": "911G — Style 16DV1 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-16DV1"
+        },
+        {
+          "name": "911G — Style DV2-03 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-DV2-03"
+        },
+        {
+          "name": "911G — Style 20PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-20PC"
+        },
+        {
+          "name": "911G — Style 20DV1 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-20DV1"
+        },
+        {
+          "name": "911G — Style 20DV2 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-20DV2"
+        },
+        {
+          "name": "911G — Style 24PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-24PC"
+        },
+        {
+          "name": "911G — Style 24D (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-24D"
+        },
+        {
+          "name": "911G — Style 24DV1 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-24DV1"
+        },
+        {
+          "name": "911G — Style 24DV2 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-24DV2"
+        },
+        {
+          "name": "911G — Style 30PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-30PC"
+        },
+        {
+          "name": "911G — Style 30D (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-30D"
+        },
+        {
+          "name": "911G — Style 30DV1 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-30DV1"
+        },
+        {
+          "name": "911G — Style 30DV2 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-30DV2"
+        },
+        {
+          "name": "911G — Style 40PC (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-40PC"
+        },
+        {
+          "name": "911G — Style 40D (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-40D"
+        },
+        {
+          "name": "911G — Style 40DV1 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-40DV1"
+        },
+        {
+          "name": "911G — Style 60D-12 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-60D-12"
+        },
+        {
+          "name": "911G — Style 120D (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-120D"
+        },
+        {
+          "name": "911G — Style 22N08H18 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-22N08H18"
+        },
+        {
+          "name": "911G — Style 28N08H15 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-28N08H15"
+        },
+        {
+          "name": "911G — Style 30N10H20 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-30N10H20"
+        },
+        {
+          "name": "911G — Style 32N12H23 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-32N12H23"
+        },
+        {
+          "name": "911G — Style 32N12H28 (Pack of 5)",
+          "price": "$364.00",
+          "sku": "911G-32N12H28"
+        }
+      ],
+      "description": "The QUICK 911 Series Solder Tips feature a thermal couple receptacle within the tip enabling rapid temperature swing detection and feedback to the power supply. Lowest cost of ownership positioning.\n\n- Cartridge-style design with a positively located key for solder tip orientation validation\n- Rapid tip exchange in 6 seconds or less\n- Sold in packs of 5 pieces\n- Compatible with 911G configuration irons",
+      "categories": [
+        "QUICK Solder Tips",
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/100-authentic-quick-solder-tips-912-series-372mr.webp",
+          "alt": "Temperature curve chart"
+        }
+      ],
+      "sku": "911G Series (per-style SKUs in variants)"
+    },
+    {
+      "slug": "quick-feed-tube-zlbsm",
+      "url": "https://www.promationusa.com/store/quick-feed-tube-zlbsm",
+      "name": "Solder Feed Tubes - 230mm Length",
+      "price": "$72.00",
+      "variants": [
+        {
+          "name": "0.4mm / 0.015\"",
+          "price": "$72.00",
+          "sku": "9021QC-230-0.4"
+        },
+        {
+          "name": "0.5mm / 0.020\"",
+          "price": "$72.00",
+          "sku": "9021QC-230-0.5"
+        },
+        {
+          "name": "0.6mm / 0.025\"",
+          "price": "$72.00",
+          "sku": "9021QC-230-0.6"
+        },
+        {
+          "name": "0.8mm / 0.032\"",
+          "price": "$72.00",
+          "sku": "9021QC-230-0.8"
+        },
+        {
+          "name": "1.0mm / 0.039\"",
+          "price": "$72.00",
+          "sku": "9021QC-230-1.0"
+        },
+        {
+          "name": "1.2mm / 0.047\"",
+          "price": "$72.00",
+          "sku": "9021QC-230-1.2"
+        }
+      ],
+      "description": "100% Authentic QUICK Solder Feed Tubes\n\n- 250mm Overall Length\n- Compatible with all 371Q, 371QI, 371T, & 371TI Solder Feeders\n- Please ensure proper solder wire diameter before completing your order",
+      "categories": [
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-feed-tube-zlbsm.webp",
+          "alt": "Solder feed tubes"
+        }
+      ],
+      "sku": "9021QC-230 (per-size SKUs in variants)"
+    },
+    {
+      "slug": "quick-feed-tube",
+      "url": "https://www.promationusa.com/store/quick-feed-tube",
+      "name": "Solder Feed Tubes - 500mm Length",
+      "price": "$72.00",
+      "variants": [
+        {
+          "name": "0.3mm / 0.010\"",
+          "price": "$72.00",
+          "sku": "9021C-500-0.3"
+        },
+        {
+          "name": "0.4mm / 0.015\"",
+          "price": "$72.00",
+          "sku": "9021C-500-0.4"
+        },
+        {
+          "name": "0.5mm / 0.020\"",
+          "price": "$72.00",
+          "sku": "9021C-500-0.5"
+        },
+        {
+          "name": "0.6mm / 0.025\"",
+          "price": "$72.00",
+          "sku": "9021C-500-0.6"
+        },
+        {
+          "name": "0.8mm / 0.032\"",
+          "price": "$72.00",
+          "sku": "9021C-500-0.8"
+        },
+        {
+          "name": "1.0mm / 0.039\"",
+          "price": "$72.00",
+          "sku": "9021C-500-1.0"
+        },
+        {
+          "name": "1.2mm / 0.047\"",
+          "price": "$72.00",
+          "sku": "9021C-500-1.2"
+        }
+      ],
+      "description": "100% Authentic QUICK Solder Feed Tubes\n\n- 500mm Overall Length\n- Compatible with all 371L, 371LI, 371H, and 371HI Solder Feeders\n- Also compatible with all 376D & 376DI Soldering Stations\n- Please ensure proper solder wire diameter before completing your order",
+      "categories": [
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-feed-tube.webp",
+          "alt": "500mm solder feed tube"
+        }
+      ],
+      "sku": "9021C-500 (per-size SKUs in variants)"
+    },
+    {
+      "slug": "quick-150watt-soldering-irons",
+      "url": "https://www.promationusa.com/store/quick-150watt-soldering-irons",
+      "name": "150-Watt Soldering Robot Irons",
+      "price": "$1,855.00",
+      "variants": [
+        {
+          "name": "N2 Ready: YES (9018BMT)",
+          "price": "$1,855.00",
+          "sku": "QUICK 9018BMT"
+        },
+        {
+          "name": "N2 Ready: NO (9018M)",
+          "price": "$1,855.00",
+          "sku": "QUICK 9018M"
+        }
+      ],
+      "description": "These High Performance Soldering Irons are designed to meet the most challenging soldering application requirements.\n\n- Compatible with 150 Watt PROMATION Power Supply Solutions\n- Compatible solder tips: 911G & 911B Series\n- Two available solutions: 9018M (Standard 150 Watt) and 9018BMT (N2 Ready 150 Watt)\n- Industrial-grade construction with integrated real-time thermal feedback loops ensuring smooth and rapid solder tip heating\n- Lowest cost of ownership compared to alternatives",
+      "categories": [
+        "Nitrogen Kits",
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-150watt-soldering-irons.webp",
+          "alt": "Temperature curve chart"
+        }
+      ],
+      "sku": "QUICK 9018M / QUICK 9018BMT"
+    },
+    {
+      "slug": "quick-180-watt-robot-soldering-irons",
+      "url": "https://www.promationusa.com/store/quick-180-watt-robot-soldering-irons",
+      "name": "180-Watt Soldering Robot Irons",
+      "price": "$1,855.00",
+      "variants": [
+        {
+          "name": "N2 Ready: YES (9012T)",
+          "price": "$1,855.00",
+          "sku": "QUICK 9012T"
+        },
+        {
+          "name": "N2 Ready: NO (9012)",
+          "price": "$1,855.00",
+          "sku": "QUICK 9012"
+        }
+      ],
+      "description": "These High Performance Soldering Irons are designed to meet the most challenging soldering requirements.\n\n- Compatible with 180 Watt PROMATION Power Supply Solutions\n- Compatible solder tips: 912 Series\n- Available options: 9012 (Standard) and 9012T (N2 Ready)\n- Pencil-thin solder tip designs allow users more accessibility in tighter soldering areas\n- Embedded thermal couples for precise temperature detection",
+      "categories": [
+        "Nitrogen Kits",
+        "Robot Consumables"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-180-watt-robot-soldering-irons.webp",
+          "alt": "Temperature feedback loop diagram"
+        }
+      ],
+      "sku": "QUICK 9012 / QUICK 9012T"
+    },
+    {
+      "slug": "quick-100-6c",
+      "url": "https://www.promationusa.com/store/quick-100-6c",
+      "name": "QUICK 100-6C",
+      "price": "$412.00",
+      "description": "The QUICK 100-6C is a small but powerful Solder Pot capable of handling both Leaded & Lead-Free Solder Alloys.\n\n- Titanium plated crucible\n- Adjustable temperature control\n- Dross scraper included\n- 110V Operation",
+      "categories": [
+        "Solder Pots"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-100-6c.webp",
+          "alt": "QUICK 100-6C solder pot"
+        }
+      ],
+      "sku": "QUICK 100-6C"
+    },
+    {
+      "slug": "quick-100-15s",
+      "url": "https://www.promationusa.com/store/quick-100-15s",
+      "name": "QUICK 100-15S",
+      "price": "$1,040.00",
+      "description": "The QUICK 100-15S is a larger 3lb capacity solder pot operating between 100°C~450°C.\n\n- Titanium-plated solder crucible compatible with leaded and lead-free alloys\n- Upgraded digital LCD temperature display with adjustment controls\n- Solder dross scraper included\n- 110V operation standard",
+      "categories": [
+        "Solder Pots"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-100-15s.webp",
+          "alt": "QUICK 100-15S solder pot"
+        }
+      ],
+      "sku": "QUICK 100-15S"
+    },
+    {
+      "slug": "quick-ts1200",
+      "url": "https://www.promationusa.com/store/quick-ts1200",
+      "name": "QUICK TS1200",
+      "price": "$1,222.00",
+      "description": "The QUICK TS1200 is an intelligent lead-free soldering station utilizing a 120 watt power supply, designed to meet everyday soldering application challenges while offering consistent soldering quality. The station features ergonomic design and brilliant LCD Display.\n\n**Features**\n- Preset Process Parameter Controls (3 Modes) for process changeover\n- Temperature Alarm Function\n- Real-Time Temperature Monitoring with rapid thermal recovery\n- Easy Solder Tip Replacement\n- ESD Safe with monitoring functions available\n\n**Specifications**\n- Max power: 120W\n- Voltage: 110V/220V\n- Temperature range: 200°C–392°C\n- Temperature stability: ±2°C\n- Display: Brilliant Color TFT LCD\n- Dimensions: 137mm × 165mm × 114mm",
+      "categories": [
+        "Hand Soldering"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-ts1200.webp",
+          "alt": "TS1200 hand soldering station"
+        }
+      ],
+      "sku": "QUICK TS1200"
+    },
+    {
+      "slug": "quick-ts2200",
+      "url": "https://www.promationusa.com/store/quick-ts2200",
+      "name": "QUICK TS2200",
+      "price": "$1,122.00",
+      "description": "The QUICK TS2200 is an intelligent lead-free soldering station. Utilizing a 90 watt power supply, this system is great for meeting the everyday challenges of most soldering applications and offers consistent soldering quality. The station features all new ergonomic design and brilliant LCD Display.\n\n**Features**\n- Preset Process Parameter Controls (3 Modes)\n- Temperature Alarm Function\n- Real-Time Temperature Monitoring with rapid thermal recovery\n- Easy Solder Tip Replacement\n- ESD Safe with ESD Monitoring Functions Available\n\n**Specifications**\n- Max power consumption: 90W\n- Voltage: 110V/220V\n- Temperature range: 200°C–480°C\n- Temperature stability: ±2°C\n- Display: Brilliant Color TFT LCD\n- Total Dimensions: 137mm × 165mm × 114mm",
+      "categories": [
+        "Hand Soldering"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-ts2200.webp",
+          "alt": "TS2200 hand soldering station"
+        }
+      ],
+      "sku": "QUICK TS2200"
+    },
+    {
+      "slug": "quick-376di",
+      "url": "https://www.promationusa.com/store/quick-376di",
+      "name": "QUICK 376DI Self Feeding Solder Station",
+      "price": "$1,406.00",
+      "variants": [
+        {
+          "name": "Solder Wire Diameter: 0.6mm",
+          "price": "$1,406.00",
+          "sku": "QUICK 376DI (0.6mm)"
+        },
+        {
+          "name": "Solder Wire Diameter: 0.8mm",
+          "price": "$1,406.00",
+          "sku": "QUICK 376DI (0.8mm)"
+        },
+        {
+          "name": "Solder Wire Diameter: 1.0mm",
+          "price": "$1,406.00",
+          "sku": "QUICK 376DI (1.0mm)"
+        },
+        {
+          "name": "Solder Wire Diameter: 1.2mm",
+          "price": "$1,406.00",
+          "sku": "QUICK 376DI (1.2mm)"
+        }
+      ],
+      "description": "The QUICK 376DI features a programmable digital heater and an adjustable, foot pedal operated solder feeder. Temperature monitoring uses a closed-loop sensing system maintaining stable tip temperature. Multiple temperature profiles are storable. The foot pedal-operated feeder uses perforating gears to pull solder wire from spool into the tube toward the tip.\n\n**Features**\n- Semi-automatic solder feed with perforation technology\n- Adjustable dock stations\n- Real-time temperature monitoring with rapid thermal recovery\n- Easy tip replacement\n- ESD safety with monitoring functions\n- Foot pedal switch included\n\n**Specifications**\n- Max Power: 90W\n- Voltage: 110V/220V\n- Temperature Range: 50–600°C\n- Stability: ±2°C\n- LCD Display\n- Wire Diameter Handling: 0.6–1.2mm",
+      "categories": [
+        "Hand Soldering"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-376di.webp",
+          "alt": "QUICK 376DI self feeding solder station"
+        }
+      ],
+      "sku": "QUICK 376DI (per-diameter SKUs in variants)"
+    },
+    {
+      "slug": "quick-885-hot-air-gun",
+      "url": "https://www.promationusa.com/store/quick-885-hot-air-gun",
+      "name": "QUICK 885 Hot Air Gun",
+      "price": "$450.00",
+      "description": "The QUICK 885 is an electronics manufacturing utility tool featuring a closed-loop sensor for rapid, precise heating. It includes an integrated cooling function and large LCD display.\n\n**Applications**: heat shrinkage, paint removal, defrosting, copper sterilization, pre-tinning, and preheating.\n\n**Specifications**\n- Max power consumption: 1800W\n- Noise: under 70dB\n- Air volume (3 stages): 180L/min minimum, 200L/min medium, 400L/min maximum\n- Temperature range: 50°C – 600°C",
+      "categories": [
+        "Utility Tools"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-885-hot-air-gun.webp",
+          "alt": "QUICK 885 hot air gun"
+        }
+      ],
+      "sku": "QUICK 885 Hot Air Gun"
+    },
+    {
+      "slug": "quick-6102a1",
+      "url": "https://www.promationusa.com/store/quick-6102a1",
+      "name": "PROMATION 6102A1",
+      "price": "$1,952.00",
+      "description": "The PROMATION 6102A1 is a Dual Port Fume Extraction System utilizing a high purification 3-Stage HEPA Filtration System designed to remove airborne containment created during the manufacturing process of printed circuit boards.\n\n- Adjustable fume extraction arm/hose\n- 3-stage HEPA filtration with filters included\n- Adjustable intake controller\n- Standard 110V operation\n- Dimensions: 15\"W × 22\"L × 25\"H\n- Weight: 30 lbs",
+      "categories": [
+        "Fume Extraction"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-6102a1.webp",
+          "alt": "PROMATION 6102A1 fume extraction system"
+        }
+      ],
+      "sku": "QUICK 6102A1"
+    },
+    {
+      "slug": "quick",
+      "url": "https://www.promationusa.com/store/quick",
+      "name": "PROMATION 6101A1 Replacement Filters",
+      "price": "From $18.00",
+      "variants": [
+        {
+          "name": "Pre Filter",
+          "price": "$18.00",
+          "sku": "Pre Filter KFPS-102"
+        },
+        {
+          "name": "Mid Filter",
+          "price": "$180.00",
+          "sku": "Middle Filter KFMS-101"
+        },
+        {
+          "name": "Main Filter",
+          "price": "$280.00",
+          "sku": "Main Filter for 6101A1"
+        }
+      ],
+      "description": "Replacement filters for the PROMATION 6101A1 Fume Extraction Systems. This filtration system utilizes 3 stages of filtration: pre filter, mid filter, and main filter. Please reference the available variants to identify the specific filter requiring replacement.",
+      "categories": [
+        "Fume Extraction",
+        "Hand Soldering",
+        "Replacement Filters"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick.webp",
+          "alt": "Replacement filter"
+        }
+      ],
+      "sku": "6101A1 filters (per-type SKUs in variants)"
+    },
+    {
+      "slug": "quick-ylt4n",
+      "url": "https://www.promationusa.com/store/quick-ylt4n",
+      "name": "PROMATION 6102A1 Replacement Filters",
+      "price": "From $18.00",
+      "variants": [
+        {
+          "name": "Pre Filter",
+          "price": "$18.00",
+          "sku": "QUICK Pre Filter KFPS-102"
+        },
+        {
+          "name": "Mid Filter",
+          "price": "$180.00",
+          "sku": "QUICK Middle Filter KFMS-101"
+        },
+        {
+          "name": "Main Filter",
+          "price": "$280.00",
+          "sku": "QUICK Main Filter for 6102A1"
+        }
+      ],
+      "description": "Replacement filters for PROMATION 6102A1 Fume Extraction Systems. This filtration system utilizes 3 stages of filtration: pre filter, mid filter, and main filter.",
+      "categories": [
+        "Fume Extraction",
+        "Hand Soldering",
+        "Replacement Filters"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-ylt4n.webp",
+          "alt": "Replacement filter"
+        }
+      ],
+      "sku": "6102A1 filters (per-type SKUs in variants)"
+    },
+    {
+      "slug": "quick-9039",
+      "url": "https://www.promationusa.com/store/quick-9039",
+      "name": "PROMATION 9039",
+      "price": "$3,300.00",
+      "description": "The PROMATION 9039 generates nitrogen at 99.9% purity using compressed air only. It features a triple bladder filtration system maintaining up to 10 years lifespan.\n\n- Compatible with soldering robot irons 9018BMT and 9012T (sold separately)\n- Ideal for lead-free soldering: displaces oxygen during the process, allowing flux to perform better in an inert atmosphere\n- Improved solder tip life\n- Increased process stability",
+      "categories": [
+        "Nitrogen Kits"
+      ],
+      "images": [
+        {
+          "src": "/images/store/quick-9039.webp",
+          "alt": "PROMATION 9039 nitrogen generator"
+        }
+      ],
+      "sku": "PROMATION 9039"
+    },
+    {
+      "slug": "2020d-hot-air-rework-station",
+      "url": "https://www.promationusa.com/store/2020d-hot-air-rework-station",
+      "name": "PROMATION 2020D+ Hot Air Rework Station",
+      "price": "$542.00",
+      "description": "This compact hot air station reduces machine footprint and delivers consistent hot air output for electronics manufacturers. Features a rugged exterior and ergonomic tapered handpiece. Includes assorted output nozzles.\n\n**Specifications**\n- Model: 2020D+\n- Display: LCD\n- Power: 750W\n- Voltage: AC 110V/220V\n- Temperature range: 100–500°C\n- Airflow: 1-100 Class\n- Max airflow: 30L/min\n- Dimensions: 170 × 151 × 98mm\n- Weight: approximately 1.5kg",
+      "categories": [
+        "Utility Tools"
+      ],
+      "images": [
+        {
+          "src": "/images/store/2020d-hot-air-rework-station.webp",
+          "alt": "PROMATION 2020D+ hot air rework station"
+        }
+      ],
+      "sku": "PROMATION 2020D+"
+    }
+  ]
+}

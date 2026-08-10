@@ -1,0 +1,262 @@
+User-agent: *
+Disallow: /*/search
+
+User-agent: oBot
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: 8LEGS
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: Prlog
+Disallow: /
+
+User-agent: WeSEE
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: Garlik
+Disallow: /
+
+User-agent: SeeBot
+Disallow: /
+
+User-agent: SMTBot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: genieo
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Kraken
+Disallow: /
+
+User-agent: CukBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Go 1.1
+Disallow: /
+
+User-agent: Wotbox
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Riddler
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Plukkie
+Disallow: /
+
+User-agent: VegeBot
+Disallow: /
+
+User-agent: linkdex
+Disallow: /
+
+User-agent: idmarch
+Disallow: /
+
+User-agent: Goodzer
+Disallow: /
+
+User-agent: yacybot
+Disallow: /
+
+User-agent: Cincraw
+Disallow: /
+
+User-agent: heritrix
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+User-agent: JamesBOT
+Disallow: /
+
+User-agent: Qwantify
+Disallow: /
+
+User-agent: AiHitBot
+Disallow: /
+
+User-agent: Symfony2
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: bitlybot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: LinkCheck
+Disallow: /
+
+User-agent: MojeekBot
+Disallow: /
+
+User-agent: SiteCheck
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: lipperhey
+Disallow: /
+
+User-agent: Flipboard
+Disallow: /
+
+User-agent: deepcrawl
+Disallow: /
+
+User-agent: spiderbot
+Disallow: /
+
+User-agent: Toweyabot
+Disallow: /
+
+User-agent: TScoutBot
+Disallow: /
+
+User-agent: adbeat_bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SitemapBot
+Disallow: /
+
+User-agent: NetShelter
+Disallow: /
+
+User-agent: AboutUsBot
+Disallow: /
+
+User-agent: icevikatam
+Disallow: /
+
+User-agent: Wappalyzer
+Disallow: /
+
+User-agent: ICC-Crawler
+Disallow: /
+
+User-agent: meanpathbot
+Disallow: /
+
+User-agent: ScreenerBot
+Disallow: /
+
+User-agent: BusinessBot
+Disallow: /
+
+User-agent: WeLikeLinks
+Disallow: /
+
+User-agent: BLP_bbot/0.1
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: megaIndex.ru
+Disallow: /
+
+User-agent: AlexaToolbar
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: Speedy Spider
+Disallow: /
+
+User-agent: SearchMassive
+Disallow: /
+
+User-agent: trendictionbot
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: FAST Enterprise
+Disallow: /
+
+User-agent: CrazyWebCrawler
+Disallow: /
+
+User-agent: MegaIndex.ru/2.0
+Disallow: /
+
+User-agent: LSSRocketCrawler
+Disallow: /
+
+User-agent: Xenu Link Sleuth
+Disallow: /
+
+User-agent: ExpertSearchSpider
+Disallow: /
+
+User-agent: WeCrawlForThePeace
+Disallow: /
+
+User-agent: SiteCheck-sitecrawl
+Disallow: /
+
+User-agent: GigablastOpenSource
+Disallow: /
+
+User-agent: KinglandSystemsCorp
+Disallow: /
+
+User-agent: Dow Jones SearchBot
+Disallow: /
+
+User-agent: CrazyWebCrawler-Spider
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-agent: LinkCheck by Siteimprove.com
+Disallow: /
+
+User-agent: SiteCheck-sitecrawl by Siteimprove.com
+Disallow: /
+
+Sitemap: https://www.nordson.com/sitemap-index
