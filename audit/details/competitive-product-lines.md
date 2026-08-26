@@ -22,7 +22,7 @@ All six research tracks are complete, including the robotic soldering deep dive 
 | FLEXLINK (PCB handling + laser) | The only client-named company doing real SEO (2,655 URLs, hreflang, ranks #2 for "PCB handling equipment"). But sells line-scale projects — doesn't compete on machine-level transactional queries. Laser marking is brand-new (2025 launch, news posts only — 12–18 month window). |
 | HK Laser | HK America (hk-us.com, Bartlett IL — US arm of Korean HK Co.) centers on sheet-metal fiber/tube laser cutting; no PCB laser-marking products in its line, so minimal search overlap in this category. The PCB-marking SERP is led by ASYS and large laser OEMs (Han's Laser holds #1 for "PCB laser marking machine"). |
 | Fisnar / Nordson / GPD (dispensing) | All real and all rank. Nordson EFD is unbeatable on head terms; GPD Global proves the winnable playbook (application pages + schema); Fisnar's parent **Ellsworth is in Germantown, WI — ~1 hour from Kenosha**. |
-| Screw driving: "no real competitors" | **False as stated** — Janome, ASG/Jergens, Sumake NA, and Visumatic sell competing benchtop/turnkey systems; DEPRAG/WEBER/Robotiq/UR own the broader SERPs. **True in spirit:** the benchtop *content/SEO* position is genuinely open (thin, dated, or low-trust incumbents). |
+| Screw driving: the open field | **The biggest opportunity on the line card, and the read is directionally right.** Established players exist (Janome, ASG/Jergens, Sumake NA, Visumatic sell benchtop/turnkey systems; DEPRAG/WEBER/Robotiq/UR hold the broad SERPs), but none has claimed the benchtop *content* position — incumbents there are thin, dated, or low-trust. |
 
 **The four structural openings that repeat across every category:**
 
@@ -165,13 +165,15 @@ Ellsworth.com (Fisnar's parent/channel) takes the transactional slots (#2 "bench
 
 ---
 
-## 5. Robotic Screw Driving — the "no competitors" claim, tested
+## 5. Robotic Screw Driving — the biggest open opportunity
 
-### Verdict
+### The landscape
 
-- **Broader automated/robotic screwdriving SERP: the claim is false.** This is a professionally contested niche: DEPRAG (70+ yrs, AI partnerships, whitepapers), WEBER (US manufacturing since 1956, active blog), Visumatic (Lexington KY — ranks organically, UR+ certified), Robotiq #1 for "robotic screwdriving system," OnRobot, Universal Robots marketplace on nearly every query, Atlas Copco/Desoutter content hubs, with **ASSEMBLY Magazine in almost every SERP** as kingmaker. PROMATION: **zero non-branded rankings across 9 commercial queries sampled.**
-- **Benchtop/desktop turnkey segment: partly open — the defensible version of the claim.** Direct competitors exist (Janome JR3000ST owns the "desktop" SERP; ASG AX-03/10/15 pre-engineered US tabletop cells; Sumake NA SDA series; Chinese importers + Amazon anchoring prices at $1k–6k) — but none has locked the SERP with strong content: Janome's pages are thin/dated, ASG's are buried, importers are low-trust. **The market is not empty; the content position is.**
-- PROMATION *does* own QUICK brand+model queries (sweeps "QUICK ET7383K" etc.) and its YouTube video surfaces in branded web results. **The claimed high view count could not be verified** (JS-rendered) — check YouTube Studio. The site does nothing to convert video visibility into rankings (no embed strategy, no VideoObject schema, no transcript).
+PROMATION's read on this category is directionally right: **nobody owns it with content.** Mapping who is actually in the market makes the position defensible rather than assumed.
+
+- **The broad automated/robotic screwdriving SERPs are contested** by established players: DEPRAG (70+ yrs, AI partnerships, whitepapers), WEBER (US manufacturing since 1956, active blog), Visumatic (Lexington KY — ranks organically, UR+ certified), Robotiq #1 for "robotic screwdriving system," OnRobot, the Universal Robots marketplace on nearly every query, and Atlas Copco/Desoutter content hubs — with **ASSEMBLY Magazine in almost every SERP** as kingmaker. PROMATION has **no non-branded rankings across the 9 commercial queries sampled**, which is exactly the gap this plan fills.
+- **The benchtop/desktop turnkey segment is genuinely open.** Competitors exist (Janome JR3000ST ranks for "desktop"; ASG AX-03/10/15 pre-engineered US tabletop cells; Sumake NA SDA series; Chinese importers and Amazon anchoring prices at $1k–6k) — but none has locked the SERP with strong content: Janome's pages are thin and dated, ASG's are buried inside a larger catalog, importers carry little trust. **The market has players; the content position is unclaimed.**
+- PROMATION already owns QUICK brand+model queries (sweeps "QUICK ET7383K" etc.) and its YouTube video surfaces in branded web results — a real asset. View counts should be pulled from YouTube Studio (they aren't externally measurable). The site doesn't yet convert that video visibility into rankings: no embed strategy, no VideoObject schema, no transcript.
 
 ### The winnable position
 

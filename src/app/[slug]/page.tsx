@@ -15,6 +15,8 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { Markdown } from "@/lib/markdown";
 import { site } from "@/lib/site";
+import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
+import { RequestQuoteBlock } from "@/components/Conversion";
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -28,11 +30,42 @@ export async function generateMetadata({
   if (!product) return {};
   return {
     title: product.title,
-    description:
-      product.tagline ??
-      product.description?.slice(0, 160) ??
-      site.description,
+    description: metaDescription(product),
   };
+}
+
+/**
+ * Search engines truncate around 160 characters, and a 29-character stub wastes
+ * the slot. Build up from the tagline, then the body copy, then the category,
+ * and trim on a word boundary.
+ */
+function metaDescription(product: {
+  title: string;
+  tagline?: string | null;
+  description?: string | null;
+  category?: string | null;
+}): string {
+  const cat = getCategoryMeta(product.category ?? "")?.label;
+  const body = (product.description ?? "")
+    .replace(/[#*_>`]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  const parts = [
+    product.tagline?.trim(),
+    body,
+    cat ? `${cat} from PROMATION USA — in US stock, supported by IPC-certified engineers.` : null,
+  ].filter(Boolean) as string[];
+
+  let out = "";
+  for (const part of parts) {
+    if (out.length >= 140) break;
+    out = out ? `${out} ${part}` : part;
+  }
+  if (!out) return site.description;
+  if (out.length <= 160) return out;
+  const cut = out.slice(0, 157);
+  return cut.slice(0, cut.lastIndexOf(" ")) + "…";
 }
 
 function linkHref(l: ProductLink): string {
@@ -86,8 +119,28 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
     (m): m is string => typeof m === "string"
   );
 
+  const isCategoryRoot = cat?.rootSlug === product.slug;
+
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Products", href: "/products" },
+          ...(cat && !isCategoryRoot
+            ? [{ name: cat.label, href: `/${cat.rootSlug}` }]
+            : []),
+          { name: product.title, href: `/${product.slug}` },
+        ]}
+      />
+      {!isCategoryRoot && (
+        <ProductJsonLd
+          name={product.title}
+          description={product.tagline ?? undefined}
+          url={`/${product.slug}`}
+          specs={product.specs as Record<string, string> | undefined}
+        />
+      )}
       <PageHero
         eyebrow={cat?.label ?? "Product"}
         title={product.title}
@@ -249,6 +302,13 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
           </div>
         </section>
       )}
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading={`Request a quote for the ${product.title}`}
+          secondary={{ label: "Send us your board", href: "/pcb-trial" }}
+        />
+      </div>
     </>
   );
 }

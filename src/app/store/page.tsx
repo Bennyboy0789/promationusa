@@ -3,6 +3,7 @@ import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { StoreCatalog } from "@/components/StoreCatalog";
 import { storeItems, storeCategories } from "@/lib/store";
+import { RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Store — Order Online Today",
@@ -51,6 +52,13 @@ export default function StorePage() {
             </div>
           </Reveal>
         </div>
+      </div>
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading="Can't find the part you need?"
+          blurb="Tell us the machine and we'll identify the right consumable, tip or spare — and get it shipped from US stock."
+        />
       </div>
     </>
   );

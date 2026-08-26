@@ -7,6 +7,7 @@ import { PageHero, SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { Reveal } from "@/components/fx/Reveal";
 import { Markdown } from "@/lib/markdown";
 import { site } from "@/lib/site";
+import { StoreProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 
 export function generateStaticParams() {
   return storeItems.map((p) => ({ slug: p.slug }));
@@ -39,6 +40,22 @@ export default async function StoreItemPage({
 
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Store", href: "/store" },
+          { name: item.name, href: `/store/${item.slug}` },
+        ]}
+      />
+      <StoreProductJsonLd
+        name={item.name}
+        description={item.description?.slice(0, 300)}
+        url={`/store/${item.slug}`}
+        image={item.images?.[0]?.src}
+        sku={item.sku}
+        price={item.price}
+        variants={item.variants}
+      />
       <PageHero
         eyebrow="Parts Depot"
         title={item.name}

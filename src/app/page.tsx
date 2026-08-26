@@ -1,10 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
-import { CinematicHero } from "@/components/fx/CinematicHero";
+import { LineupHero } from "@/components/fx/LineupHero";
 import { DecodeText } from "@/components/fx/DecodeText";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { Counter } from "@/components/fx/Counter";
 import { Marquee } from "@/components/fx/Marquee";
+import { ParallaxBand } from "@/components/fx/ParallaxBand";
+import { QuotePortrait } from "@/components/QuotePortrait";
 import { SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { partners, homeVideo, whatWeDo } from "@/lib/content";
 import { articles, formatDate } from "@/lib/news";
@@ -14,6 +17,7 @@ const divisions = [
     index: "01",
     title: "PCB Handling",
     href: "/pcb-handling",
+    image: "/images/pcb-handling-photo.webp",
     blurb:
       "Loaders, unloaders, conveyors, buffers, turners and inspection stations — the complete SMEMA-compliant board-flow platform.",
     tags: ["Conveyors", "Loaders", "Buffering"],
@@ -22,6 +26,7 @@ const divisions = [
     index: "02",
     title: "Robotic Soldering",
     href: "/robotic-soldering-glance",
+    image: "/images/soldering-photo.webp",
     blurb:
       "QUICK and PANDA intelligent soldering robots — batch and in-line selective soldering with hot air, molten drop and hot bar.",
     tags: ["QUICK", "PANDA", "In-Line"],
@@ -30,6 +35,7 @@ const divisions = [
     index: "03",
     title: "Robotic Dispensing",
     href: "/auto-dispensing-at-a-glance",
+    image: "/images/dispensing-photo.webp",
     blurb:
       "High-precision automated dispensing platforms for adhesives, coatings and solder paste across the ET and QS series.",
     tags: ["ET Series", "Precision", "Coating"],
@@ -38,6 +44,7 @@ const divisions = [
     index: "04",
     title: "Robotic Screw Driving",
     href: "/auto-screw-driving-at-a-glance",
+    image: "",
     blurb:
       "Automated screw-feeding and driving robots engineered for repeatable, torque-controlled assembly.",
     tags: ["Auto-Feed", "Torque Control"],
@@ -46,6 +53,7 @@ const divisions = [
     index: "05",
     title: "Laser Marking",
     href: "/laser-marking-at-a-glance",
+    image: "/images/laser-photo.webp",
     blurb:
       "PANDA Robotics laser marking systems — permanent, high-contrast PCB traceability, awarded for innovation.",
     tags: ["PANDA", "Traceability"],
@@ -54,6 +62,7 @@ const divisions = [
     index: "06",
     title: "TechMan Cobots",
     href: "/tm-robots-at-a-glance",
+    image: "/images/cobots-photo.webp",
     blurb:
       "TechMan collaborative robots with built-in vision — TM5 to TM20 payload classes for flexible automation.",
     tags: ["TM Series", "Vision", "Cobots"],
@@ -62,6 +71,7 @@ const divisions = [
     index: "07",
     title: "Mobile Robots & X-Ray",
     href: "/intelligent-mobile-robot-solutions",
+    image: "/images/mobile-robot-photo.webp",
     blurb:
       "OMRON autonomous mobile robots for line loading plus SEAMARK X-ray inspection for hidden-joint quality.",
     tags: ["AMR", "SEAMARK", "Inspection"],
@@ -81,7 +91,7 @@ export default function Home() {
   return (
     <>
       {/* ================= HERO ================= */}
-      <CinematicHero />
+      <LineupHero />
 
       {/* ================= STATS BAND ================= */}
       <section className="border-b border-line">
@@ -117,6 +127,26 @@ export default function Home() {
                   href={d.href}
                   className="glass clip-corner relative flex h-full flex-col gap-4 p-7 transition-colors duration-300 hover:border-blue-400/40"
                 >
+                  <div className="relative -mx-7 -mt-7 mb-3 h-40 overflow-hidden bg-[#0d1b2e]">
+                    {d.image ? (
+                      <Image
+                        src={d.image}
+                        alt=""
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div
+                        aria-hidden
+                        className="grid-bg absolute inset-0 flex items-center justify-center opacity-90"
+                      >
+                        <span className="font-display text-2xl font-bold tracking-tight text-white/25">
+                          {d.title}
+                        </span>
+                      </div>
+                    )}
+                  </div>
                   <div className="flex items-start justify-between">
                     <span className="font-mono text-[11px] text-blue-600/60">
                       [{d.index}]
@@ -144,6 +174,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ================= PARALLAX — THE MACHINE ================= */}
+      <ParallaxBand
+        src="/images/hq.webp"
+        alt="A PANDA robotic soldering cell on the floor at PROMATION USA"
+        height="min-h-[64vh]"
+        overlay="bg-gradient-to-r from-[#050d1a]/92 via-[#050d1a]/70 to-[#050d1a]/35"
+      >
+        <div className="max-w-xl text-white">
+          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-sky-300">
+            Award-winning engineering
+          </p>
+          <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            The PANDA line — three golds at the 2025 TITAN Innovation Awards
+          </h2>
+          <p className="mt-5 text-base leading-relaxed text-slate-300">
+            Designed and engineered in the USA, the PANDA series brings vision
+            alignment, network connectivity and remote support to robotic
+            soldering and laser marking.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              href="/panda-robotics-usa"
+              className="clip-corner bg-blue-600 px-6 py-3 font-mono text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition-colors hover:bg-blue-500"
+            >
+              Explore PANDA
+            </Link>
+            <Link
+              href="/pcb-trial"
+              className="clip-corner border border-white/25 bg-white/[0.04] px-6 py-3 font-mono text-[11px] font-semibold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition-colors hover:border-sky-300/70"
+            >
+              Send us your board
+            </Link>
+          </div>
+        </div>
+      </ParallaxBand>
+
       {/* ================= MISSION ================= */}
       <section className="relative overflow-hidden border-y border-line py-28">
         <div className="grid-bg grid-fade absolute inset-0 opacity-60" aria-hidden />
@@ -163,20 +229,27 @@ export default function Home() {
             </Reveal>
           </div>
           <Reveal direction="left" delay={0.15}>
-            <figure className="border-beam clip-corner relative h-full p-8 lg:p-10">
-              <span aria-hidden className="font-display text-6xl leading-none text-blue-600/30">
-                &ldquo;
-              </span>
-              <blockquote className="mt-2 text-lg leading-relaxed text-foreground/90">
-                {whatWeDo.quote.text}
-              </blockquote>
-              <figcaption className="mt-6 flex items-center gap-3">
-                <span className="h-px w-10 bg-blue-400/60" aria-hidden />
-                <span className="font-mono text-xs uppercase tracking-[0.2em] text-blue-600">
-                  {whatWeDo.quote.author} — {whatWeDo.quote.role}
+            <div className="flex h-full flex-col">
+              <QuotePortrait
+                src={whatWeDo.quote.portrait}
+                name={whatWeDo.quote.author}
+                role={whatWeDo.quote.role}
+              />
+              <figure className="border-beam clip-corner relative flex-1 p-8 lg:p-10">
+                <span aria-hidden className="font-display text-6xl leading-none text-blue-600/30">
+                  &ldquo;
                 </span>
-              </figcaption>
-            </figure>
+                <blockquote className="mt-2 text-lg leading-relaxed text-foreground/90">
+                  {whatWeDo.quote.text}
+                </blockquote>
+                <figcaption className="mt-6 flex items-center gap-3">
+                  <span className="h-px w-10 bg-blue-400/60" aria-hidden />
+                  <span className="font-mono text-xs uppercase tracking-[0.2em] text-blue-600">
+                    {whatWeDo.quote.author} — {whatWeDo.quote.role}
+                  </span>
+                </figcaption>
+              </figure>
+            </div>
           </Reveal>
         </div>
       </section>
@@ -265,6 +338,26 @@ export default function Home() {
           ))}
         </Marquee>
       </section>
+
+      {/* ================= PARALLAX — THE LINE ================= */}
+      <ParallaxBand
+        src="/images/laser-photo.webp"
+        alt="PCB panels under a PANDA laser marking head"
+        height="min-h-[46vh]"
+        overlay="bg-[#050d1a]/84"
+        speed={0.32}
+      >
+        <div className="mx-auto max-w-3xl text-center text-white">
+          <h2 className="font-display text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
+            From bare-board loading to final inspection — one connected line
+          </h2>
+          <p className="mt-4 text-base leading-relaxed text-slate-300">
+            Every PROMATION system is built to slot into the line you already
+            run, with the handoffs, footprints and interfaces worked out before
+            it ships.
+          </p>
+        </div>
+      </ParallaxBand>
 
       {/* ================= CTA ================= */}
       <section className="relative mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">

@@ -4,6 +4,7 @@ import { categories, getProductsInCategory } from "@/lib/products";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
+import { RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -77,6 +78,14 @@ export default function ProductsPage() {
             </section>
           );
         })}
+      </div>
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading="Not sure which machine fits?"
+          blurb="Send us your board or your process and we'll tell you which configuration suits it — and what it costs."
+          secondary={{ label: "Browse parts & consumables", href: "/store" }}
+        />
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { Reveal } from "@/components/fx/Reveal";
@@ -89,20 +90,46 @@ export function PageHero({
   title,
   intro,
   crumbs,
+  aside,
+  background,
 }: {
   eyebrow: string;
   title: string;
   intro?: string;
   crumbs?: { label: string; href?: string }[];
+  /** Optional figure held to the right of the hero copy (desktop only). */
+  aside?: ReactNode;
+  /** Optional photograph behind the whole hero, washed out for legibility. */
+  background?: { src: string; overlay?: string };
 }) {
   return (
     <section className="relative overflow-hidden border-b border-line pb-16 pt-20">
+      {background && (
+        <div aria-hidden className="absolute inset-0">
+          <Image
+            src={background.src}
+            alt=""
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div
+            className={`absolute inset-0 ${
+              background.overlay ??
+              "bg-gradient-to-r from-[var(--background)] via-[var(--background)]/88 to-[var(--background)]/55"
+            }`}
+          />
+        </div>
+      )}
       <div className="grid-bg grid-fade absolute inset-0" aria-hidden />
       <div
         aria-hidden
         className="absolute -top-40 left-1/2 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]"
       />
       <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className={aside ? "grid items-end gap-8 lg:grid-cols-[1fr_auto]" : undefined}>
+        <div className="min-w-0">
         {crumbs && crumbs.length > 0 && (
           <Reveal direction="down" duration={0.5}>
             <nav aria-label="Breadcrumb" className="mb-8 flex flex-wrap items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
@@ -135,6 +162,9 @@ export function PageHero({
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">{intro}</p>
           </Reveal>
         )}
+        </div>
+        {aside && <div className="relative">{aside}</div>}
+        </div>
       </div>
     </section>
   );

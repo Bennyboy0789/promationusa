@@ -3,8 +3,8 @@ import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { CursorGlow } from "@/components/fx/CursorGlow";
 import { ScrollProgress } from "@/components/fx/ScrollProgress";
+import { OrganizationJsonLd } from "@/components/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: "%s | PROMATION USA",
   },
   description:
-    "PROMATION USA provides premium automated solutions for electronics manufacturing and assembly — PCB Handling Systems, Robotic Soldering, Dispensing, Screw Driving, Laser Marking, Cobots and X-Ray Inspection.",
+    "Robotic soldering, PCB handling, dispensing, screw driving and laser marking for electronics manufacturers — in US stock, supported by IPC-certified engineers.",
   keywords: [
     "PCB handling",
     "robotic soldering",
@@ -59,10 +59,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
+        <OrganizationJsonLd />
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
         <ScrollProgress />
-        <CursorGlow />
         <Navbar />
-        <main className="relative flex-1">{children}</main>
+        <main id="main" className="relative flex-1">{children}</main>
         <Footer />
       </body>
     </html>

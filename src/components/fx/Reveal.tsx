@@ -1,7 +1,29 @@
 "use client";
 
 import { motion, useReducedMotion, type Variants } from "motion/react";
-import type { ReactNode } from "react";
+import { useSyncExternalStore, type ReactNode } from "react";
+
+/**
+ * Horizontal entrance offsets push content sideways until it is revealed. On a
+ * phone the container is already the full viewport minus its padding, so a
+ * 32px offset spills past the edge and widens the document. Below this width
+ * the reveal falls back to a vertical rise.
+ */
+const NARROW = "(max-width: 640px)";
+
+function subscribe(cb: () => void) {
+  const mq = window.matchMedia(NARROW);
+  mq.addEventListener("change", cb);
+  return () => mq.removeEventListener("change", cb);
+}
+
+function useIsNarrow() {
+  return useSyncExternalStore(
+    subscribe,
+    () => window.matchMedia(NARROW).matches,
+    () => false // server: assume wide, so desktop markup is unchanged
+  );
+}
 
 type Direction = "up" | "down" | "left" | "right" | "none";
 
@@ -29,7 +51,9 @@ export function Reveal({
   once?: boolean;
 }) {
   const reduce = useReducedMotion();
-  const { x, y } = offsets[direction];
+  const narrow = useIsNarrow();
+  const base = offsets[direction];
+  const { x, y } = narrow && base.x !== 0 ? { x: 0, y: 24 } : base;
 
   const variants: Variants = {
     hidden: reduce ? { opacity: 0 } : { opacity: 0, x, y, filter: "blur(6px)" },

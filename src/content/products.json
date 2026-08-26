@@ -1215,7 +1215,7 @@
       },
       {
         "text": "ET8484 Dispensing Robot",
-        "url": "/et8484-dispensing-robot-copy"
+        "url": "/et8484-dispensing-robot"
       },
       {
         "text": "ET8393SF Dispensing Robot",
@@ -1227,7 +1227,7 @@
       },
       {
         "text": "ET8593 Dispensing Robot",
-        "url": "/et8593-dispensing-robot-copy"
+        "url": "/et8593-dispensing-robot"
       },
       {
         "text": "QS-800 High Speed In-Line Dispensing Solution",
@@ -1355,7 +1355,7 @@
       },
       {
         "text": "Mobile Robot Line Unloading",
-        "url": "/mobile-robot-line-unloading-copy"
+        "url": "/mobile-robot-line-unloading"
       },
       {
         "text": "Mobile Robot Solutions (New Products)",
@@ -2188,9 +2188,9 @@
     "videos": []
   },
   {
-    "slug": "et8484-dispensing-robot-copy",
-    "url": "https://www.promationusa.com/et8484-dispensing-robot-copy",
-    "title": "ET8384 Dispensing Robot (page shows ET8384; slug suggests ET8484 400mm variant)",
+    "slug": "et8484-dispensing-robot",
+    "url": "https://www.promationusa.com/et8484-dispensing-robot",
+    "title": "ET8384 Dispensing Robot",
     "category": "dispensing",
     "tagline": "Robust 4-Axis Cartesian Motion Platform for Controlled Dispensing",
     "description": "The ET8384 Series Dispensing Robot features a robust 4-Axis Cartesian Motion Platform. This system is designed to automate the controlled dispensing process. Once programmed to a specific application, this robot can quickly and accurately dispense materials to their desired locations.\n\nVarious types of Dispensing Needles, Syringes, Dispensing Valves, and Dispensing Controllers are available.",
@@ -2268,8 +2268,8 @@
     "videos": []
   },
   {
-    "slug": "et8593-dispensing-robot-copy",
-    "url": "https://www.promationusa.com/et8593-dispensing-robot-copy",
+    "slug": "et8593-dispensing-robot",
+    "url": "https://www.promationusa.com/et8593-dispensing-robot",
     "title": "ET8593 Dispensing Robot",
     "category": "dispensing",
     "tagline": "Affordable Medium Form Dispensing Solution",
@@ -3050,8 +3050,8 @@
     "videos": []
   },
   {
-    "slug": "mobile-robot-line-unloading-copy",
-    "url": "https://www.promationusa.com/mobile-robot-line-unloading-copy",
+    "slug": "mobile-robot-line-unloading",
+    "url": "https://www.promationusa.com/mobile-robot-line-unloading",
     "title": "AMR Magazine Line Unloader",
     "category": "mobile-robots",
     "tagline": "MOBILE ROBOT Magazine Line Unloading Solutions",

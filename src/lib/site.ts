@@ -35,19 +35,24 @@ export const productCategories: NavItem[] = [
   { label: "Robotic Dispensing", href: "/auto-dispensing-at-a-glance" },
   { label: "Robotic Screw Driving", href: "/auto-screw-driving-at-a-glance" },
   { label: "Mobile Robot Solutions", href: "/intelligent-mobile-robot-solutions" },
-  { label: "TechMan Cobots", href: "/tm-robots-at-a-glance" },
+  { label: "TechMan Cobots", href: "/techman-collaborative-robots" },
   { label: "SEAMARK X-Ray", href: "/xray-at-a-glance" },
+];
+
+export const companyNav: NavItem[] = [
+  { label: "What We Do", href: "/what-we-do" },
+  { label: "Partners", href: "/partners" },
+  { label: "Events", href: "/events" },
+  { label: "Training", href: "/virtual-training-gallery" },
+  { label: "Careers", href: "/careers" },
 ];
 
 export const mainNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Products", href: "/products", children: productCategories },
-  { label: "What We Do", href: "/what-we-do" },
-  { label: "Events", href: "/events" },
-  { label: "Partners", href: "/partners" },
-  { label: "Press Releases", href: "/news" },
-  { label: "Careers", href: "/careers" },
-  { label: "Training", href: "/virtual-training-gallery" },
+  { label: "Why PROMATION", href: "/why-promation" },
+  { label: "Company", href: "/what-we-do", children: companyNav },
+  { label: "News", href: "/news" },
   { label: "Contact", href: "/contact" },
   { label: "Store", href: "/store" },
 ];

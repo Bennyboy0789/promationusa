@@ -4,6 +4,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { DecodeText } from "@/components/fx/DecodeText";
 import { contactPage } from "@/lib/content";
 import { site } from "@/lib/site";
+import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -129,13 +130,19 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <Reveal delay={0.1}>
-          <div className="mt-20 text-center">
-            <GlowButton href={`mailto:${site.email}`}>
-              Open a Channel — Email Us
-            </GlowButton>
-          </div>
-        </Reveal>
+        <div className="mt-20">
+          <SectionHeading
+            eyebrow="Request Information"
+            title="Tell us what you need"
+            intro="Send us the details and an applications engineer will come back to you — usually within one business day."
+            align="center"
+          />
+          <Reveal delay={0.1}>
+            <div className="mx-auto mt-10 max-w-3xl">
+              <ContactForm />
+            </div>
+          </Reveal>
+        </div>
       </div>
     </>
   );

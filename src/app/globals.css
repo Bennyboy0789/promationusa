@@ -29,7 +29,38 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
-  overflow-x: hidden;
+  /* `clip` not `hidden`: both stop sideways scrolling, but `hidden` turns the
+     body into a scroll container, which silently breaks `position: sticky`
+     for descendants (the product-page sidebar was not pinning because of it). */
+  overflow-x: clip;
+}
+
+/* Keyboard users should not have to tab the whole header on every page. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  padding: 0.65rem 1.1rem;
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: top 0.18s ease;
+}
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+/* WCAG 2.2 target size: give inline nav/footer links a usable hit area
+   without changing how they look. */
+nav a,
+footer a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
 }
 
 ::selection {
@@ -54,6 +85,18 @@ body {
 }
 
 /* ---- glass panel ---- */
+/* The nav dropdown opens over hero photography, so it has to read as a solid
+   panel rather than a translucent card — `.glass` lets too much through. */
+.nav-panel {
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(20px) saturate(115%);
+  -webkit-backdrop-filter: blur(20px) saturate(115%);
+  border: 1px solid rgba(37, 99, 235, 0.18);
+  box-shadow:
+    0 20px 44px -18px rgba(13, 27, 46, 0.38),
+    0 2px 10px -5px rgba(13, 27, 46, 0.18);
+}
+
 .glass {
   background: linear-gradient(
     160deg,

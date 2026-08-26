@@ -55,8 +55,13 @@ export async function generateMetadata({
   if (!res) return {};
   if (res.kind === "article")
     return { title: res.article.title, description: res.article.excerpt };
-  if (res.kind === "tag") return { title: `News tagged "${res.tag}"` };
-  return { title: `News from ${res.year}` };
+
+  // Tag and year archives stay reachable so existing inbound links don't 404,
+  // but are kept out of the index — they're thin, duplicative listings.
+  const archiveRobots = { index: false, follow: true };
+  if (res.kind === "tag")
+    return { title: `News tagged "${res.tag}"`, robots: archiveRobots };
+  return { title: `News from ${res.year}`, robots: archiveRobots };
 }
 
 function ArticleGrid({ items }: { items: Article[] }) {

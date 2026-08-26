@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import { PageHero, SectionHeading, GlowButton } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
@@ -37,34 +38,44 @@ export default function WhatWeDoPage() {
         title="What We Do"
         intro={whatWeDo.intro}
         crumbs={[{ label: "Home", href: "/" }, { label: "What We Do" }]}
+        aside={
+          <figure className="relative mx-auto -mb-16 w-[20rem] sm:w-[24rem] xl:w-[29rem]">
+            <div className="relative h-[24rem] w-full sm:h-[29rem] xl:h-[34rem]">
+              <div
+                aria-hidden
+                className="absolute inset-x-10 bottom-0 h-32 rounded-[50%] bg-blue-500/20 blur-2xl"
+              />
+              <Image
+                src={whatWeDo.quote.portrait}
+                alt={`${whatWeDo.quote.author}, ${whatWeDo.quote.role} of PROMATION USA`}
+                fill
+                priority
+                sizes="(max-width: 640px) 288px, (max-width: 1280px) 320px, 368px"
+                className="object-contain object-bottom"
+              />
+            </div>
+            {/* sits low over the torso so it never crosses his face */}
+            <figcaption className="absolute bottom-24 -left-4 z-10 bg-white px-5 py-3.5 shadow-[0_12px_30px_-12px_rgba(13,27,46,0.45)] clip-corner sm:-left-6 sm:bottom-28">
+              <span className="block font-display text-xl font-bold leading-tight tracking-tight text-slate-900 sm:text-2xl">
+                {whatWeDo.quote.author}
+              </span>
+              <span className="mt-1 block font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-blue-600 sm:text-[11px]">
+                {whatWeDo.quote.role}
+              </span>
+            </figcaption>
+          </figure>
+        }
       />
 
       <div className="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        {/* Mission */}
-        <div className="grid gap-14 lg:grid-cols-2">
-          <SectionHeading
-            eyebrow="Our Mission"
-            title="Best value, defined."
-            intro={whatWeDo.mission}
-            decode
-          />
-          <Reveal direction="left" delay={0.15}>
-            <figure className="border-beam clip-corner h-full p-8 lg:p-10">
-              <span aria-hidden className="font-display text-6xl leading-none text-blue-600/30">
-                &ldquo;
-              </span>
-              <blockquote className="mt-2 text-lg leading-relaxed text-foreground/90">
-                {whatWeDo.quote.text}
-              </blockquote>
-              <figcaption className="mt-6 flex items-center gap-3">
-                <span className="h-px w-10 bg-blue-400/60" aria-hidden />
-                <span className="font-mono text-xs uppercase tracking-[0.2em] text-blue-600">
-                  {whatWeDo.quote.author} — {whatWeDo.quote.role}
-                </span>
-              </figcaption>
-            </figure>
-          </Reveal>
-        </div>
+        {/* Mission — full width */}
+        <SectionHeading
+          eyebrow="Our Mission"
+          title="Best value, defined."
+          intro={whatWeDo.mission}
+          align="center"
+          decode
+        />
 
         {/* Pillars */}
         <div className="mt-24">

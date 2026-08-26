@@ -4,7 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { AnimatePresence, motion, useScroll, useMotionValueEvent } from "motion/react";
-import { mainNav } from "@/lib/site";
+import { mainNav, site } from "@/lib/site";
+
+const phoneHref = `tel:+1${site.phone.replace(/\D/g, "")}`;
 
 export function Navbar() {
   const pathname = usePathname();
@@ -33,12 +35,12 @@ export function Navbar() {
     >
       <nav className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="/" onClick={closeMenus} className="group flex items-center gap-2.5">
+        <Link href="/" onClick={closeMenus} className="group flex min-w-0 shrink items-center gap-2.5">
           <span className="relative flex h-8 w-8 items-center justify-center clip-corner bg-blue-400/10 border border-blue-400/40">
             <span className="font-display text-sm font-bold text-blue-600">P</span>
             <span className="absolute inset-0 clip-corner bg-blue-400/0 transition-colors duration-300 group-hover:bg-blue-400/15" />
           </span>
-          <span className="font-display text-lg font-bold tracking-tight">
+          <span className="truncate font-display text-base font-bold tracking-tight sm:text-lg">
             <span className="text-slate-900">PROMATION</span>{" "}
             <span className="text-blue-600">USA</span>
           </span>
@@ -76,14 +78,14 @@ export function Navbar() {
                       transition={{ duration: 0.18 }}
                       className="absolute left-0 top-full w-64 pt-2"
                     >
-                      <div className="glass clip-corner p-2">
+                      <div className="nav-panel clip-corner p-2">
                         {item.children.map((child) => (
                           <Link
                             key={child.href}
                             href={child.href}
                             onClick={closeMenus}
                             className={`block px-3 py-2.5 font-mono text-[11px] uppercase tracking-[0.12em] transition-all hover:translate-x-1 hover:bg-blue-400/10 ${
-                              pathname === child.href ? "text-blue-600" : "text-muted hover:text-blue-500"
+                              pathname === child.href ? "text-blue-600" : "text-slate-700 hover:text-blue-600"
                             }`}
                           >
                             {child.label}
@@ -115,13 +117,41 @@ export function Navbar() {
           )}
         </div>
 
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setMobileOpen((o) => !o)}
-          aria-label="Toggle menu"
-          aria-expanded={mobileOpen}
-          className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 xl:hidden"
-        >
+        {/* Conversion pair — present on every page, at every breakpoint */}
+        <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+          <a
+            href={phoneHref}
+            className="flex items-center gap-1.5 px-1.5 py-2 font-mono text-[11px] uppercase tracking-[0.15em] text-slate-900 transition-colors hover:text-blue-600 sm:px-2"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              className="h-4 w-4"
+            >
+              <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 1.9.6 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2Z" />
+            </svg>
+            <span className="hidden sm:inline">{site.phone}</span>
+            <span className="sr-only sm:hidden">Call {site.phone}</span>
+          </a>
+          <Link
+            href="/contact"
+            onClick={closeMenus}
+            className="clip-corner whitespace-nowrap border border-blue-400/50 bg-blue-500/10 px-2.5 py-2 font-mono text-[10px] font-semibold uppercase tracking-[0.12em] text-blue-700 transition-colors hover:bg-blue-500/20 sm:px-3 sm:text-[11px] sm:tracking-[0.15em]"
+          >
+            <span className="hidden sm:inline">Request a Quote</span>
+            <span className="sm:hidden">Quote</span>
+          </Link>
+
+          {/* Mobile toggle */}
+          <button
+            onClick={() => setMobileOpen((o) => !o)}
+            aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+            className="flex h-10 w-9 shrink-0 flex-col items-center justify-center gap-1.5 sm:w-10 xl:hidden"
+          >
           <motion.span
             animate={mobileOpen ? { rotate: 45, y: 6 } : { rotate: 0, y: 0 }}
             className="h-px w-6 bg-blue-600"
@@ -130,11 +160,12 @@ export function Navbar() {
             animate={mobileOpen ? { opacity: 0 } : { opacity: 1 }}
             className="h-px w-6 bg-blue-600"
           />
-          <motion.span
-            animate={mobileOpen ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
-            className="h-px w-6 bg-blue-600"
-          />
-        </button>
+            <motion.span
+              animate={mobileOpen ? { rotate: -45, y: -6 } : { rotate: 0, y: 0 }}
+              className="h-px w-6 bg-blue-600"
+            />
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}

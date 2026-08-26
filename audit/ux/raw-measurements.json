@@ -1,0 +1,2788 @@
+[
+ {
+  "url": "/",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "The PANDA line — three golds at the 2025 T",
+     "cr": 1.06,
+     "need": 3,
+     "size": 36
+    },
+    {
+     "t": "Explore PANDA",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 11
+    },
+    {
+     "t": "Send us your board",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 11
+    },
+    {
+     "t": "From bare-board loading to final inspectio",
+     "cr": 1.06,
+     "need": 3,
+     "size": 30
+    },
+    {
+     "t": "Contact Us Today→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "View systems→",
+     "w": 122,
+     "h": 20
+    },
+    {
+     "tag": "button",
+     "t": "Show Robotic Soldering",
+     "w": 77,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show PCB Handling",
+     "w": 77,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show Robotic Dispensing",
+     "w": 77,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show Laser Marking",
+     "w": 77,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show TechMan Cobots",
+     "w": 77,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show Mobile Robots",
+     "w": 77,
+     "h": 2
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 150,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 110,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Dispensing",
+     "w": 93,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Screw Driving",
+     "w": 118,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 118,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Cobots",
+     "w": 61,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "X-Ray Inspection",
+     "w": 142,
+     "h": 17
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 33
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 24,
+   "skips": [],
+   "firstH1": "Robotic soldering & PCB assembly automationfor ele"
+  },
+  "images": {
+   "total": 10,
+   "missingAlt": 0,
+   "emptyAltDecorative": 6,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "PROMATION USA | Premium Electronics Manufacturing Automation",
+   "metaDesc": 207,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/products",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 29
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 111,
+   "skips": [],
+   "firstH1": "The Automation Catalog"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Products | PROMATION USA",
+   "metaDesc": 162,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/robotic-soldering-glance",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Contact Sales→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 70,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "262.764.4832",
+     "w": 310,
+     "h": 16
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 20
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 18,
+   "skips": [],
+   "firstH1": "Robotic Soldering at a Glance"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Robotic Soldering at a Glance | PROMATION USA",
+   "metaDesc": 48,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 2
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/quick-usa-6101a1",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Contact Sales→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 70,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 150,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "262.764.4832",
+     "w": 310,
+     "h": 16
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 21
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 14,
+   "skips": [],
+   "firstH1": "QUICK 6101A1 Fume Extraction Solution"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "QUICK 6101A1 Fume Extraction Solution | PROMATION USA",
+   "metaDesc": 29,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 3
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/et8484-dispensing-robot",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Contact Sales→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 70,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 158,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "262.764.4832",
+     "w": 310,
+     "h": 16
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 21
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 14,
+   "skips": [],
+   "firstH1": "ET8384 Dispensing Robot (page shows ET8384; s9TY %"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "ET8384 Dispensing Robot (page shows ET8384; slug suggests ET8484 400mm",
+   "metaDesc": 65,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 3
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/pcb-trial",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 10,
+   "skips": [],
+   "firstH1": "Send us your board — we'll prove it out for fI#6"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Send Us Your Board — Free Proof of Concept | PROMATION USA",
+   "metaDesc": 174,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/store",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "All",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 10
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 27,
+   "skips": [],
+   "firstH1": "Order Online Today"
+  },
+  "images": {
+   "total": 21,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Store — Order Online Today | PROMATION USA",
+   "metaDesc": 124,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/contact",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Open a Channel — Email Us→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 9,
+   "skips": [],
+   "firstH1": "Contact Our Award Winning Team Today!"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Contact | PROMATION USA",
+   "metaDesc": 109,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/why-promation",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "free proof of concept",
+     "w": 135,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 20
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 11,
+   "skips": [],
+   "firstH1": "The official North American source for QUICK, 4H+4"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Why PROMATION USA — Official North American Source | PROMATION USA",
+   "metaDesc": 211,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/news",
+  "vw": 1440,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Latest",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 10
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 22,
+   "skips": [],
+   "firstH1": "Press Releases"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Press Releases | PROMATION USA",
+   "metaDesc": 140,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 1430,
+   "clientWidth": 1430,
+   "overflowing": false
+  },
+  "viewport": "desktop"
+ },
+ {
+  "url": "/",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "The PANDA line — three golds at the 2025 T",
+     "cr": 1.06,
+     "need": 3,
+     "size": 30
+    },
+    {
+     "t": "Explore PANDA",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 11
+    },
+    {
+     "t": "Send us your board",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 11
+    },
+    {
+     "t": "From bare-board loading to final inspectio",
+     "cr": 1.06,
+     "need": 3,
+     "size": 24
+    },
+    {
+     "t": "Contact Us Today→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "View systems →",
+     "w": 119,
+     "h": 15
+    },
+    {
+     "tag": "button",
+     "t": "Show Robotic Soldering",
+     "w": 49,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show PCB Handling",
+     "w": 49,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show Robotic Dispensing",
+     "w": 49,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show Laser Marking",
+     "w": 49,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show TechMan Cobots",
+     "w": 49,
+     "h": 2
+    },
+    {
+     "tag": "button",
+     "t": "Show Mobile Robots",
+     "w": 49,
+     "h": 2
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 150,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 110,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Dispensing",
+     "w": 93,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Screw Driving",
+     "w": 118,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 118,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Cobots",
+     "w": 61,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "X-Ray Inspection",
+     "w": 142,
+     "h": 17
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 33
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 24,
+   "skips": [],
+   "firstH1": "Robotic soldering & PCB assembly automationfor ele"
+  },
+  "images": {
+   "total": 10,
+   "missingAlt": 0,
+   "emptyAltDecorative": 6,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "PROMATION USA | Premium Electronics Manufacturing Automation",
+   "metaDesc": 207,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/products",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Division Overview →",
+     "w": 175,
+     "h": 14
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 29
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 111,
+   "skips": [],
+   "firstH1": "The Automation Catalog"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Products | PROMATION USA",
+   "metaDesc": 162,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/robotic-soldering-glance",
+  "vw": 406,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Contact Sales→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 70,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "262.764.4832",
+     "w": 308,
+     "h": 16
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 20
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 18,
+   "skips": [],
+   "firstH1": "Robotic Soldering at a Glance"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Robotic Soldering at a Glance | PROMATION USA",
+   "metaDesc": 48,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 2
+  },
+  "overflow": {
+   "scrollWidth": 406,
+   "clientWidth": 390,
+   "overflowing": true
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/quick-usa-6101a1",
+  "vw": 406,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Contact Sales→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 70,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 150,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "262.764.4832",
+     "w": 308,
+     "h": 16
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 21
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 14,
+   "skips": [],
+   "firstH1": "QUICK 6101A1 Fume Extraction Solution"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "QUICK 6101A1 Fume Extraction Solution | PROMATION USA",
+   "metaDesc": 29,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 3
+  },
+  "overflow": {
+   "scrollWidth": 406,
+   "clientWidth": 390,
+   "overflowing": true
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/et8484-dispensing-robot",
+  "vw": 406,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Contact Sales→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 70,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 158,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "262.764.4832",
+     "w": 308,
+     "h": 16
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 21
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 14,
+   "skips": [],
+   "firstH1": "ET8384 Dispensing Robot (page shows ET8384; s&6V R"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "ET8384 Dispensing Robot (page shows ET8384; slug suggests ET8484 400mm",
+   "metaDesc": 65,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 3
+  },
+  "overflow": {
+   "scrollWidth": 406,
+   "clientWidth": 390,
+   "overflowing": true
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/pcb-trial",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 10,
+   "skips": [],
+   "firstH1": "Send us your board — we'll prove it out for fPF/"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Send Us Your Board — Free Proof of Concept | PROMATION USA",
+   "metaDesc": 174,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/store",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "All",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 10
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 27,
+   "skips": [],
+   "firstH1": "Order Online Today"
+  },
+  "images": {
+   "total": 21,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Store — Order Online Today | PROMATION USA",
+   "metaDesc": 124,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/contact",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Open a Channel — Email Us→",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 12
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 9,
+   "skips": [],
+   "firstH1": "Contact Our Award Winning Team Today!"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Contact | PROMATION USA",
+   "metaDesc": 109,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/why-promation",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 11,
+   "skips": [],
+   "firstH1": "The official North American source for QUICKT UI<U"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Why PROMATION USA — Official North American Source | PROMATION USA",
+   "metaDesc": 211,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ },
+ {
+  "url": "/news",
+  "vw": 390,
+  "issues": {
+   "lowContrast": [
+    {
+     "t": "Latest",
+     "cr": 1.06,
+     "need": 4.5,
+     "size": 10
+    }
+   ],
+   "smallTargets": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "w": 35,
+     "h": 17
+    },
+    {
+     "tag": "a",
+     "t": "Products",
+     "w": 57,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Why PROMATION",
+     "w": 112,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Company",
+     "w": 61,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "News",
+     "w": 36,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Contact",
+     "w": 51,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Store",
+     "w": 34,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "New Products",
+     "w": 90,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "PCB Handling",
+     "w": 89,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotics Division",
+     "w": 110,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Soldering",
+     "w": 114,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Laser Marking",
+     "w": 91,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Dispensing",
+     "w": 124,
+     "h": 18
+    },
+    {
+     "tag": "a",
+     "t": "Robotic Screw Driving",
+     "w": 142,
+     "h": 18
+    }
+   ],
+   "namelessControls": [],
+   "unlabeledFields": []
+  },
+  "counts": {
+   "smallTargets": 19
+  },
+  "headings": {
+   "h1Count": 1,
+   "total": 22,
+   "skips": [],
+   "firstH1": "Press Releases"
+  },
+  "images": {
+   "total": 0,
+   "missingAlt": 0,
+   "emptyAltDecorative": 0,
+   "noDims": 0,
+   "oversized": [],
+   "upscaled": []
+  },
+  "structure": {
+   "lang": "en",
+   "title": "Press Releases | PROMATION USA",
+   "metaDesc": 140,
+   "landmarks": {
+    "main": 1,
+    "nav": 2,
+    "header": 1,
+    "footer": 1
+   },
+   "skipLink": false,
+   "dupIds": [],
+   "jsonLd": 1
+  },
+  "overflow": {
+   "scrollWidth": 390,
+   "clientWidth": 390,
+   "overflowing": false
+  },
+  "viewport": "mobile"
+ }
+]

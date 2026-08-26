@@ -195,6 +195,7 @@ export const whatWeDo = {
     text: "PROMATION is committed to 100% customer satisfaction. Recognizing that no company is perfect, we focus on what we do during those imperfect times that differentiates us from our competitors.",
     author: "Gary Goldberg",
     role: "President & CEO",
+    portrait: "/images/team/Gary-Goldberg-CEO-Promation.png",
   },
 };
 
