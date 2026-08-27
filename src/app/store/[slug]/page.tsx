@@ -9,6 +9,8 @@ import { Markdown } from "@/lib/markdown";
 import { site } from "@/lib/site";
 import { StoreProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 import { CtaBar, TrustStrip } from "@/components/Conversion";
+import { products } from "@/lib/products";
+import { shorten } from "@/lib/seo";
 
 export function generateStaticParams() {
   return storeItems.map((p) => ({ slug: p.slug }));
@@ -22,7 +24,15 @@ export async function generateMetadata({
   if (!item) return {};
   return {
     alternates: { canonical: `/store/${item.slug}` },
-    title: item.name,
+    // Several parts share a name with the catalogue machine they belong to.
+    // Both pages are legitimate — one describes the unit, one sells it — but an
+    // identical title makes them compete for the same query.
+    title: shorten(
+      products.some((p) => p.title.toLowerCase() === item.name.toLowerCase())
+        ? `${item.name} — Order Online`
+        : item.name,
+      43
+    ),
     description: item.description?.slice(0, 160) ?? `${item.name} — genuine PROMATION replacement part.`,
   };
 }

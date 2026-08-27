@@ -6,6 +6,7 @@ import { articles, getArticleByPath, getAllTags, formatDate, type Article, foldT
 import { PageHero, SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { Reveal } from "@/components/fx/Reveal";
 import { Markdown } from "@/lib/markdown";
+import { NewsArticleJsonLd } from "@/components/JsonLd";
 
 /**
  * Catch-all for the original news URL space:
@@ -129,6 +130,13 @@ export default async function NewsCatchAll({
 
   return (
     <>
+      <NewsArticleJsonLd
+        headline={a.title}
+        description={a.excerpt}
+        url={`/news/${a.path}`}
+        datePublished={a.date}
+        author={a.author}
+      />
       <PageHero
         eyebrow={`Transmission — ${formatDate(a.date)}`}
         title={a.title}
@@ -148,9 +156,18 @@ export default async function NewsCatchAll({
             <span className="text-line" aria-hidden>
               |
             </span>
-            <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
+            <time
+              dateTime={a.date}
+              className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600"
+            >
               {formatDate(a.date)}
             </time>
+            <span className="text-line" aria-hidden>
+              |
+            </span>
+            <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
+              By {a.author}
+            </span>
           </div>
         </Reveal>
 

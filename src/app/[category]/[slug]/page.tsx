@@ -18,7 +18,9 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { Markdown } from "@/lib/markdown";
 import { site } from "@/lib/site";
-import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
+import { ProductJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/components/JsonLd";
+import { modelFaqs, categoryDefinition } from "@/lib/modelFaq";
+import { shorten } from "@/lib/seo";
 import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 import { QuickRfq } from "@/components/QuickRfq";
 import { ProductGallery } from "@/components/ProductGallery";
@@ -41,7 +43,7 @@ export async function generateMetadata({
   if (!product) return {};
   return {
     alternates: { canonical: productHref(product) },
-    title: product.title,
+    title: shorten(product.title, 43),
     description: metaDescription(product),
   };
 }
@@ -153,6 +155,8 @@ export default async function ProductPage({
   const isCategoryRoot = cat?.rootSlug === product.slug;
   const images = product.images ?? [];
   const hero = heroImage(product);
+  const faqs = isCategoryRoot ? [] : modelFaqs(product, cat);
+  const definition = categoryDefinition(cat);
 
   return (
     <>
@@ -166,6 +170,7 @@ export default async function ProductPage({
           { name: product.title, href: productHref(product) },
         ]}
       />
+      {faqs.length > 0 && <FaqJsonLd items={faqs} />}
       {!isCategoryRoot && (
         <ProductJsonLd
           name={product.title}
@@ -196,6 +201,17 @@ export default async function ProductPage({
 
       <div className="mx-auto grid w-full max-w-7xl gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[1fr_360px] lg:px-8">
         <div className="min-w-0">
+          {definition && !isCategoryRoot && (
+            <Reveal>
+              {/* A self-contained answer to "what is this kind of machine?".
+                  Answer engines lift a paragraph that stands on its own; one
+                  that depends on the sentence before it cannot be quoted. */}
+              <p className="mb-10 border-l-2 border-blue-400/40 pl-5 text-lg leading-relaxed text-foreground/90">
+                {definition}
+              </p>
+            </Reveal>
+          )}
+
           {images.length > 0 && (
             <Reveal>
               <div className="mb-12">
@@ -318,6 +334,27 @@ export default async function ProductPage({
           </Reveal>
         </aside>
       </div>
+
+      {faqs.length > 0 && (
+        <section className="mx-auto w-full max-w-7xl px-4 pb-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            eyebrow="Questions"
+            title={`About the ${product.title}`}
+          />
+          <div className="mt-8 grid gap-4 lg:grid-cols-2">
+            {faqs.map((f) => (
+              <Reveal key={f.q}>
+                <div className="glass clip-corner h-full p-7">
+                  <h3 className="font-display text-base font-semibold text-slate-900">
+                    {f.q}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted">{f.a}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="mx-auto w-full max-w-7xl px-4 pb-24 sm:px-6 lg:px-8">

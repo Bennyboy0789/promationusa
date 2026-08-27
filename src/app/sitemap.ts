@@ -3,6 +3,9 @@ import { products, categories, productHref, categoryHref } from "@/lib/products"
 import { articles } from "@/lib/news";
 import { storeItems } from "@/lib/store";
 import { RETIRED_SLUGS } from "@/lib/redirects";
+import { guides } from "@/lib/guides";
+import { comparisons } from "@/lib/comparisons";
+import { brands } from "@/lib/brands";
 
 const BASE = "https://www.promationusa.com";
 
@@ -24,6 +27,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/why-promation",
     "/pcb-trial",
     "/book-a-demo",
+    "/guides",
+    "/compare",
+    "/brands",
     "/what-we-do",
     "/partners",
     "/news",
@@ -56,6 +62,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly" as const,
         priority: 0.7,
       })),
+    ...guides.map((g) => ({
+      url: `${BASE}/guides/${g.slug}`,
+      lastModified: built,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...comparisons.map((c) => ({
+      url: `${BASE}/compare/${c.slug}`,
+      lastModified: built,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...brands.map((b) => ({
+      url: `${BASE}/brands/${b.slug}`,
+      lastModified: built,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     ...articles.map((a) => ({
       url: `${BASE}/news/${a.path}`,
       lastModified: new Date(a.date),

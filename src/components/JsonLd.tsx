@@ -399,3 +399,47 @@ export function FaqJsonLd({ items }: { items: { q: string; a: string }[] }) {
     />
   );
 }
+
+/**
+ * Press releases.
+ *
+ * `author` and `publisher` are both PROMATION — these are company
+ * announcements, not bylined journalism — so the author points at the
+ * Organization node rather than inventing a person.
+ */
+export function NewsArticleJsonLd({
+  headline,
+  description,
+  url,
+  datePublished,
+  author,
+  image,
+}: {
+  headline: string;
+  description?: string;
+  url: string;
+  datePublished: string;
+  author: string;
+  /** Site-relative path; absolutised here the same way `url` is. */
+  image?: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        headline: headline.slice(0, 110),
+        ...(description ? { description } : {}),
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}${url}` },
+        url: `${BASE}${url}`,
+        datePublished,
+        dateModified: datePublished,
+        author: { "@type": "Organization", name: author, "@id": `${BASE}/#organization` },
+        publisher: { "@id": `${BASE}/#organization` },
+        ...(image
+          ? { image: image.startsWith("http") ? image : `${BASE}${image}` }
+          : {}),
+      }}
+    />
+  );
+}

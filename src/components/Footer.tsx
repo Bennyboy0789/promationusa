@@ -91,6 +91,30 @@ export function Footer() {
               ))}
               <li>
                 <Link
+                  href="/guides"
+                  className="text-sm text-muted transition-colors hover:text-blue-600"
+                >
+                  Buyer&rsquo;s Guides
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/compare"
+                  className="text-sm text-muted transition-colors hover:text-blue-600"
+                >
+                  Compare &amp; Alternatives
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/brands"
+                  className="text-sm text-muted transition-colors hover:text-blue-600"
+                >
+                  Brands We Source
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/pcb-trial"
                   className="text-sm text-muted transition-colors hover:text-blue-600"
                 >

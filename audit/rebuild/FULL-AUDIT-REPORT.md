@@ -337,3 +337,129 @@ The before/after table above uses the corrected numbers.
 Four titles remain over 60 characters, by one to nine characters: the TM5-700 and TM5-900
 pages at 61, and two store items. Shortening those means editing catalogue product names,
 which is client content rather than a build decision.
+
+---
+
+# Third pass — Phase 1 and Phase 2 complete
+
+The client deck's full page inventory is now built, and a migration gap found during the work
+turned out to matter more than any of it.
+
+## The migration gap
+
+Site search was returning nothing for **QUICK 9434** — a model the audit deck cites repeatedly
+as one PROMATION already owns page-one results for. It was not in the catalogue.
+
+Checking the whole live URL set against `content-inventory.csv` found **76 pages marked KEEP
+that had never made it into `products.json`**. Not one was a deliberate KILL. The catalogue
+held 107 products where the migration plan called for 183 — 42% of the product pages were
+missing, and because there was nothing to redirect *to*, the redirect map could not have
+covered for it. Launching in that state would have dropped a page that ranks today.
+
+All 76 were still live, so the content was recoverable rather than lost. Each page was fetched
+and parsed into the catalogue schema:
+
+| Recovered | |
+|---|---|
+| Pages | **76 of 76**, zero failures |
+| With description | 76 |
+| With specification tables | 35 |
+| With photography | 70 (203 images, 35.9 MB) |
+| Catalogue total | 107 → **183** |
+| Live URLs still absent | **0** |
+
+Spec keys were normalised to the catalogue's Title Case convention, categories inferred from
+URL and copy, and the file checked for encoding damage — zero mojibake, special characters
+(`°C`, `μm`, `×`, `≤`, `±`) all intact.
+
+## Page inventory — the deck's Phase 1 and 2
+
+| Sheet | Page type | Target | Built |
+|---|---|---|---|
+| 01 | Global frame | 1 | ✅ |
+| 02 | Home | 1 | ✅ |
+| 03 | Category hub | 7 | ✅ 10 |
+| 04 | Product / model | ≈82 | ✅ **176** |
+| 05 | Comparison & alternatives | 13 | ✅ **13** |
+| 06 | Cost guide & buyer's pillar | 22 | ✅ **22** |
+| 07 | Ad landing page (noindex) | 6–12 | ✅ **8** |
+| 08 | Store — catalogue & part | 1 + ~50–80 | ✅ |
+| 09 | News index & article | ≈18 | ✅ |
+| 10 | Authority & brand pages | 5 | ✅ **5 brands + /why-promation** |
+| 11 | Offer pages | 2 | ✅ `/pcb-trial`, `/book-a-demo` |
+| 12 | Search & 404 | 2 | ✅ |
+
+## Measured state
+
+| Metric | Second pass | Now |
+|---|---|---|
+| Pages crawled | 262 | **371** |
+| Indexable | 149 | **268** |
+| Sitemap URLs | 150 | **269** |
+| FAQPage pages | 8 | **208** |
+| Product schema pages | 110 | **186** |
+| Median words (indexable) | 268 | **553** |
+| Titles over 60 chars | 4 | **0** |
+| Descriptions over 160 | 0 | **0** |
+| Duplicate titles | 1 | **1** — client-blocked |
+| Canonical coverage | 149/149 | **268/268** |
+| Broken links / redirect hops | 0 | **0** |
+| Invalid JSON-LD | 0 | **0** |
+| Images missing alt | 0 | **0** |
+| CLS | 0 | **0** |
+| LCP range | 76–908ms | **100–880ms** |
+
+WCAG re-checked on the new page types: **0 structural issues, 0 undersized targets, 0 contrast
+failures** across guides, comparisons, brands, search and a recovered model page.
+
+## What was built
+
+**Guides — 22.** Five cost guides, six buyer's guides, five decision comparisons, six technical
+guides. **No guide states a price.** PROMATION has not approved publishing bands, and a figure
+a buyer is later quoted differently against destroys trust in the whole site. Each guide
+explains what moves the number and commits to a range on request; `priceNote` is the single
+place a band drops in if approved.
+
+**Comparisons — 13.** Competitor pages are grounded in what the competitive research actually
+established — distribution model, whether specs are published as HTML or locked in PDFs, site
+scale, SERP presence — and in each competitor's own published claims. **No competitor
+specification is reproduced anywhere**, because none has been verified; a comparison table of
+second-hand figures is a credibility and legal risk that buys nothing. Every page says to get
+their numbers from them and offers to run the part instead. Competitors are described fairly,
+including where the honest answer is that the alternative suits the buyer better.
+
+**Brands — 5.** QUICK, PANDA Robotics, TechMan, SEAMARK, OMRON. Claims limited to the
+relationship and the catalogue — no installed-base or market-share figures, which would need
+the manufacturer to confirm them.
+
+**Landing pages — 8, all `noindex, nofollow`.** Minimal header, query-matched headline, three
+proof points, three-field RFQ above the fold, one spec block, single repeated CTA, minimal
+footer. Indexing them would put them in competition with the category pages they shadow.
+
+**Search.** Client-side over a pre-built index of every model, part, category, article and key
+page, ranked so an exact model-number match outranks everything. Model numbers, SKUs and spec
+values are all searchable. Verified: "conveyor" 19 results, "screw driving" 15, "191AD" finds
+the part, "9434" now finds the recovered robot.
+
+**Model pages — FAQs and definitions.** Every model page carries a citable category definition
+and up to six buying questions derived from its own published specifications, marked up as
+FAQPage. FAQPage coverage went from 8 pages to 208. Nothing is asserted that is not already
+visible on the page, which is both honest and the condition Google sets for the markup.
+
+**News.** Real `author` data existed on all 17 articles and was never surfaced. Articles now
+carry a visible byline and `NewsArticle` schema with `datePublished` and a publisher node.
+
+## Still open
+
+Unchanged, and all genuinely blocked:
+
+| Item | Needs |
+|---|---|
+| ET8484 / ET8384 | The site's only duplicate title and description. Which machine is that page for? |
+| `aggregateRating` | Real reviews. Cannot be fabricated. |
+| `VideoObject` | The catalogue holds one video URL. |
+| Testimonials, install-base number | Only PROMATION has them. |
+| Price bands | Would unlock `price` on `Offer` and give the cost guides a figure. |
+| GTM ID, Resend credentials | Accounts under PROMATION's control. |
+| 33 thin pages | Mostly store parts; needs real compatibility data. |
+| Events in nav | In the navigation but retired from the index. A business call. |

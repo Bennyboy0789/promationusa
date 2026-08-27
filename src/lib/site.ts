@@ -41,6 +41,15 @@ export const productCategories: NavItem[] = [
   { label: "Services & Support", href: "/services" },
 ];
 
+/** Educational content — the cluster the growth plan is built on. */
+export const resourcesNav: NavItem[] = [
+  { label: "Buyer’s Guides", href: "/guides" },
+  { label: "Compare & Alternatives", href: "/compare" },
+  { label: "Brands We Source", href: "/brands" },
+  { label: "Free Board Trial", href: "/pcb-trial" },
+  { label: "Book a Demo", href: "/book-a-demo" },
+];
+
 export const companyNav: NavItem[] = [
   { label: "About", href: "/what-we-do" },
   { label: "Partners", href: "/partners" },
@@ -52,6 +61,7 @@ export const companyNav: NavItem[] = [
 export const mainNav: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Products", href: "/products", children: productCategories },
+  { label: "Guides", href: "/guides", children: resourcesNav },
   { label: "Why PROMATION", href: "/why-promation" },
   { label: "Company", href: "/what-we-do", children: companyNav },
   { label: "News", href: "/news" },
