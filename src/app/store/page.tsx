@@ -63,7 +63,7 @@ export default function StorePage() {
       <div className="pb-20">
         <RequestQuoteBlock
           heading="Can't find the part you need?"
-          blurb="Tell us the machine and we'll identify the right consumable, tip or spare — and get it shipped from US stock."
+          blurb="Tell us the machine and we'll identify the right consumable, tip or spare — and get it shipped the same business day."
         />
       </div>
     </>

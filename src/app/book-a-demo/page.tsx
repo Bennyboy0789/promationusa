@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal } from "@/components/fx/Reveal";
 import { QuickRfq } from "@/components/QuickRfq";
-import { CtaBar, RequestQuoteBlock, TrustStrip } from "@/components/Conversion";
+import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -104,7 +104,6 @@ export default function BookDemoPage() {
               and who else needs to be on the call. If you already have a model
               in mind, name it — if you do not, that is what the session is for.
             </p>
-            <TrustStrip className="mt-7" />
             <p className="mt-6 text-sm text-muted">
               Prefer the phone?{" "}
               <a

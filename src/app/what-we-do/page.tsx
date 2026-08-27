@@ -4,7 +4,7 @@ import { PageHero, SectionHeading, GlowButton } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { Counter } from "@/components/fx/Counter";
 import { whatWeDo } from "@/lib/content";
-import { CtaBar, RequestQuoteBlock, TrustStrip } from "@/components/Conversion";
+import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "About PROMATION USA",
@@ -128,7 +128,6 @@ export default function WhatWeDoPage() {
 
         <Reveal delay={0.1}>
           <div className="mt-20 flex flex-col items-center gap-7 text-center">
-            <TrustStrip className="justify-center" />
             <div className="flex flex-wrap justify-center gap-3">
               <GlowButton href="/contact">Start the Conversation</GlowButton>
               <a

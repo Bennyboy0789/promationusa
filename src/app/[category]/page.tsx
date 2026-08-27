@@ -87,7 +87,7 @@ export default async function CategoryHub({
 
       <PageHero
         eyebrow="Product Category"
-        title={`${cat.label} — US Stock & Support`}
+        title={cat.label}
         intro={cat.blurb}
         crumbs={[
           { label: "Home", href: "/" },
@@ -274,7 +274,7 @@ export default async function CategoryHub({
       <div className="pb-20">
         <RequestQuoteBlock
           heading={`Request a quote — ${cat.label}`}
-          blurb="Tell us the process and the part. We will come back with the configuration that suits it, the price range, and lead time from US stock."
+          blurb="Tell us the process and the part. We will come back with the configuration that suits it, the price range and the lead time."
           secondary={{ label: "Send us your board", href: "/pcb-trial" }}
         />
       </div>
