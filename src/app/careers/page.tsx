@@ -3,6 +3,7 @@ import { PageHero, SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { careers } from "@/lib/content";
 import { site } from "@/lib/site";
+import { RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Career Opportunities",
@@ -105,6 +106,14 @@ export default function CareersPage() {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading="Here about equipment instead?"
+          blurb="If you landed here looking for a machine rather than a job, an applications engineer can help — tell us what you are automating."
+          secondary={{ label: "Browse the catalog", href: "/products" }}
+        />
       </div>
     </>
   );

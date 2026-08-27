@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ScrollProgress } from "@/components/fx/ScrollProgress";
 import { OrganizationJsonLd } from "@/components/JsonLd";
+import { Analytics } from "@/components/Analytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -60,6 +61,7 @@ export default function RootLayout({
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
         <OrganizationJsonLd />
+        <Analytics />
         <a href="#main" className="skip-link">
           Skip to content
         </a>

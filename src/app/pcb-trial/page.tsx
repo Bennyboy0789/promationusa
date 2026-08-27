@@ -79,6 +79,7 @@ export default function PcbTrialPage() {
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 href={mailto}
+                data-cta="trial-request"
                 className="clip-corner border border-blue-400/50 bg-blue-500/10 px-6 py-3 font-mono text-[11px] font-semibold uppercase tracking-[0.15em] text-blue-700 transition-colors hover:bg-blue-500/20"
               >
                 Request a free trial

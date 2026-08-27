@@ -10,13 +10,14 @@ import {
   specLabel,
   type ProductLink,
 } from "@/lib/products";
-import { PageHero, SectionHeading, GlowButton, Chip } from "@/components/ui";
+import { PageHero, SectionHeading, Chip } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { Markdown } from "@/lib/markdown";
 import { site } from "@/lib/site";
 import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
-import { RequestQuoteBlock } from "@/components/Conversion";
+import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
+import { QuickRfq } from "@/components/QuickRfq";
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -154,6 +155,12 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
         ]}
       />
 
+      <CtaBar
+        label={`Considering the ${product.title}?`}
+        primary={{ label: "Request a quote", href: "/contact" }}
+        secondary={{ label: "Send us your board", href: "/pcb-trial" }}
+      />
+
       <div className="mx-auto grid w-full max-w-7xl gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[1fr_360px] lg:px-8">
         <div className="min-w-0">
           {product.description && (
@@ -250,24 +257,22 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
             </Reveal>
           )}
 
+          {/* The three-field RFQ rather than a button: same slot, but it starts
+              the conversation instead of asking for another click first. */}
           <Reveal direction="left" delay={0.12}>
-            <div className="glass clip-corner p-6">
-              <h2 className="mb-3 font-mono text-[11px] uppercase tracking-[0.3em] text-blue-600">
-                {"// Request a Quote"}
-              </h2>
-              <p className="mb-5 text-sm leading-relaxed text-muted">
-                Talk to our engineers about configuring the {product.title} for
-                your line.
-              </p>
-              <div className="flex flex-col gap-3">
-                <GlowButton href="/contact">Contact Sales</GlowButton>
-                <a
-                  href={`tel:+1${site.phone.replace(/\./g, "")}`}
-                  className="text-center font-mono text-xs uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-slate-900"
-                >
-                  {site.phone}
-                </a>
-              </div>
+            <div className="space-y-3">
+              <QuickRfq
+                compact
+                heading={`Ask about the ${product.title}`}
+                blurb="Three fields. An applications engineer replies within one business day."
+                source={`/${product.slug}`}
+              />
+              <a
+                href={`tel:+1${site.phone.replace(/\./g, "")}`}
+                className="block text-center font-mono text-xs uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-slate-900"
+              >
+                Or call {site.phone}
+              </a>
             </div>
           </Reveal>
         </aside>

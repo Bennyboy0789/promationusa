@@ -5,6 +5,8 @@ import { DecodeText } from "@/components/fx/DecodeText";
 import { contactPage } from "@/lib/content";
 import { site } from "@/lib/site";
 import { ContactForm } from "@/components/ContactForm";
+import { QuickRfq } from "@/components/QuickRfq";
+import { TrustStrip } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -22,6 +24,8 @@ export default function ContactPage() {
         title={contactPage.headline}
         intro={contactPage.sub}
         crumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
+        aside={<QuickRfq source="/contact" />}
+        asideAlign="center"
       />
 
       <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -137,6 +141,7 @@ export default function ContactPage() {
             intro="Send us the details and an applications engineer will come back to you — usually within one business day."
             align="center"
           />
+          <TrustStrip className="mt-8 justify-center" />
           <Reveal delay={0.1}>
             <div className="mx-auto mt-10 max-w-3xl">
               <ContactForm />

@@ -59,7 +59,9 @@ export function Navbar() {
                 <Link
                   href={item.href}
                   className={`flex items-center gap-1 px-3 py-2 font-mono text-[11px] uppercase tracking-[0.15em] transition-colors ${
-                    pathname.startsWith("/products") || openDropdown === item.label
+                    openDropdown === item.label ||
+                    pathname === item.href ||
+                    item.children.some((c) => pathname === c.href)
                       ? "text-blue-600"
                       : "text-muted hover:text-slate-900"
                   }`}

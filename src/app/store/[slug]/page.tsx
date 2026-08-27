@@ -8,6 +8,7 @@ import { Reveal } from "@/components/fx/Reveal";
 import { Markdown } from "@/lib/markdown";
 import { site } from "@/lib/site";
 import { StoreProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
+import { CtaBar, TrustStrip } from "@/components/Conversion";
 
 export function generateStaticParams() {
   return storeItems.map((p) => ({ slug: p.slug }));
@@ -64,6 +65,11 @@ export default async function StoreItemPage({
           { label: "Store", href: "/store" },
           { label: item.name },
         ]}
+      />
+      <CtaBar
+        label="Need help identifying a part?"
+        primary={{ label: "Ask an engineer", href: "/contact" }}
+        secondary={{ label: "All parts", href: "/store" }}
       />
 
       <div className="mx-auto grid w-full max-w-6xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
@@ -139,6 +145,7 @@ export default async function StoreItemPage({
 
             <div className="mt-10 flex flex-col gap-4">
               <GlowButton
+                cta="store-order"
                 href={`mailto:${site.email}?subject=${orderSubject}&body=${orderBody}`}
               >
                 Order This Part
@@ -157,6 +164,7 @@ export default async function StoreItemPage({
                 100% authentic OEM parts · Fast shipping · Satisfaction
                 guaranteed
               </p>
+              <TrustStrip className="mt-2 border-t border-line pt-5" />
             </div>
           </Reveal>
         </div>

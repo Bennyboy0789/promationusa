@@ -1,10 +1,11 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { categories, getProductsInCategory } from "@/lib/products";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
-import { RequestQuoteBlock } from "@/components/Conversion";
+import { CtaBar, InlineAsk, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Products",
@@ -24,13 +25,23 @@ export default function ProductsPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Products" }]}
       />
 
+      <CtaBar
+        label="Know the model you need?"
+        primary={{ label: "Request a quote", href: "/contact" }}
+        secondary={{ label: "Send us your board", href: "/pcb-trial" }}
+      />
+
       <div className="mx-auto w-full max-w-7xl space-y-20 px-4 py-16 sm:px-6 lg:px-8">
         {visible.map((cat, ci) => {
           const items = getProductsInCategory(cat.key);
           if (items.length === 0) return null;
           const rest = items.filter((p) => p.slug !== cat.rootSlug);
+          // Every second division closes with an ask, so nobody scrolls more
+          // than two divisions of machines without being offered a next step.
+          const askAfter = ci % 2 === 1 && ci < visible.length - 1;
           return (
-            <section key={cat.key}>
+            <Fragment key={cat.key}>
+            <section>
               <div className="flex flex-wrap items-end justify-between gap-4">
                 <SectionHeading
                   eyebrow={`Division ${String(ci + 1).padStart(2, "0")} — ${items.length} ${items.length === 1 ? "entry" : "entries"}`}
@@ -76,6 +87,8 @@ export default function ProductsPage() {
                 </RevealGroup>
               )}
             </section>
+            {askAfter && <InlineAsk />}
+            </Fragment>
           );
         })}
       </div>

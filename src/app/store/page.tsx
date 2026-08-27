@@ -3,7 +3,7 @@ import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { StoreCatalog } from "@/components/StoreCatalog";
 import { storeItems, storeCategories } from "@/lib/store";
-import { RequestQuoteBlock } from "@/components/Conversion";
+import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Store — Order Online Today",
@@ -26,6 +26,12 @@ export default function StorePage() {
         title="Order Online Today"
         intro="Ordering your PROMATION USA replacement parts has never been easier — the full parts catalog, right here."
         crumbs={[{ label: "Home", href: "/" }, { label: "Store" }]}
+      />
+
+      <CtaBar
+        label="Can not find the part?"
+        primary={{ label: "Ask us to identify it", href: "/contact" }}
+        secondary={{ label: "Browse machines", href: "/products" }}
       />
 
       <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">

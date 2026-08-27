@@ -4,6 +4,7 @@ import { PageHero, SectionHeading, GlowButton } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { Counter } from "@/components/fx/Counter";
 import { whatWeDo } from "@/lib/content";
+import { CtaBar, RequestQuoteBlock, TrustStrip } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "About PROMATION USA",
@@ -66,6 +67,11 @@ export default function WhatWeDoPage() {
           </figure>
         }
       />
+      <CtaBar
+        label="Want us to prove it on your part?"
+        primary={{ label: "Send us your board", href: "/pcb-trial" }}
+        secondary={{ label: "Request a quote", href: "/contact" }}
+      />
 
       <div className="mx-auto w-full max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         {/* Mission — full width */}
@@ -121,10 +127,28 @@ export default function WhatWeDoPage() {
         </div>
 
         <Reveal delay={0.1}>
-          <div className="mt-20 text-center">
-            <GlowButton href="/contact">Start the Conversation</GlowButton>
+          <div className="mt-20 flex flex-col items-center gap-7 text-center">
+            <TrustStrip className="justify-center" />
+            <div className="flex flex-wrap justify-center gap-3">
+              <GlowButton href="/contact">Start the Conversation</GlowButton>
+              <a
+                href="/why-promation"
+                data-cta="about-to-why"
+                className="clip-corner border border-blue-400/25 px-6 py-3 font-mono text-[11px] uppercase tracking-[0.15em] text-slate-900 transition-colors hover:border-blue-400/50"
+              >
+                Why PROMATION
+              </a>
+            </div>
           </div>
         </Reveal>
+      </div>
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading="Send us your board"
+          blurb="Before you commit to a machine, see it run your actual part. We will film the run and come back with cycle times and a quote."
+          secondary={{ label: "How the trial works", href: "/pcb-trial" }}
+        />
       </div>
     </>
   );

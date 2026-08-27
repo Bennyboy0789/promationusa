@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { site } from "@/lib/site";
+import { track } from "@/lib/analytics";
+import { submitEnquiry, enquiryMailto } from "@/lib/enquiry";
 
 /**
  * A faithful rebuild of the enquiry form on the live site. Same fields, same
@@ -11,8 +13,14 @@ import { site } from "@/lib/site";
  *   Company Address (line 1*, line 2, city*, state*, zip*, country*),
  *   PROMATION Model Number*, description*, newsletter opt-in.
  *
- * Submission currently composes a formatted email so nothing is lost before a
- * server endpoint exists — see `onSubmit`.
+ * Submission posts to `/api/enquiry`. If that route has no mail credentials
+ * yet it answers 503, and we drop back to the composed mailto this form used
+ * before — so the enquiry is never lost, and the day the credentials land the
+ * form starts delivering properly with no further change here.
+ *
+ * `form_start` and `form_abandon` are tracked because for a form this long the
+ * abandonment rate is the number worth knowing. It is the evidence for or
+ * against the short RFQ that now sits beside it.
  */
 
 type Field = {
@@ -68,44 +76,129 @@ function TextField({ field }: { field: Field }) {
 }
 
 export function ContactForm() {
-  const [sent, setSent] = useState(false);
+  const [state, setState] = useState<
+    "idle" | "sending" | "sent" | "error" | "invalid"
+  >("idle");
+  const started = useRef(false);
+  const finished = useRef(false);
 
-  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+  useEffect(() => {
+    function onLeave() {
+      if (started.current && !finished.current) {
+        track("form_abandon", { form: "contact_full" });
+      }
+    }
+    // `pagehide` fires where `beforeunload` is unreliable — notably iOS Safari.
+    window.addEventListener("pagehide", onLeave);
+    return () => {
+      window.removeEventListener("pagehide", onLeave);
+      onLeave();
+    };
+  }, []);
+
+  function onFirstInput() {
+    if (started.current) return;
+    started.current = true;
+    track("form_start", { form: "contact_full" });
+  }
+
+  async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const data = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const data = new FormData(form);
     const get = (k: string) => String(data.get(k) ?? "").trim();
 
-    // Until a server endpoint is wired up, hand the enquiry to the user's mail
-    // client fully formatted — no field is dropped.
-    const body = [
-      `Company:        ${get("company")}`,
-      `Contact:        ${get("firstName")} ${get("lastName")}`,
-      `Email:          ${get("email")}`,
-      `Phone:          ${get("phone") || "—"}`,
-      "",
-      "Company address:",
-      `  ${get("address1")}`,
-      get("address2") ? `  ${get("address2")}` : null,
-      `  ${get("city")}, ${get("state")} ${get("zip")}`,
-      `  ${get("country")}`,
-      "",
-      `PROMATION model number: ${get("model")}`,
-      `Newsletter opt-in:      ${data.get("newsletter") ? "yes" : "no"}`,
-      "",
-      "Information needed:",
-      get("message"),
-    ]
-      .filter((l) => l !== null)
-      .join("\n");
+    const fields: Record<string, string> = {
+      company: get("company"),
+      firstName: get("firstName"),
+      lastName: get("lastName"),
+      email: get("email"),
+      phone: get("phone"),
+      address1: get("address1"),
+      address2: get("address2"),
+      city: get("city"),
+      state: get("state"),
+      zip: get("zip"),
+      country: get("country"),
+      model: get("model"),
+      message: get("message"),
+      newsletter: data.get("newsletter") ? "yes" : "no",
+      website: get("website"),
+    };
 
-    window.location.href = `mailto:${site.email}?subject=${encodeURIComponent(
-      `Website enquiry — ${get("company")}`
-    )}&body=${encodeURIComponent(body)}`;
-    setSent(true);
+    setState("sending");
+    const result = await submitEnquiry("quote", fields);
+
+    if (result.status === "sent") {
+      finished.current = true;
+      track("quote_submit", { location: "/contact" });
+      form.reset();
+      setState("sent");
+      return;
+    }
+
+    if (result.status === "invalid") {
+      setState("invalid");
+      return;
+    }
+
+    if (result.status === "fallback") {
+      // No server-side delivery yet — hand the enquiry to the mail client
+      // fully formatted, exactly as this form did before the endpoint existed.
+      finished.current = true;
+      track("quote_submit", { location: "/contact", transport: "mailto" });
+      window.location.href = enquiryMailto(
+        site.email,
+        `Website enquiry — ${fields.company}`,
+        [
+          `Company:        ${fields.company}`,
+          `Contact:        ${fields.firstName} ${fields.lastName}`,
+          `Email:          ${fields.email}`,
+          `Phone:          ${fields.phone || "—"}`,
+          "",
+          "Company address:",
+          `  ${fields.address1}`,
+          fields.address2 ? `  ${fields.address2}` : null,
+          `  ${fields.city}, ${fields.state} ${fields.zip}`,
+          `  ${fields.country}`,
+          "",
+          `PROMATION model number: ${fields.model}`,
+          `Newsletter opt-in:      ${fields.newsletter}`,
+          "",
+          "Information needed:",
+          fields.message,
+        ]
+      );
+      setState("sent");
+      return;
+    }
+
+    setState("error");
+  }
+
+  if (state === "sent") {
+    return (
+      <div className="glass clip-corner p-7 sm:p-9" role="status">
+        <h2 className="font-display text-2xl font-bold text-slate-900">
+          Thanks — that&apos;s with us.
+        </h2>
+        <p className="mt-3 leading-relaxed text-muted">
+          An applications engineer will come back to you, usually within one
+          business day. If it&apos;s urgent, call{" "}
+          <a
+            href={`tel:+1${site.phone.replace(/\D/g, "")}`}
+            className="text-blue-600 underline-offset-4 hover:underline"
+          >
+            {site.phone}
+          </a>
+          .
+        </p>
+      </div>
+    );
   }
 
   return (
-    <form onSubmit={onSubmit} className="glass clip-corner p-7 sm:p-9">
+    <form onSubmit={onSubmit} onInput={onFirstInput} className="glass clip-corner p-7 sm:p-9">
       <fieldset className="grid gap-5 sm:grid-cols-2">
         <legend className="mb-5 font-display text-xl font-bold text-slate-900">
           Your details
@@ -162,12 +255,20 @@ export function ContactForm() {
         </label>
       </fieldset>
 
+      {/* Honeypot — hidden from people, irresistible to bots. */}
+      <div aria-hidden className="absolute h-0 w-0 overflow-hidden opacity-0">
+        <label htmlFor="cf-website">Website</label>
+        <input id="cf-website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+      </div>
+
       <div className="mt-9 flex flex-wrap items-center gap-4">
         <button
           type="submit"
-          className="clip-corner bg-blue-600 px-7 py-3.5 font-mono text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-blue-500"
+          data-cta="contact-full-submit"
+          disabled={state === "sending"}
+          className="clip-corner bg-blue-600 px-7 py-3.5 font-mono text-xs font-semibold uppercase tracking-[0.18em] text-white transition-colors hover:bg-blue-500 disabled:opacity-60"
         >
-          Send enquiry
+          {state === "sending" ? "Sending…" : "Send enquiry"}
         </button>
         <a
           href={`tel:+1${site.phone.replace(/\D/g, "")}`}
@@ -178,9 +279,11 @@ export function ContactForm() {
       </div>
 
       <p aria-live="polite" className="mt-4 text-sm text-muted">
-        {sent
-          ? "Your email client should have opened with the enquiry ready to send."
-          : "Fields marked * are required."}
+        {state === "error"
+          ? `That didn't send. Please try again, or call ${site.phone}.`
+          : state === "invalid"
+            ? "Please check the required fields and try again."
+            : "Fields marked * are required."}
       </p>
     </form>
   );

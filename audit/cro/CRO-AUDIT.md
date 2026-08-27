@@ -1,6 +1,6 @@
 # Conversion Rate Optimisation Audit — promationusa.com rebuild
 
-Instrumented audit of the Next.js rebuild running from a production build. Every number below
+Instrumented audit of the Next.js rebuild running locally. Every number below
 was measured in a real browser via the Chrome DevTools Protocol at two viewports — desktop
 1440×900 and mobile 390×844 (iPhone 14 metrics, `mobile: true`, DPR 3) — not estimated from
 source. 14 pages × 2 viewports = 28 measured page states. Raw data: `raw-measurements.json`.
@@ -264,4 +264,113 @@ have become a false finding in this report.
 - Trust-signal proximity uses keyword and component detection within an 800px radius of the
   first CTA. A page could carry trust proof this method does not recognise.
 - Two viewports only. Tablet was not measured.
-- Measured against a local production build, not the deployed site.
+- Measured against the local dev server, not the deployed site. Structural results (CTA
+  position and count, form length, document height) are identical between dev and production
+  builds; no performance figures are reported here, since those would not be valid from dev.
+
+---
+
+# Fixes applied
+
+Everything below was implemented and then re-measured with the same instrument
+against a **production build** (`next build` + `next start`), so the before and
+after columns are comparable. Raw after-data: `raw-measurements-after.json`.
+
+## Headline movement
+
+| Measure | Before | After |
+|---|---|---|
+| Pages with an above-fold body CTA (desktop) | 2 of 14 | **10 of 14** |
+| Pages with an above-fold body CTA (mobile) | 2 of 14 | **8 of 14** |
+| Pages with zero body conversion path | 3 | **0** |
+| `/products` first CTA, desktop | 8.65 screens | **0.51** |
+| `/products` first CTA, mobile | 20.68 screens | **0.64** |
+| `/store` first CTA, mobile | 12.11 screens | **0.59** |
+| `/robotic-soldering-glance` first CTA, mobile | 6.17 screens | **0.60** |
+| Trust proof near the first CTA | 8 of 14 | **13 of 14** |
+| Shortest path to start an enquiry | 14 fields, 11 required | **3 fields** |
+
+## First-CTA depth, in screens
+
+| Page | Desktop before → after | Mobile before → after |
+|---|---|---|
+| `/products` | 8.65 → **0.51** | 20.68 → **0.64** |
+| `/store` | 3.68 → **0.51** | 12.11 → **0.59** |
+| `/robotic-soldering-glance` | 1.03 → **0.48** | 6.17 → **0.60** |
+| `/what-we-do` | 2.15 → **0.78** | 3.59 → **1.32** |
+| `/quick-usa-6101a1` | 1.65 → **0.55** | 2.65 → **0.59** |
+| `/et8484-dispensing-robot` | 1.27 → **0.48** | 2.39 → **0.61** |
+| `/store/quick-191ad` | 1.02 → **0.42** | 1.64 → **0.46** |
+| `/news` | none → **0.51** | none → **0.59** |
+| `/careers` | none → **1.73** | none → **3.03** |
+| `/partners` | none → **1.81** | none → **3.97** |
+
+## What changed
+
+**Finding 1 — conversion measurement.** `Analytics.tsx` loads a GTM container
+and a delegated click listener instruments every CTA on the site: `tel:` links,
+`mailto:` links, PDF links, and anything carrying `data-cta`. Store orders and
+trial requests are marked so they do not collapse into a generic email click.
+Both forms emit `form_start`, `form_abandon` and a submit event. The listener
+runs unconditionally, so nothing needs revisiting later; the container itself
+only loads when `NEXT_PUBLIC_GTM_ID` is set, so no tag and no cookie ships until
+PROMATION has a property of their own.
+
+Delegation was chosen over per-CTA handlers deliberately: a distributed set of
+`onClick` props rots the first time someone adds a link and forgets one.
+
+*Still shows `gtm: false` in the after-data, and correctly so — the ID is not
+set. That is the one CRO item that cannot be closed from inside the repo.*
+
+**Finding 2 — `/products`.** A `CtaBar` sits directly under the hero, and an
+`InlineAsk` closes every second division, so nobody scrolls more than two
+divisions of machines without being offered a next step. Body CTAs went 3 → 14.
+
+**Finding 3 — above-fold actions.** The same `CtaBar` was added to the category
+and model template, `/store`, `/store/[slug]`, `/news` and `/what-we-do`. It
+sits outside the sidebar, so it survives the mobile reflow that was pushing the
+soldering category CTA from 1.03 screens to 6.17.
+
+**Finding 4 — the form.** `/api/enquiry` now accepts both forms, validates
+server-side, screens bots with a honeypot and delivers through Resend. The long
+form is **unchanged — still 14 fields, 11 required**, exactly as specified. What
+changed is that it is no longer the only way in: a three-field RFQ (work email,
+company, "what are you trying to automate?") sits in the `/contact` hero at
+**0.16 screens** on desktop and **0.53 screens** on mobile, and replaces the
+button-only card in the model-page sidebar.
+
+Delivery falls back to the original `mailto:` when the server has no mail
+credentials, so the launch blocker is closed the moment `RESEND_API_KEY` and
+`ENQUIRY_FROM` are set — with no further code change, and nothing regressing in
+the meantime.
+
+**Finding 5 — dead ends.** `/news`, `/careers` and `/partners` each gained a
+`RequestQuoteBlock` with copy specific to why someone is on that page. Zero
+pages now have no body conversion path.
+
+**Findings 6 & 7 — trust and `/what-we-do`.** `TrustStrip` added beside the
+`/contact` form, the store order button and the About counters. `/what-we-do`
+went from 1 body CTA at 2.15 screens to 7 at 0.78, and now cross-links to
+`/why-promation`.
+
+## One number that reads worse and should not
+
+`/contact` first-CTA depth went 0.53 → 0.96 desktop and 0.64 → 1.39 mobile, and
+mobile lost its "above fold" flag. This is a measurement artefact, not a
+regression: the probe counts conversion **links**, and the thing now sitting
+above the fold is a **form**, whose submit control is a `<button>`. Measured
+directly, the short RFQ renders at 144px on desktop and 444px on mobile — above
+the fold at both, and a shorter path to an enquiry than the link it displaced.
+
+## Still open
+
+| # | Item | Why it is not done |
+|---|---|---|
+| 1 | Set `NEXT_PUBLIC_GTM_ID`, create the GA4 property | Needs a container under PROMATION's account. Code is ready. |
+| 2 | Set `RESEND_API_KEY` + `ENQUIRY_FROM` | Needs a verified sending domain. Endpoint is built and tested. |
+| 3 | Store: self-serve checkout vs. batched enquiry | A business decision, not an engineering one — see Finding 8. |
+| 4 | Real install-base number and named testimonials | Only PROMATION has these; on the outstanding request list. |
+| 5 | Per-release product links on `/news` | Needs an editorial pass mapping releases to product lines. |
+
+Configuration for items 1 and 2 is documented in `.env.example`, including the
+full list of conversion events to register in GA4.

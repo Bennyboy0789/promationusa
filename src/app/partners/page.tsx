@@ -4,6 +4,7 @@ import { RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { Marquee } from "@/components/fx/Marquee";
 import { partners } from "@/lib/content";
+import { RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Partners",
@@ -58,6 +59,14 @@ export default function PartnersPage() {
             </RevealItem>
           ))}
         </RevealGroup>
+      </div>
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading="Looking for one of these brands?"
+          blurb="We stock, integrate and support these lines from Wisconsin. Tell us which one you need and what it has to do."
+          secondary={{ label: "Browse the catalog", href: "/products" }}
+        />
       </div>
     </>
   );

@@ -1,0 +1,722 @@
+[
+ {
+  "url": "/",
+  "vh": 900,
+  "docH": 7804,
+  "cta": {
+   "quote": 5,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 10,
+   "inBody": 5,
+   "firstBodyCtaY": 559,
+   "firstBodyCtaScreens": 0.62,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/products",
+  "vh": 900,
+  "docH": 9844,
+  "cta": {
+   "quote": 9,
+   "tel": 8,
+   "trial": 2,
+   "totalConversion": 19,
+   "inBody": 14,
+   "firstBodyCtaY": 462,
+   "firstBodyCtaScreens": 0.51,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/robotic-soldering-glance",
+  "vh": 900,
+  "docH": 4628,
+  "cta": {
+   "quote": 5,
+   "tel": 5,
+   "trial": 2,
+   "totalConversion": 12,
+   "inBody": 7,
+   "firstBodyCtaY": 433,
+   "firstBodyCtaScreens": 0.48,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 882,
+   "screensDown": 0.98
+  },
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/quick-usa-6101a1",
+  "vh": 900,
+  "docH": 3475,
+  "cta": {
+   "quote": 5,
+   "tel": 5,
+   "trial": 2,
+   "totalConversion": 12,
+   "inBody": 7,
+   "firstBodyCtaY": 493,
+   "firstBodyCtaScreens": 0.55,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 1413,
+   "screensDown": 1.57
+  },
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/et8484-dispensing-robot",
+  "vh": 900,
+  "docH": 3110,
+  "cta": {
+   "quote": 5,
+   "tel": 5,
+   "trial": 2,
+   "totalConversion": 12,
+   "inBody": 7,
+   "firstBodyCtaY": 433,
+   "firstBodyCtaScreens": 0.48,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 1097,
+   "screensDown": 1.22
+  },
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/store",
+  "vh": 900,
+  "docH": 4326,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 462,
+   "firstBodyCtaScreens": 0.51,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/store/quick-191ad",
+  "vh": 900,
+  "docH": 2248,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 8,
+   "inBody": 3,
+   "firstBodyCtaY": 379,
+   "firstBodyCtaScreens": 0.42,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/contact",
+  "vh": 900,
+  "docH": 3732,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 860,
+   "firstBodyCtaScreens": 0.96,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 144,
+   "screensDown": 0.16
+  },
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/why-promation",
+  "vh": 900,
+  "docH": 2556,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 1212,
+   "firstBodyCtaScreens": 1.35,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/pcb-trial",
+  "vh": 900,
+  "docH": 2237,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 1112,
+   "firstBodyCtaScreens": 1.24,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/what-we-do",
+  "vh": 900,
+  "docH": 3165,
+  "cta": {
+   "quote": 6,
+   "tel": 4,
+   "trial": 2,
+   "totalConversion": 12,
+   "inBody": 7,
+   "firstBodyCtaY": 705,
+   "firstBodyCtaScreens": 0.78,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/news",
+  "vh": 900,
+  "docH": 4231,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 462,
+   "firstBodyCtaScreens": 0.51,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/careers",
+  "vh": 900,
+  "docH": 2531,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 7,
+   "inBody": 2,
+   "firstBodyCtaY": 1559,
+   "firstBodyCtaScreens": 1.73,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/partners",
+  "vh": 900,
+  "docH": 2597,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 7,
+   "inBody": 2,
+   "firstBodyCtaY": 1625,
+   "firstBodyCtaScreens": 1.81,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/",
+  "vh": 844,
+  "docH": 11671,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 9,
+   "inBody": 5,
+   "firstBodyCtaY": 454,
+   "firstBodyCtaScreens": 0.54,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/products",
+  "vh": 844,
+  "docH": 21065,
+  "cta": {
+   "quote": 8,
+   "tel": 8,
+   "trial": 2,
+   "totalConversion": 18,
+   "inBody": 14,
+   "firstBodyCtaY": 540,
+   "firstBodyCtaScreens": 0.64,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/robotic-soldering-glance",
+  "vh": 879,
+  "docH": 8949,
+  "cta": {
+   "quote": 4,
+   "tel": 5,
+   "trial": 2,
+   "totalConversion": 11,
+   "inBody": 7,
+   "firstBodyCtaY": 527,
+   "firstBodyCtaScreens": 0.6,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 5472,
+   "screensDown": 6.23
+  },
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/quick-usa-6101a1",
+  "vh": 879,
+  "docH": 5858,
+  "cta": {
+   "quote": 4,
+   "tel": 5,
+   "trial": 2,
+   "totalConversion": 11,
+   "inBody": 7,
+   "firstBodyCtaY": 522,
+   "firstBodyCtaScreens": 0.59,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 2348,
+   "screensDown": 2.67
+  },
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/et8484-dispensing-robot",
+  "vh": 879,
+  "docH": 5589,
+  "cta": {
+   "quote": 4,
+   "tel": 5,
+   "trial": 2,
+   "totalConversion": 11,
+   "inBody": 7,
+   "firstBodyCtaY": 535,
+   "firstBodyCtaScreens": 0.61,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 2132,
+   "screensDown": 2.42
+  },
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/store",
+  "vh": 844,
+  "docH": 12089,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 500,
+   "firstBodyCtaScreens": 0.59,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/store/quick-191ad",
+  "vh": 844,
+  "docH": 3875,
+  "cta": {
+   "quote": 3,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 7,
+   "inBody": 3,
+   "firstBodyCtaY": 388,
+   "firstBodyCtaScreens": 0.46,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/contact",
+  "vh": 844,
+  "docH": 6026,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 1174,
+   "firstBodyCtaScreens": 1.39,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": {
+   "count": 4,
+   "required": 3,
+   "hasSubmit": true,
+   "yPos": 444,
+   "screensDown": 0.53
+  },
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/why-promation",
+  "vh": 844,
+  "docH": 4338,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 1897,
+   "firstBodyCtaScreens": 2.25,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/pcb-trial",
+  "vh": 844,
+  "docH": 3757,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 1633,
+   "firstBodyCtaScreens": 1.94,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/what-we-do",
+  "vh": 844,
+  "docH": 5455,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 2,
+   "totalConversion": 11,
+   "inBody": 7,
+   "firstBodyCtaY": 1115,
+   "firstBodyCtaScreens": 1.32,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/news",
+  "vh": 844,
+  "docH": 8784,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 500,
+   "firstBodyCtaScreens": 0.59,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/careers",
+  "vh": 844,
+  "docH": 4333,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 6,
+   "inBody": 2,
+   "firstBodyCtaY": 2559,
+   "firstBodyCtaScreens": 3.03,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/partners",
+  "vh": 844,
+  "docH": 5124,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 6,
+   "inBody": 2,
+   "firstBodyCtaY": 3350,
+   "firstBodyCtaScreens": 3.97,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ }
+]

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { PageHero, SectionHeading, Chip } from "@/components/ui";
 import { Reveal } from "@/components/fx/Reveal";
 import { articles, getAllTags, formatDate } from "@/lib/news";
+import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
   title: "Press Releases",
@@ -21,6 +22,11 @@ export default function NewsPage() {
         title="Press Releases"
         intro="Product launches, awards, partnerships and innovations — the PROMATION USA news archive, 2017 to present."
         crumbs={[{ label: "Home", href: "/" }, { label: "News" }]}
+      />
+      <CtaBar
+        label="Reading about a machine you need?"
+        primary={{ label: "Request a quote", href: "/contact" }}
+        secondary={{ label: "Browse the catalog", href: "/products" }}
       />
 
       <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -96,6 +102,14 @@ export default function NewsPage() {
             ))}
           </div>
         </div>
+      </div>
+
+      <div className="pb-20">
+        <RequestQuoteBlock
+          heading="Read about a machine you need?"
+          blurb="Most of these releases are about systems we stock and support. Tell us the process you are automating and we will point you at the right one."
+          secondary={{ label: "Browse the catalog", href: "/products" }}
+        />
       </div>
     </>
   );

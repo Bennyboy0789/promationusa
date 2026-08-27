@@ -51,11 +51,14 @@ export function GlowButton({
   children,
   variant = "primary",
   external,
+  cta,
 }: {
   href: string;
   children: ReactNode;
   variant?: "primary" | "ghost";
   external?: boolean;
+  /** Tracking label, surfaced to analytics as `data-cta`. */
+  cta?: string;
 }) {
   const base =
     "group relative inline-flex items-center gap-2 overflow-hidden px-7 py-3.5 font-mono text-xs font-semibold uppercase tracking-[0.2em] transition-colors duration-300 clip-corner";
@@ -65,7 +68,7 @@ export function GlowButton({
       : "border border-blue-400/30 text-blue-600 hover:border-blue-400/70 hover:text-slate-900 bg-blue-400/5";
   const props = external ? { target: "_blank", rel: "noopener noreferrer" } : {};
   return (
-    <Link href={href} className={`${base} ${styles}`} {...props}>
+    <Link href={href} className={`${base} ${styles}`} data-cta={cta} {...props}>
       <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
       {children}
       <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">
@@ -91,6 +94,7 @@ export function PageHero({
   intro,
   crumbs,
   aside,
+  asideAlign = "end",
   background,
 }: {
   eyebrow: string;
@@ -99,6 +103,12 @@ export function PageHero({
   crumbs?: { label: string; href?: string }[];
   /** Optional figure held to the right of the hero copy (desktop only). */
   aside?: ReactNode;
+  /**
+   * How the aside sits against the hero copy. A cut-out portrait wants to
+   * stand on the bottom edge ("end"); a card or form reads better centred,
+   * which also stops a tall aside leaving dead space above the headline.
+   */
+  asideAlign?: "end" | "center";
   /** Optional photograph behind the whole hero, washed out for legibility. */
   background?: { src: string; overlay?: string };
 }) {
@@ -128,7 +138,15 @@ export function PageHero({
         className="absolute -top-40 left-1/2 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-blue-500/10 blur-[120px]"
       />
       <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className={aside ? "grid items-end gap-8 lg:grid-cols-[1fr_auto]" : undefined}>
+        <div
+          className={
+            aside
+              ? `grid gap-8 lg:grid-cols-[1fr_auto] ${
+                  asideAlign === "center" ? "items-center" : "items-end"
+                }`
+              : undefined
+          }
+        >
         <div className="min-w-0">
         {crumbs && crumbs.length > 0 && (
           <Reveal direction="down" duration={0.5}>

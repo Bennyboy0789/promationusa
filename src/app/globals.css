@@ -55,12 +55,20 @@ body {
 }
 
 /* WCAG 2.2 target size: give inline nav/footer links a usable hit area
-   without changing how they look. */
-nav a,
-footer a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 24px;
+   without changing how they look.
+
+   Must live in @layer base. Unlayered CSS outranks everything in @layer,
+   so at top level this beat Tailwind utilities and forced inline-flex onto
+   links marked `block` — which turned the nav dropdowns into wrapped rows
+   instead of vertical lists. In base, a display utility wins and the
+   min-height still applies to every link that does not set one. */
+@layer base {
+  nav a,
+  footer a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+  }
 }
 
 ::selection {
