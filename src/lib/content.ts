@@ -188,10 +188,11 @@ export const storeProducts: StoreProduct[] = [
 
 export const whatWeDo = {
   intro:
-    "Our devotion to providing customers with high quality products, expert services, and cutting edge ingenuity constitutes the foundation of PROMATION. As a growing provider of automated handling solutions, robotic soldering systems, and technical furniture with emphasis in electronics manufacturing, PROMATION continues improving both products and customer relationships. PROMATION maintains its reputation as a world-class leader in automated solutions while pursuing its core values.",
+    "PROMATION USA builds soldering, PCB handling, dispensing, screw driving and marking machines into electronics production lines across North America. Before you commit to anything, send us your board and we will run it on the machine you are considering — you get cycle times, joint quality and footage of your own part coming off it. Shops replacing a manual soldering bench typically see the machine pay for itself inside a year.",
   mission:
-    "PROMATION is committed to providing the best quality in printed circuit board handling equipment, in-line label placement, laser marking systems, workstation solutions, and robotic soldering systems. We define 'best value' as high-quality products backed by expert professionals at competitive pricing. We are committed to developing innovative robotic soldering systems with state-of-the-art features for batch and in-line production selective soldering applications.",
+    "We supply PCB handling, in-line label placement, laser marking, workstation solutions and robotic soldering systems — and we hold them in US stock, so a lead time is a delivery date rather than a shipping schedule. Every system is configured by IPC-certified engineers who have run the process on a real part before it ships, and supported afterwards by the same people who set it up.",
   quote: {
+    // Gary's words, verbatim. Attributed speech — do not rewrite.
     text: "PROMATION is committed to 100% customer satisfaction. Recognizing that no company is perfect, we focus on what we do during those imperfect times that differentiates us from our competitors.",
     author: "Gary Goldberg",
     role: "President & CEO",
@@ -234,7 +235,7 @@ export const careers = {
 };
 
 export const contactPage = {
-  headline: "Contact Our Award Winning Team Today!",
+  headline: "Talk to an applications engineer",
   sub: "Speak with the experts now.",
   serves: ["USA", "Mexico", "Canada", "Europe"],
   hours: [

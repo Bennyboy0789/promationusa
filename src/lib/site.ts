@@ -40,7 +40,7 @@ export const productCategories: NavItem[] = [
 ];
 
 export const companyNav: NavItem[] = [
-  { label: "What We Do", href: "/what-we-do" },
+  { label: "About", href: "/what-we-do" },
   { label: "Partners", href: "/partners" },
   { label: "Events", href: "/events" },
   { label: "Training", href: "/virtual-training-gallery" },

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   useInView,
   useMotionValue,
@@ -27,27 +27,32 @@ export function Counter({
   const reduce = useReducedMotion();
   const mv = useMotionValue(0);
   const spring = useSpring(mv, { duration: duration * 1000, bounce: 0 });
+  const [counting, setCounting] = useState(false);
 
   useEffect(() => {
-    if (inView) mv.set(value);
-  }, [inView, value, mv]);
-
-  useEffect(() => {
-    if (reduce) {
-      if (ref.current)
-        ref.current.textContent = `${prefix}${value.toLocaleString()}${suffix}`;
-      return;
+    if (inView && !reduce) {
+      setCounting(true);
+      mv.set(value);
     }
+  }, [inView, reduce, value, mv]);
+
+  useEffect(() => {
+    if (!counting) return;
     const unsub = spring.on("change", (v) => {
       if (ref.current)
         ref.current.textContent = `${prefix}${Math.round(v).toLocaleString()}${suffix}`;
     });
     return unsub;
-  }, [spring, prefix, suffix, reduce, value]);
+  }, [counting, spring, prefix, suffix]);
 
+  // Render the real figure, not a zero. The count-up is decoration; the number
+  // has to be correct on the server, without JS, and before it scrolls into
+  // view — otherwise a label like "Customer satisfaction" reads as "0%".
   return (
     <span ref={ref} className={className}>
-      {prefix}0{suffix}
+      {prefix}
+      {value.toLocaleString()}
+      {suffix}
     </span>
   );
 }

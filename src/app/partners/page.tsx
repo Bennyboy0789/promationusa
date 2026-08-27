@@ -17,7 +17,7 @@ export default function PartnersPage() {
       <PageHero
         eyebrow="Alliance Network"
         title="Partnerships"
-        intro="World-class automation takes a world-class network. These are the technology brands PROMATION USA integrates, distributes and collaborates with."
+        intro="No single vendor covers a whole line. These are the technology brands PROMATION USA integrates, distributes and collaborates with."
         crumbs={[{ label: "Home", href: "/" }, { label: "Partners" }]}
       />
 

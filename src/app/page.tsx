@@ -183,7 +183,7 @@ export default function Home() {
       >
         <div className="max-w-xl text-white">
           <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-sky-300">
-            Award-winning engineering
+            Recognised engineering
           </p>
           <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
             The PANDA line — three golds at the 2025 TITAN Innovation Awards
@@ -217,7 +217,7 @@ export default function Home() {
           <div>
             <SectionHeading
               eyebrow="What We Do"
-              title="World-class automation, human-grade service."
+              title="The questions worth asking any supplier."
               intro={whatWeDo.intro}
             />
             <Reveal delay={0.2}>
@@ -374,7 +374,7 @@ export default function Home() {
               className="font-display text-3xl font-bold tracking-tight text-slate-900 sm:text-5xl"
             />
             <p className="mx-auto mt-5 max-w-xl text-muted">
-              Speak with our award-winning team about your production line —
+              Talk to an applications engineer about your production line —
               serving the USA, Mexico, Canada and Europe from Kenosha, Wisconsin.
             </p>
             <div className="mt-9 flex flex-wrap items-center justify-center gap-4">

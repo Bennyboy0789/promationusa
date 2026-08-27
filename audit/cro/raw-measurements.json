@@ -1,0 +1,686 @@
+[
+ {
+  "url": "/",
+  "vh": 900,
+  "docH": 7804,
+  "cta": {
+   "quote": 5,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 10,
+   "inBody": 5,
+   "firstBodyCtaY": 559,
+   "firstBodyCtaScreens": 0.62,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/products",
+  "vh": 900,
+  "docH": 8994,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 1,
+   "totalConversion": 8,
+   "inBody": 3,
+   "firstBodyCtaY": 7788,
+   "firstBodyCtaScreens": 8.65,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/robotic-soldering-glance",
+  "vh": 900,
+  "docH": 4556,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 10,
+   "inBody": 5,
+   "firstBodyCtaY": 929,
+   "firstBodyCtaScreens": 1.03,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/quick-usa-6101a1",
+  "vh": 900,
+  "docH": 3083,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 10,
+   "inBody": 5,
+   "firstBodyCtaY": 1483,
+   "firstBodyCtaScreens": 1.65,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/et8484-dispensing-robot",
+  "vh": 900,
+  "docH": 2696,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 10,
+   "inBody": 5,
+   "firstBodyCtaY": 1145,
+   "firstBodyCtaScreens": 1.27,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/store",
+  "vh": 900,
+  "docH": 4255,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 7,
+   "inBody": 2,
+   "firstBodyCtaY": 3311,
+   "firstBodyCtaScreens": 3.68,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/store/quick-191ad",
+  "vh": 900,
+  "docH": 2091,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 6,
+   "inBody": 1,
+   "firstBodyCtaY": 919,
+   "firstBodyCtaScreens": 1.02,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/contact",
+  "vh": 900,
+  "docH": 3336,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 481,
+   "firstBodyCtaScreens": 0.53,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 14,
+   "required": 11,
+   "hasSubmit": true,
+   "yPos": 1392,
+   "screensDown": 1.55
+  },
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/why-promation",
+  "vh": 900,
+  "docH": 2556,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 1212,
+   "firstBodyCtaScreens": 1.35,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/pcb-trial",
+  "vh": 900,
+  "docH": 2237,
+  "cta": {
+   "quote": 5,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 9,
+   "inBody": 4,
+   "firstBodyCtaY": 1112,
+   "firstBodyCtaScreens": 1.24,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/what-we-do",
+  "vh": 900,
+  "docH": 2720,
+  "cta": {
+   "quote": 4,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 6,
+   "inBody": 1,
+   "firstBodyCtaY": 1936,
+   "firstBodyCtaScreens": 2.15,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/news",
+  "vh": 900,
+  "docH": 3830,
+  "cta": {
+   "quote": 3,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 5,
+   "inBody": 0,
+   "firstBodyCtaY": null,
+   "firstBodyCtaScreens": null,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": true,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/careers",
+  "vh": 900,
+  "docH": 2201,
+  "cta": {
+   "quote": 3,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 5,
+   "inBody": 0,
+   "firstBodyCtaY": null,
+   "firstBodyCtaScreens": null,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": true,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/partners",
+  "vh": 900,
+  "docH": 2268,
+  "cta": {
+   "quote": 3,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 5,
+   "inBody": 0,
+   "firstBodyCtaY": null,
+   "firstBodyCtaScreens": null,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": true,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "desktop"
+ },
+ {
+  "url": "/",
+  "vh": 844,
+  "docH": 11671,
+  "cta": {
+   "quote": 4,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 9,
+   "inBody": 5,
+   "firstBodyCtaY": 454,
+   "firstBodyCtaScreens": 0.54,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/products",
+  "vh": 844,
+  "docH": 19651,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 1,
+   "totalConversion": 7,
+   "inBody": 3,
+   "firstBodyCtaY": 17450,
+   "firstBodyCtaScreens": 20.68,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/robotic-soldering-glance",
+  "vh": 879,
+  "docH": 8441,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 9,
+   "inBody": 5,
+   "firstBodyCtaY": 5426,
+   "firstBodyCtaScreens": 6.17,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/quick-usa-6101a1",
+  "vh": 879,
+  "docH": 5372,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 9,
+   "inBody": 5,
+   "firstBodyCtaY": 2325,
+   "firstBodyCtaScreens": 2.65,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/et8484-dispensing-robot",
+  "vh": 879,
+  "docH": 5098,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 9,
+   "inBody": 5,
+   "firstBodyCtaY": 2102,
+   "firstBodyCtaScreens": 2.39,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/store",
+  "vh": 844,
+  "docH": 11940,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 6,
+   "inBody": 2,
+   "firstBodyCtaY": 10221,
+   "firstBodyCtaScreens": 12.11,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/store/quick-191ad",
+  "vh": 844,
+  "docH": 3618,
+  "cta": {
+   "quote": 2,
+   "tel": 3,
+   "trial": 0,
+   "totalConversion": 5,
+   "inBody": 1,
+   "firstBodyCtaY": 1386,
+   "firstBodyCtaScreens": 1.64,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/contact",
+  "vh": 844,
+  "docH": 5359,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 0,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 541,
+   "firstBodyCtaScreens": 0.64,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": true
+  },
+  "form": {
+   "count": 14,
+   "required": 11,
+   "hasSubmit": true,
+   "yPos": 2222,
+   "screensDown": 2.63
+  },
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/why-promation",
+  "vh": 844,
+  "docH": 4338,
+  "cta": {
+   "quote": 3,
+   "tel": 3,
+   "trial": 2,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 1897,
+   "firstBodyCtaScreens": 2.25,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/pcb-trial",
+  "vh": 844,
+  "docH": 3757,
+  "cta": {
+   "quote": 4,
+   "tel": 4,
+   "trial": 1,
+   "totalConversion": 8,
+   "inBody": 4,
+   "firstBodyCtaY": 1633,
+   "firstBodyCtaScreens": 1.94,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": true,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/what-we-do",
+  "vh": 844,
+  "docH": 4622,
+  "cta": {
+   "quote": 3,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 5,
+   "inBody": 1,
+   "firstBodyCtaY": 3028,
+   "firstBodyCtaScreens": 3.59,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": false,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/news",
+  "vh": 844,
+  "docH": 8066,
+  "cta": {
+   "quote": 2,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 4,
+   "inBody": 0,
+   "firstBodyCtaY": null,
+   "firstBodyCtaScreens": null,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": true,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/careers",
+  "vh": 844,
+  "docH": 3796,
+  "cta": {
+   "quote": 2,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 4,
+   "inBody": 0,
+   "firstBodyCtaY": null,
+   "firstBodyCtaScreens": null,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": true,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ },
+ {
+  "url": "/partners",
+  "vh": 844,
+  "docH": 4555,
+  "cta": {
+   "quote": 2,
+   "tel": 2,
+   "trial": 0,
+   "totalConversion": 4,
+   "inBody": 0,
+   "firstBodyCtaY": null,
+   "firstBodyCtaScreens": null,
+   "aboveFoldConversion": true,
+   "aboveFoldInBody": false
+  },
+  "form": null,
+  "trustNearCta": false,
+  "deadEnd": true,
+  "analytics": {
+   "ga4": false,
+   "gtm": false
+  },
+  "vp": "mobile"
+ }
+]

@@ -40,7 +40,7 @@ export default function ContactPage() {
                 className="mt-4 block font-display text-3xl font-bold text-slate-900 transition-colors group-hover:text-blue-500"
               />
               <p className="mt-3 text-sm text-muted">
-                Speak with the experts now — award-winning support, live.
+                Speak to an applications engineer who has run the machine.
               </p>
             </a>
           </Reveal>

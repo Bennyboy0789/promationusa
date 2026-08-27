@@ -6,19 +6,19 @@ import { Counter } from "@/components/fx/Counter";
 import { whatWeDo } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "What We Do",
+  title: "About PROMATION USA",
   description:
-    "PROMATION USA — a world-class leader in automated handling solutions, robotic soldering systems and technical furniture for electronics manufacturing.",
+    "Soldering, PCB handling, dispensing and marking machines built into electronics production lines across North America — held in US stock, set up by IPC-certified engineers.",
 };
 
 const pillars = [
   {
     title: "PCB Handling Equipment",
-    body: "Best-in-class printed circuit board handling — loaders, conveyors, buffers and inspection stations engineered around SMEMA standards.",
+    body: "Printed circuit board handling — loaders, conveyors, buffers and inspection stations engineered around SMEMA standards.",
   },
   {
     title: "Robotic Soldering Systems",
-    body: "Innovative robotic soldering with state-of-the-art features for batch and in-line production selective soldering applications.",
+    body: "Robotic soldering for batch and in-line selective soldering applications.",
   },
   {
     title: "Laser Marking & Label Placement",
@@ -26,7 +26,7 @@ const pillars = [
   },
   {
     title: "Workstation Solutions",
-    body: "Technical furniture and workstation platforms tuned for high-throughput electronics assembly.",
+    body: "Workstation solutions and benching tuned for high-throughput electronics assembly.",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function WhatWeDoPage() {
   return (
     <>
       <PageHero
-        eyebrow="About Us"
+        eyebrow="About"
         title="What We Do"
         intro={whatWeDo.intro}
         crumbs={[{ label: "Home", href: "/" }, { label: "What We Do" }]}
@@ -104,7 +104,7 @@ export default function WhatWeDoPage() {
         {/* Numbers */}
         <div className="mt-24 grid grid-cols-2 gap-px border border-line bg-line sm:grid-cols-4">
           {[
-            { value: 100, suffix: "%", label: "Customer Satisfaction Goal" },
+            { value: 120, suffix: "+", label: "Automation Products" },
             { value: 20, suffix: "+", label: "Years in Automation" },
             { value: 4, suffix: "", label: "Regions Served" },
             { value: 1, suffix: " yr", label: "Typical ROI on Soldering" },
