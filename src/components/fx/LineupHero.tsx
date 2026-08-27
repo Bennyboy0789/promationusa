@@ -25,7 +25,7 @@ type Line = {
 const LINES: Line[] = [
   {
     name: "Robotic Soldering",
-    href: "/robotic-soldering-glance",
+    href: "/robotic-soldering",
     image: "/images/soldering-photo.webp",
     brands: "QUICK · PANDA",
     blurb: "Benchtop and in-line selective soldering — iron-tip, laser and hot bar.",
@@ -39,28 +39,28 @@ const LINES: Line[] = [
   },
   {
     name: "Robotic Dispensing",
-    href: "/auto-dispensing-at-a-glance",
+    href: "/robotic-dispensing",
     image: "/images/dispensing-photo.webp",
     brands: "QUICK ET · QS Series",
     blurb: "Precision dispensing for adhesives, potting and conformal coating.",
   },
   {
     name: "Laser Marking",
-    href: "/laser-marking-at-a-glance",
+    href: "/laser-marking",
     image: "/images/laser-photo.webp",
     brands: "PANDA Robotics",
     blurb: "Permanent, high-contrast PCB traceability marking — inline or standalone.",
   },
   {
     name: "TechMan Cobots",
-    href: "/techman-collaborative-robots",
+    href: "/collaborative-robots",
     image: "/images/cobots-photo.webp",
     brands: "TM5 – TM20",
     blurb: "Collaborative robots with built-in vision for flexible cell automation.",
   },
   {
     name: "Mobile Robots",
-    href: "/intelligent-mobile-robot-solutions",
+    href: "/mobile-robots",
     image: "/images/mobile-robot-photo.webp",
     brands: "AMR line loading",
     blurb: "Autonomous mobile robots that feed and unload your line unattended.",
@@ -68,13 +68,13 @@ const LINES: Line[] = [
 ];
 
 const ALL_LINES = [
-  { label: "Robotic Soldering", href: "/robotic-soldering-glance" },
+  { label: "Robotic Soldering", href: "/robotic-soldering" },
   { label: "PCB Handling", href: "/pcb-handling" },
-  { label: "Dispensing", href: "/auto-dispensing-at-a-glance" },
-  { label: "Screw Driving", href: "/auto-screw-driving-at-a-glance" },
-  { label: "Laser Marking", href: "/laser-marking-at-a-glance" },
-  { label: "Cobots", href: "/techman-collaborative-robots" },
-  { label: "X-Ray Inspection", href: "/xray-at-a-glance" },
+  { label: "Dispensing", href: "/robotic-dispensing" },
+  { label: "Screw Driving", href: "/robotic-screw-driving" },
+  { label: "Laser Marking", href: "/laser-marking" },
+  { label: "Cobots", href: "/collaborative-robots" },
+  { label: "X-Ray Inspection", href: "/x-ray-inspection" },
 ];
 
 const DWELL = 5600;

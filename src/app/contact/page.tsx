@@ -7,6 +7,7 @@ import { site } from "@/lib/site";
 import { ContactForm } from "@/components/ContactForm";
 import { QuickRfq } from "@/components/QuickRfq";
 import { TrustStrip } from "@/components/Conversion";
+import { LocalBusinessJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -19,6 +20,7 @@ export default function ContactPage() {
 
   return (
     <>
+      <LocalBusinessJsonLd hours={contactPage.hours} />
       <PageHero
         eyebrow="Direct Line"
         title={contactPage.headline}

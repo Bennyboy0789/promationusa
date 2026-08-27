@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { products } from "@/lib/products";
+import { products, categories, productHref, categoryHref } from "@/lib/products";
 import { articles } from "@/lib/news";
 import { storeItems } from "@/lib/store";
 import { RETIRED_SLUGS } from "@/lib/redirects";
@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/products",
     "/why-promation",
     "/pcb-trial",
+    "/book-a-demo",
     "/what-we-do",
     "/partners",
     "/news",
@@ -28,9 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticPaths.map((p) => ({ url: `${BASE}${p}` })),
+    ...categories.map((c) => ({ url: `${BASE}${categoryHref(c)}` })),
     ...products
       .filter((p) => !RETIRED_SLUGS.has(p.slug))
-      .map((p) => ({ url: `${BASE}/${p.slug}` })),
+      // Category landing pages are published as hubs above, not twice.
+      .filter((p) => !categories.some((c) => c.rootSlug === p.slug))
+      .map((p) => ({ url: `${BASE}${productHref(p)}` })),
     ...articles.map((a) => ({ url: `${BASE}/news/${a.path}` })),
     ...storeItems.map((p) => ({ url: `${BASE}/store/${p.slug}` })),
   ];

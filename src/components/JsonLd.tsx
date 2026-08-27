@@ -236,3 +236,166 @@ export function ProductJsonLd({
     />
   );
 }
+
+/**
+ * Job openings.
+ *
+ * Google's job experience requires `datePosted` and a `hiringOrganization`, and
+ * treats a posting with no `validThrough` as open-ended — which is what these
+ * are: standing roles rather than dated requisitions. `employmentType` maps the
+ * plain-English label the content file carries.
+ */
+export function JobPostingJsonLd({
+  title,
+  description,
+  employmentType,
+  datePosted,
+}: {
+  title: string;
+  description: string;
+  employmentType?: string;
+  datePosted: string;
+}) {
+  const TYPES: Record<string, string> = {
+    "full-time": "FULL_TIME",
+    "part-time": "PART_TIME",
+    contract: "CONTRACTOR",
+    internship: "INTERN",
+  };
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "JobPosting",
+        title,
+        description,
+        datePosted,
+        directApply: true,
+        ...(employmentType
+          ? { employmentType: TYPES[employmentType.toLowerCase()] ?? "FULL_TIME" }
+          : {}),
+        hiringOrganization: { "@id": `${BASE}/#organization` },
+        jobLocation: {
+          "@type": "Place",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: site.address.street,
+            addressLocality: site.address.city,
+            addressRegion: site.address.state,
+            postalCode: site.address.zip,
+            addressCountry: "US",
+          },
+        },
+      }}
+    />
+  );
+}
+
+/**
+ * The Kenosha facility as a place of business.
+ *
+ * Kept separate from the Organization node rather than merged into it: the
+ * company sells across North America and positions globally, while the opening
+ * hours, the demo lab and the applications engineers are all at one address.
+ * Conflating the two would claim the whole company is a local business.
+ */
+export function LocalBusinessJsonLd({
+  hours,
+}: {
+  hours: { days: string; hours: string }[];
+}) {
+  // "Monday – Friday" / "8AM – 5PM CST" -> schema.org opening hours
+  const DAYS: Record<string, string> = {
+    monday: "Monday",
+    tuesday: "Tuesday",
+    wednesday: "Wednesday",
+    thursday: "Thursday",
+    friday: "Friday",
+    saturday: "Saturday",
+    sunday: "Sunday",
+  };
+  const spec = hours
+    .filter((h) => !/closed/i.test(h.hours))
+    .map((h) => {
+      const found = h.days
+        .toLowerCase()
+        .split(/[–—-]|&|,|\band\b/)
+        .map((s) => DAYS[s.trim()])
+        .filter(Boolean) as string[];
+      const range =
+        found.length === 2 && /[–—-]/.test(h.days)
+          ? expand(found[0], found[1])
+          : found;
+      const times = h.hours.match(/(\d{1,2})(?::(\d{2}))?\s*(AM|PM)/gi);
+      if (!range.length || !times || times.length < 2) return null;
+      return {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: range,
+        opens: to24(times[0]),
+        closes: to24(times[1]),
+      };
+    })
+    .filter(Boolean);
+
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": `${BASE}/#kenosha`,
+        name: `${site.name} — Kenosha Facility`,
+        parentOrganization: { "@id": `${BASE}/#organization` },
+        url: `${BASE}/contact`,
+        telephone: `+1-${site.phone.replace(/\./g, "-")}`,
+        email: site.email,
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: site.address.street,
+          addressLocality: site.address.city,
+          addressRegion: site.address.state,
+          postalCode: site.address.zip,
+          addressCountry: "US",
+        },
+        ...(spec.length ? { openingHoursSpecification: spec } : {}),
+      }}
+    />
+  );
+}
+
+const ORDER = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+function expand(from: string, to: string): string[] {
+  const a = ORDER.indexOf(from), b = ORDER.indexOf(to);
+  return a === -1 || b === -1 || b < a ? [from, to] : ORDER.slice(a, b + 1);
+}
+function to24(t: string): string {
+  const m = t.match(/(\d{1,2})(?::(\d{2}))?\s*(AM|PM)/i);
+  if (!m) return "09:00";
+  let h = Number(m[1]);
+  if (/pm/i.test(m[3]) && h !== 12) h += 12;
+  if (/am/i.test(m[3]) && h === 12) h = 0;
+  return `${String(h).padStart(2, "0")}:${m[2] ?? "00"}`;
+}
+
+/**
+ * Question-and-answer blocks on category hubs.
+ *
+ * Only emit this where the questions and answers are actually visible on the
+ * page — Google requires the markup to match rendered content, and an invisible
+ * FAQ block is a manual-action risk rather than a shortcut.
+ */
+export function FaqJsonLd({ items }: { items: { q: string; a: string }[] }) {
+  if (items.length === 0) return null;
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: items.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }}
+    />
+  );
+}

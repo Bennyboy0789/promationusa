@@ -4,6 +4,14 @@ Date: 2026-08-10. **Internal decision record — not a client deliverable.** Thi
 
 **Decision: category-nested (Option B).** Rationale and safeguards below.
 
+**Status: implemented (2026-08-27).** Hubs live at `/robotic-soldering`, `/robotic-dispensing`,
+`/robotic-screw-driving`, `/laser-marking`, `/pcb-handling`, `/collaborative-robots`,
+`/mobile-robots`, `/x-ray-inspection`, `/services` and `/new-products`; every model sits beneath
+its category. Legacy flat URLs and the legacy "at a glance" landing pages redirect in a single hop —
+destinations are resolved through the catalogue in `src/lib/legacyRoutes.ts` rather than hand-written,
+so no consolidation can land on a URL that itself redirects. Verified by crawling all 242 internal
+links: zero redirects, zero errors.
+
 ---
 
 ## The situation

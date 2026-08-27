@@ -26,17 +26,19 @@ export type NavItem = {
   children?: NavItem[];
 };
 
+// Category hubs. Kept in sync with `categories` in lib/products.ts — these
+// are the canonical hub paths, not the legacy landing-page slugs.
 export const productCategories: NavItem[] = [
   { label: "New Products", href: "/new-products" },
   { label: "PCB Handling", href: "/pcb-handling" },
-  { label: "Robotics Division", href: "/robotics-division" },
-  { label: "Robotic Soldering", href: "/robotic-soldering-glance" },
-  { label: "Laser Marking", href: "/laser-marking-at-a-glance" },
-  { label: "Robotic Dispensing", href: "/auto-dispensing-at-a-glance" },
-  { label: "Robotic Screw Driving", href: "/auto-screw-driving-at-a-glance" },
-  { label: "Mobile Robot Solutions", href: "/intelligent-mobile-robot-solutions" },
-  { label: "TechMan Cobots", href: "/techman-collaborative-robots" },
-  { label: "SEAMARK X-Ray", href: "/xray-at-a-glance" },
+  { label: "Robotic Soldering", href: "/robotic-soldering" },
+  { label: "Laser Marking", href: "/laser-marking" },
+  { label: "Robotic Dispensing", href: "/robotic-dispensing" },
+  { label: "Robotic Screw Driving", href: "/robotic-screw-driving" },
+  { label: "Mobile Robot Solutions", href: "/mobile-robots" },
+  { label: "TechMan Cobots", href: "/collaborative-robots" },
+  { label: "SEAMARK X-Ray", href: "/x-ray-inspection" },
+  { label: "Services & Support", href: "/services" },
 ];
 
 export const companyNav: NavItem[] = [

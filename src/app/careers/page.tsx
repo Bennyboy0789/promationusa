@@ -4,6 +4,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { careers } from "@/lib/content";
 import { site } from "@/lib/site";
 import { RequestQuoteBlock } from "@/components/Conversion";
+import { JobPostingJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Career Opportunities",
@@ -12,8 +13,25 @@ export const metadata: Metadata = {
 };
 
 export default function CareersPage() {
+  // Standing roles rather than dated requisitions, so the posting date is the
+  // page build rather than an invented one.
+  const posted = new Date().toISOString().slice(0, 10);
+
   return (
     <>
+      {careers.openings.map((job) => (
+        <JobPostingJsonLd
+          key={job.title}
+          title={job.title}
+          description={[
+            "Responsibilities: " + job.responsibilities.join("; "),
+            "Requirements: " + job.requirements.join("; "),
+            "Beneficial skills: " + job.beneficialSkills.join("; "),
+          ].join(" ")}
+          employmentType={job.type}
+          datePosted={posted}
+        />
+      ))}
       <PageHero
         eyebrow="Join the Team"
         title="Career Opportunities"

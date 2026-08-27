@@ -1,4 +1,5 @@
-import productsData from "@/content/products.json";
+import productsData from "../content/products.json";
+import { RETIRED_SLUGS } from "./redirects";
 
 /** A product photograph pulled from the live site, with its intrinsic size. */
 export type ProductImage = {
@@ -35,7 +36,17 @@ export type Product = {
   note?: string;
 };
 
-export const products: Product[] = productsData as Product[];
+/**
+ * The catalog, minus every slug the redirect map retires.
+ *
+ * Those URLs 308 before a page ever renders, so linking to them from a listing
+ * sends visitors and crawlers through a needless hop — and surfaces the retired
+ * page alongside the canonical one it was merged into, recreating the duplicate
+ * clusters the consolidation existed to remove.
+ */
+export const products: Product[] = (productsData as Product[]).filter(
+  (p) => !RETIRED_SLUGS.has(p.slug)
+);
 
 /**
  * The lead photograph for a product, or null.
@@ -48,10 +59,33 @@ export function heroImage(product: Product): ProductImage | null {
   return product.images?.[0] ?? null;
 }
 
+/** Canonical URL for a model page: /<category-path>/<model-slug>. */
+export function productHref(product: Product): string {
+  const cat = getCategoryMeta(product.category);
+  if (!cat) return `/${product.slug}`;
+  // A category's own landing page is the hub, not a model beneath it.
+  if (cat.rootSlug === product.slug) return `/${cat.path}`;
+  return `/${cat.path}/${product.slug}`;
+}
+
+/** Canonical URL for a category hub. */
+export function categoryHref(cat: CategoryMeta): string {
+  return `/${cat.path}`;
+}
+
 export type CategoryMeta = {
   key: string;
   label: string;
-  /** slug of the category's landing page */
+  /**
+   * URL segment for the hub — every model in the category is nested beneath it,
+   * so a model page inherits its category's relevance signal and breadcrumbs
+   * match the path rather than merely asserting a hierarchy.
+   */
+  path: string;
+  /**
+   * Slug of the legacy landing page this hub replaces. The hub inherits its
+   * copy; the slug itself redirects to the hub.
+   */
   rootSlug: string;
   blurb: string;
 };
@@ -59,12 +93,14 @@ export type CategoryMeta = {
 export const categories: CategoryMeta[] = [
   {
     key: "new-products",
+    path: "new-products",
     label: "New Products",
     rootSlug: "new-products",
     blurb: "The newest additions to the PROMATION automation platform.",
   },
   {
     key: "pcb-handling",
+    path: "pcb-handling",
     label: "PCB Handling",
     rootSlug: "pcb-handling",
     blurb:
@@ -72,6 +108,7 @@ export const categories: CategoryMeta[] = [
   },
   {
     key: "soldering",
+    path: "robotic-soldering",
     label: "Robotic Soldering",
     rootSlug: "robotic-soldering-glance",
     blurb:
@@ -79,6 +116,7 @@ export const categories: CategoryMeta[] = [
   },
   {
     key: "dispensing",
+    path: "robotic-dispensing",
     label: "Robotic Dispensing",
     rootSlug: "auto-dispensing-at-a-glance",
     blurb:
@@ -86,6 +124,7 @@ export const categories: CategoryMeta[] = [
   },
   {
     key: "screw-driving",
+    path: "robotic-screw-driving",
     label: "Robotic Screw Driving",
     rootSlug: "auto-screw-driving-at-a-glance",
     blurb:
@@ -93,6 +132,7 @@ export const categories: CategoryMeta[] = [
   },
   {
     key: "laser-marking",
+    path: "laser-marking",
     label: "Laser Marking",
     rootSlug: "laser-marking-at-a-glance",
     blurb:
@@ -100,13 +140,15 @@ export const categories: CategoryMeta[] = [
   },
   {
     key: "cobots",
+    path: "collaborative-robots",
     label: "TechMan Cobots",
-    rootSlug: "tm-robots-at-a-glance",
+    rootSlug: "techman-collaborative-robots",
     blurb:
       "TechMan collaborative robots with built-in vision — TM5 through TM20 payload classes.",
   },
   {
     key: "mobile-robots",
+    path: "mobile-robots",
     label: "Mobile Robot Solutions",
     rootSlug: "intelligent-mobile-robot-solutions",
     blurb:
@@ -114,19 +156,22 @@ export const categories: CategoryMeta[] = [
   },
   {
     key: "xray-inspection",
+    path: "x-ray-inspection",
     label: "X-Ray Inspection",
     rootSlug: "xray-at-a-glance",
     blurb: "SEAMARK X-ray inspection systems for hidden solder-joint quality.",
   },
   {
     key: "services",
+    path: "services",
     label: "Services & Support",
-    rootSlug: "complimentary-services",
+    rootSlug: "robotic-soldering-complimentary-services",
     blurb:
       "Integration kits, nitrogen output kits, safety enclosures, training and complimentary lab services.",
   },
   {
     key: "robotics-division",
+    path: "robotics-division",
     label: "Robotics Division",
     rootSlug: "robotics-division",
     blurb:

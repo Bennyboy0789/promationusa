@@ -25,7 +25,7 @@ const divisions = [
   {
     index: "02",
     title: "Robotic Soldering",
-    href: "/robotic-soldering-glance",
+    href: "/robotic-soldering",
     image: "/images/soldering-photo.webp",
     blurb:
       "QUICK and PANDA intelligent soldering robots — batch and in-line selective soldering with hot air, molten drop and hot bar.",
@@ -34,7 +34,7 @@ const divisions = [
   {
     index: "03",
     title: "Robotic Dispensing",
-    href: "/auto-dispensing-at-a-glance",
+    href: "/robotic-dispensing",
     image: "/images/dispensing-photo.webp",
     blurb:
       "High-precision automated dispensing platforms for adhesives, coatings and solder paste across the ET and QS series.",
@@ -43,7 +43,7 @@ const divisions = [
   {
     index: "04",
     title: "Robotic Screw Driving",
-    href: "/auto-screw-driving-at-a-glance",
+    href: "/robotic-screw-driving",
     image: "",
     blurb:
       "Automated screw-feeding and driving robots engineered for repeatable, torque-controlled assembly.",
@@ -52,7 +52,7 @@ const divisions = [
   {
     index: "05",
     title: "Laser Marking",
-    href: "/laser-marking-at-a-glance",
+    href: "/laser-marking",
     image: "/images/laser-photo.webp",
     blurb:
       "PANDA Robotics laser marking systems — permanent, high-contrast PCB traceability, awarded for innovation.",
@@ -61,7 +61,7 @@ const divisions = [
   {
     index: "06",
     title: "TechMan Cobots",
-    href: "/tm-robots-at-a-glance",
+    href: "/collaborative-robots",
     image: "/images/cobots-photo.webp",
     blurb:
       "TechMan collaborative robots with built-in vision — TM5 to TM20 payload classes for flexible automation.",
@@ -70,7 +70,7 @@ const divisions = [
   {
     index: "07",
     title: "Mobile Robots & X-Ray",
-    href: "/intelligent-mobile-robot-solutions",
+    href: "/mobile-robots",
     image: "/images/mobile-robot-photo.webp",
     blurb:
       "OMRON autonomous mobile robots for line loading plus SEAMARK X-ray inspection for hidden-joint quality.",
@@ -195,7 +195,7 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href="/panda-robotics-usa"
+              href="/laser-marking/panda-robotics-usa"
               className="clip-corner bg-blue-600 px-6 py-3 font-mono text-[11px] font-semibold uppercase tracking-[0.16em] text-white transition-colors hover:bg-blue-500"
             >
               Explore PANDA

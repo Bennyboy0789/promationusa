@@ -96,7 +96,10 @@ export default function PcbTrialPage() {
       </div>
 
       <div className="pb-20">
-        <RequestQuoteBlock heading="Ready for pricing instead?" />
+        <RequestQuoteBlock
+          heading="Ready for pricing instead?"
+          secondary={{ label: "Book a demo", href: "/book-a-demo" }}
+        />
       </div>
     </>
   );

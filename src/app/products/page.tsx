@@ -2,7 +2,13 @@ import { Fragment } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { categories, getProductsInCategory, heroImage } from "@/lib/products";
+import {
+  categories,
+  getProductsInCategory,
+  heroImage,
+  productHref,
+  categoryHref,
+} from "@/lib/products";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
@@ -51,7 +57,7 @@ export default function ProductsPage() {
                 />
                 <Reveal delay={0.1}>
                   <Link
-                    href={`/${cat.rootSlug}`}
+                    href={categoryHref(cat)}
                     className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-blue-500"
                   >
                     Division Overview →
@@ -64,7 +70,7 @@ export default function ProductsPage() {
                     <RevealItem key={p.slug} className="h-full">
                       <TiltCard className="group relative h-full" maxTilt={5}>
                         <Link
-                          href={`/${p.slug}`}
+                          href={productHref(p)}
                           className="glass clip-corner flex h-full flex-col gap-2.5 p-5 transition-colors hover:border-blue-400/40"
                         >
                           {(() => {

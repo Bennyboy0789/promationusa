@@ -8,6 +8,8 @@ import {
   getProductsInCategory,
   getRelated,
   heroImage,
+  productHref,
+  categoryHref,
   specLabel,
   type ProductLink,
 } from "@/lib/products";
@@ -22,12 +24,18 @@ import { QuickRfq } from "@/components/QuickRfq";
 import { ProductGallery } from "@/components/ProductGallery";
 
 export function generateStaticParams() {
-  return products.map((p) => ({ slug: p.slug }));
+  // A category's own landing page is served by the hub, so it is not also
+  // published as a model beneath itself.
+  return products.flatMap((p) => {
+    const cat = getCategoryMeta(p.category);
+    if (!cat || cat.rootSlug === p.slug) return [];
+    return [{ category: cat.path, slug: p.slug }];
+  });
 }
 
 export async function generateMetadata({
   params,
-}: PageProps<"/[slug]">): Promise<Metadata> {
+}: PageProps<"/[category]/[slug]">): Promise<Metadata> {
   const { slug } = await params;
   const product = getProduct(slug);
   if (!product) return {};
@@ -73,7 +81,12 @@ function metaDescription(product: {
 
 function linkHref(l: ProductLink): string {
   const raw = l.url ?? l.href ?? "#";
-  return raw.replace(/^https?:\/\/(www\.)?promationusa\.com/, "") || "/";
+  const flat = raw.replace(/^https?:\/\/(www\.)?promationusa\.com/, "") || "/";
+  // Captured from the old flat-URL site. Resolve through the catalogue so
+  // in-body links land on the nested canonical instead of bouncing through
+  // a redirect.
+  const target = getProduct(flat.replace(/^\//, ""));
+  return target ? productHref(target) : flat;
 }
 
 function linkTitle(l: ProductLink): string {
@@ -83,10 +96,16 @@ function linkTitle(l: ProductLink): string {
   return target?.title ?? l.title ?? l.text ?? l.label ?? "View product";
 }
 
-export default async function ProductPage({ params }: PageProps<"/[slug]">) {
-  const { slug } = await params;
+export default async function ProductPage({
+  params,
+}: PageProps<"/[category]/[slug]">) {
+  const { category, slug } = await params;
   const product = getProduct(slug);
   if (!product) notFound();
+
+  // Only the model's own category may serve it. Without this check every
+  // category path would render every model, manufacturing duplicates at scale.
+  if (getCategoryMeta(product.category)?.path !== category) notFound();
 
   const cat = getCategoryMeta(product.category);
   const specs = Object.entries(product.specs ?? {}).filter(
@@ -133,16 +152,16 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
           { name: "Home", href: "/" },
           { name: "Products", href: "/products" },
           ...(cat && !isCategoryRoot
-            ? [{ name: cat.label, href: `/${cat.rootSlug}` }]
+            ? [{ name: cat.label, href: categoryHref(cat) }]
             : []),
-          { name: product.title, href: `/${product.slug}` },
+          { name: product.title, href: productHref(product) },
         ]}
       />
       {!isCategoryRoot && (
         <ProductJsonLd
           name={product.title}
           description={product.tagline ?? undefined}
-          url={`/${product.slug}`}
+          url={productHref(product)}
           image={hero?.src}
           specs={product.specs as Record<string, string> | undefined}
         />
@@ -154,7 +173,7 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
         crumbs={[
           { label: "Products", href: "/products" },
           ...(cat && cat.rootSlug !== product.slug
-            ? [{ label: cat.label, href: `/${cat.rootSlug}` }]
+            ? [{ label: cat.label, href: categoryHref(cat) }]
             : []),
           { label: product.title },
         ]}
@@ -278,7 +297,7 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
                 compact
                 heading={`Ask about the ${product.title}`}
                 blurb="Three fields. An applications engineer replies within one business day."
-                source={`/${product.slug}`}
+                source={productHref(product)}
               />
               <a
                 href={`tel:+1${site.phone.replace(/\./g, "")}`}
@@ -299,7 +318,7 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
               <Reveal key={r.slug} delay={i * 0.06}>
                 <TiltCard className="group relative h-full">
                   <Link
-                    href={`/${r.slug}`}
+                    href={productHref(r)}
                     className="glass clip-corner flex h-full flex-col gap-3 p-6 transition-colors hover:border-blue-400/40"
                   >
                     <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-blue-600/60">

@@ -8,9 +8,10 @@
  * slug here retires it even though a page still exists for it in the catalog
  * data. `sitemap.ts` filters these out so retired URLs never get submitted.
  *
- * Scope note: only redirects whose destination resolves in the current URL
- * structure are listed. The category-nested map in redirect-map.csv is applied
- * when that routing lands.
+ * Destinations here are written as flat slugs. `legacyRoutes.ts` resolves them
+ * through the catalogue into their final category-nested URLs and merges in a
+ * generated entry for every other legacy flat URL, so the config never emits a
+ * redirect chain. Import that module, not this one, when you need the live map.
  */
 
 export type Redirect = { source: string; destination: string };
