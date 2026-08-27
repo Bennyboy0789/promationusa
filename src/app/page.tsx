@@ -44,7 +44,7 @@ const divisions = [
     index: "04",
     title: "Robotic Screw Driving",
     href: "/robotic-screw-driving",
-    image: "",
+    image: "/images/products/auto-screw-driving-at-a-glance-1.webp",
     blurb:
       "Automated screw-feeding and driving robots engineered for repeatable, torque-controlled assembly.",
     tags: ["Auto-Feed", "Torque Control"],

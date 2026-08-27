@@ -282,28 +282,40 @@ export function LineupHero() {
             </Link>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
+          {/* every line we sell, one click away — directly above the counter */}
+          <motion.nav
+            aria-label="Product lines"
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-7 border-t border-white/10 pt-5 sm:mt-8"
           >
-            <p className="font-mono text-[9px] uppercase tracking-[0.16em] text-slate-500 sm:text-[10px]">
-              Questions worth asking any supplier
-            </p>
-            <ul className="mt-3 grid gap-2.5 sm:grid-cols-3 sm:gap-5">
-              {[
-                ["Who holds the stock?", "We do — in the US."],
-                ["Who answers the phone?", "An IPC-certified engineer."],
-                ["Can you try before you buy?", "Send us your board."],
-              ].map(([q, a]) => (
-                <li key={q} className="text-[13px] leading-snug">
-                  <span className="block text-slate-400">{q}</span>
-                  <span className="block font-semibold text-white">{a}</span>
+            <ul className="flex flex-wrap gap-x-6 gap-y-3">
+              {ALL_LINES.map((l) => (
+                <li key={l.href}>
+                  <Link
+                    href={l.href}
+                    className="group inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-slate-300 transition-colors hover:text-sky-300"
+                  >
+                    <span
+                      aria-hidden
+                      className="h-1 w-1 rotate-45 bg-sky-400/60 transition-colors group-hover:bg-sky-300"
+                    />
+                    {l.label}
+                  </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/store"
+                  className="group inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-amber-200/80 transition-colors hover:text-amber-200"
+                >
+                  <span aria-hidden className="h-1 w-1 rotate-45 bg-amber-300/70" />
+                  Parts &amp; Consumables
+                </Link>
+              </li>
             </ul>
-          </motion.div>
+          </motion.nav>
 
           {/* which machine is showing — desktop control sits under the copy */}
           <div className="mt-7 hidden items-center gap-3 lg:flex">
@@ -379,41 +391,6 @@ export function LineupHero() {
             {active + 1}/{LINES.length}
           </span>
         </div>
-
-        {/* --------------- every line we sell, one click away --------------- */}
-        <motion.nav
-          aria-label="Product lines"
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-9 border-t border-white/10 pt-5 lg:mt-8 lg:max-w-[43%]"
-        >
-          <ul className="flex flex-wrap gap-x-6 gap-y-3">
-            {ALL_LINES.map((l) => (
-              <li key={l.href}>
-                <Link
-                  href={l.href}
-                  className="group inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-slate-300 transition-colors hover:text-sky-300"
-                >
-                  <span
-                    aria-hidden
-                    className="h-1 w-1 rotate-45 bg-sky-400/60 transition-colors group-hover:bg-sky-300"
-                  />
-                  {l.label}
-                </Link>
-              </li>
-            ))}
-            <li>
-              <Link
-                href="/store"
-                className="group inline-flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-amber-200/80 transition-colors hover:text-amber-200"
-              >
-                <span aria-hidden className="h-1 w-1 rotate-45 bg-amber-300/70" />
-                Parts &amp; Consumables
-              </Link>
-            </li>
-          </ul>
-        </motion.nav>
       </div>
     </section>
   );
