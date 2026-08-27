@@ -86,7 +86,7 @@ export function StoreCatalog({
                     </span>
                     <span
                       aria-hidden
-                      className="font-mono text-blue-600/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
+                      className="font-mono text-blue-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
                     >
                       →
                     </span>

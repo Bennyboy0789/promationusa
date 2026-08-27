@@ -153,7 +153,7 @@ export function PageHero({
             <nav aria-label="Breadcrumb" className="mb-8 flex flex-wrap items-center gap-2 font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
               {crumbs.map((c, i) => (
                 <span key={i} className="flex items-center gap-2">
-                  {i > 0 && <span className="text-blue-600/50">/</span>}
+                  {i > 0 && <span className="text-blue-600">/</span>}
                   {c.href ? (
                     <Link href={c.href} className="transition-colors hover:text-blue-600">
                       {c.label}

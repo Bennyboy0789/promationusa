@@ -4,6 +4,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { training } from "@/lib/content";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/virtual-training-gallery" },
   title: "Virtual Training Gallery",
   description:
     "PROMATION USA training videos — soldering robots, conveyors and TechMan cobots, from certified IPC experts with 20+ years of experience.",
@@ -25,7 +26,7 @@ export default function TrainingPage() {
             <RevealItem key={c.title} className="h-full">
               <div className="glass clip-corner flex h-full flex-col gap-4 p-7">
                 <div className="flex items-center justify-between">
-                  <span className="font-mono text-[11px] text-blue-600/60">
+                  <span className="font-mono text-[11px] text-blue-600">
                     MODULE_{String(i + 1).padStart(2, "0")}
                   </span>
                   <span

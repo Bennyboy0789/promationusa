@@ -6,6 +6,7 @@ import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/book-a-demo" },
   title: "Book a Demo — See the Machine Run",
   description:
     "Book a live video session with a PROMATION USA applications engineer, or visit the Kenosha lab. See the machine run your part before you buy.",
@@ -79,14 +80,14 @@ export default function BookDemoPage() {
           {formats.map((f, i) => (
             <Reveal key={f.n} delay={i * 0.08}>
               <div className="glass clip-corner flex h-full flex-col gap-3 p-7">
-                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
                   {f.n}
                 </span>
                 <h3 className="font-display text-lg font-semibold text-slate-900">
                   {f.title}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted">{f.body}</p>
-                <span className="mt-auto pt-3 font-mono text-[10px] uppercase tracking-[0.18em] text-muted/80">
+                <span className="mt-auto pt-3 font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
                   {f.time}
                 </span>
               </div>

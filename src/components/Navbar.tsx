@@ -33,7 +33,10 @@ export function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <nav
+        aria-label="Primary"
+        className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
+      >
         {/* Logo */}
         <Link href="/" onClick={closeMenus} className="group flex min-w-0 shrink items-center gap-2.5">
           <span className="relative flex h-8 w-8 items-center justify-center clip-corner bg-blue-400/10 border border-blue-400/40">
@@ -204,7 +207,7 @@ export function Navbar() {
                           key={child.href}
                           href={child.href}
                           onClick={closeMenus}
-                          className="block px-2 py-2 font-mono text-[11px] uppercase tracking-[0.15em] text-muted/80 hover:text-blue-500"
+                          className="block px-2 py-2 font-mono text-[11px] uppercase tracking-[0.15em] text-muted hover:text-blue-500"
                         >
                           {child.label}
                         </Link>

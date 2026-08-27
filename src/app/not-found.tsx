@@ -22,9 +22,9 @@ export default function NotFound() {
             Browse Products
           </GlowButton>
         </div>
-        <p className="mt-12 font-mono text-[10px] uppercase tracking-[0.2em] text-muted/50">
+        <p className="mt-12 font-mono text-[10px] uppercase tracking-[0.2em] text-muted">
           Error code: PAGE_NOT_FOUND —{" "}
-          <Link href="/contact" className="text-blue-600/70 hover:text-blue-600">
+          <Link href="/contact" className="text-blue-600 hover:text-blue-600">
             report a broken link
           </Link>
         </p>

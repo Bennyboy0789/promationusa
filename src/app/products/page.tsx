@@ -15,9 +15,10 @@ import { TiltCard } from "@/components/fx/TiltCard";
 import { CtaBar, InlineAsk, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/products" },
   title: "Products",
   description:
-    "The full PROMATION USA automation catalog — PCB handling, robotic soldering, dispensing, screw driving, laser marking, cobots, mobile robots and X-ray inspection.",
+    "The full PROMATION USA automation catalog — PCB handling, robotic soldering, dispensing, screw driving, laser marking, cobots and X-ray inspection.",
 };
 
 export default function ProductsPage() {
@@ -58,7 +59,7 @@ export default function ProductsPage() {
                 <Reveal delay={0.1}>
                   <Link
                     href={categoryHref(cat)}
-                    className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-blue-500"
+                    className="inline-flex min-h-[24px] items-center py-1 font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-blue-500"
                   >
                     Division Overview →
                   </Link>
@@ -79,7 +80,7 @@ export default function ProductsPage() {
                               <div className="relative -mx-1 mb-1 aspect-[4/3] overflow-hidden bg-white/60">
                                 <Image
                                   src={img.src}
-                                  alt=""
+                                  alt={p.title}
                                   fill
                                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px"
                                   className="object-contain p-2 transition-transform duration-500 group-hover:scale-[1.04]"
@@ -97,7 +98,7 @@ export default function ProductsPage() {
                           )}
                           <span
                             aria-hidden
-                            className="mt-auto font-mono text-blue-600/60 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
+                            className="mt-auto font-mono text-blue-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
                           >
                             →
                           </span>

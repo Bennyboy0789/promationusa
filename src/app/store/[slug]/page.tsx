@@ -21,7 +21,8 @@ export async function generateMetadata({
   const item = getStoreItem(slug);
   if (!item) return {};
   return {
-    title: `${item.name} — Store`,
+    alternates: { canonical: `/store/${item.slug}` },
+    title: item.name,
     description: item.description?.slice(0, 160) ?? `${item.name} — genuine PROMATION replacement part.`,
   };
 }
@@ -160,7 +161,7 @@ export default async function StoreItemPage({
                 </a>{" "}
                 — Mon–Fri, 8AM–5PM CST.
               </p>
-              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted/80">
+              <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted">
                 100% authentic OEM parts · Fast shipping · Satisfaction
                 guaranteed
               </p>

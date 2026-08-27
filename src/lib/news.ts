@@ -22,14 +22,42 @@ export function getArticleByPath(path: string): Article | undefined {
   return articles.find((a) => a.path === path);
 }
 
+/**
+ * Tags, folded by case.
+ *
+ * The source data carries both "PROMATION" and "promation", which produced two
+ * URLs for one archive. The route resolver already matches case-insensitively,
+ * so old links keep working — this just stops the tag cloud publishing both.
+ * The most-used spelling wins as the display label.
+ */
 export function getAllTags(): { tag: string; count: number }[] {
-  const counts = new Map<string, number>();
+  const groups = new Map<string, { forms: Map<string, number>; count: number }>();
   for (const a of articles) {
-    for (const t of a.tags) counts.set(t, (counts.get(t) ?? 0) + 1);
+    for (const t of a.tags) {
+      const key = t.toLowerCase();
+      const g = groups.get(key) ?? { forms: new Map<string, number>(), count: 0 };
+      g.forms.set(t, (g.forms.get(t) ?? 0) + 1);
+      g.count++;
+      groups.set(key, g);
+    }
   }
-  return [...counts.entries()]
-    .map(([tag, count]) => ({ tag, count }))
+  return [...groups.values()]
+    .map(({ forms, count }) => ({
+      tag: [...forms.entries()].sort((x, y) => y[1] - x[1])[0][0],
+      count,
+    }))
     .sort((a, b) => b.count - a.count);
+}
+
+/**
+ * Map a set of raw tags onto the canonical spelling used by {@link getAllTags},
+ * so an article never links a case variant the tag cloud does not.
+ */
+export function foldTags(tags: string[]): string[] {
+  const canonical = new Map(getAllTags().map((t) => [t.tag.toLowerCase(), t.tag]));
+  const out = new Set<string>();
+  for (const t of tags) out.add(canonical.get(t.toLowerCase()) ?? t);
+  return [...out];
 }
 
 export function formatDate(iso: string): string {

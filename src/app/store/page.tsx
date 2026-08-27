@@ -6,6 +6,7 @@ import { storeItems, storeCategories } from "@/lib/store";
 import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/store" },
   title: "Store — Order Online Today",
   description:
     "Order 100% authentic OEM PROMATION replacement parts — solder tips, conveyor belts, fume extraction, nitrogen kits and more.",

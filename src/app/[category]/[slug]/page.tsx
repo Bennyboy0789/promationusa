@@ -40,6 +40,7 @@ export async function generateMetadata({
   const product = getProduct(slug);
   if (!product) return {};
   return {
+    alternates: { canonical: productHref(product) },
     title: product.title,
     description: metaDescription(product),
   };
@@ -62,8 +63,16 @@ function metaDescription(product: {
     .replace(/\s+/g, " ")
     .trim();
 
+  // Lead with the model name unless the tagline already carries it. Several
+  // families share one tagline and one body — the TM5-700 and TM5-900 pages are
+  // word-for-word identical — so without the model number their descriptions
+  // collide. It also puts the model first for the model-number searches this
+  // catalogue already ranks for.
+  const tagline = product.tagline?.trim();
+  const named = tagline?.toLowerCase().includes(product.title.toLowerCase());
+
   const parts = [
-    product.tagline?.trim(),
+    named ? tagline : [product.title, tagline].filter(Boolean).join(" — "),
     body,
     cat ? `${cat} from PROMATION USA — in US stock, supported by IPC-certified engineers.` : null,
   ].filter(Boolean) as string[];
@@ -240,7 +249,7 @@ export default async function ProductPage({
                       </span>
                       <span
                         aria-hidden
-                        className="font-mono text-blue-600/60 transition-transform duration-300 group-hover:translate-x-1"
+                        className="font-mono text-blue-600 transition-transform duration-300 group-hover:translate-x-1"
                       >
                         →
                       </span>
@@ -301,7 +310,7 @@ export default async function ProductPage({
               />
               <a
                 href={`tel:+1${site.phone.replace(/\./g, "")}`}
-                className="block text-center font-mono text-xs uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-slate-900"
+                className="flex min-h-[24px] items-center justify-center py-1 text-center font-mono text-xs uppercase tracking-[0.2em] text-blue-600 transition-colors hover:text-slate-900"
               >
                 Or call {site.phone}
               </a>
@@ -321,7 +330,7 @@ export default async function ProductPage({
                     href={productHref(r)}
                     className="glass clip-corner flex h-full flex-col gap-3 p-6 transition-colors hover:border-blue-400/40"
                   >
-                    <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-blue-600/60">
+                    <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-blue-600">
                       {cat?.label}
                     </span>
                     <h3 className="font-display text-base font-semibold leading-snug text-slate-900 transition-colors group-hover:text-blue-500">

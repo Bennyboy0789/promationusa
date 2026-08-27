@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { LineupHero } from "@/components/fx/LineupHero";
@@ -10,6 +11,10 @@ import { ParallaxBand } from "@/components/fx/ParallaxBand";
 import { QuotePortrait } from "@/components/QuotePortrait";
 import { SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { partners, homeVideo, whatWeDo } from "@/lib/content";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 import { articles, formatDate } from "@/lib/news";
 
 const divisions = [
@@ -148,12 +153,12 @@ export default function Home() {
                     )}
                   </div>
                   <div className="flex items-start justify-between">
-                    <span className="font-mono text-[11px] text-blue-600/60">
+                    <span className="font-mono text-[11px] text-blue-600">
                       [{d.index}]
                     </span>
                     <span
                       aria-hidden
-                      className="font-mono text-blue-600/50 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
+                      className="font-mono text-blue-600 transition-all duration-300 group-hover:translate-x-1 group-hover:text-blue-600"
                     >
                       ↗
                     </span>
@@ -300,7 +305,7 @@ export default function Home() {
                 href={`/news/${a.path}`}
                 className="glass clip-corner group flex h-full flex-col gap-4 p-7 transition-colors hover:border-blue-400/40"
               >
-                <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+                <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
                   {formatDate(a.date)}
                 </time>
                 <h3 className="font-display text-lg font-semibold leading-snug text-slate-900 transition-colors group-hover:text-blue-500">
@@ -309,7 +314,7 @@ export default function Home() {
                 <p className="flex-1 text-sm leading-relaxed text-muted line-clamp-3">
                   {a.excerpt}
                 </p>
-                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70 transition-colors group-hover:text-blue-600">
+                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600 transition-colors group-hover:text-blue-600">
                   Read Transmission →
                 </span>
               </Link>
@@ -331,7 +336,7 @@ export default function Home() {
           {partners.map((p) => (
             <span
               key={p.name}
-              className="font-display text-2xl font-semibold tracking-tight text-muted/50 transition-colors hover:text-blue-600"
+              className="font-display text-2xl font-semibold tracking-tight text-muted transition-colors hover:text-blue-600"
             >
               {p.name}
             </span>

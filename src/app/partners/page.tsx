@@ -7,6 +7,7 @@ import { partners } from "@/lib/content";
 import { RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/partners" },
   title: "Partners",
   description:
     "PROMATION USA's alliance network — QUICK, PANDA Robotics, TechMan, Omron, OnRobot, SCHUNK, Kester, Dorner and more.",
@@ -27,7 +28,7 @@ export default function PartnersPage() {
           {partners.map((p) => (
             <span
               key={p.name}
-              className="font-display text-3xl font-semibold tracking-tight text-muted/40"
+              className="font-display text-3xl font-semibold tracking-tight text-muted"
             >
               {p.name}
             </span>
@@ -47,7 +48,7 @@ export default function PartnersPage() {
             <RevealItem key={p.name} className="h-full">
               <TiltCard className="group relative h-full" maxTilt={6}>
                 <div className="glass clip-corner flex h-full flex-col gap-2 p-6 transition-colors hover:border-blue-400/40">
-                  <span className="font-mono text-[10px] text-blue-600/60">
+                  <span className="font-mono text-[10px] text-blue-600">
                     NODE_{String(i + 1).padStart(2, "0")}
                   </span>
                   <h3 className="font-display text-lg font-semibold text-slate-900 transition-colors group-hover:text-blue-500">

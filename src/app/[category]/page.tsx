@@ -30,6 +30,7 @@ export async function generateMetadata({
   if (!cat) return {};
   const extra = categoryContent[cat.key];
   return {
+    alternates: { canonical: `/${cat.path}` },
     title: `${cat.label} — US Stock & Support`,
     description: (extra?.definition ?? cat.blurb).slice(0, 158),
   };
@@ -195,7 +196,7 @@ export default async function CategoryHub({
                           <div className="relative -mx-1 mb-1 aspect-[4/3] overflow-hidden bg-white/60">
                             <Image
                               src={img.src}
-                              alt=""
+                              alt={m.title}
                               fill
                               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px"
                               className="object-contain p-2 transition-transform duration-500 group-hover:scale-[1.04]"

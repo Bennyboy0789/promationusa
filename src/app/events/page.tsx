@@ -5,6 +5,8 @@ import { Reveal } from "@/components/fx/Reveal";
 import { events } from "@/lib/content";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/events" },
+  robots: { index: false, follow: true },
   title: "Events",
   description:
     "PROMATION USA trade shows, expos and open houses — SMTA, IPC APEX, Automate, Productronica and technology demo days.",

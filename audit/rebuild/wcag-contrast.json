@@ -1,0 +1,63 @@
+{
+ "solidN": 194,
+ "pixelN": 149,
+ "skipped": 13,
+ "failures": [
+  {
+   "page": "/",
+   "text": "The PANDA line — three golds at the 2025 TIT",
+   "tag": "h2",
+   "size": 36,
+   "bold": true,
+   "ratio": 1.06,
+   "need": 3,
+   "fgDeclared": "rgb(255, 255, 255)",
+   "fgEffective": "rgb(255, 255, 255)",
+   "bg": "rgb(246, 249, 253)",
+   "how": "computed",
+   "over": "flat"
+  },
+  {
+   "page": "/",
+   "text": "262.764.4832",
+   "tag": "a",
+   "size": 12,
+   "bold": false,
+   "ratio": 1.59,
+   "need": 4.5,
+   "fgDeclared": "rgb(255, 255, 255)",
+   "fgEffective": "rgb(255, 255, 255)",
+   "bg": "rgb(202, 205, 211)",
+   "how": "pixel",
+   "over": "clip-corner"
+  },
+  {
+   "page": "/",
+   "text": "Send us your board",
+   "tag": "a",
+   "size": 11,
+   "bold": false,
+   "ratio": 1.06,
+   "need": 4.5,
+   "fgDeclared": "rgb(255, 255, 255)",
+   "fgEffective": "rgb(255, 255, 255)",
+   "bg": "rgb(246, 249, 253)",
+   "how": "pixel",
+   "over": "clip-corner"
+  },
+  {
+   "page": "/",
+   "text": "“",
+   "tag": "span",
+   "size": 60,
+   "bold": false,
+   "ratio": 1.56,
+   "need": 3,
+   "fgDeclared": "oklab(0.545987 -0.0303796 -0.243091 / 0.3)",
+   "fgEffective": "rgb(178, 202, 253)  (alpha 0.30)",
+   "bg": "rgb(246, 249, 253)",
+   "how": "pixel",
+   "over": "border-beam"
+  }
+ ]
+}

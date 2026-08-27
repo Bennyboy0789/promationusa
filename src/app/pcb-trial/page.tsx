@@ -5,6 +5,7 @@ import { RequestQuoteBlock } from "@/components/Conversion";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/pcb-trial" },
   title: "Send Us Your Board — Free Proof of Concept",
   description:
     "Send us your board and our IPC-certified engineers will run it on the machine you are evaluating — results, footage and a quote. No cost, no obligation.",
@@ -53,7 +54,7 @@ export default function PcbTrialPage() {
           {steps.map((s, i) => (
             <Reveal key={s.n} delay={i * 0.08}>
               <div className="glass clip-corner flex h-full flex-col gap-3 p-7">
-                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
                   {s.n}
                 </span>
                 <h3 className="font-display text-lg font-semibold text-slate-900">

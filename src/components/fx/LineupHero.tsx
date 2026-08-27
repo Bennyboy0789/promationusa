@@ -209,7 +209,7 @@ export function LineupHero() {
           <p className="mt-2 text-sm leading-relaxed text-slate-300">{line.blurb}</p>
           <Link
             href={line.href}
-            className="group mt-4 inline-flex items-center gap-2 border-b border-sky-300/40 pb-1 font-mono text-[10px] uppercase tracking-[0.22em] text-white transition-colors hover:border-sky-300"
+            className="group mt-4 inline-flex min-h-[24px] items-center gap-2 border-b border-sky-300/40 pb-1.5 pt-1 font-mono text-[10px] uppercase tracking-[0.22em] text-white transition-colors hover:border-sky-300"
           >
             View systems
             <span
@@ -339,7 +339,7 @@ export function LineupHero() {
                 </button>
               ))}
             </div>
-            <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">
+            <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-400">
               {active + 1}/{LINES.length}
             </span>
           </div>
@@ -359,7 +359,7 @@ export function LineupHero() {
             </h2>
             <Link
               href={line.href}
-              className="mt-2 inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.2em] text-white"
+              className="mt-2 inline-flex min-h-[24px] items-center gap-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-white"
             >
               View systems <span aria-hidden>→</span>
             </Link>
@@ -387,7 +387,7 @@ export function LineupHero() {
               </button>
             ))}
           </div>
-          <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-500">
+          <span className="font-mono text-[9px] uppercase tracking-[0.18em] text-slate-400">
             {active + 1}/{LINES.length}
           </span>
         </div>

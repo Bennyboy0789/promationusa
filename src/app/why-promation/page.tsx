@@ -5,7 +5,8 @@ import { Reveal } from "@/components/fx/Reveal";
 import { RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
-  title: "Why PROMATION — Official North American Source",
+  alternates: { canonical: "/why-promation" },
+  title: "Why PROMATION — The Official NA Source",
   description:
     "The official North American source for QUICK, PANDA, TechMan and SEAMARK automation — machines held in US stock and supported by IPC-certified engineers.",
 };

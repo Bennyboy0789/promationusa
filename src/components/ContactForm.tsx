@@ -50,7 +50,7 @@ const ADDRESS: Field[] = [
 ];
 
 const inputCls =
-  "w-full border border-line bg-white px-3.5 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-muted/60 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20";
+  "w-full border border-line bg-white px-3.5 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-muted focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20";
 
 function TextField({ field }: { field: Field }) {
   const id = `cf-${field.name}`;
@@ -226,6 +226,7 @@ export function ContactForm() {
             name: "model",
             label: "PROMATION model number",
             required: true,
+            autoComplete: "off",
             span: "full",
           }}
         />
@@ -249,7 +250,7 @@ export function ContactForm() {
           <input
             type="checkbox"
             name="newsletter"
-            className="mt-0.5 h-4 w-4 border-line accent-blue-600"
+            className="mt-0.5 h-6 w-6 shrink-0 border-line accent-blue-600"
           />
           Sign me up for the PROMATION USA newsletter.
         </label>
@@ -272,7 +273,7 @@ export function ContactForm() {
         </button>
         <a
           href={`tel:+1${site.phone.replace(/\D/g, "")}`}
-          className="font-mono text-xs uppercase tracking-[0.18em] text-slate-900 underline-offset-4 hover:text-blue-600 hover:underline"
+          className="inline-flex min-h-[24px] items-center py-1 font-mono text-xs uppercase tracking-[0.18em] text-slate-900 underline-offset-4 hover:text-blue-600 hover:underline"
         >
           Or call {site.phone}
         </a>

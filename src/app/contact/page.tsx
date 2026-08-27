@@ -10,6 +10,7 @@ import { TrustStrip } from "@/components/Conversion";
 import { LocalBusinessJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact",
   description:
     "Contact PROMATION USA — 9900 58th Place Suite #100, Kenosha WI 53144 — 262.764.4832 — sales@promationusa.com.",
@@ -123,7 +124,7 @@ export default function ContactPage() {
                   key={region}
                   className="glass clip-corner flex items-center gap-3 p-5"
                 >
-                  <span className="font-mono text-[10px] text-blue-600/60">
+                  <span className="font-mono text-[10px] text-blue-600">
                     R{i + 1}
                   </span>
                   <span className="font-display text-lg font-semibold text-slate-900">

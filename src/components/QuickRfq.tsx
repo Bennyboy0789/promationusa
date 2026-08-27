@@ -87,7 +87,7 @@ export function QuickRfq({
   }
 
   const input =
-    "w-full border border-line bg-white px-3.5 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-muted/60 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20";
+    "w-full border border-line bg-white px-3.5 py-2.5 text-sm text-slate-900 outline-none transition-colors placeholder:text-muted focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20";
   const label =
     "mb-1.5 block font-mono text-[10px] uppercase tracking-[0.16em] text-muted";
 

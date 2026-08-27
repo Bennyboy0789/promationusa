@@ -7,9 +7,10 @@ import { whatWeDo } from "@/lib/content";
 import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/what-we-do" },
   title: "About PROMATION USA",
   description:
-    "Soldering, PCB handling, dispensing and marking machines built into electronics production lines across North America — held in US stock, set up by IPC-certified engineers.",
+    "Soldering, PCB handling, dispensing and marking machines built into electronics production lines — held in US stock, set up by IPC-certified engineers.",
 };
 
 const pillars = [
@@ -94,7 +95,7 @@ export default function WhatWeDoPage() {
             {pillars.map((p, i) => (
               <RevealItem key={p.title} className="h-full">
                 <div className="glass clip-corner h-full p-7">
-                  <span className="font-mono text-[11px] text-blue-600/60">
+                  <span className="font-mono text-[11px] text-blue-600">
                     [{String(i + 1).padStart(2, "0")}]
                   </span>
                   <h3 className="mt-3 font-display text-lg font-semibold text-slate-900">

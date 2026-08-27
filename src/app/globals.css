@@ -23,6 +23,12 @@
 
 html {
   scroll-behavior: smooth;
+  /* WCAG 2.2 — 2.4.11 Focus Not Obscured.
+     The header is sticky and 4rem tall, so tabbing to a control just below the
+     viewport scrolls it flush to the top, underneath the header. Reserving the
+     header height (plus a little) keeps the focused element in view, and does
+     the same for in-page #anchor jumps. */
+  scroll-padding-top: 5.5rem;
 }
 
 body {

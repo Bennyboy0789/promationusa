@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { articles, getArticleByPath, getAllTags, formatDate, type Article } from "@/lib/news";
+import { shorten } from "@/lib/seo";
+import { articles, getArticleByPath, getAllTags, formatDate, type Article, foldTags } from "@/lib/news";
 import { PageHero, SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { Reveal } from "@/components/fx/Reveal";
 import { Markdown } from "@/lib/markdown";
@@ -54,7 +55,11 @@ export async function generateMetadata({
   const res = resolve(slug);
   if (!res) return {};
   if (res.kind === "article")
-    return { title: res.article.title, description: res.article.excerpt };
+    return {
+      alternates: { canonical: `/news/${res.article.path}` },
+      title: { absolute: shorten(res.article.title, 60) },
+      description: shorten(res.article.excerpt, 160),
+    };
 
   // Tag and year archives stay reachable so existing inbound links don't 404,
   // but are kept out of the index — they're thin, duplicative listings.
@@ -73,7 +78,7 @@ function ArticleGrid({ items }: { items: Article[] }) {
             href={`/news/${a.path}`}
             className="glass clip-corner group flex h-full flex-col gap-3.5 p-7 transition-colors hover:border-blue-400/40"
           >
-            <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+            <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
               {formatDate(a.date)}
             </time>
             <h3 className="font-display text-lg font-semibold leading-snug text-slate-900 transition-colors group-hover:text-blue-500">
@@ -143,7 +148,7 @@ export default async function NewsCatchAll({
             <span className="text-line" aria-hidden>
               |
             </span>
-            <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+            <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
               {formatDate(a.date)}
             </time>
           </div>
@@ -183,7 +188,7 @@ export default async function NewsCatchAll({
 
         {a.tags.length > 0 && (
           <div className="mt-12 flex flex-wrap gap-2 border-t border-line pt-8">
-            {a.tags.map((t) => (
+            {foldTags(a.tags).map((t) => (
               <Link key={t} href={`/news/tag/${encodeURIComponent(t)}`}>
                 <Chip>#{t}</Chip>
               </Link>

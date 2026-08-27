@@ -7,6 +7,7 @@ import { RequestQuoteBlock } from "@/components/Conversion";
 import { JobPostingJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/careers" },
   title: "Career Opportunities",
   description:
     "Join the PROMATION USA team — automation careers in the micro-electronics manufacturing industry, Kenosha WI.",

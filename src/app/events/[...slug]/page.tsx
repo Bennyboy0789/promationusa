@@ -19,7 +19,14 @@ export async function generateMetadata({
   const path = slug.join("/");
   const event = events.find((e) => eventPath(e.href).join("/") === path);
   if (!event) return {};
-  return { title: event.title, description: event.description };
+  // The audit retired the 2017–2023 event archive (content-inventory: KILL) and
+  // the sitemap excludes it. The pages still resolve so old inbound links do not
+  // 404, but they stay out of the index — same treatment as the tag archives.
+  return {
+    title: event.title,
+    description: event.description,
+    robots: { index: false, follow: true },
+  };
 }
 
 export default async function EventPage({

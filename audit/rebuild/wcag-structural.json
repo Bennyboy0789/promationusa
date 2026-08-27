@@ -1,0 +1,1282 @@
+[
+ {
+  "path": "/",
+  "struct": {
+   "headings": [
+    {
+     "level": 2,
+     "text": "Robotic Soldering"
+    },
+    {
+     "level": 1,
+     "text": "Robotic soldering & PCB assembly automationfor ele"
+    },
+    {
+     "level": 2,
+     "text": "Seven systems. One automated line."
+    },
+    {
+     "level": 3,
+     "text": "PCB Handling"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Soldering"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Dispensing"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Screw Driving"
+    },
+    {
+     "level": 3,
+     "text": "Laser Marking"
+    },
+    {
+     "level": 3,
+     "text": "TechMan Cobots"
+    },
+    {
+     "level": 3,
+     "text": "Mobile Robots & X-Ray"
+    },
+    {
+     "level": 2,
+     "text": "The PANDA line — three golds at the 2025 TITAN Inn"
+    },
+    {
+     "level": 2,
+     "text": "The questions worth asking any supplier."
+    },
+    {
+     "level": 2,
+     "text": "Automation in motion"
+    },
+    {
+     "level": 2,
+     "text": "Latest press releases"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Robotics USA Recognized in 2025 TITAN Innova"
+    },
+    {
+     "level": 3,
+     "text": "The Next Generation of Laser Marking by PANDA ROBO"
+    },
+    {
+     "level": 3,
+     "text": "What's New : NOVEMBER 2024"
+    },
+    {
+     "level": 2,
+     "text": "Trusted technology partners"
+    },
+    {
+     "level": 2,
+     "text": "From bare-board loading to final inspection — one "
+    },
+    {
+     "level": 2,
+     "text": "READY TO AUTOMATE?"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 102,
+  "withText": 198,
+  "sampled": 319
+ },
+ {
+  "path": "/products",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "The Automation Catalog"
+    },
+    {
+     "level": 2,
+     "text": "New Products"
+    },
+    {
+     "level": 2,
+     "text": "PCB Handling"
+    },
+    {
+     "level": 3,
+     "text": "Transfer Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Dual Lane Conveyors"
+    },
+    {
+     "level": 3,
+     "text": "PCB Accumulation Station"
+    },
+    {
+     "level": 3,
+     "text": "Turning Station Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "PCB Shuttle Gate Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "PCB Inverter Station"
+    },
+    {
+     "level": 3,
+     "text": "Inspection Conveyors"
+    },
+    {
+     "level": 3,
+     "text": "Vacuum Loader"
+    },
+    {
+     "level": 3,
+     "text": "Destacker"
+    },
+    {
+     "level": 3,
+     "text": "Wave Loading Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Wave Unload Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Work Flow Solutions"
+    },
+    {
+     "level": 3,
+     "text": "Slide Line Conveyors"
+    },
+    {
+     "level": 3,
+     "text": "Assembly Solutions"
+    },
+    {
+     "level": 3,
+     "text": "Large Platform LED Systems"
+    },
+    {
+     "level": 3,
+     "text": "Magazine Line Loader"
+    },
+    {
+     "level": 3,
+     "text": "Magazine Line Unloader"
+    },
+    {
+     "level": 3,
+     "text": "Vertical Buffer Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Post AOI Magazine Sorting System"
+    },
+    {
+     "level": 3,
+     "text": "Post SPI Sorting Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Post AOI Sorting Buffer"
+    },
+    {
+     "level": 3,
+     "text": "Barcode Scanning Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Flat Belt Conveyor"
+    },
+    {
+     "level": 3,
+     "text": "Lead Frame Handlers"
+    },
+    {
+     "level": 2,
+     "text": "Robotic Soldering"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 6101A1 Fume Extraction Solution"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 6102A1 Fume Extraction Station"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 447 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 440A Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 441B Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 442-2 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 442-3 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 100-6C Solder Pot"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 100-15S Solder Pot"
+    },
+    {
+     "level": 3,
+     "text": "Eco Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "E Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "N Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "M Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "F Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "Hot Bar Robotic Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "In-Line & Custom Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Intelligent Robotic Soldering"
+    },
+    {
+     "level": 3,
+     "text": "Soldering Robot Central"
+    },
+    {
+     "level": 3,
+     "text": "9544CJ PRO MODEL"
+    },
+    {
+     "level": 3,
+     "text": "9733D PRO MODEL"
+    },
+    {
+     "level": 3,
+     "text": "9744CJ PRO MODEL"
+    },
+    {
+     "level": 3,
+     "text": "9N393W Hot Air Soldering Robot"
+    },
+    {
+     "level": 3,
+     "text": "9R393T Molten Drop Style Soldering Robot"
+    },
+    {
+     "level": 2,
+     "text": "Robotic Dispensing"
+    },
+    {
+     "level": 3,
+     "text": "ET8253N Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8283 Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8353N Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8383 Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8384 Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8393SF Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8483 Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8384 Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8493SF Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8583YA Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET8593 Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "QS-800 High Speed In-Line Dispensing Robot"
+    },
+    {
+     "level": 3,
+     "text": "S100-P4 In-Line Soldering Robot"
+    },
+    {
+     "level": 3,
+     "text": "S100-T4 In-Line Soldering Robot"
+    },
+    {
+     "level": 2,
+     "text": "Robotic Screw Driving"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 7483KXZ Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET72H3KA Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7383K Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7383KC Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7483KXZC Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7583K Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7583KYA Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7583KYAC Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "ET7683KYA Automatic Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION SN7353K Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION SN7453KA Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION C100 In-Line Screw Driving Robot"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Screw Driving Accessories"
+    },
+    {
+     "level": 2,
+     "text": "Laser Marking"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Robotics USA"
+    },
+    {
+     "level": 3,
+     "text": "PANDA ROBOTICS USA — Laser Marking"
+    },
+    {
+     "level": 2,
+     "text": "TechMan Cobots"
+    },
+    {
+     "level": 3,
+     "text": "TECHMAN TM5-700 Precision Collaborative Robot"
+    },
+    {
+     "level": 3,
+     "text": "TECHMAN TM5-900 Precision Collaborative Robot"
+    },
+    {
+     "level": 3,
+     "text": "TECHMAN TM12 Precision Collaborative Robot"
+    },
+    {
+     "level": 3,
+     "text": "TECHMAN TM14 Precision Collaborative Robot"
+    },
+    {
+     "level": 3,
+     "text": "TECHMAN TM16 Precision Collaborative Robot"
+    },
+    {
+     "level": 3,
+     "text": "TECHMAN TM20 Precision Collaborative Robot"
+    },
+    {
+     "level": 2,
+     "text": "Mobile Robot Solutions"
+    },
+    {
+     "level": 3,
+     "text": "TM Mobile Robot Solutions"
+    },
+    {
+     "level": 3,
+     "text": "AMR Magazine Line Loader"
+    },
+    {
+     "level": 3,
+     "text": "AMR Magazine Line Unloader"
+    },
+    {
+     "level": 2,
+     "text": "X-Ray Inspection"
+    },
+    {
+     "level": 3,
+     "text": "XC-1000 Component Counting Machine"
+    },
+    {
+     "level": 2,
+     "text": "Services & Support"
+    },
+    {
+     "level": 3,
+     "text": "World Class Soldering Integration Kits"
+    },
+    {
+     "level": 3,
+     "text": "Heated Nitrogen Output Kit"
+    },
+    {
+     "level": 3,
+     "text": "Soldering Robot Safety Enclosures"
+    },
+    {
+     "level": 2,
+     "text": "Not sure which machine fits?"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 251,
+  "withText": 394,
+  "sampled": 540
+ },
+ {
+  "path": "/robotic-soldering",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "Robotic Soldering"
+    },
+    {
+     "level": 2,
+     "text": "Every robotic soldering model"
+    },
+    {
+     "level": 2,
+     "text": "Models in this line"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 6101A1 Fume Extraction Solution"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 6102A1 Fume Extraction Station"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 447 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 440A Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 441B Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 442-2 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 442-3 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 100-6C Solder Pot"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 100-15S Solder Pot"
+    },
+    {
+     "level": 3,
+     "text": "Eco Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "E Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "N Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "M Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "F Series Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "Hot Bar Robotic Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "In-Line & Custom Soldering Solutions"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Intelligent Robotic Soldering"
+    },
+    {
+     "level": 3,
+     "text": "Soldering Robot Central"
+    },
+    {
+     "level": 3,
+     "text": "9544CJ PRO MODEL"
+    },
+    {
+     "level": 3,
+     "text": "9733D PRO MODEL"
+    },
+    {
+     "level": 3,
+     "text": "9744CJ PRO MODEL"
+    },
+    {
+     "level": 3,
+     "text": "9N393W Hot Air Soldering Robot"
+    },
+    {
+     "level": 3,
+     "text": "9R393T Molten Drop Style Soldering Robot"
+    },
+    {
+     "level": 2,
+     "text": "What is a robotic soldering solution?"
+    },
+    {
+     "level": 2,
+     "text": "What are the advantages?"
+    },
+    {
+     "level": 2,
+     "text": "What We Offer"
+    },
+    {
+     "level": 2,
+     "text": "Soldering Lab"
+    },
+    {
+     "level": 2,
+     "text": "Questions worth asking"
+    },
+    {
+     "level": 3,
+     "text": "How much does a robotic soldering machine cost?"
+    },
+    {
+     "level": 3,
+     "text": "Is a soldering robot worth it for our volume?"
+    },
+    {
+     "level": 3,
+     "text": "What is the difference between iron and laser sold"
+    },
+    {
+     "level": 3,
+     "text": "Can a soldering robot handle our existing boards?"
+    },
+    {
+     "level": 2,
+     "text": "Related lines"
+    },
+    {
+     "level": 2,
+     "text": "Request a quote — Robotic Soldering"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 127,
+  "withText": 281,
+  "sampled": 402
+ },
+ {
+  "path": "/robotic-soldering/quick-usa-6101a1",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "QUICK 6101A1 Fume Extraction Solution"
+    },
+    {
+     "level": 2,
+     "text": "Features & options"
+    },
+    {
+     "level": 2,
+     "text": "// Technical Specs"
+    },
+    {
+     "level": 2,
+     "text": "// Models"
+    },
+    {
+     "level": 2,
+     "text": "Ask about the QUICK 6101A1 Fume Extraction Solutio"
+    },
+    {
+     "level": 2,
+     "text": "More Robotic Soldering"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Soldering at a Glance"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 6102A1 Fume Extraction Station"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 447 Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 440A Anti-Static Ionizing Fan"
+    },
+    {
+     "level": 2,
+     "text": "Request a quote for the QUICK 6101A1 Fume Extracti"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 1
+  },
+  "contrast": [],
+  "undetermined": 69,
+  "withText": 128,
+  "sampled": 190
+ },
+ {
+  "path": "/contact",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "Talk to an applications engineer"
+    },
+    {
+     "level": 2,
+     "text": "Not sure where to start?"
+    },
+    {
+     "level": 2,
+     "text": "// Voice Channel"
+    },
+    {
+     "level": 2,
+     "text": "// Data Channel"
+    },
+    {
+     "level": 2,
+     "text": "// Coordinates"
+    },
+    {
+     "level": 2,
+     "text": "Business hours"
+    },
+    {
+     "level": 2,
+     "text": "Proudly serving"
+    },
+    {
+     "level": 2,
+     "text": "Tell us what you need"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 2
+  },
+  "contrast": [],
+  "undetermined": 83,
+  "withText": 130,
+  "sampled": 189
+ },
+ {
+  "path": "/store",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "Order Online Today"
+    },
+    {
+     "level": 2,
+     "text": "Every part, in one depot"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 191AD"
+    },
+    {
+     "level": 3,
+     "text": "Brass Mesh Tip Cleaner"
+    },
+    {
+     "level": 3,
+     "text": "100% Authentic QUICK Solder Tips (912 Series)"
+    },
+    {
+     "level": 3,
+     "text": "310C Brass Rollers"
+    },
+    {
+     "level": 3,
+     "text": "OEM ESD Conveyor Belts"
+    },
+    {
+     "level": 3,
+     "text": "100% Authentic QUICK Solder Tips (911 Series)"
+    },
+    {
+     "level": 3,
+     "text": "Solder Feed Tubes - 230mm Length"
+    },
+    {
+     "level": 3,
+     "text": "Solder Feed Tubes - 500mm Length"
+    },
+    {
+     "level": 3,
+     "text": "150-Watt Soldering Robot Irons"
+    },
+    {
+     "level": 3,
+     "text": "180-Watt Soldering Robot Irons"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 100-6C"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 100-15S"
+    },
+    {
+     "level": 3,
+     "text": "QUICK TS1200"
+    },
+    {
+     "level": 3,
+     "text": "QUICK TS2200"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 376DI Self Feeding Solder Station"
+    },
+    {
+     "level": 3,
+     "text": "QUICK 885 Hot Air Gun"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 6102A1"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 6101A1 Replacement Filters"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 6102A1 Replacement Filters"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 9039"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION 2020D+ Hot Air Rework Station"
+    },
+    {
+     "level": 2,
+     "text": "Can't find the part you need?"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 102,
+  "withText": 174,
+  "sampled": 248
+ },
+ {
+  "path": "/news",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "Press Releases"
+    },
+    {
+     "level": 2,
+     "text": "PANDA Robotics USA Recognized in 2025 TITAN Innova"
+    },
+    {
+     "level": 2,
+     "text": "All transmissions"
+    },
+    {
+     "level": 3,
+     "text": "The Next Generation of Laser Marking by PANDA ROBO"
+    },
+    {
+     "level": 3,
+     "text": "What's New : NOVEMBER 2024"
+    },
+    {
+     "level": 3,
+     "text": "HORIZON SALES \"DOUBLES-DOWN\" ON PROMATION USA: NEW"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Intelligent Soldering Solutions featured by "
+    },
+    {
+     "level": 3,
+     "text": "2022 INTERNATIONAL SALES TRAINING CONFERENCE"
+    },
+    {
+     "level": 3,
+     "text": "INNOVATION | WINTER 2022"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION USA Adds 30+ Robot Models to the QUICK R"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Soldering System Wins 2020 New Product Intro"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION Introduces QUICK 9394F Soldering Robot"
+    },
+    {
+     "level": 3,
+     "text": "Kevin Brennan Announced Sales Manager for PROMATIO"
+    },
+    {
+     "level": 3,
+     "text": "PANDA Series Robotic Soldering Solution Set to Deb"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION USA — New Products for 2019!"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION launches \"Soldering Technology\" Initiati"
+    },
+    {
+     "level": 3,
+     "text": "Altus Group (Europe) and Danutek (Hungary) complet"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION USA Offers New Intelligent Hand Solderin"
+    },
+    {
+     "level": 3,
+     "text": "PROMATION Scheduled to Attend 2017 Productronica i"
+    },
+    {
+     "level": 2,
+     "text": "Read about a machine you need?"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 98,
+  "withText": 199,
+  "sampled": 265
+ },
+ {
+  "path": "/careers",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "Career Opportunities"
+    },
+    {
+     "level": 2,
+     "text": "// How to Apply"
+    },
+    {
+     "level": 2,
+     "text": "Current openings"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Soldering Technician"
+    },
+    {
+     "level": 4,
+     "text": "// Responsibilities"
+    },
+    {
+     "level": 4,
+     "text": "// Beneficial Skills"
+    },
+    {
+     "level": 4,
+     "text": "// Requirements"
+    },
+    {
+     "level": 2,
+     "text": "Here about equipment instead?"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 38,
+  "withText": 93,
+  "sampled": 157
+ },
+ {
+  "path": "/book-a-demo",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "See the machine run before you buy"
+    },
+    {
+     "level": 2,
+     "text": "Book a session"
+    },
+    {
+     "level": 2,
+     "text": "Three ways to see it"
+    },
+    {
+     "level": 3,
+     "text": "Live video session"
+    },
+    {
+     "level": 3,
+     "text": "Your part, on camera"
+    },
+    {
+     "level": 3,
+     "text": "In person, Kenosha"
+    },
+    {
+     "level": 2,
+     "text": "What to tell us when you book"
+    },
+    {
+     "level": 2,
+     "text": "Rather skip ahead to pricing?"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 1
+  },
+  "contrast": [],
+  "undetermined": 52,
+  "withText": 101,
+  "sampled": 149
+ },
+ {
+  "path": "/what-we-do",
+  "struct": {
+   "headings": [
+    {
+     "level": 1,
+     "text": "What We Do"
+    },
+    {
+     "level": 2,
+     "text": "Best value, defined."
+    },
+    {
+     "level": 2,
+     "text": "Four disciplines, one platform"
+    },
+    {
+     "level": 3,
+     "text": "PCB Handling Equipment"
+    },
+    {
+     "level": 3,
+     "text": "Robotic Soldering Systems"
+    },
+    {
+     "level": 3,
+     "text": "Laser Marking & Label Placement"
+    },
+    {
+     "level": 3,
+     "text": "Workstation Solutions"
+    },
+    {
+     "level": 2,
+     "text": "Send us your board"
+    },
+    {
+     "level": 3,
+     "text": "// Navigate"
+    },
+    {
+     "level": 3,
+     "text": "// Product Lines"
+    },
+    {
+     "level": 3,
+     "text": "// Company"
+    },
+    {
+     "level": 3,
+     "text": "// Headquarters"
+    }
+   ],
+   "issues": [],
+   "smallTargets": [],
+   "liveRegions": 0
+  },
+  "contrast": [],
+  "undetermined": 52,
+  "withText": 97,
+  "sampled": 149
+ }
+]

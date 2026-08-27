@@ -6,6 +6,7 @@ import { articles, getAllTags, formatDate } from "@/lib/news";
 import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/news" },
   title: "Press Releases",
   description:
     "News and press releases from PROMATION USA — product launches, awards, partnerships and innovations in electronics manufacturing automation.",
@@ -40,7 +41,7 @@ export default function NewsPage() {
               <span className="bg-blue-600 px-2.5 py-1 font-mono text-[10px] font-bold uppercase tracking-[0.2em] text-white clip-corner">
                 Latest
               </span>
-              <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+              <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
                 {formatDate(featured.date)}
               </time>
             </div>
@@ -65,7 +66,7 @@ export default function NewsPage() {
                 href={`/news/tag/${encodeURIComponent(tag)}`}
                 className="border border-line bg-surface-light/60 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.15em] text-muted transition-colors hover:border-blue-400/50 hover:text-blue-600"
               >
-                {tag} <span className="text-blue-600/60">×{count}</span>
+                {tag} <span className="text-blue-600">×{count}</span>
               </Link>
             ))}
           </div>
@@ -81,7 +82,7 @@ export default function NewsPage() {
                   href={`/news/${a.path}`}
                   className="glass clip-corner group flex h-full flex-col gap-3.5 p-7 transition-colors hover:border-blue-400/40"
                 >
-                  <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600/70">
+                  <time className="font-mono text-[11px] uppercase tracking-[0.2em] text-blue-600">
                     {formatDate(a.date)}
                   </time>
                   <h3 className="font-display text-lg font-semibold leading-snug text-slate-900 transition-colors group-hover:text-blue-500">
