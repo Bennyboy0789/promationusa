@@ -1,7 +1,8 @@
 import { Fragment } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { categories, getProductsInCategory } from "@/lib/products";
+import { categories, getProductsInCategory, heroImage } from "@/lib/products";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
@@ -66,6 +67,20 @@ export default function ProductsPage() {
                           href={`/${p.slug}`}
                           className="glass clip-corner flex h-full flex-col gap-2.5 p-5 transition-colors hover:border-blue-400/40"
                         >
+                          {(() => {
+                            const img = heroImage(p);
+                            return img ? (
+                              <div className="relative -mx-1 mb-1 aspect-[4/3] overflow-hidden bg-white/60">
+                                <Image
+                                  src={img.src}
+                                  alt=""
+                                  fill
+                                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 380px"
+                                  className="object-contain p-2 transition-transform duration-500 group-hover:scale-[1.04]"
+                                />
+                              </div>
+                            ) : null;
+                          })()}
                           <h3 className="font-display text-sm font-semibold leading-snug text-slate-900 transition-colors group-hover:text-blue-500">
                             {p.title}
                           </h3>

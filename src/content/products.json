@@ -123,10 +123,21 @@
       }
     ],
     "images": [
-      "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b043f415-aa64-4a40-9f21-3ae22722e376/IMG_5646.jpg (PCB equipment photo)",
-      "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/53910d52-d938-43bd-8034-4432603e2445/70950878321__27A8C18F-BA1B-4EC8-8CFC-2A0F08438A2D.jpg (PCB equipment photo)",
-      "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/86a7b5e9-321b-4b1c-ab07-f68d69fc67d0/Demo+Room.jfif (Demo room photo)",
-      "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534191229003-P04TW8URPN1I0JXG3CHA/smartline+2.jpg (Smartline product)"
+      {
+        "src": "/images/products/pcb-handling-1.webp",
+        "width": 2500,
+        "height": 2500
+      },
+      {
+        "src": "/images/products/pcb-handling-2.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/pcb-handling-3.webp",
+        "width": 1284,
+        "height": 646
+      }
     ],
     "videos": []
   },
@@ -158,7 +169,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79 compliant",
       "finish": "Powder coated panels in 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/transfer-conveyors-1.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/transfer-conveyors-2.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/transfer-conveyors-3.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
   },
   {
     "slug": "dual-lane-conveyors",
@@ -189,7 +217,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/dual-lane-conveyors-1.webp",
+        "width": 2500,
+        "height": 2115
+      },
+      {
+        "src": "/images/products/dual-lane-conveyors-2.webp",
+        "width": 1875,
+        "height": 1875
+      },
+      {
+        "src": "/images/products/dual-lane-conveyors-3.webp",
+        "width": 2448,
+        "height": 2448
+      }
+    ]
   },
   {
     "slug": "accumulation-stations",
@@ -225,7 +270,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/accumulation-stations-1.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/accumulation-stations-2.webp",
+        "width": 1512,
+        "height": 1512
+      },
+      {
+        "src": "/images/products/accumulation-stations-3.webp",
+        "width": 1512,
+        "height": 1512
+      }
+    ]
   },
   {
     "slug": "turning-stations",
@@ -258,7 +320,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/turning-stations-1.webp",
+        "width": 1000,
+        "height": 563
+      },
+      {
+        "src": "/images/products/turning-stations-2.webp",
+        "width": 2500,
+        "height": 2500
+      },
+      {
+        "src": "/images/products/turning-stations-3.webp",
+        "width": 2500,
+        "height": 2500
+      }
+    ]
   },
   {
     "slug": "shuttle-gate",
@@ -292,7 +371,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated panels in 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/shuttle-gate-1.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/shuttle-gate-2.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/shuttle-gate-3.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
   },
   {
     "slug": "pcb-inverter-stations",
@@ -325,7 +421,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-inverter-stations-1.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/pcb-inverter-stations-2.webp",
+        "width": 1512,
+        "height": 1512
+      },
+      {
+        "src": "/images/products/pcb-inverter-stations-3.webp",
+        "width": 1512,
+        "height": 1512
+      }
+    ]
   },
   {
     "slug": "pcb-inspection-stations",
@@ -360,7 +473,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels in 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-inspection-stations-1.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/pcb-inspection-stations-2.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/pcb-inspection-stations-3.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
   },
   {
     "slug": "bare-board-loading-stations",
@@ -396,7 +526,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/bare-board-loading-stations-1.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/bare-board-loading-stations-2.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/bare-board-loading-stations-3.webp",
+        "width": 1512,
+        "height": 1512
+      }
+    ]
   },
   {
     "slug": "bare-board-loading-stations-destacking",
@@ -430,7 +577,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/bare-board-loading-stations-destacking-1.webp",
+        "width": 2400,
+        "height": 3933
+      },
+      {
+        "src": "/images/products/bare-board-loading-stations-destacking-2.webp",
+        "width": 2500,
+        "height": 2500
+      },
+      {
+        "src": "/images/products/bare-board-loading-stations-destacking-3.webp",
+        "width": 1512,
+        "height": 1512
+      }
+    ]
   },
   {
     "slug": "pcb-wave-loading",
@@ -458,7 +622,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated vanity panels in 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-wave-loading-1.webp",
+        "width": 768,
+        "height": 674
+      },
+      {
+        "src": "/images/products/pcb-wave-loading-2.webp",
+        "width": 872,
+        "height": 654
+      },
+      {
+        "src": "/images/products/pcb-wave-loading-3.webp",
+        "width": 992,
+        "height": 744
+      }
+    ]
   },
   {
     "slug": "pcb-wave-unloading",
@@ -486,7 +667,24 @@
       "interface": "SMEMA spec. 1.2 / NFPA 79",
       "finish": "Powder coated panels, 'PROMATION White' or 'Light Gray'"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-wave-unloading-1.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/pcb-wave-unloading-2.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/pcb-wave-unloading-3.webp",
+        "width": 1120,
+        "height": 840
+      }
+    ]
   },
   {
     "slug": "workstations",
@@ -509,7 +707,14 @@
       "tops": "Standard and ESD tops",
       "options": "Overhead lighting, tool trolley (with or without tool balancer), rear parts bin panel, parts bin panel on swing arm, peg board, electrical and air strips, LCD swing arms with or without keyboard holder, drawers, shelves, and more"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/workstations-1.webp",
+        "width": 1500,
+        "height": 1125
+      }
+    ]
   },
   {
     "slug": "hand-assembly",
@@ -542,7 +747,24 @@
       "availableLengths": "1 operator / 1 meter",
       "options": "'Go PRO' LCD Touch Panel Interface with Automatic Width Adjust; LCD Instructional Display Articulating Arm Mounts; Variable Speed (powered version); Additional parts storage (Articulating Arm with Bin Panel); Document holders"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/hand-assembly-1.webp",
+        "width": 1000,
+        "height": 1360
+      },
+      {
+        "src": "/images/products/hand-assembly-2.webp",
+        "width": 848,
+        "height": 1038
+      },
+      {
+        "src": "/images/products/hand-assembly-3.webp",
+        "width": 1848,
+        "height": 1386
+      }
+    ]
   },
   {
     "slug": "assembly-solutions",
@@ -558,10 +780,6 @@
       "Roller beds"
     ],
     "specs": {},
-    "images": [
-      "Material Handling.jpg (product image, no alt text)",
-      "Equipment photo (no alt text)"
-    ],
     "videos": []
   },
   {
@@ -587,7 +805,24 @@
       "beltType": "Heavy Duty ESD Timing Belt (HD Signature Series)",
       "edgeContact": "3mm"
     },
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/large-platform-led-systems-1.webp",
+        "width": 1237,
+        "height": 1237
+      },
+      {
+        "src": "/images/products/large-platform-led-systems-2.webp",
+        "width": 1000,
+        "height": 990
+      },
+      {
+        "src": "/images/products/large-platform-led-systems-3.webp",
+        "width": 2448,
+        "height": 2448
+      }
+    ]
   },
   {
     "slug": "robotic-soldering-glance",
@@ -699,6 +934,23 @@
         "text": "Soldering Robot Central",
         "url": "/soldering-robot-central"
       }
+    ],
+    "images": [
+      {
+        "src": "/images/products/robotic-soldering-glance-1.webp",
+        "width": 1251,
+        "height": 1251
+      },
+      {
+        "src": "/images/products/robotic-soldering-glance-2.webp",
+        "width": 2016,
+        "height": 1512
+      },
+      {
+        "src": "/images/products/robotic-soldering-glance-3.webp",
+        "width": 2500,
+        "height": 1875
+      }
     ]
   },
   {
@@ -731,7 +983,21 @@
     ],
     "videos": [],
     "images": [
-      "Product photographs showing unit design, nozzles, and filter components"
+      {
+        "src": "/images/products/quick-usa-6101a1-1.webp",
+        "width": 2448,
+        "height": 2448
+      },
+      {
+        "src": "/images/products/quick-usa-6101a1-2.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/quick-usa-6101a1-3.webp",
+        "width": 2448,
+        "height": 2448
+      }
     ]
   },
   {
@@ -764,7 +1030,21 @@
     ],
     "videos": [],
     "images": [
-      "Four product images: system views and filter/nozzle details"
+      {
+        "src": "/images/products/quick-usa-6102a1-1.webp",
+        "width": 2448,
+        "height": 2448
+      },
+      {
+        "src": "/images/products/quick-usa-6102a1-2.webp",
+        "width": 2448,
+        "height": 2448
+      },
+      {
+        "src": "/images/products/quick-usa-6102a1-3.webp",
+        "width": 1800,
+        "height": 1200
+      }
     ]
   },
   {
@@ -798,7 +1078,19 @@
     "models": [
       "QUICK 447"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/quick-usa-447-1.webp",
+        "width": 864,
+        "height": 752
+      },
+      {
+        "src": "/images/products/quick-usa-447-2.webp",
+        "width": 856,
+        "height": 680
+      }
+    ]
   },
   {
     "slug": "quick-usa-440a",
@@ -832,7 +1124,21 @@
     ],
     "videos": [],
     "images": [
-      "Five product photographs of the desktop fan unit"
+      {
+        "src": "/images/products/quick-usa-440a-1.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/quick-usa-440a-2.webp",
+        "width": 2448,
+        "height": 2448
+      },
+      {
+        "src": "/images/products/quick-usa-440a-3.webp",
+        "width": 2448,
+        "height": 2448
+      }
     ]
   },
   {
@@ -867,7 +1173,21 @@
     ],
     "videos": [],
     "images": [
-      "Four product photographs showing desktop fan unit from various angles"
+      {
+        "src": "/images/products/quick-usa-441b-1.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/quick-usa-441b-2.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/quick-usa-441b-3.webp",
+        "width": 1280,
+        "height": 1280
+      }
     ]
   },
   {
@@ -901,7 +1221,19 @@
     "models": [
       "QUICK 442-2"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/quick-usa-442-2-1.webp",
+        "width": 864,
+        "height": 752
+      },
+      {
+        "src": "/images/products/quick-usa-442-2-2.webp",
+        "width": 856,
+        "height": 680
+      }
+    ]
   },
   {
     "slug": "quick-usa-442-3",
@@ -936,7 +1268,21 @@
     ],
     "videos": [],
     "images": [
-      "Product image of suspension-type anti-static fan unit; two diagrams illustrating anti-static coverage and application"
+      {
+        "src": "/images/products/quick-usa-442-3-1.webp",
+        "width": 671,
+        "height": 251
+      },
+      {
+        "src": "/images/products/quick-usa-442-3-2.webp",
+        "width": 864,
+        "height": 752
+      },
+      {
+        "src": "/images/products/quick-usa-442-3-3.webp",
+        "width": 856,
+        "height": 680
+      }
     ]
   },
   {
@@ -967,7 +1313,21 @@
     ],
     "videos": [],
     "images": [
-      "Four product images"
+      {
+        "src": "/images/products/quick-usa-100-6c-1.webp",
+        "width": 2448,
+        "height": 2448
+      },
+      {
+        "src": "/images/products/quick-usa-100-6c-2.webp",
+        "width": 2448,
+        "height": 2448
+      },
+      {
+        "src": "/images/products/quick-usa-100-6c-3.webp",
+        "width": 2448,
+        "height": 2448
+      }
     ]
   },
   {
@@ -1001,7 +1361,21 @@
     ],
     "videos": [],
     "images": [
-      "Product photography showing exterior unit, interior pot, and operational views"
+      {
+        "src": "/images/products/quick-usa-100-155-1.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/quick-usa-100-155-2.webp",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/products/quick-usa-100-155-3.webp",
+        "width": 1280,
+        "height": 1280
+      }
     ]
   },
   {
@@ -1068,10 +1442,16 @@
       }
     ],
     "images": [
-      "Cobot group photo",
-      "TM16 robot arm",
-      "Gripper configurations",
-      "Robotics lab equipment"
+      {
+        "src": "/images/products/techman-usa-1-1.webp",
+        "width": 1120,
+        "height": 396
+      },
+      {
+        "src": "/images/products/techman-usa-1-2.webp",
+        "width": 1500,
+        "height": 950
+      }
     ]
   },
   {
@@ -1110,6 +1490,13 @@
       {
         "text": "Product Line Brochure (PDF)",
         "url": "/s/PROMATION-PRODUCT-LINE-BROCHURE-rev-1.pdf"
+      }
+    ],
+    "images": [
+      {
+        "src": "/images/products/new-products-1.webp",
+        "width": 2500,
+        "height": 1325
       }
     ]
   },
@@ -1152,6 +1539,23 @@
       {
         "text": "Complimentary Services",
         "url": "/complimentary-services"
+      }
+    ],
+    "images": [
+      {
+        "src": "/images/products/laser-marking-at-a-glance-1.webp",
+        "width": 1000,
+        "height": 460
+      },
+      {
+        "src": "/images/products/laser-marking-at-a-glance-2.webp",
+        "width": 1222,
+        "height": 1222
+      },
+      {
+        "src": "/images/products/laser-marking-at-a-glance-3.webp",
+        "width": 2448,
+        "height": 2448
       }
     ]
   },
@@ -1236,6 +1640,18 @@
       {
         "text": "Dispensing Brochure (PDF)",
         "url": "/s/World-Class-Robotic-Dispensing-Solutions-by-PROMATION-USA-s59n.pdf"
+      }
+    ],
+    "images": [
+      {
+        "src": "/images/products/auto-dispensing-at-a-glance-1.webp",
+        "width": 2500,
+        "height": 1563
+      },
+      {
+        "src": "/images/products/auto-dispensing-at-a-glance-2.webp",
+        "width": 1500,
+        "height": 938
       }
     ]
   },
@@ -1326,6 +1742,13 @@
         "text": "Robotic Screw Driving Accessories",
         "url": "/robotic-screw-driving-accessories"
       }
+    ],
+    "images": [
+      {
+        "src": "/images/products/auto-screw-driving-at-a-glance-1.webp",
+        "width": 1500,
+        "height": 844
+      }
     ]
   },
   {
@@ -1365,6 +1788,23 @@
         "text": "TM Mobile Robot Solutions",
         "url": "/tm-mobile-robot-solutions"
       }
+    ],
+    "images": [
+      {
+        "src": "/images/products/intelligent-mobile-robot-solutions-1.webp",
+        "width": 786,
+        "height": 429
+      },
+      {
+        "src": "/images/products/intelligent-mobile-robot-solutions-2.webp",
+        "width": 1121,
+        "height": 713
+      },
+      {
+        "src": "/images/products/intelligent-mobile-robot-solutions-3.webp",
+        "width": 1121,
+        "height": 689
+      }
     ]
   },
   {
@@ -1400,9 +1840,21 @@
       }
     ],
     "images": [
-      "X-ray equipment diagram",
-      "SMD components counting photo",
-      "Seamark factory image"
+      {
+        "src": "/images/products/xray-at-a-glance-1.webp",
+        "width": 1500,
+        "height": 602
+      },
+      {
+        "src": "/images/products/xray-at-a-glance-2.webp",
+        "width": 465,
+        "height": 612
+      },
+      {
+        "src": "/images/products/xray-at-a-glance-3.webp",
+        "width": 1000,
+        "height": 535
+      }
     ]
   },
   {
@@ -1428,7 +1880,19 @@
       "ET9484C",
       "ET9584CYA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/eco-series-1.webp",
+        "width": 2500,
+        "height": 587
+      },
+      {
+        "src": "/images/products/eco-series-2.webp",
+        "width": 2500,
+        "height": 1667
+      }
+    ]
   },
   {
     "slug": "e-series-soldering-collection",
@@ -1455,7 +1919,24 @@
       "9384E",
       "9584EYA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/e-series-soldering-collection-1.webp",
+        "width": 2500,
+        "height": 587
+      },
+      {
+        "src": "/images/products/e-series-soldering-collection-2.webp",
+        "width": 761,
+        "height": 891
+      },
+      {
+        "src": "/images/products/e-series-soldering-collection-3.webp",
+        "width": 1000,
+        "height": 1042
+      }
+    ]
   },
   {
     "slug": "n-series",
@@ -1484,7 +1965,24 @@
       "9354N",
       "9454N"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/n-series-1.webp",
+        "width": 2500,
+        "height": 587
+      },
+      {
+        "src": "/images/products/n-series-2.webp",
+        "width": 2000,
+        "height": 1333
+      },
+      {
+        "src": "/images/products/n-series-3.webp",
+        "width": 1500,
+        "height": 1000
+      }
+    ]
   },
   {
     "slug": "m-series",
@@ -1508,7 +2006,24 @@
       "Safety Enclosures": "Floor Standing ESC40AC w/ Integrated Keyence Light Curtain; Table-Top Tempered Glass Enclosure w/ Integrated Keyence Light Curtain; Custom Enclosures"
     },
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/m-series-1.webp",
+        "width": 2500,
+        "height": 1406
+      },
+      {
+        "src": "/images/products/m-series-2.webp",
+        "width": 2500,
+        "height": 3750
+      },
+      {
+        "src": "/images/products/m-series-3.webp",
+        "width": 1512,
+        "height": 2016
+      }
+    ]
   },
   {
     "slug": "f-series-1",
@@ -1533,7 +2048,24 @@
       "9394F",
       "9594FYA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/f-series-1-1.webp",
+        "width": 2500,
+        "height": 587
+      },
+      {
+        "src": "/images/products/f-series-1-2.webp",
+        "width": 1280,
+        "height": 1415
+      },
+      {
+        "src": "/images/products/f-series-1-3.webp",
+        "width": 1404,
+        "height": 1346
+      }
+    ]
   },
   {
     "slug": "hotbarsoldering",
@@ -1567,7 +2099,24 @@
       "9H593",
       "EH393F"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/hotbarsoldering-1.webp",
+        "width": 1434,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/hotbarsoldering-2.webp",
+        "width": 1581,
+        "height": 1601
+      },
+      {
+        "src": "/images/products/hotbarsoldering-3.webp",
+        "width": 1500,
+        "height": 938
+      }
+    ]
   },
   {
     "slug": "inline-custom-solutions",
@@ -1590,7 +2139,24 @@
       "S100-T4",
       "S100-P4"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/inline-custom-solutions-1.webp",
+        "width": 580,
+        "height": 633
+      },
+      {
+        "src": "/images/products/inline-custom-solutions-2.webp",
+        "width": 682,
+        "height": 826
+      },
+      {
+        "src": "/images/products/inline-custom-solutions-3.webp",
+        "width": 726,
+        "height": 823
+      }
+    ]
   },
   {
     "slug": "panda-soldering",
@@ -1610,7 +2176,24 @@
     ],
     "specs": {},
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/panda-soldering-1.webp",
+        "width": 895,
+        "height": 762
+      },
+      {
+        "src": "/images/products/panda-soldering-2.webp",
+        "width": 2500,
+        "height": 1667
+      },
+      {
+        "src": "/images/products/panda-soldering-3.webp",
+        "width": 2500,
+        "height": 1667
+      }
+    ]
   },
   {
     "slug": "soldering-robot-central",
@@ -1677,7 +2260,19 @@
       "TM20",
       "XC-1000"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/soldering-robot-central-1.webp",
+        "width": 2500,
+        "height": 1875
+      },
+      {
+        "src": "/images/products/soldering-robot-central-2.webp",
+        "width": 2500,
+        "height": 1875
+      }
+    ]
   },
   {
     "slug": "9544cj",
@@ -1721,7 +2316,19 @@
       "9544CJ",
       "9036"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/9544cj-1.webp",
+        "width": 644,
+        "height": 212
+      },
+      {
+        "src": "/images/products/9544cj-2.webp",
+        "width": 636,
+        "height": 380
+      }
+    ]
   },
   {
     "slug": "9733d-pro-model",
@@ -1766,7 +2373,24 @@
       "9433D",
       "9036"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/9733d-pro-model-1.webp",
+        "width": 460,
+        "height": 656
+      },
+      {
+        "src": "/images/products/9733d-pro-model-2.webp",
+        "width": 635,
+        "height": 455
+      },
+      {
+        "src": "/images/products/9733d-pro-model-3.webp",
+        "width": 460,
+        "height": 655
+      }
+    ]
   },
   {
     "slug": "9744cj-pro-model",
@@ -1810,7 +2434,24 @@
       "9744CJ",
       "9036"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/9744cj-pro-model-1.webp",
+        "width": 594,
+        "height": 640
+      },
+      {
+        "src": "/images/products/9744cj-pro-model-2.webp",
+        "width": 696,
+        "height": 648
+      },
+      {
+        "src": "/images/products/9744cj-pro-model-3.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
   },
   {
     "slug": "9n393w-hot-air-soldering-robot",
@@ -1835,7 +2476,24 @@
     "models": [
       "9N393W"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/9n393w-hot-air-soldering-robot-1.webp",
+        "width": 1000,
+        "height": 945
+      },
+      {
+        "src": "/images/products/9n393w-hot-air-soldering-robot-2.webp",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "src": "/images/products/9n393w-hot-air-soldering-robot-3.webp",
+        "width": 1280,
+        "height": 1280
+      }
+    ]
   },
   {
     "slug": "9r393t-molten-drop-soldering-robot",
@@ -1862,7 +2520,19 @@
       "9R393T",
       "9019"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/9r393t-molten-drop-soldering-robot-1.webp",
+        "width": 1500,
+        "height": 1235
+      },
+      {
+        "src": "/images/products/9r393t-molten-drop-soldering-robot-2.webp",
+        "width": 1280,
+        "height": 1280
+      }
+    ]
   },
   {
     "slug": "7483kxz",
@@ -1900,7 +2570,24 @@
       "ET7583KYAC",
       "C100"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/7483kxz-1.webp",
+        "width": 1500,
+        "height": 938
+      },
+      {
+        "src": "/images/products/7483kxz-2.webp",
+        "width": 679,
+        "height": 393
+      },
+      {
+        "src": "/images/products/7483kxz-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "complimentary-services",
@@ -1922,7 +2609,19 @@
     ],
     "specs": {},
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/complimentary-services-1.webp",
+        "width": 2016,
+        "height": 1512
+      },
+      {
+        "src": "/images/products/complimentary-services-2.webp",
+        "width": 2400,
+        "height": 2896
+      }
+    ]
   },
   {
     "slug": "soldering-integration-kits",
@@ -1943,7 +2642,19 @@
     ],
     "specs": {},
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/soldering-integration-kits-1.webp",
+        "width": 458,
+        "height": 635
+      },
+      {
+        "src": "/images/products/soldering-integration-kits-2.webp",
+        "width": 616,
+        "height": 618
+      }
+    ]
   },
   {
     "slug": "heated-nitrogen-output-kit",
@@ -1969,7 +2680,24 @@
       "Facilities Requirements": "Compressed Air Line (N2 Generator Input)"
     },
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/heated-nitrogen-output-kit-1.webp",
+        "width": 680,
+        "height": 461
+      },
+      {
+        "src": "/images/products/heated-nitrogen-output-kit-2.webp",
+        "width": 2500,
+        "height": 789
+      },
+      {
+        "src": "/images/products/heated-nitrogen-output-kit-3.webp",
+        "width": 2500,
+        "height": 2500
+      }
+    ]
   },
   {
     "slug": "robot-safety-enclosures",
@@ -1981,7 +2709,19 @@
     "features": [],
     "specs": {},
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/robot-safety-enclosures-1.webp",
+        "width": 1512,
+        "height": 1512
+      },
+      {
+        "src": "/images/products/robot-safety-enclosures-2.webp",
+        "width": 2500,
+        "height": 1875
+      }
+    ]
   },
   {
     "slug": "robotic-soldering-complimentary-services",
@@ -2001,7 +2741,24 @@
     ],
     "specs": {},
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/robotic-soldering-complimentary-services-1.webp",
+        "width": 2016,
+        "height": 1512
+      },
+      {
+        "src": "/images/products/robotic-soldering-complimentary-services-2.webp",
+        "width": 2500,
+        "height": 1667
+      },
+      {
+        "src": "/images/products/robotic-soldering-complimentary-services-3.webp",
+        "width": 1500,
+        "height": 1500
+      }
+    ]
   },
   {
     "slug": "et8253n-dispensing-robot",
@@ -2027,7 +2784,24 @@
     "models": [
       "ET8253N"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8253n-dispensing-robot-1.webp",
+        "width": 1500,
+        "height": 1074
+      },
+      {
+        "src": "/images/products/et8253n-dispensing-robot-2.webp",
+        "width": 1000,
+        "height": 480
+      },
+      {
+        "src": "/images/products/et8253n-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8283-dispensing-robot",
@@ -2053,7 +2827,24 @@
     "models": [
       "ET8283"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8283-dispensing-robot-1.webp",
+        "width": 1878,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/et8283-dispensing-robot-2.webp",
+        "width": 755,
+        "height": 225
+      },
+      {
+        "src": "/images/products/et8283-dispensing-robot-3.webp",
+        "width": 750,
+        "height": 470
+      }
+    ]
   },
   {
     "slug": "et8353n-dispensing-robot",
@@ -2079,7 +2870,24 @@
     "models": [
       "ET8353N"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8353n-dispensing-robot-1.webp",
+        "width": 1500,
+        "height": 1074
+      },
+      {
+        "src": "/images/products/et8353n-dispensing-robot-2.webp",
+        "width": 1000,
+        "height": 480
+      },
+      {
+        "src": "/images/products/et8353n-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8383-dispensing-robot",
@@ -2106,7 +2914,24 @@
       "ET8383",
       "ET8383S"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8383-dispensing-robot-1.webp",
+        "width": 1500,
+        "height": 937
+      },
+      {
+        "src": "/images/products/et8383-dispensing-robot-2.webp",
+        "width": 750,
+        "height": 437
+      },
+      {
+        "src": "/images/products/et8383-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8384-dispensing-robot",
@@ -2132,7 +2957,24 @@
     "models": [
       "ET8384"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8384-dispensing-robot-1.webp",
+        "width": 2500,
+        "height": 1563
+      },
+      {
+        "src": "/images/products/et8384-dispensing-robot-2.webp",
+        "width": 750,
+        "height": 413
+      },
+      {
+        "src": "/images/products/et8384-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8393sf-dispensing-robot",
@@ -2158,7 +3000,24 @@
     "models": [
       "ET8393SF"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8393sf-dispensing-robot-1.webp",
+        "width": 2500,
+        "height": 1562
+      },
+      {
+        "src": "/images/products/et8393sf-dispensing-robot-2.webp",
+        "width": 750,
+        "height": 422
+      },
+      {
+        "src": "/images/products/et8393sf-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8483-dispensing-robot",
@@ -2185,7 +3044,24 @@
       "ET8483",
       "ET8483S"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8483-dispensing-robot-1.webp",
+        "width": 1500,
+        "height": 937
+      },
+      {
+        "src": "/images/products/et8483-dispensing-robot-2.webp",
+        "width": 1000,
+        "height": 524
+      },
+      {
+        "src": "/images/products/et8483-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8484-dispensing-robot",
@@ -2212,7 +3088,24 @@
       "ET8384",
       "ET8484"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8484-dispensing-robot-1.webp",
+        "width": 2500,
+        "height": 1563
+      },
+      {
+        "src": "/images/products/et8484-dispensing-robot-2.webp",
+        "width": 750,
+        "height": 413
+      },
+      {
+        "src": "/images/products/et8484-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8493sf-dispensing-robot",
@@ -2238,7 +3131,24 @@
     "models": [
       "ET8493SF"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8493sf-dispensing-robot-1.webp",
+        "width": 2500,
+        "height": 1562
+      },
+      {
+        "src": "/images/products/et8493sf-dispensing-robot-2.webp",
+        "width": 750,
+        "height": 422
+      },
+      {
+        "src": "/images/products/et8493sf-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8583ya-dispensing-robot",
@@ -2265,7 +3175,24 @@
       "ET8583YA",
       "ET8583YAS"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8583ya-dispensing-robot-1.webp",
+        "width": 1500,
+        "height": 938
+      },
+      {
+        "src": "/images/products/et8583ya-dispensing-robot-2.webp",
+        "width": 1000,
+        "height": 516
+      },
+      {
+        "src": "/images/products/et8583ya-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "et8593-dispensing-robot",
@@ -2291,7 +3218,24 @@
     "models": [
       "ET8593"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et8593-dispensing-robot-1.webp",
+        "width": 1500,
+        "height": 938
+      },
+      {
+        "src": "/images/products/et8593-dispensing-robot-2.webp",
+        "width": 988,
+        "height": 506
+      },
+      {
+        "src": "/images/products/et8593-dispensing-robot-3.webp",
+        "width": 950,
+        "height": 161
+      }
+    ]
   },
   {
     "slug": "qs-800",
@@ -2318,7 +3262,19 @@
     "models": [
       "QS-800"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/qs-800-1.webp",
+        "width": 534,
+        "height": 641
+      },
+      {
+        "src": "/images/products/qs-800-2.webp",
+        "width": 1078,
+        "height": 792
+      }
+    ]
   },
   {
     "slug": "s100-p4",
@@ -2371,7 +3327,24 @@
     "models": [
       "S100-P4"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/s100-p4-1.webp",
+        "width": 984,
+        "height": 1466
+      },
+      {
+        "src": "/images/products/s100-p4-2.webp",
+        "width": 1000,
+        "height": 1490
+      },
+      {
+        "src": "/images/products/s100-p4-3.webp",
+        "width": 1213,
+        "height": 541
+      }
+    ]
   },
   {
     "slug": "s100t4",
@@ -2424,7 +3397,24 @@
     "models": [
       "S100-T4"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/s100t4-1.webp",
+        "width": 816,
+        "height": 1600
+      },
+      {
+        "src": "/images/products/s100t4-2.webp",
+        "width": 1213,
+        "height": 541
+      },
+      {
+        "src": "/images/products/s100t4-3.webp",
+        "width": 2448,
+        "height": 2448
+      }
+    ]
   },
   {
     "slug": "et72h3ka",
@@ -2449,7 +3439,19 @@
     "models": [
       "ET72H3KA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et72h3ka-1.webp",
+        "width": 1256,
+        "height": 1599
+      },
+      {
+        "src": "/images/products/et72h3ka-2.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7383k",
@@ -2473,7 +3475,24 @@
     "models": [
       "ET7383K"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7383k-1.webp",
+        "width": 2500,
+        "height": 1406
+      },
+      {
+        "src": "/images/products/et7383k-2.webp",
+        "width": 682,
+        "height": 396
+      },
+      {
+        "src": "/images/products/et7383k-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7383kc",
@@ -2498,7 +3517,24 @@
     "models": [
       "ET7383KC"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7383kc-1.webp",
+        "width": 2500,
+        "height": 1406
+      },
+      {
+        "src": "/images/products/et7383kc-2.webp",
+        "width": 683,
+        "height": 399
+      },
+      {
+        "src": "/images/products/et7383kc-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7383kc-screw-driving-robot",
@@ -2524,7 +3560,24 @@
       "ET7383KC"
     ],
     "videos": [],
-    "note": "Duplicate page for ET7383KC; sidebar/related links on the live page also list ET72H3KA, ET7383K, SN7353K, SN7453KA, ET7483KXZ, ET7583KYA, ET7483KXZC, ET7583K, ET7683KYA, ET7583KYAC, C100"
+    "note": "Duplicate page for ET7383KC; sidebar/related links on the live page also list ET72H3KA, ET7383K, SN7353K, SN7453KA, ET7483KXZ, ET7583KYA, ET7483KXZC, ET7583K, ET7683KYA, ET7583KYAC, C100",
+    "images": [
+      {
+        "src": "/images/products/et7383kc-screw-driving-robot-1.webp",
+        "width": 2500,
+        "height": 1406
+      },
+      {
+        "src": "/images/products/et7383kc-screw-driving-robot-2.webp",
+        "width": 683,
+        "height": 399
+      },
+      {
+        "src": "/images/products/et7383kc-screw-driving-robot-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7483kxzc",
@@ -2548,7 +3601,24 @@
     "models": [
       "ET7483KXZC"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7483kxzc-1.webp",
+        "width": 1500,
+        "height": 844
+      },
+      {
+        "src": "/images/products/et7483kxzc-2.webp",
+        "width": 682,
+        "height": 394
+      },
+      {
+        "src": "/images/products/et7483kxzc-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7583k",
@@ -2573,7 +3643,24 @@
     "models": [
       "ET7583K"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7583k-1.webp",
+        "width": 2500,
+        "height": 1406
+      },
+      {
+        "src": "/images/products/et7583k-2.webp",
+        "width": 682,
+        "height": 396
+      },
+      {
+        "src": "/images/products/et7583k-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7583kya",
@@ -2597,7 +3684,24 @@
     "models": [
       "ET7583KYA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7583kya-1.webp",
+        "width": 1500,
+        "height": 938
+      },
+      {
+        "src": "/images/products/et7583kya-2.webp",
+        "width": 685,
+        "height": 392
+      },
+      {
+        "src": "/images/products/et7583kya-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7583kyac",
@@ -2621,7 +3725,24 @@
     "models": [
       "ET7583KYAC"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7583kyac-1.webp",
+        "width": 1500,
+        "height": 844
+      },
+      {
+        "src": "/images/products/et7583kyac-2.webp",
+        "width": 683,
+        "height": 393
+      },
+      {
+        "src": "/images/products/et7583kyac-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "et7683kya",
@@ -2645,7 +3766,24 @@
     "models": [
       "ET7683KYA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/et7683kya-1.webp",
+        "width": 1500,
+        "height": 938
+      },
+      {
+        "src": "/images/products/et7683kya-2.webp",
+        "width": 685,
+        "height": 392
+      },
+      {
+        "src": "/images/products/et7683kya-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "sn7353k",
@@ -2670,7 +3808,24 @@
     "models": [
       "SN7353K"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/sn7353k-1.webp",
+        "width": 1500,
+        "height": 844
+      },
+      {
+        "src": "/images/products/sn7353k-2.webp",
+        "width": 682,
+        "height": 392
+      },
+      {
+        "src": "/images/products/sn7353k-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "sn7453ka",
@@ -2695,7 +3850,24 @@
     "models": [
       "SN7453KA"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/sn7453ka-1.webp",
+        "width": 1500,
+        "height": 844
+      },
+      {
+        "src": "/images/products/sn7453ka-2.webp",
+        "width": 682,
+        "height": 392
+      },
+      {
+        "src": "/images/products/sn7453ka-3.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "c100",
@@ -2735,7 +3907,19 @@
     "models": [
       "C100"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/c100-1.webp",
+        "width": 1000,
+        "height": 1490
+      },
+      {
+        "src": "/images/products/c100-2.webp",
+        "width": 2000,
+        "height": 617
+      }
+    ]
   },
   {
     "slug": "robotic-screw-driving-accessories",
@@ -2756,7 +3940,24 @@
     ],
     "specs": {},
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/robotic-screw-driving-accessories-1.webp",
+        "width": 464,
+        "height": 684
+      },
+      {
+        "src": "/images/products/robotic-screw-driving-accessories-2.webp",
+        "width": 424,
+        "height": 964
+      },
+      {
+        "src": "/images/products/robotic-screw-driving-accessories-3.webp",
+        "width": 2500,
+        "height": 1406
+      }
+    ]
   },
   {
     "slug": "tm-robots-at-a-glance",
@@ -2783,7 +3984,24 @@
       "TM16",
       "TM20"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm-robots-at-a-glance-1.webp",
+        "width": 1120,
+        "height": 396
+      },
+      {
+        "src": "/images/products/tm-robots-at-a-glance-2.webp",
+        "width": 2500,
+        "height": 1766
+      },
+      {
+        "src": "/images/products/tm-robots-at-a-glance-3.webp",
+        "width": 1500,
+        "height": 950
+      }
+    ]
   },
   {
     "slug": "tm-robot-usa",
@@ -2810,7 +4028,24 @@
       "TM16",
       "TM20"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm-robot-usa-1.webp",
+        "width": 2500,
+        "height": 660
+      },
+      {
+        "src": "/images/products/tm-robot-usa-2.webp",
+        "width": 1120,
+        "height": 396
+      },
+      {
+        "src": "/images/products/tm-robot-usa-3.webp",
+        "width": 1500,
+        "height": 950
+      }
+    ]
   },
   {
     "slug": "techman-collaborative-robots",
@@ -2836,7 +4071,19 @@
       "TM16",
       "TM20"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/techman-collaborative-robots-1.webp",
+        "width": 1120,
+        "height": 396
+      },
+      {
+        "src": "/images/products/techman-collaborative-robots-2.webp",
+        "width": 1500,
+        "height": 950
+      }
+    ]
   },
   {
     "slug": "tm5-700",
@@ -2857,7 +4104,24 @@
     "models": [
       "TM5-700"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm5-700-1.webp",
+        "width": 1194,
+        "height": 1272
+      },
+      {
+        "src": "/images/products/tm5-700-2.webp",
+        "width": 1500,
+        "height": 1259
+      },
+      {
+        "src": "/images/products/tm5-700-3.webp",
+        "width": 1561,
+        "height": 1033
+      }
+    ]
   },
   {
     "slug": "tm5-900",
@@ -2878,7 +4142,24 @@
     "models": [
       "TM5-900"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm5-900-1.webp",
+        "width": 1058,
+        "height": 1000
+      },
+      {
+        "src": "/images/products/tm5-900-2.webp",
+        "width": 1262,
+        "height": 642
+      },
+      {
+        "src": "/images/products/tm5-900-3.webp",
+        "width": 1144,
+        "height": 476
+      }
+    ]
   },
   {
     "slug": "tm12",
@@ -2901,7 +4182,24 @@
     "models": [
       "TM12"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm12-1.webp",
+        "width": 930,
+        "height": 1192
+      },
+      {
+        "src": "/images/products/tm12-2.webp",
+        "width": 1262,
+        "height": 642
+      },
+      {
+        "src": "/images/products/tm12-3.webp",
+        "width": 1144,
+        "height": 476
+      }
+    ]
   },
   {
     "slug": "tm-14",
@@ -2922,7 +4220,24 @@
     "models": [
       "TM14"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm-14-1.webp",
+        "width": 915,
+        "height": 1155
+      },
+      {
+        "src": "/images/products/tm-14-2.webp",
+        "width": 1262,
+        "height": 642
+      },
+      {
+        "src": "/images/products/tm-14-3.webp",
+        "width": 1144,
+        "height": 476
+      }
+    ]
   },
   {
     "slug": "tm16",
@@ -2943,7 +4258,24 @@
     "models": [
       "TM16"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm16-1.webp",
+        "width": 1000,
+        "height": 1319
+      },
+      {
+        "src": "/images/products/tm16-2.webp",
+        "width": 746,
+        "height": 749
+      },
+      {
+        "src": "/images/products/tm16-3.webp",
+        "width": 1262,
+        "height": 642
+      }
+    ]
   },
   {
     "slug": "tm20",
@@ -2964,7 +4296,24 @@
     "models": [
       "TM20"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm20-1.webp",
+        "width": 2500,
+        "height": 1433
+      },
+      {
+        "src": "/images/products/tm20-2.webp",
+        "width": 844,
+        "height": 772
+      },
+      {
+        "src": "/images/products/tm20-3.webp",
+        "width": 1262,
+        "height": 642
+      }
+    ]
   },
   {
     "slug": "tm-mobile-robot-solutions",
@@ -2988,7 +4337,24 @@
       "TM16",
       "TM20"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/tm-mobile-robot-solutions-1.webp",
+        "width": 786,
+        "height": 429
+      },
+      {
+        "src": "/images/products/tm-mobile-robot-solutions-2.webp",
+        "width": 1121,
+        "height": 713
+      },
+      {
+        "src": "/images/products/tm-mobile-robot-solutions-3.webp",
+        "width": 1121,
+        "height": 689
+      }
+    ]
   },
   {
     "slug": "mobile-robot-solutions-1",
@@ -3008,7 +4374,24 @@
     "models": [
       "OMRON AMR"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/mobile-robot-solutions-1-1.webp",
+        "width": 786,
+        "height": 429
+      },
+      {
+        "src": "/images/products/mobile-robot-solutions-1-2.webp",
+        "width": 1121,
+        "height": 713
+      },
+      {
+        "src": "/images/products/mobile-robot-solutions-1-3.webp",
+        "width": 1121,
+        "height": 689
+      }
+    ]
   },
   {
     "slug": "mobile-robot-line-loading",
@@ -3047,7 +4430,24 @@
       "Options": "Electric pusher type; 900mm nominal +/- 30mm; Right to Left process flow; 220V power outlet; magazine sizes S, L and UX"
     },
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/mobile-robot-line-loading-1.webp",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "src": "/images/products/mobile-robot-line-loading-2.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/mobile-robot-line-loading-3.webp",
+        "width": 1512,
+        "height": 1512
+      }
+    ]
   },
   {
     "slug": "mobile-robot-line-unloading",
@@ -3077,7 +4477,24 @@
       "Options": "Electric pusher type; 900mm nominal +/- 30mm; Right to Left process flow; 220V power outlet; magazine sizes S, L, UX"
     },
     "models": [],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/mobile-robot-line-unloading-1.webp",
+        "width": 1500,
+        "height": 1999
+      },
+      {
+        "src": "/images/products/mobile-robot-line-unloading-2.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/mobile-robot-line-unloading-3.webp",
+        "width": 2500,
+        "height": 3333
+      }
+    ]
   },
   {
     "slug": "panda-robotics",
@@ -3112,6 +4529,23 @@
     ],
     "videos": [
       "https://panda-usa.com/panda-soldering"
+    ],
+    "images": [
+      {
+        "src": "/images/products/panda-robotics-1.webp",
+        "width": 2500,
+        "height": 1667
+      },
+      {
+        "src": "/images/products/panda-robotics-2.webp",
+        "width": 2500,
+        "height": 1667
+      },
+      {
+        "src": "/images/products/panda-robotics-3.webp",
+        "width": 2500,
+        "height": 1667
+      }
     ]
   },
   {
@@ -3148,7 +4582,14 @@
       "TM16",
       "TM20"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/panda-robotics-usa-1.webp",
+        "width": 750,
+        "height": 750
+      }
+    ]
   },
   {
     "slug": "panda-laser-marking",
@@ -3180,7 +4621,24 @@
     "models": [
       "PANDA Laser Marking (Lite, Edge, PRO)"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/panda-laser-marking-1.webp",
+        "width": 2500,
+        "height": 1875
+      },
+      {
+        "src": "/images/products/panda-laser-marking-2.webp",
+        "width": 2500,
+        "height": 1875
+      },
+      {
+        "src": "/images/products/panda-laser-marking-3.webp",
+        "width": 2500,
+        "height": 3333
+      }
+    ]
   },
   {
     "slug": "xc1000",
@@ -3223,7 +4681,24 @@
     "models": [
       "XC-1000"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/xc1000-1.webp",
+        "width": 1461,
+        "height": 354
+      },
+      {
+        "src": "/images/products/xc1000-2.webp",
+        "width": 963,
+        "height": 1484
+      },
+      {
+        "src": "/images/products/xc1000-3.webp",
+        "width": 2500,
+        "height": 1667
+      }
+    ]
   },
   {
     "slug": "pcb-magazine-line-loader",
@@ -3264,7 +4739,24 @@
     "models": [
       "LLD Series"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-magazine-line-loader-1.webp",
+        "width": 1512,
+        "height": 2016
+      },
+      {
+        "src": "/images/products/pcb-magazine-line-loader-2.webp",
+        "width": 1512,
+        "height": 2016
+      },
+      {
+        "src": "/images/products/pcb-magazine-line-loader-3.webp",
+        "width": 1512,
+        "height": 2016
+      }
+    ]
   },
   {
     "slug": "pcb-magazine-unloading-stations",
@@ -3307,7 +4799,24 @@
     "models": [
       "ULD Series"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-magazine-unloading-stations-1.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/pcb-magazine-unloading-stations-2.webp",
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "src": "/images/products/pcb-magazine-unloading-stations-3.webp",
+        "width": 1437,
+        "height": 1872
+      }
+    ]
   },
   {
     "slug": "pcb-handling-buffering",
@@ -3344,7 +4853,24 @@
     "models": [
       "VBB-10"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-handling-buffering-1.webp",
+        "width": 2500,
+        "height": 3333
+      },
+      {
+        "src": "/images/products/pcb-handling-buffering-2.webp",
+        "width": 963,
+        "height": 963
+      },
+      {
+        "src": "/images/products/pcb-handling-buffering-3.webp",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
   },
   {
     "slug": "pcb-post-aoi-sorting-systems",
@@ -3373,7 +4899,24 @@
     "models": [
       "MFMH Series"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-post-aoi-sorting-systems-1.webp",
+        "width": 739,
+        "height": 964
+      },
+      {
+        "src": "/images/products/pcb-post-aoi-sorting-systems-2.webp",
+        "width": 756,
+        "height": 862
+      },
+      {
+        "src": "/images/products/pcb-post-aoi-sorting-systems-3.webp",
+        "width": 2048,
+        "height": 1536
+      }
+    ]
   },
   {
     "slug": "pcb-handling-post-aoi-sorting-systems",
@@ -3396,7 +4939,24 @@
     "models": [
       "NRC Series"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-handling-post-aoi-sorting-systems-1.webp",
+        "width": 1104,
+        "height": 1104
+      },
+      {
+        "src": "/images/products/pcb-handling-post-aoi-sorting-systems-2.webp",
+        "width": 2500,
+        "height": 1659
+      },
+      {
+        "src": "/images/products/pcb-handling-post-aoi-sorting-systems-3.webp",
+        "width": 2352,
+        "height": 1568
+      }
+    ]
   },
   {
     "slug": "pcb-post-aoi-sorting-buffer",
@@ -3442,7 +5002,24 @@
     "models": [
       "VBB Series"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/pcb-post-aoi-sorting-buffer-1.webp",
+        "width": 768,
+        "height": 945
+      },
+      {
+        "src": "/images/products/pcb-post-aoi-sorting-buffer-2.webp",
+        "width": 870,
+        "height": 963
+      },
+      {
+        "src": "/images/products/pcb-post-aoi-sorting-buffer-3.webp",
+        "width": 1512,
+        "height": 1512
+      }
+    ]
   },
   {
     "slug": "barcode-scanning-conveyor",
@@ -3481,7 +5058,19 @@
     "models": [
       "ASC-100TB"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/barcode-scanning-conveyor-1.webp",
+        "width": 1000,
+        "height": 563
+      },
+      {
+        "src": "/images/products/barcode-scanning-conveyor-2.webp",
+        "width": 1000,
+        "height": 563
+      }
+    ]
   },
   {
     "slug": "flat-belt-conveyors",
@@ -3521,7 +5110,24 @@
     "models": [
       "FBC"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/flat-belt-conveyors-1.webp",
+        "width": 1800,
+        "height": 1200
+      },
+      {
+        "src": "/images/products/flat-belt-conveyors-2.webp",
+        "width": 2048,
+        "height": 1536
+      },
+      {
+        "src": "/images/products/flat-belt-conveyors-3.webp",
+        "width": 992,
+        "height": 744
+      }
+    ]
   },
   {
     "slug": "lead-frame-handlers",
@@ -3556,7 +5162,24 @@
       "EBL-800",
       "EBU-800"
     ],
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/lead-frame-handlers-1.webp",
+        "width": 2400,
+        "height": 1800
+      },
+      {
+        "src": "/images/products/lead-frame-handlers-2.webp",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "/images/products/lead-frame-handlers-3.webp",
+        "width": 2400,
+        "height": 1800
+      }
+    ]
   },
   {
     "slug": "robotics-division",
@@ -3605,6 +5228,18 @@
       {
         "title": "PCB Handling Systems",
         "url": "/pcb-handling"
+      }
+    ],
+    "images": [
+      {
+        "src": "/images/products/robotics-division-1.webp",
+        "width": 868,
+        "height": 229
+      },
+      {
+        "src": "/images/products/robotics-division-2.webp",
+        "width": 792,
+        "height": 306
       }
     ]
   }

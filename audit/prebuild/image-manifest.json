@@ -1,0 +1,1972 @@
+{
+ "pcb-handling": [
+  {
+   "src": "/images/products/pcb-handling-1.webp",
+   "w": 2500,
+   "h": 2500,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b043f415-aa64-4a40-9f21-3ae22722e376/IMG_5646.jpg"
+  },
+  {
+   "src": "/images/products/pcb-handling-2.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/53910d52-d938-43bd-8034-4432603e2445/70950878321__27A8C18F-BA1B-4EC8-8CFC-2A0F08438A2D.jpg"
+  },
+  {
+   "src": "/images/products/pcb-handling-3.webp",
+   "w": 1284,
+   "h": 646,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/86a7b5e9-321b-4b1c-ab07-f68d69fc67d0/Demo+Room.jfif"
+  }
+ ],
+ "transfer-conveyors": [
+  {
+   "src": "/images/products/transfer-conveyors-1.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/86df1dcc-3632-46fc-a1b9-c1931489b75a/IMG_3179.jpg"
+  },
+  {
+   "src": "/images/products/transfer-conveyors-2.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826637105-CEJDIJ4PG4O0NTQR41E0/IMG_3187.jpg"
+  },
+  {
+   "src": "/images/products/transfer-conveyors-3.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826636864-77H88JUPO441RWHRWGE1/IMG_3186.jpg"
+  }
+ ],
+ "dual-lane-conveyors": [
+  {
+   "src": "/images/products/dual-lane-conveyors-1.webp",
+   "w": 2500,
+   "h": 2115,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1496330861962-9QMXYW54S146HL1LXPAJ/image-asset.jpeg"
+  },
+  {
+   "src": "/images/products/dual-lane-conveyors-2.webp",
+   "w": 1875,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1445442121923-K4GMTTFHWSGUCADFTYO3/Dual+Lane+Top+2.JPG"
+  },
+  {
+   "src": "/images/products/dual-lane-conveyors-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1445442099508-3RXKU1AWUYVOXS4JLV52/IMG_1921.JPG"
+  }
+ ],
+ "accumulation-stations": [
+  {
+   "src": "/images/products/accumulation-stations-1.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/7e71443b-f8bb-4d8b-9b64-de4a2366ee43/IMG_8485.jpg"
+  },
+  {
+   "src": "/images/products/accumulation-stations-2.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1663873810854-FQLKN8BQLSQM9GKBW0J3/IMG_4907.jpg"
+  },
+  {
+   "src": "/images/products/accumulation-stations-3.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1663873796371-T68DMHVC0LIQMF5RLZFM/IMG_4906.jpg"
+  }
+ ],
+ "turning-stations": [
+  {
+   "src": "/images/products/turning-stations-1.webp",
+   "w": 1000,
+   "h": 563,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/6fd9da8d-fdc4-4818-b9d3-864277ae99d8/Screen+Shot+2023-09-01+at+1.56.59+PM.png"
+  },
+  {
+   "src": "/images/products/turning-stations-2.webp",
+   "w": 2500,
+   "h": 2500,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1663873661733-16A9EJG4U9OPIZV08CWS/IMG_6285.jpg"
+  },
+  {
+   "src": "/images/products/turning-stations-3.webp",
+   "w": 2500,
+   "h": 2500,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1663873693274-7FGZYCIWP32RP5WLZKBR/IMG_5646.jpg"
+  }
+ ],
+ "shuttle-gate": [
+  {
+   "src": "/images/products/shuttle-gate-1.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/520d8099-2649-4b75-96cb-23ec2dc78d3a/IMG_3110.jpg"
+  },
+  {
+   "src": "/images/products/shuttle-gate-2.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826915033-6144YZ0VK1QHKBVW2L1K/IMG_3133.jpg"
+  },
+  {
+   "src": "/images/products/shuttle-gate-3.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826915175-HLR9ZMB0RLO87NTL1ENF/IMG_3120.jpg"
+  }
+ ],
+ "pcb-inverter-stations": [
+  {
+   "src": "/images/products/pcb-inverter-stations-1.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1496328488788-GGSWLYFG86M7AAOI7MKK/FC-WEB.jpg"
+  },
+  {
+   "src": "/images/products/pcb-inverter-stations-2.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534542726900-0K8GU6DC7GR8Y5UJL25I/IMG_0751.JPG"
+  },
+  {
+   "src": "/images/products/pcb-inverter-stations-3.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534542730428-PI1C6KSFD3JM1JBMRUR9/IMG_0754.JPG"
+  }
+ ],
+ "pcb-inspection-stations": [
+  {
+   "src": "/images/products/pcb-inspection-stations-1.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/024a6629-d87f-471e-bb19-ab72e5a8ae9f/IMG_3155.jpg"
+  },
+  {
+   "src": "/images/products/pcb-inspection-stations-2.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826452589-1JLXVOA9225RU3FLE3GK/IMG_3161.jpg"
+  },
+  {
+   "src": "/images/products/pcb-inspection-stations-3.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826455391-GQPS74GVC36ESVWQDP9L/IMG_3147.jpg"
+  }
+ ],
+ "bare-board-loading-stations": [
+  {
+   "src": "/images/products/bare-board-loading-stations-1.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/f59fc110-1c86-4445-bff7-6def0fe7bfbc/IMG_3210.jpg"
+  },
+  {
+   "src": "/images/products/bare-board-loading-stations-2.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704826322003-F7U8KTNTYMWCN3ELUDFQ/IMG_3215.jpg"
+  },
+  {
+   "src": "/images/products/bare-board-loading-stations-3.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534539224982-NPOXHUK7X43K01HI1O05/IMG_0738.JPG"
+  }
+ ],
+ "bare-board-loading-stations-destacking": [
+  {
+   "src": "/images/products/bare-board-loading-stations-destacking-1.webp",
+   "w": 2400,
+   "h": 3933,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534537135342-KPOJFB55M3B8773FVDXM/PROMATION-DeStacker.jpg"
+  },
+  {
+   "src": "/images/products/bare-board-loading-stations-destacking-2.webp",
+   "w": 2500,
+   "h": 2500,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1663873306173-JVJ4LJFHH0UQJ5TEASVA/IMG_6285.jpg"
+  },
+  {
+   "src": "/images/products/bare-board-loading-stations-destacking-3.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1663873354339-JHAWQENI22RAROANIL16/IMG_0733.JPG"
+  }
+ ],
+ "pcb-wave-loading": [
+  {
+   "src": "/images/products/pcb-wave-loading-1.webp",
+   "w": 768,
+   "h": 674,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/f02446d4-6f3e-49e9-a68d-075d8269d869/image-asset.jpg"
+  },
+  {
+   "src": "/images/products/pcb-wave-loading-2.webp",
+   "w": 872,
+   "h": 654,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1434998455487-C5OOIB2EV74711M1M7TA/EIC-710+Wave+Loader+-+Angle.jpg"
+  },
+  {
+   "src": "/images/products/pcb-wave-loading-3.webp",
+   "w": 992,
+   "h": 744,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1434998478669-WF2SPD91JO31RHJKF5WJ/ETF-700+LLX.jpg"
+  }
+ ],
+ "pcb-wave-unloading": [
+  {
+   "src": "/images/products/pcb-wave-unloading-1.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1729090912825-ZM3GO4CP1FDSDPT17ZRP/IMG_8450.jpg"
+  },
+  {
+   "src": "/images/products/pcb-wave-unloading-2.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1729092498529-K6VVM57ET8A6VQU46XW4/IMG_8465+%281%29.jpg"
+  },
+  {
+   "src": "/images/products/pcb-wave-unloading-3.webp",
+   "w": 1120,
+   "h": 840,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1434998573020-4ZFA2R95PHTXOO14J53Q/EIC-720+HD+LLX.jpg"
+  }
+ ],
+ "workstations": [
+  {
+   "src": "/images/products/workstations-1.webp",
+   "w": 1500,
+   "h": 1125,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1433946961283-HJ4XSILXSQJVYYC51ADD/image-asset.jpeg"
+  }
+ ],
+ "hand-assembly": [
+  {
+   "src": "/images/products/hand-assembly-1.webp",
+   "w": 1000,
+   "h": 1360,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1577392549175-95BAVHDHCUYFJGHYFLBO/AWT.png"
+  },
+  {
+   "src": "/images/products/hand-assembly-2.webp",
+   "w": 848,
+   "h": 1038,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1433385053578-04GEUXGQH0O3WC66KKE8/EAC-7000+Non-Power+Hand+Assembly+Station_.jpg"
+  },
+  {
+   "src": "/images/products/hand-assembly-3.webp",
+   "w": 1848,
+   "h": 1386,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435785752853-PYCGFSJAZVEMX5DBJUO2/SMC-700+4+Operator.jpg"
+  }
+ ],
+ "large-platform-led-systems": [
+  {
+   "src": "/images/products/large-platform-led-systems-1.webp",
+   "w": 1237,
+   "h": 1237,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1454944495283-MBE6EAHE5QJSM6YQALA4/48Inch+Line2.jpg"
+  },
+  {
+   "src": "/images/products/large-platform-led-systems-2.webp",
+   "w": 1000,
+   "h": 990,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1449595259228-7AFU8TES94LIW4P2RFHV/IMG_2275.PNG"
+  },
+  {
+   "src": "/images/products/large-platform-led-systems-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1449595314895-NFSNZWSTDAP8E0ZIOC2M/IMG_2285.JPG"
+  }
+ ],
+ "robotic-soldering-glance": [
+  {
+   "src": "/images/products/robotic-soldering-glance-1.webp",
+   "w": 1251,
+   "h": 1251,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/edb0b99d-5b69-4533-9d4c-49026af67e71/IMG_2772.jpg"
+  },
+  {
+   "src": "/images/products/robotic-soldering-glance-2.webp",
+   "w": 2016,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1552508968382-9X90PXVXQYOFTRPL918R/IMG_2805.jpg"
+  },
+  {
+   "src": "/images/products/robotic-soldering-glance-3.webp",
+   "w": 2500,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/ca6a8453-2b4e-494a-9876-738ab12d809e/IMG_0244.jpg"
+  }
+ ],
+ "quick-usa-6101a1": [
+  {
+   "src": "/images/products/quick-usa-6101a1-1.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437489285703-XOO8MNKZ1Y9LJI6O24OP/IMG_1538.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-6101a1-2.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437489381131-W7RB2RCO85NTQ5T90QEZ/4.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-6101a1-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437489330542-4X8CZFN7TY2ZDMZ9CL7L/IMG_1537.JPG"
+  }
+ ],
+ "quick-usa-6102a1": [
+  {
+   "src": "/images/products/quick-usa-6102a1-1.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1442414769458-EHHX68G6LWT4H6JJHUM1/IMG_1537.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-6102a1-2.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1442414765861-5PIXW6JNYG8VV303TC8T/IMG_1538.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-6102a1-3.webp",
+   "w": 1800,
+   "h": 1200,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1444068570789-2RD1RLKD7AJ8SXJZ0XNX/Filters.jpg"
+  }
+ ],
+ "quick-usa-447": [
+  {
+   "src": "/images/products/quick-usa-447-1.webp",
+   "w": 864,
+   "h": 752,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1462897955590-QAG1E2ZX7NKFDQENX63S/AntiStaticDiagram.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-447-2.webp",
+   "w": 856,
+   "h": 680,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1462897965739-CCWV8KVLLTALR9YYFJUO/AntiStaticDiagram2.jpg"
+  }
+ ],
+ "quick-usa-440a": [
+  {
+   "src": "/images/products/quick-usa-440a-1.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1456352115062-IH283A44OB1AZP1QTACW/IMG_2727.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-440a-2.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437490202001-JSVRVWCWADYH87XFS3D5/IMG_1526.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-440a-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437490207388-NTVUKO7R4C2B5RVA8H5I/IMG_1527.JPG"
+  }
+ ],
+ "quick-usa-441b": [
+  {
+   "src": "/images/products/quick-usa-441b-1.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1438783397128-2D3HBXPBDGLD18WAZ6PY/FullSizeRender.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-441b-2.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1438783396987-CRLQ2UV98SUWXQPMILZ9/FullSizeRender2.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-441b-3.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1438783400456-NGDX63033TF7BYBPKPRO/FullSizeRender3.jpg"
+  }
+ ],
+ "quick-usa-442-2": [
+  {
+   "src": "/images/products/quick-usa-442-2-1.webp",
+   "w": 864,
+   "h": 752,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1462897918611-VWWX2NZ00XDUQLZ4WLR1/AntiStaticDiagram.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-442-2-2.webp",
+   "w": 856,
+   "h": 680,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1462897906738-QJY7Q6CRQN1WVI072Y6W/AntiStaticDiagram2.jpg"
+  }
+ ],
+ "quick-usa-442-3": [
+  {
+   "src": "/images/products/quick-usa-442-3-1.webp",
+   "w": 671,
+   "h": 251,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1431643226938-SGKS8SEBW892776ZIG3E/image-asset.png"
+  },
+  {
+   "src": "/images/products/quick-usa-442-3-2.webp",
+   "w": 864,
+   "h": 752,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1462898002380-NLP5FOOT9CSOQ2FU92KM/AntiStaticDiagram.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-442-3-3.webp",
+   "w": 856,
+   "h": 680,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1462898008076-CFOU4PME2UGYYT53OU1A/AntiStaticDiagram2.jpg"
+  }
+ ],
+ "quick-usa-100-6c": [
+  {
+   "src": "/images/products/quick-usa-100-6c-1.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437488198847-DOAEIT2SAJ9N4DBX5UY1/IMG_1529.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-100-6c-2.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437488229967-ZORD3QVVWD8W0MJS9DDL/IMG_1530.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-100-6c-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437488364243-8M0ZNBXRM6BD0OKKW0OD/IMG_1531.JPG"
+  }
+ ],
+ "quick-usa-100-155": [
+  {
+   "src": "/images/products/quick-usa-100-155-1.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1456352032301-4ED9C23DHFWODE2CFW23/IMG_2724.JPG"
+  },
+  {
+   "src": "/images/products/quick-usa-100-155-2.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437425888986-9YMDNG6308ZH0QOTYSGI/FullSizeRender.jpg"
+  },
+  {
+   "src": "/images/products/quick-usa-100-155-3.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437425898888-UAHNB5LL9SV83OXPLR1B/solder+pot+inside.jpg"
+  }
+ ],
+ "new-products": [
+  {
+   "src": "/images/products/new-products-1.webp",
+   "w": 2500,
+   "h": 1325,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b851c246-6182-411c-b241-14a0a71df897/IMG_0244.jpg"
+  }
+ ],
+ "laser-marking-at-a-glance": [
+  {
+   "src": "/images/products/laser-marking-at-a-glance-1.webp",
+   "w": 1000,
+   "h": 460,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/e6186368-846f-4edb-82ea-8528c8471d64/View+recent+photos+%283%29.png"
+  },
+  {
+   "src": "/images/products/laser-marking-at-a-glance-2.webp",
+   "w": 1222,
+   "h": 1222,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1522247318815-EWU8ZAAQHLEVZDFOKYFR/FullSizeRender.jpg"
+  },
+  {
+   "src": "/images/products/laser-marking-at-a-glance-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1522247340440-GKAT35RA7DNDY4KLOT2F/NPI+Award.JPG"
+  }
+ ],
+ "auto-dispensing-at-a-glance": [
+  {
+   "src": "/images/products/auto-dispensing-at-a-glance-1.webp",
+   "w": 2500,
+   "h": 1563,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b72cf89b-0be8-42f9-98af-355b232d65a4/8J493.jpg"
+  },
+  {
+   "src": "/images/products/auto-dispensing-at-a-glance-2.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/58d8a65a-5358-4887-9d5d-8e58b02325fc/8583YA%2B8583YAS.png"
+  }
+ ],
+ "auto-screw-driving-at-a-glance": [
+  {
+   "src": "/images/products/auto-screw-driving-at-a-glance-1.webp",
+   "w": 1500,
+   "h": 844,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/d87501dd-cf6e-43b7-ae25-d0cf231b457f/PROMATION+ET7583ZA-C.png"
+  }
+ ],
+ "intelligent-mobile-robot-solutions": [
+  {
+   "src": "/images/products/intelligent-mobile-robot-solutions-1.webp",
+   "w": 786,
+   "h": 429,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/d4d32080-3dd2-41ec-b702-94d7b3a8738c/OMRON+AMR.png"
+  },
+  {
+   "src": "/images/products/intelligent-mobile-robot-solutions-2.webp",
+   "w": 1121,
+   "h": 713,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a04628a3-be8a-4aa3-90e1-d85ac6fb1e43/omron+mobile+solution.png"
+  },
+  {
+   "src": "/images/products/intelligent-mobile-robot-solutions-3.webp",
+   "w": 1121,
+   "h": 689,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/4aea67eb-de24-4859-9ed0-ea31428a71c4/fleet+management.png"
+  }
+ ],
+ "xray-at-a-glance": [
+  {
+   "src": "/images/products/xray-at-a-glance-1.webp",
+   "w": 1500,
+   "h": 602,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/bc11e3d1-20d0-4898-a5c4-0dbdcf1af279/Screenshot+2024-02-09+094715.png"
+  },
+  {
+   "src": "/images/products/xray-at-a-glance-2.webp",
+   "w": 465,
+   "h": 612,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a7ec0cb1-40f1-467b-8b21-b7735688cdf3/smd-components-counting.jpg"
+  },
+  {
+   "src": "/images/products/xray-at-a-glance-3.webp",
+   "w": 1000,
+   "h": 535,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/d8a20990-cdb1-45b9-bfe8-99e9b8ccfb98/seamark+factory.png"
+  }
+ ],
+ "eco-series": [
+  {
+   "src": "/images/products/eco-series-1.webp",
+   "w": 2500,
+   "h": 587,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/d8ca426d-59a3-4b15-971a-0a7c057eb1ab/Untitled-1.jpg"
+  },
+  {
+   "src": "/images/products/eco-series-2.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/c53b1743-9fd4-4890-a874-5f650d4c2389/IMG_0880.JPG"
+  }
+ ],
+ "e-series-soldering-collection": [
+  {
+   "src": "/images/products/e-series-soldering-collection-1.webp",
+   "w": 2500,
+   "h": 587,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/ee3321fb-e54a-4956-aa89-f9ed5a531d41/E+Series.jpg"
+  },
+  {
+   "src": "/images/products/e-series-soldering-collection-2.webp",
+   "w": 761,
+   "h": 891,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691768118903-H9YLMY2308DSYEN0KRAO/9383E.png"
+  },
+  {
+   "src": "/images/products/e-series-soldering-collection-3.webp",
+   "w": 1000,
+   "h": 1042,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691768121043-RA203O0CAD7HH1XY3F50/ET9583EYA.png"
+  }
+ ],
+ "n-series": [
+  {
+   "src": "/images/products/n-series-1.webp",
+   "w": 2500,
+   "h": 587,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/61ac2434-6efc-4eb1-822c-f5d53051bd68/N+SERIES.jpg"
+  },
+  {
+   "src": "/images/products/n-series-2.webp",
+   "w": 2000,
+   "h": 1333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691770132445-T1GBUDOPNFLD5MMESAE1/9152N.png"
+  },
+  {
+   "src": "/images/products/n-series-3.webp",
+   "w": 1500,
+   "h": 1000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691770132789-RP1WIROYZJU4A8MINGZC/9153N.png"
+  }
+ ],
+ "m-series": [
+  {
+   "src": "/images/products/m-series-1.webp",
+   "w": 2500,
+   "h": 1406,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/2f9bc310-d355-41dd-b6e9-8dbfe15e168b/m+series+large.jpg"
+  },
+  {
+   "src": "/images/products/m-series-2.webp",
+   "w": 2500,
+   "h": 3750,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691766934324-URY0XYCPQQWV9OO3YMD0/IMG_4601.JPG"
+  },
+  {
+   "src": "/images/products/m-series-3.webp",
+   "w": 1512,
+   "h": 2016,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691766987624-GZJIZH6AX4GH4SCO5X30/IMG_6996.jpg"
+  }
+ ],
+ "f-series-1": [
+  {
+   "src": "/images/products/f-series-1-1.webp",
+   "w": 2500,
+   "h": 587,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/8f9ea22a-fdc7-4150-8cc2-adc3632f3952/F+SERIES.jpg"
+  },
+  {
+   "src": "/images/products/f-series-1-2.webp",
+   "w": 1280,
+   "h": 1415,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691769357859-3CIF2ZDSZLHDZ7GMBVB2/9394F.png"
+  },
+  {
+   "src": "/images/products/f-series-1-3.webp",
+   "w": 1404,
+   "h": 1346,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1691769357858-26ZLXEE4NKKILBWEE380/9594FYA.png"
+  }
+ ],
+ "hotbarsoldering": [
+  {
+   "src": "/images/products/hotbarsoldering-1.webp",
+   "w": 1434,
+   "h": 1600,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1eb0db4b-3e74-4ce4-aa47-c79df966e584/9H393W.png"
+  },
+  {
+   "src": "/images/products/hotbarsoldering-2.webp",
+   "w": 1581,
+   "h": 1601,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1677616076355-96CCLPOQZ1N3LEACZQ8T/9H383.png"
+  },
+  {
+   "src": "/images/products/hotbarsoldering-3.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1677616076532-I43AEAKU1F64RSNCLBG9/9H583YA.png"
+  }
+ ],
+ "inline-custom-solutions": [
+  {
+   "src": "/images/products/inline-custom-solutions-1.webp",
+   "w": 580,
+   "h": 633,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1676664255975-SAFKGQSD9KL2NCPGUTLW/Picture2.png"
+  },
+  {
+   "src": "/images/products/inline-custom-solutions-2.webp",
+   "w": 682,
+   "h": 826,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1676664256334-F2I1MVGELFL3NHUF0T8V/Picture3.png"
+  },
+  {
+   "src": "/images/products/inline-custom-solutions-3.webp",
+   "w": 726,
+   "h": 823,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1676664257132-8KN8HIKYOEAS6J4U0YM7/Picture4.png"
+  }
+ ],
+ "panda-soldering": [
+  {
+   "src": "/images/products/panda-soldering-1.webp",
+   "w": 895,
+   "h": 762,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/51e2541f-060e-4ce0-8c45-f131f11b74fd/PANDA+HEAD+ASSET+2.jpg"
+  },
+  {
+   "src": "/images/products/panda-soldering-2.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/ee303f06-9da4-45aa-b365-c13b3beb0246/IMG_2737.JPG"
+  },
+  {
+   "src": "/images/products/panda-soldering-3.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/27c5dc9b-b913-4219-93ed-56a607bbca12/IMG_2735.JPG"
+  }
+ ],
+ "soldering-robot-central": [
+  {
+   "src": "/images/products/soldering-robot-central-1.webp",
+   "w": 2500,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/6a7dd218-3555-4c21-bbe4-8aecad52fd5d/IMG_4714.jpg"
+  },
+  {
+   "src": "/images/products/soldering-robot-central-2.webp",
+   "w": 2500,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/af7f3224-c22c-4a64-be1f-97f695cd3eb0/IMG_9789.jpg"
+  }
+ ],
+ "9544cj": [
+  {
+   "src": "/images/products/9544cj-1.webp",
+   "w": 644,
+   "h": 212,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1546019374063-QTGTO3BFH1U06J9O7E8X/9544CJ%234.JPG"
+  },
+  {
+   "src": "/images/products/9544cj-2.webp",
+   "w": 636,
+   "h": 380,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1546019471034-U37PS4DRWKV3W96SSZQD/9544CJ%235.JPG"
+  }
+ ],
+ "9733d-pro-model": [
+  {
+   "src": "/images/products/9733d-pro-model-1.webp",
+   "w": 460,
+   "h": 656,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1600975290174-OPMHA9QCRZGT2T495T8V/Picture1.png"
+  },
+  {
+   "src": "/images/products/9733d-pro-model-2.webp",
+   "w": 635,
+   "h": 455,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1600975326678-5LIFT7UCKVULQZAKAE2C/Picture4.png"
+  },
+  {
+   "src": "/images/products/9733d-pro-model-3.webp",
+   "w": 460,
+   "h": 655,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1600975327626-N0XVQH6UGX86EJTHUQTZ/Picture7.png"
+  }
+ ],
+ "9744cj-pro-model": [
+  {
+   "src": "/images/products/9744cj-pro-model-1.webp",
+   "w": 594,
+   "h": 640,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1600872181606-AK4ZZMA5RAQME1KV3O4K/9744CJ.png"
+  },
+  {
+   "src": "/images/products/9744cj-pro-model-2.webp",
+   "w": 696,
+   "h": 648,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1600872181710-054VZNUEWR2J42Z4ECKS/Picture1.png"
+  },
+  {
+   "src": "/images/products/9744cj-pro-model-3.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1557515143943-AB3VE8CFOB1CUKBTC0LY/IMG_E6185.JPG"
+  }
+ ],
+ "9n393w-hot-air-soldering-robot": [
+  {
+   "src": "/images/products/9n393w-hot-air-soldering-robot-1.webp",
+   "w": 1000,
+   "h": 945,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1c672553-2fd9-4b5d-b0a4-0f5aeae3412d/9N393W.png"
+  },
+  {
+   "src": "/images/products/9n393w-hot-air-soldering-robot-2.webp",
+   "w": 1080,
+   "h": 1440,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1619119670570-PDT1RWOU7S61MUABE4P2/2.jpg"
+  },
+  {
+   "src": "/images/products/9n393w-hot-air-soldering-robot-3.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437592603482-9D3I53FAVC09XJ75Z3CF/Control+Pendant.jpg"
+  }
+ ],
+ "9r393t-molten-drop-soldering-robot": [
+  {
+   "src": "/images/products/9r393t-molten-drop-soldering-robot-1.webp",
+   "w": 1500,
+   "h": 1235,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1c128abb-24a1-4060-83f7-c8ba426c8c09/9R393T.png"
+  },
+  {
+   "src": "/images/products/9r393t-molten-drop-soldering-robot-2.webp",
+   "w": 1280,
+   "h": 1280,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1437592603482-9D3I53FAVC09XJ75Z3CF/Control+Pendant.jpg"
+  }
+ ],
+ "7483kxz": [
+  {
+   "src": "/images/products/7483kxz-1.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/2012b2e0-f4fd-4c8b-94d0-f9da64c95f5d/7483Z.png"
+  },
+  {
+   "src": "/images/products/7483kxz-2.webp",
+   "w": 679,
+   "h": 393,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/932bfe38-e895-410e-89ec-c65fe9a2090e/7483KYZ.jpg"
+  },
+  {
+   "src": "/images/products/7483kxz-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "complimentary-services": [
+  {
+   "src": "/images/products/complimentary-services-1.webp",
+   "w": 2016,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1528399552697-VG9A18GQIABW6IT1NIPH/IMG_2801.jpg"
+  },
+  {
+   "src": "/images/products/complimentary-services-2.webp",
+   "w": 2400,
+   "h": 2896,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1533832814849-4WLNS8OULA3YOMXX9VDP/Perforation+Gearing.jpg"
+  }
+ ],
+ "soldering-integration-kits": [
+  {
+   "src": "/images/products/soldering-integration-kits-1.webp",
+   "w": 458,
+   "h": 635,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/66cdbee5-bb6b-4177-9422-d2772b8133ca/Robot+ARM.png"
+  },
+  {
+   "src": "/images/products/soldering-integration-kits-2.webp",
+   "w": 616,
+   "h": 618,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/dee7f4e8-d610-496e-bca8-31a77459d7bb/End+Effector.jpg"
+  }
+ ],
+ "heated-nitrogen-output-kit": [
+  {
+   "src": "/images/products/heated-nitrogen-output-kit-1.webp",
+   "w": 680,
+   "h": 461,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1638455680222-KEP64FS3KVI1AC1XKTEM/Picture1.png"
+  },
+  {
+   "src": "/images/products/heated-nitrogen-output-kit-2.webp",
+   "w": 2500,
+   "h": 789,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1b40d2f8-d6de-4d65-a481-aa360f4d398a/promationlogo.jpg"
+  },
+  {
+   "src": "/images/products/heated-nitrogen-output-kit-3.webp",
+   "w": 2500,
+   "h": 2500,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1675441908062-U6L61AS2YE0PJD0Y19OX/20191114_152109.jpg"
+  }
+ ],
+ "robot-safety-enclosures": [
+  {
+   "src": "/images/products/robot-safety-enclosures-1.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1638455809218-ZRBLHHIV26AICMU4UZ4T/IMG_4756.jpg"
+  },
+  {
+   "src": "/images/products/robot-safety-enclosures-2.webp",
+   "w": 2500,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/7904343b-58cf-43c6-a79e-daf9109d7b54/IMG_3436.jpg"
+  }
+ ],
+ "robotic-soldering-complimentary-services": [
+  {
+   "src": "/images/products/robotic-soldering-complimentary-services-1.webp",
+   "w": 2016,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1528399552697-VG9A18GQIABW6IT1NIPH/IMG_2801.jpg"
+  },
+  {
+   "src": "/images/products/robotic-soldering-complimentary-services-2.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/c3787bd5-23f3-4f3c-a5dd-555597638a0e/IMG_1238.JPG"
+  },
+  {
+   "src": "/images/products/robotic-soldering-complimentary-services-3.webp",
+   "w": 1500,
+   "h": 1500,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/4958f67f-af48-4edc-977e-d20434fcc904/IMG_1536.jfif"
+  }
+ ],
+ "et8253n-dispensing-robot": [
+  {
+   "src": "/images/products/et8253n-dispensing-robot-1.webp",
+   "w": 1500,
+   "h": 1074,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b1f511dd-158e-4653-856a-c6f5cb9d231d/8253N%2B8353N.png"
+  },
+  {
+   "src": "/images/products/et8253n-dispensing-robot-2.webp",
+   "w": 1000,
+   "h": 480,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/c071db44-94ce-4df9-a17f-f69a19b5053c/Screenshot%2B2022-07-15%2B140354.jpg"
+  },
+  {
+   "src": "/images/products/et8253n-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8283-dispensing-robot": [
+  {
+   "src": "/images/products/et8283-dispensing-robot-1.webp",
+   "w": 1878,
+   "h": 1600,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/80ec887d-7209-47f0-8ef8-f2a455271e95/8283+.png"
+  },
+  {
+   "src": "/images/products/et8283-dispensing-robot-2.webp",
+   "w": 755,
+   "h": 225,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657901790057-GA6W9Z93JV55F4I4OINP/Picture1.png"
+  },
+  {
+   "src": "/images/products/et8283-dispensing-robot-3.webp",
+   "w": 750,
+   "h": 470,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/9d8b5cfe-71d5-4d5d-b319-df9e097e7212/Screenshot%2B2022-07-15%2B130108.jpg"
+  }
+ ],
+ "et8353n-dispensing-robot": [
+  {
+   "src": "/images/products/et8353n-dispensing-robot-1.webp",
+   "w": 1500,
+   "h": 1074,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/450c223c-f930-42f0-9483-2cffed2f2da7/8253N%2B8353N.png"
+  },
+  {
+   "src": "/images/products/et8353n-dispensing-robot-2.webp",
+   "w": 1000,
+   "h": 480,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/0b5686a5-60c6-42e9-8786-9051ce739ded/Screenshot%2B2022-07-15%2B140354.jpg"
+  },
+  {
+   "src": "/images/products/et8353n-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8383-dispensing-robot": [
+  {
+   "src": "/images/products/et8383-dispensing-robot-1.webp",
+   "w": 1500,
+   "h": 937,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/050e8972-ea86-46da-a793-5e225b1db593/8383%2B8383S%2B8483%2B8483S.png"
+  },
+  {
+   "src": "/images/products/et8383-dispensing-robot-2.webp",
+   "w": 750,
+   "h": 437,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/86fe5b01-19e3-4498-8f99-88bc79184552/Screenshot%2B2022-07-15%2B131350.jpg"
+  },
+  {
+   "src": "/images/products/et8383-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8384-dispensing-robot": [
+  {
+   "src": "/images/products/et8384-dispensing-robot-1.webp",
+   "w": 2500,
+   "h": 1563,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b4a98db1-5813-4095-b670-9fd7e9e3807c/8484%2B8384.jpg"
+  },
+  {
+   "src": "/images/products/et8384-dispensing-robot-2.webp",
+   "w": 750,
+   "h": 413,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/cd8a4c10-e6fa-48c6-81bf-ee8186160b73/Screenshot%2B2022-07-15%2B135504.jpg"
+  },
+  {
+   "src": "/images/products/et8384-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8393sf-dispensing-robot": [
+  {
+   "src": "/images/products/et8393sf-dispensing-robot-1.webp",
+   "w": 2500,
+   "h": 1562,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/8617d643-ca78-435b-9213-383f084ce7bf/8393SF%2B8493SF.png"
+  },
+  {
+   "src": "/images/products/et8393sf-dispensing-robot-2.webp",
+   "w": 750,
+   "h": 422,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/6213a48a-785f-47d5-9222-29f2bcc137cb/Screenshot%2B2022-07-15%2B141138.jpg"
+  },
+  {
+   "src": "/images/products/et8393sf-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8483-dispensing-robot": [
+  {
+   "src": "/images/products/et8483-dispensing-robot-1.webp",
+   "w": 1500,
+   "h": 937,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1c668e44-e9aa-4e13-b35f-0b060b4456dc/8383%2B8383S%2B8483%2B8483S.png"
+  },
+  {
+   "src": "/images/products/et8483-dispensing-robot-2.webp",
+   "w": 1000,
+   "h": 524,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/8e425831-fe76-4c71-b33f-46ddd1627ad2/Screenshot%2B2022-07-15%2B131905.jpg"
+  },
+  {
+   "src": "/images/products/et8483-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8484-dispensing-robot": [
+  {
+   "src": "/images/products/et8484-dispensing-robot-1.webp",
+   "w": 2500,
+   "h": 1563,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/e311b1bf-e333-4bdc-b46a-76814caf7fdc/8484%2B8384.jpg"
+  },
+  {
+   "src": "/images/products/et8484-dispensing-robot-2.webp",
+   "w": 750,
+   "h": 413,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/c88a1680-01a2-455f-b0f0-0b6a14111375/Screenshot%2B2022-07-15%2B135504.jpg"
+  },
+  {
+   "src": "/images/products/et8484-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8493sf-dispensing-robot": [
+  {
+   "src": "/images/products/et8493sf-dispensing-robot-1.webp",
+   "w": 2500,
+   "h": 1562,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/da00b9fe-5974-41be-9231-bfdd33c75623/8393SF%2B8493SF.png"
+  },
+  {
+   "src": "/images/products/et8493sf-dispensing-robot-2.webp",
+   "w": 750,
+   "h": 422,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a42b4410-f1e8-4729-b177-dc24e20c1276/Screenshot%2B2022-07-15%2B141138.jpg"
+  },
+  {
+   "src": "/images/products/et8493sf-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8583ya-dispensing-robot": [
+  {
+   "src": "/images/products/et8583ya-dispensing-robot-1.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/48f69a0c-7672-4b65-b143-dd14e641b653/8583YA%2B8583YAS.png"
+  },
+  {
+   "src": "/images/products/et8583ya-dispensing-robot-2.webp",
+   "w": 1000,
+   "h": 516,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/edc2dd62-d0b3-41a1-b4e6-a22e00e5aa82/Screenshot%2B2022-07-15%2B135102.jpg"
+  },
+  {
+   "src": "/images/products/et8583ya-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "et8593-dispensing-robot": [
+  {
+   "src": "/images/products/et8593-dispensing-robot-1.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1fb1318c-d104-4e16-a65f-ef85821f4278/8593.png"
+  },
+  {
+   "src": "/images/products/et8593-dispensing-robot-2.webp",
+   "w": 988,
+   "h": 506,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a33b5c83-935c-4cdc-846f-98089dcfc06d/Screenshot%2B2022-07-15%2B134812.jpg"
+  },
+  {
+   "src": "/images/products/et8593-dispensing-robot-3.webp",
+   "w": 950,
+   "h": 161,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657909329126-9OBS8WPZV5KZGN3DEVTE/Screenshot+2022-07-15+131435.png"
+  }
+ ],
+ "qs-800": [
+  {
+   "src": "/images/products/qs-800-1.webp",
+   "w": 534,
+   "h": 641,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/52e160b6-7d87-49a8-a4fa-a9980c4b64c2/QS-800.png"
+  },
+  {
+   "src": "/images/products/qs-800-2.webp",
+   "w": 1078,
+   "h": 792,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657901297000-PJ7RVM36W4IG1NAELKPQ/Screenshot+2022-07-15+110116.png"
+  }
+ ],
+ "s100-p4": [
+  {
+   "src": "/images/products/s100-p4-1.webp",
+   "w": 984,
+   "h": 1466,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/e9eb6659-2b0c-4cee-846f-97577d4cb5c6/S100-P4.jpg"
+  },
+  {
+   "src": "/images/products/s100-p4-2.webp",
+   "w": 1000,
+   "h": 1490,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1676321719128-PNM920GB9Y4E7X839YE8/S100-P4.png"
+  },
+  {
+   "src": "/images/products/s100-p4-3.webp",
+   "w": 1213,
+   "h": 541,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1522244579782-KZV1C23R5ILGESXMBUY2/BMT+Photo.jpg"
+  }
+ ],
+ "s100t4": [
+  {
+   "src": "/images/products/s100t4-1.webp",
+   "w": 816,
+   "h": 1600,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/c081a8aa-8d5d-41e0-bf6c-c98b6169ca98/S100-T4.png"
+  },
+  {
+   "src": "/images/products/s100t4-2.webp",
+   "w": 1213,
+   "h": 541,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1522244579782-KZV1C23R5ILGESXMBUY2/BMT+Photo.jpg"
+  },
+  {
+   "src": "/images/products/s100t4-3.webp",
+   "w": 2448,
+   "h": 2448,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1522245695666-2OO9CEE01GI12KFLOA66/NPI+Award.JPG"
+  }
+ ],
+ "et72h3ka": [
+  {
+   "src": "/images/products/et72h3ka-1.webp",
+   "w": 1256,
+   "h": 1599,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/84103fa4-97ce-4b44-b9ac-e80286c03010/72H3KA.jpg"
+  },
+  {
+   "src": "/images/products/et72h3ka-2.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7383k": [
+  {
+   "src": "/images/products/et7383k-1.webp",
+   "w": 2500,
+   "h": 1406,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/11369583-f025-4893-8866-6e69fa6507a7/7383K%2B7483K.png"
+  },
+  {
+   "src": "/images/products/et7383k-2.webp",
+   "w": 682,
+   "h": 396,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b8b72269-fd22-4441-b459-f2038fd1e5df/7383K.jpg"
+  },
+  {
+   "src": "/images/products/et7383k-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7383kc": [
+  {
+   "src": "/images/products/et7383kc-1.webp",
+   "w": 2500,
+   "h": 1406,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/5a6d7993-f556-41b9-b52a-8cf79d9d2619/7C383K%2B7C483K.png"
+  },
+  {
+   "src": "/images/products/et7383kc-2.webp",
+   "w": 683,
+   "h": 399,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/b098c4a3-55c6-4c34-81db-59e4915420f2/7383KC.jpg"
+  },
+  {
+   "src": "/images/products/et7383kc-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7383kc-screw-driving-robot": [
+  {
+   "src": "/images/products/et7383kc-screw-driving-robot-1.webp",
+   "w": 2500,
+   "h": 1406,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/aebf1c4b-2b16-472a-916a-b8a38a77d4f3/7C383K%2B7C483K.png"
+  },
+  {
+   "src": "/images/products/et7383kc-screw-driving-robot-2.webp",
+   "w": 683,
+   "h": 399,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/973b4121-f0df-4d03-b603-e4b84bff4121/7383KC.jpg"
+  },
+  {
+   "src": "/images/products/et7383kc-screw-driving-robot-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7483kxzc": [
+  {
+   "src": "/images/products/et7483kxzc-1.webp",
+   "w": 1500,
+   "h": 844,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/9898eda4-c6a0-488b-82e2-c337d7c6e4cf/PROMATION+ET7583ZA-C.png"
+  },
+  {
+   "src": "/images/products/et7483kxzc-2.webp",
+   "w": 682,
+   "h": 394,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/9d4bfc37-1279-421c-80ff-9d6a2adbd4d1/7483KXZC.jpg"
+  },
+  {
+   "src": "/images/products/et7483kxzc-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7583k": [
+  {
+   "src": "/images/products/et7583k-1.webp",
+   "w": 2500,
+   "h": 1406,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/75be7a2e-e9b8-42b3-9f04-44e095723582/7383K%2B7483K.png"
+  },
+  {
+   "src": "/images/products/et7583k-2.webp",
+   "w": 682,
+   "h": 396,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/6e5b6c9a-e5b8-4a98-8c04-0c8278be29d5/7383K.jpg"
+  },
+  {
+   "src": "/images/products/et7583k-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7583kya": [
+  {
+   "src": "/images/products/et7583kya-1.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/6cca593d-3441-4412-9903-721aee375405/7583KYA.png"
+  },
+  {
+   "src": "/images/products/et7583kya-2.webp",
+   "w": 685,
+   "h": 392,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/149d8933-b2b9-48ad-bd64-6ca9a4194d10/7583KYA.jpg"
+  },
+  {
+   "src": "/images/products/et7583kya-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7583kyac": [
+  {
+   "src": "/images/products/et7583kyac-1.webp",
+   "w": 1500,
+   "h": 844,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/44e9221e-c320-4c3c-bf1b-fdf6c978c5c5/7C583KYA.png"
+  },
+  {
+   "src": "/images/products/et7583kyac-2.webp",
+   "w": 683,
+   "h": 393,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/62211915-acad-4ac5-9621-d726d22afca2/7583KYAC.jpg"
+  },
+  {
+   "src": "/images/products/et7583kyac-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "et7683kya": [
+  {
+   "src": "/images/products/et7683kya-1.webp",
+   "w": 1500,
+   "h": 938,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/14121bf5-122a-47ea-b8f3-af166b00d06a/7583KYA.png"
+  },
+  {
+   "src": "/images/products/et7683kya-2.webp",
+   "w": 685,
+   "h": 392,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/e8a74fe3-eca4-4b55-affe-8bd8aed3f698/7583KYA.jpg"
+  },
+  {
+   "src": "/images/products/et7683kya-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "sn7353k": [
+  {
+   "src": "/images/products/sn7353k-1.webp",
+   "w": 1500,
+   "h": 844,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/19337aab-78a0-4ac4-b5e1-3164c7ddaeb4/7353K%2B7453KA.png"
+  },
+  {
+   "src": "/images/products/sn7353k-2.webp",
+   "w": 682,
+   "h": 392,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/e188d472-cb1e-45e5-95e3-87266f750f68/SN7353K.jpg"
+  },
+  {
+   "src": "/images/products/sn7353k-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "sn7453ka": [
+  {
+   "src": "/images/products/sn7453ka-1.webp",
+   "w": 1500,
+   "h": 844,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/0baf137e-b0ff-4905-bf88-a8b4ee3c9bfe/7353K%2B7453KA.png"
+  },
+  {
+   "src": "/images/products/sn7453ka-2.webp",
+   "w": 682,
+   "h": 392,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a01c3ac8-e468-4eae-90c9-2be70c413998/SN7353K.jpg"
+  },
+  {
+   "src": "/images/products/sn7453ka-3.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "c100": [
+  {
+   "src": "/images/products/c100-1.webp",
+   "w": 1000,
+   "h": 1490,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/44045d06-8488-4704-a4f3-6563721e46ad/C100.png"
+  },
+  {
+   "src": "/images/products/c100-2.webp",
+   "w": 2000,
+   "h": 617,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1464725995361-917R59WUUYF0ZBZ7M0EA/image-asset.jpeg"
+  }
+ ],
+ "robotic-screw-driving-accessories": [
+  {
+   "src": "/images/products/robotic-screw-driving-accessories-1.webp",
+   "w": 464,
+   "h": 684,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1489588882815-T2OM840NCP870OLV5W7L/ScrewAirBlowType.jpg"
+  },
+  {
+   "src": "/images/products/robotic-screw-driving-accessories-2.webp",
+   "w": 424,
+   "h": 964,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1489588995377-R80ZH3D0XNN3ITSVEXEK/ScrewAirSuctionType.jpg"
+  },
+  {
+   "src": "/images/products/robotic-screw-driving-accessories-3.webp",
+   "w": 2500,
+   "h": 1406,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1677178755580-S0XNA8TYRS7RFXT26OQ4/Power+supply.png"
+  }
+ ],
+ "tm-robots-at-a-glance": [
+  {
+   "src": "/images/products/tm-robots-at-a-glance-1.webp",
+   "w": 1120,
+   "h": 396,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642626556988-Z8971Y375328NSZKSN5R/COBOTS+GROUP.jpg"
+  },
+  {
+   "src": "/images/products/tm-robots-at-a-glance-2.webp",
+   "w": 2500,
+   "h": 1766,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/27df46cd-c431-48f8-996e-62acf37cc9d6/tm16.png"
+  },
+  {
+   "src": "/images/products/tm-robots-at-a-glance-3.webp",
+   "w": 1500,
+   "h": 950,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1641831187130-8KKHV6FUN1ET8VMN2BF5/Adaptive+Robot+Gripper+2-Finger+85+on+TM+Collaborative+Robots.png"
+  }
+ ],
+ "tm-robot-usa": [
+  {
+   "src": "/images/products/tm-robot-usa-1.webp",
+   "w": 2500,
+   "h": 660,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/85929bcb-c840-481c-ba01-e7e1be15681a/PROMATION+TM+ROBOT+LINE+UP.jpg"
+  },
+  {
+   "src": "/images/products/tm-robot-usa-2.webp",
+   "w": 1120,
+   "h": 396,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642626556988-Z8971Y375328NSZKSN5R/COBOTS+GROUP.jpg"
+  },
+  {
+   "src": "/images/products/tm-robot-usa-3.webp",
+   "w": 1500,
+   "h": 950,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1641831187130-8KKHV6FUN1ET8VMN2BF5/Adaptive+Robot+Gripper+2-Finger+85+on+TM+Collaborative+Robots.png"
+  }
+ ],
+ "techman-collaborative-robots": [
+  {
+   "src": "/images/products/techman-collaborative-robots-1.webp",
+   "w": 1120,
+   "h": 396,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642626556988-Z8971Y375328NSZKSN5R/COBOTS+GROUP.jpg"
+  },
+  {
+   "src": "/images/products/techman-collaborative-robots-2.webp",
+   "w": 1500,
+   "h": 950,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1641831187130-8KKHV6FUN1ET8VMN2BF5/Adaptive+Robot+Gripper+2-Finger+85+on+TM+Collaborative+Robots.png"
+  }
+ ],
+ "tm5-700": [
+  {
+   "src": "/images/products/tm5-700-1.webp",
+   "w": 1194,
+   "h": 1272,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642615261882-74EZ7UQ72H2WAMEMP9QT/TM5-700.jpg"
+  },
+  {
+   "src": "/images/products/tm5-700-2.webp",
+   "w": 1500,
+   "h": 1259,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642614822683-IKICGNAUL9S1UFEYG2N4/TM5-700+Capability.png"
+  },
+  {
+   "src": "/images/products/tm5-700-3.webp",
+   "w": 1561,
+   "h": 1033,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642614797813-47ZSBC9MJNXQOXTPO79P/TM5-700+Working+Area.png"
+  }
+ ],
+ "tm5-900": [
+  {
+   "src": "/images/products/tm5-900-1.webp",
+   "w": 1058,
+   "h": 1000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642623175556-CBH1ML42MFS598TXZDL6/TM5900Specs.jpg"
+  },
+  {
+   "src": "/images/products/tm5-900-2.webp",
+   "w": 1262,
+   "h": 642,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642615633968-3PZ3H3XK5S7ET7DF45OG/SMART.jpg"
+  },
+  {
+   "src": "/images/products/tm5-900-3.webp",
+   "w": 1144,
+   "h": 476,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642623399494-954L3WDQBIVR0J03AOGZ/SMART2.jpg"
+  }
+ ],
+ "tm12": [
+  {
+   "src": "/images/products/tm12-1.webp",
+   "w": 930,
+   "h": 1192,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642624386757-6Q8MZKCN9ZW38JDVT9R2/TM12+Specs.jpg"
+  },
+  {
+   "src": "/images/products/tm12-2.webp",
+   "w": 1262,
+   "h": 642,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642615633968-3PZ3H3XK5S7ET7DF45OG/SMART.jpg"
+  },
+  {
+   "src": "/images/products/tm12-3.webp",
+   "w": 1144,
+   "h": 476,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642623399494-954L3WDQBIVR0J03AOGZ/SMART2.jpg"
+  }
+ ],
+ "tm-14": [
+  {
+   "src": "/images/products/tm-14-1.webp",
+   "w": 915,
+   "h": 1155,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642624631800-BK316L8UQERPU4RSI4UV/TM14+specs.jpg"
+  },
+  {
+   "src": "/images/products/tm-14-2.webp",
+   "w": 1262,
+   "h": 642,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642615633968-3PZ3H3XK5S7ET7DF45OG/SMART.jpg"
+  },
+  {
+   "src": "/images/products/tm-14-3.webp",
+   "w": 1144,
+   "h": 476,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642623399494-954L3WDQBIVR0J03AOGZ/SMART2.jpg"
+  }
+ ],
+ "tm16": [
+  {
+   "src": "/images/products/tm16-1.webp",
+   "w": 1000,
+   "h": 1319,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/3069be9f-4457-4e56-99b3-7a9583102cfd/HW32-TM16-p3.png"
+  },
+  {
+   "src": "/images/products/tm16-2.webp",
+   "w": 746,
+   "h": 749,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/7efd5bd1-bc73-4196-8e76-8fa187170c30/TM16+SPECS.jpg"
+  },
+  {
+   "src": "/images/products/tm16-3.webp",
+   "w": 1262,
+   "h": 642,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642615633968-3PZ3H3XK5S7ET7DF45OG/SMART.jpg"
+  }
+ ],
+ "tm20": [
+  {
+   "src": "/images/products/tm20-1.webp",
+   "w": 2500,
+   "h": 1433,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/7c116251-29ce-440d-9297-d1c80cab10dc/HW32-TM20-01.png"
+  },
+  {
+   "src": "/images/products/tm20-2.webp",
+   "w": 844,
+   "h": 772,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a67cfdde-7218-4813-9565-4206b9f881d7/TM20+SPECS.jpg"
+  },
+  {
+   "src": "/images/products/tm20-3.webp",
+   "w": 1262,
+   "h": 642,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642615633968-3PZ3H3XK5S7ET7DF45OG/SMART.jpg"
+  }
+ ],
+ "tm-mobile-robot-solutions": [
+  {
+   "src": "/images/products/tm-mobile-robot-solutions-1.webp",
+   "w": 786,
+   "h": 429,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/d4d32080-3dd2-41ec-b702-94d7b3a8738c/OMRON+AMR.png"
+  },
+  {
+   "src": "/images/products/tm-mobile-robot-solutions-2.webp",
+   "w": 1121,
+   "h": 713,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a04628a3-be8a-4aa3-90e1-d85ac6fb1e43/omron+mobile+solution.png"
+  },
+  {
+   "src": "/images/products/tm-mobile-robot-solutions-3.webp",
+   "w": 1121,
+   "h": 689,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/4aea67eb-de24-4859-9ed0-ea31428a71c4/fleet+management.png"
+  }
+ ],
+ "mobile-robot-solutions-1": [
+  {
+   "src": "/images/products/mobile-robot-solutions-1-1.webp",
+   "w": 786,
+   "h": 429,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/d4d32080-3dd2-41ec-b702-94d7b3a8738c/OMRON+AMR.png"
+  },
+  {
+   "src": "/images/products/mobile-robot-solutions-1-2.webp",
+   "w": 1121,
+   "h": 713,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a04628a3-be8a-4aa3-90e1-d85ac6fb1e43/omron+mobile+solution.png"
+  },
+  {
+   "src": "/images/products/mobile-robot-solutions-1-3.webp",
+   "w": 1121,
+   "h": 689,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/4aea67eb-de24-4859-9ed0-ea31428a71c4/fleet+management.png"
+  }
+ ],
+ "mobile-robot-line-loading": [
+  {
+   "src": "/images/products/mobile-robot-line-loading-1.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/48122289-22b4-4ecc-90f3-e8e5eae77619/IMG_4084.jpg"
+  },
+  {
+   "src": "/images/products/mobile-robot-line-loading-2.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1710789871202-S5DT76Y1WALZPFFQUGF8/IMG_4086.jpg"
+  },
+  {
+   "src": "/images/products/mobile-robot-line-loading-3.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534538292079-Q8KJRD3T38TKFSJ1YGXX/IMG_0739.JPG"
+  }
+ ],
+ "mobile-robot-line-unloading": [
+  {
+   "src": "/images/products/mobile-robot-line-unloading-1.webp",
+   "w": 1500,
+   "h": 1999,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a6e90ffd-ea75-45ba-bb32-95372df7d852/IMG_4154.jpg"
+  },
+  {
+   "src": "/images/products/mobile-robot-line-unloading-2.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1710947016186-WJLY5GKQHUNYDBM88JV4/IMG_4153.jpg"
+  },
+  {
+   "src": "/images/products/mobile-robot-line-unloading-3.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1710789871202-S5DT76Y1WALZPFFQUGF8/IMG_4086.jpg"
+  }
+ ],
+ "panda-robotics": [
+  {
+   "src": "/images/products/panda-robotics-1.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657720695635-SG85M9S7J188ZCOB4EOX/IMG_2711.JPG"
+  },
+  {
+   "src": "/images/products/panda-robotics-2.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657720993089-SFQFYP4LFGWSZFM71LVC/IMG_2736.JPG"
+  },
+  {
+   "src": "/images/products/panda-robotics-3.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1657721025091-OXIZUITXH5DA1R6ZPH12/IMG_2735.JPG"
+  }
+ ],
+ "panda-robotics-usa": [
+  {
+   "src": "/images/products/panda-robotics-usa-1.webp",
+   "w": 750,
+   "h": 750,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1610471566221-37QCTRRGR9LNZBU7FER5/PANDA+HEAD+LOGO.png"
+  }
+ ],
+ "panda-laser-marking": [
+  {
+   "src": "/images/products/panda-laser-marking-1.webp",
+   "w": 2500,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/90875273-eaf8-4deb-9b4e-bd43c9e1087a/IMG_0581.jpeg"
+  },
+  {
+   "src": "/images/products/panda-laser-marking-2.webp",
+   "w": 2500,
+   "h": 1875,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/13f26217-5c0e-49d2-b802-75d78e3ecbf8/IMG_0588.jpeg"
+  },
+  {
+   "src": "/images/products/panda-laser-marking-3.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/ab2d1015-1856-43c8-af30-a4637113883d/IMG_0389.jpeg"
+  }
+ ],
+ "xc1000": [
+  {
+   "src": "/images/products/xc1000-1.webp",
+   "w": 1461,
+   "h": 354,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/e6215053-cba9-4c37-a6dc-3d4b0f90d715/Seamark+LOGO.png"
+  },
+  {
+   "src": "/images/products/xc1000-2.webp",
+   "w": 963,
+   "h": 1484,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/64065f9b-a880-4ce9-88b3-50f49b4b48f7/XC1000%E6%9C%80%E6%96%B0.png"
+  },
+  {
+   "src": "/images/products/xc1000-3.webp",
+   "w": 2500,
+   "h": 1667,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/76424629-ae96-4a57-aad5-beac434c3cb4/IMG_5379.jpg"
+  }
+ ],
+ "pcb-magazine-line-loader": [
+  {
+   "src": "/images/products/pcb-magazine-line-loader-1.webp",
+   "w": 1512,
+   "h": 2016,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/9a4e4379-721b-4691-a9c5-00392d8a3a83/IMG_3242.jpg"
+  },
+  {
+   "src": "/images/products/pcb-magazine-line-loader-2.webp",
+   "w": 1512,
+   "h": 2016,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704838010358-U38GPCSQDNN2AIWKVTXE/IMG_3251.jpg"
+  },
+  {
+   "src": "/images/products/pcb-magazine-line-loader-3.webp",
+   "w": 1512,
+   "h": 2016,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1704838008676-7K5MSS1MX446M3KH9PCI/IMG_3256.jpg"
+  }
+ ],
+ "pcb-magazine-unloading-stations": [
+  {
+   "src": "/images/products/pcb-magazine-unloading-stations-1.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1483395220776-T2UB96R0KTNLHYCN65E1/Magazine+Unloader.jpg"
+  },
+  {
+   "src": "/images/products/pcb-magazine-unloading-stations-2.webp",
+   "w": 2048,
+   "h": 1536,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1433389933085-G159407NXZL330H0AIUE/ESU-700+Magazine+Line+Unloader+%28Right+to+Left+Process+Flow%29.jpg"
+  },
+  {
+   "src": "/images/products/pcb-magazine-unloading-stations-3.webp",
+   "w": 1437,
+   "h": 1872,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1433389921843-JXM6UHJMYP2JHPCMABBU/ESU-700+Magazine+Line+Unloading+Solution.jpg"
+  }
+ ],
+ "pcb-handling-buffering": [
+  {
+   "src": "/images/products/pcb-handling-buffering-1.webp",
+   "w": 2500,
+   "h": 3333,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/6268bc42-c9e2-48be-8ea0-569755083f09/IMG_8500.jpg"
+  },
+  {
+   "src": "/images/products/pcb-handling-buffering-2.webp",
+   "w": 963,
+   "h": 963,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435001625714-46BYNCRF25VZK3F4U0JH/Buffer+Belt+Rack.jpg"
+  },
+  {
+   "src": "/images/products/pcb-handling-buffering-3.webp",
+   "w": 1500,
+   "h": 2000,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1500495603417-KX737QT1I20J5FO38JJ7/IMG_3592.JPG"
+  }
+ ],
+ "pcb-post-aoi-sorting-systems": [
+  {
+   "src": "/images/products/pcb-post-aoi-sorting-systems-1.webp",
+   "w": 739,
+   "h": 964,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1484329075277-FFLWCWMNE4YF4HITA0X6/mfmh.jpg"
+  },
+  {
+   "src": "/images/products/pcb-post-aoi-sorting-systems-2.webp",
+   "w": 756,
+   "h": 862,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1436194757750-E337VMJJYO1G6FTQAHS6/ESM-200+LLX.jpg"
+  },
+  {
+   "src": "/images/products/pcb-post-aoi-sorting-systems-3.webp",
+   "w": 2048,
+   "h": 1536,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1436194714586-YXTEB9U8BYBDMU9UQORE/EMB-700+Mag+sliding+platform.jpg"
+  }
+ ],
+ "pcb-handling-post-aoi-sorting-systems": [
+  {
+   "src": "/images/products/pcb-handling-post-aoi-sorting-systems-1.webp",
+   "w": 1104,
+   "h": 1104,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1458663797490-FCRTQB0O63IXCMCAMQ07/SEA2.jpg"
+  },
+  {
+   "src": "/images/products/pcb-handling-post-aoi-sorting-systems-2.webp",
+   "w": 2500,
+   "h": 1659,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435786244324-W95RG31GVDJL7HLDO8DW/ENG-700F+PCB+Lifted+600+dpi.jpg"
+  },
+  {
+   "src": "/images/products/pcb-handling-post-aoi-sorting-systems-3.webp",
+   "w": 2352,
+   "h": 1568,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1531862474129-HP5ADRP6IBZAQS2124R6/Reject_pin+02.JPG"
+  }
+ ],
+ "pcb-post-aoi-sorting-buffer": [
+  {
+   "src": "/images/products/pcb-post-aoi-sorting-buffer-1.webp",
+   "w": 768,
+   "h": 945,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1483396230335-KOFBY75WK6ACJ4LE8SJK/image-asset.jpeg"
+  },
+  {
+   "src": "/images/products/pcb-post-aoi-sorting-buffer-2.webp",
+   "w": 870,
+   "h": 963,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1433392518020-48RYZE1YR6ONK0UYCL5D/Post+AOI+Sorting+Buffer.jpg"
+  },
+  {
+   "src": "/images/products/pcb-post-aoi-sorting-buffer-3.webp",
+   "w": 1512,
+   "h": 1512,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1534538719707-93QPB4MV4KS52DUBGBYJ/IMG_0733.JPG"
+  }
+ ],
+ "barcode-scanning-conveyor": [
+  {
+   "src": "/images/products/barcode-scanning-conveyor-1.webp",
+   "w": 1000,
+   "h": 563,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/a3db3257-6a7d-4e5c-8ddf-2939eb2ff59a/Screenshot+2025-01-27+at+1.57.25%E2%80%AFPM.png"
+  },
+  {
+   "src": "/images/products/barcode-scanning-conveyor-2.webp",
+   "w": 1000,
+   "h": 563,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/97558870-32cd-457b-b7d3-b62b74e99916/Screenshot+2025-01-27+at+1.55.35%E2%80%AFPM.png"
+  }
+ ],
+ "flat-belt-conveyors": [
+  {
+   "src": "/images/products/flat-belt-conveyors-1.webp",
+   "w": 1800,
+   "h": 1200,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1484669754449-SFOXEQ6DEH282VSNF2VB/image-asset.jpeg"
+  },
+  {
+   "src": "/images/products/flat-belt-conveyors-2.webp",
+   "w": 2048,
+   "h": 1536,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1433391305515-OLNO6MYVP5C6J55A34H2/EFC-700s+Mesh+Belt+System+%28Dual+Height+Oven+Offloader%29.jpg"
+  },
+  {
+   "src": "/images/products/flat-belt-conveyors-3.webp",
+   "w": 992,
+   "h": 744,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435785312153-2YSAW30Q9F73VL9ZXEV7/EFC-700+1M.jpg"
+  }
+ ],
+ "lead-frame-handlers": [
+  {
+   "src": "/images/products/lead-frame-handlers-1.webp",
+   "w": 2400,
+   "h": 1800,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435870288403-QWMV732JINXWWBDVD0TI/image-asset.jpeg"
+  },
+  {
+   "src": "/images/products/lead-frame-handlers-2.webp",
+   "w": 1200,
+   "h": 900,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435870398307-MGSQ4000J9OJ5H78M64R/EBL+Control+Panel.jpg"
+  },
+  {
+   "src": "/images/products/lead-frame-handlers-3.webp",
+   "w": 2400,
+   "h": 1800,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1435870398301-TIMU5BG0HWM65G2OZ33Z/EBL+Line+Loader.jpg"
+  }
+ ],
+ "robotics-division": [
+  {
+   "src": "/images/products/robotics-division-1.webp",
+   "w": 868,
+   "h": 229,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1641834986940-VQCQ3H8SMX2QJIQPVYPO/roboticsdivisionlogo.jpg"
+  },
+  {
+   "src": "/images/products/robotics-division-2.webp",
+   "w": 792,
+   "h": 306,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/5689c002-38fa-4c01-8566-7d94d4db0ce3/official+robot+center+graphic.jpg"
+  }
+ ],
+ "techman-usa-1": [
+  {
+   "src": "/images/products/techman-usa-1-1.webp",
+   "w": 1120,
+   "h": 396,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1642626556988-Z8971Y375328NSZKSN5R/COBOTS+GROUP.jpg"
+  },
+  {
+   "src": "/images/products/techman-usa-1-2.webp",
+   "w": 1500,
+   "h": 950,
+   "origin": "https://images.squarespace-cdn.com/content/v1/553aaccde4b0f11dcc2284f2/1641831187130-8KKHV6FUN1ET8VMN2BF5/Adaptive+Robot+Gripper+2-Finger+85+on+TM+Collaborative+Robots.png"
+  }
+ ]
+}

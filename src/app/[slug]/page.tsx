@@ -7,6 +7,7 @@ import {
   getCategoryMeta,
   getProductsInCategory,
   getRelated,
+  heroImage,
   specLabel,
   type ProductLink,
 } from "@/lib/products";
@@ -18,6 +19,7 @@ import { site } from "@/lib/site";
 import { ProductJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 import { CtaBar, RequestQuoteBlock } from "@/components/Conversion";
 import { QuickRfq } from "@/components/QuickRfq";
+import { ProductGallery } from "@/components/ProductGallery";
 
 export function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -121,6 +123,8 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
   );
 
   const isCategoryRoot = cat?.rootSlug === product.slug;
+  const images = product.images ?? [];
+  const hero = heroImage(product);
 
   return (
     <>
@@ -139,6 +143,7 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
           name={product.title}
           description={product.tagline ?? undefined}
           url={`/${product.slug}`}
+          image={hero?.src}
           specs={product.specs as Record<string, string> | undefined}
         />
       )}
@@ -163,6 +168,14 @@ export default async function ProductPage({ params }: PageProps<"/[slug]">) {
 
       <div className="mx-auto grid w-full max-w-7xl gap-14 px-4 py-16 sm:px-6 lg:grid-cols-[1fr_360px] lg:px-8">
         <div className="min-w-0">
+          {images.length > 0 && (
+            <Reveal>
+              <div className="mb-12">
+                <ProductGallery images={images} alt={product.title} />
+              </div>
+            </Reveal>
+          )}
+
           {product.description && (
             <Reveal>
               <div className="prose-future max-w-none">

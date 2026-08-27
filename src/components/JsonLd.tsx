@@ -126,6 +126,7 @@ export function StoreProductJsonLd({
   name: string;
   description?: string;
   url: string;
+  /** Site-relative path; absolutised here the same way `url` is. */
   image?: string;
   sku?: string;
   price?: string;
@@ -184,7 +185,7 @@ export function StoreProductJsonLd({
         name,
         ...(description ? { description } : {}),
         url: `${BASE}${url}`,
-        ...(image ? { image } : {}),
+        ...(image ? { image: image.startsWith("http") ? image : `${BASE}${image}` } : {}),
         ...(sku ? { sku } : {}),
         brand: { "@type": "Brand", name: brandFor(name) },
         ...(offers ? { offers } : {}),
@@ -203,6 +204,7 @@ export function ProductJsonLd({
   name: string;
   description?: string;
   url: string;
+  /** Site-relative path; absolutised here the same way `url` is. */
   image?: string;
   specs?: Record<string, string>;
 }) {
@@ -219,7 +221,7 @@ export function ProductJsonLd({
         name,
         ...(description ? { description } : {}),
         url: `${BASE}${url}`,
-        ...(image ? { image } : {}),
+        ...(image ? { image: image.startsWith("http") ? image : `${BASE}${image}` } : {}),
         brand: { "@type": "Brand", name: brandFor(name) },
         ...(properties.length ? { additionalProperty: properties } : {}),
         manufacturer: { "@id": `${BASE}/#organization` },

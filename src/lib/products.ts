@@ -1,5 +1,12 @@
 import productsData from "@/content/products.json";
 
+/** A product photograph pulled from the live site, with its intrinsic size. */
+export type ProductImage = {
+  src: string;
+  width: number;
+  height: number;
+};
+
 export type ProductLink = {
   title?: string;
   label?: string;
@@ -24,11 +31,22 @@ export type Product = {
   videos?: string[];
   subProducts?: unknown[];
   productLinks?: ProductLink[];
-  images?: unknown[];
+  images?: ProductImage[];
   note?: string;
 };
 
 export const products: Product[] = productsData as Product[];
+
+/**
+ * The lead photograph for a product, or null.
+ *
+ * Not every entry has one: a couple of pages on the old site only ever carried
+ * thumbnails too small to enlarge, so callers must handle the empty case
+ * rather than assume an image exists.
+ */
+export function heroImage(product: Product): ProductImage | null {
+  return product.images?.[0] ?? null;
+}
 
 export type CategoryMeta = {
   key: string;

@@ -5,34 +5,45 @@ UI/UX audit. Ordered by what unblocks the most work.
 
 ---
 
-## 1. Photography — the biggest single blocker
+## 1. Photography — mostly solved, one gap left
 
-This is the one thing holding back both the product pages and the visual design. Everything else
-on this list is a form or a login; this needs a camera.
+**Update (August 2026): this is no longer the blocker it was.** The live Squarespace sitemap turned
+out to publish 1,286 image URLs, and the CDN serves the originals at full resolution. We recovered
+**293 photographs covering 106 of 107 products** — including the entire screw-driving range, which
+previously had none at all. Every catalogue card and product page now carries a real machine photo.
 
-**The situation:** of 107 products in the catalogue, **one** has usable photography. The other
-image entries turned out to be descriptive notes from the content extraction, not pictures.
+What we still need from PROMATION:
+
+- **A photo for "Assembly Solutions"** — the only product page with nothing usable. Its two source
+  images exist but are 400×300 and 458×258, too small to enlarge.
+- **Curation, if they want it.** Images are ordered exactly as they appear on the live site, which
+  means the lead shot is occasionally a detail rather than the whole machine. Ten minutes with the
+  list would fix it; the ordering lives in `audit/prebuild/image-manifest.json`.
+- **Anything newer than the website.** These are the photographs already public — a shoot would
+  still beat them, it is just no longer urgent.
+
+**The original situation, for the record:** of 107 products in the catalogue, **one** had usable
+photography in our extraction. The other image entries turned out to be descriptive notes from the
+content extraction, not pictures.
 Separately, every existing category photo has PROMATION's **blue diagonal graphic burned into the
 image file** — the largest genuinely clean rectangle in those files is 121–330 px wide, so they
 cannot be used as full-bleed backgrounds. Only one asset on the whole site (`hq.webp`, the PANDA
 cell) is high-resolution and clean.
 
-**What to ask for, in priority order:**
+**Resolved since this list was written:** product shots for the QUICK, ET dispensing and
+screw-driving ranges (recovered); category imagery for screw driving and X-ray inspection
+(recovered — both had none); Gary Goldberg's headshot (supplied and in place on `/what-we-do`).
 
-1. **Product shots for the machines that sell** — the QUICK soldering models, the ET dispensing
-   series, and the screw-driving range. Even a consistent set of 10–15 hero models transforms the
-   product pages.
-2. **Category photography for screw driving and X-ray inspection** — these two have *no* imagery
-   at all, so they currently show a typographic placeholder while every other line shows a machine.
-   Screw driving especially, since the research identified it as the most winnable category.
-3. **Clean, high-resolution versions without the blue graphic** — wide format (2000 px+) so they
-   can carry full-bleed sections the way `hq.webp` does.
-4. **A headshot of Gary Goldberg** for the quote on `/what-we-do` — the slot is built and currently
-   renders a monogram. Worth getting **Mike Goldberg's** at the same time, since he is quoted
-   across most of the press releases.
+**What is still worth asking for:**
 
-If a shoot is not realistic, ask whether they have an existing product-photography library from
-the OEMs (QUICK, PANDA, TechMan, SEAMARK usually supply dealer image kits).
+1. **Clean, wide-format versions of the six category photos** — the ones in `public/images` still
+   have PROMATION's blue diagonal graphic burned into the file, and the largest clean rectangle in
+   them is 121–330 px wide, so they cannot carry full-bleed sections. The newly recovered product
+   photography may cover some of this; worth a look before asking.
+2. **A headshot of Mike Goldberg** — he is quoted across most of the press releases and has no
+   photograph anywhere on the site.
+3. **An OEM image library, if one exists** — QUICK, PANDA, TechMan and SEAMARK usually supply
+   dealer image kits, which would be higher quality than anything recovered from the old site.
 
 ---
 
@@ -102,6 +113,7 @@ These are the ones where a wrong assumption costs real build time.
 
 ## Suggested framing for the conversation
 
-Items 1 and 2 unblock the most work for the least effort on their side. If the call is short, lead
-with **photography** and **Search Console access** — the first is the visual ceiling on the rebuild,
-the second is the measurement floor for everything after launch.
+Item 2 now unblocks the most work for the least effort on their side. If the call is short, lead
+with **Search Console and analytics access** — that is the measurement floor for everything after
+launch, and with photography largely recovered it is the last thing genuinely holding the rebuild
+back. The one photograph still missing (Assembly Solutions) can be an aside.
