@@ -17,7 +17,7 @@
   "h1Count": 1,
   "h2Count": 10,
   "h3Count": 14,
-  "words": 800,
+  "words": 806,
   "imgCount": 12,
   "imgNoAlt": 0,
   "imgEmptyAlt": 7,
@@ -26,12 +26,14 @@
    "Organization",
    "PostalAddress",
    "ContactPoint",
-   "WebSite"
+   "WebSite",
+   "VideoObject",
+   "WebPage"
   ],
   "ldInvalid": 0,
   "internalLinks": 66,
   "externalLinks": 4,
-  "bytes": 135921
+  "bytes": 138126
  },
  {
   "path": "/products",
@@ -679,7 +681,7 @@
   "h1Count": 1,
   "h2Count": 5,
   "h3Count": 7,
-  "words": 688,
+  "words": 684,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -695,7 +697,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 68802
+  "bytes": 68528
  },
  {
   "path": "/news/2025/10/28/the-next-generation-of-laser-marking-by-panda-robotics-usa",
@@ -715,7 +717,7 @@
   "h1Count": 1,
   "h2Count": 2,
   "h3Count": 7,
-  "words": 626,
+  "words": 622,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -731,7 +733,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 67273
+  "bytes": 66869
  },
  {
   "path": "/news/2024/11/15/whats-new-november-2024",
@@ -751,7 +753,7 @@
   "h1Count": 1,
   "h2Count": 4,
   "h3Count": 7,
-  "words": 331,
+  "words": 327,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -762,12 +764,13 @@
    "ContactPoint",
    "WebSite",
    "NewsArticle",
-   "WebPage"
+   "WebPage",
+   "VideoObject"
   ],
   "ldInvalid": 0,
   "internalLinks": 53,
   "externalLinks": 4,
-  "bytes": 64328
+  "bytes": 65809
  },
  {
   "path": "/new-products",
@@ -6627,9 +6630,9 @@
  },
  {
   "path": "/robotic-dispensing/et8484-dispensing-robot",
-  "title": "ET8384 Dispensing Robot | PROMATION USA",
+  "title": "ET8484 Dispensing Robot | PROMATION USA",
   "titleLen": 39,
-  "desc": "ET8384 Dispensing Robot — Robust 4-Axis Cartesian Motion Platform for Controlled Dispensing The ET8384 Series Dispensing Robot features a robust 4-Axis…",
+  "desc": "ET8484 Dispensing Robot — Robust 4-Axis Cartesian Motion Platform for Controlled Dispensing The ET8484 Series Dispensing Robot features a robust 4-Axis…",
   "descLen": 152,
   "robotsMeta": "",
   "canonicalHref": "https://www.promationusa.com/robotic-dispensing/et8484-dispensing-robot",
@@ -6638,7 +6641,7 @@
   "ogTags": 4,
   "twitterTags": 3,
   "h1s": [
-   "ET8384 Dispensing Robot"
+   "ET8484 Dispensing Robot"
   ],
   "h1Count": 1,
   "h2Count": 7,
@@ -9418,7 +9421,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 406,
+  "words": 402,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9434,7 +9437,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 62592
+  "bytes": 62188
  },
  {
   "path": "/news/2022/8/3/panda-intelligent-soldering-solutions-featured-by-global-smt-amp-packaging-magazine",
@@ -9454,7 +9457,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 354,
+  "words": 350,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9470,7 +9473,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 62465
+  "bytes": 62061
  },
  {
   "path": "/news/2022/5/31/2022-international-sales-training-conference",
@@ -9490,7 +9493,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 642,
+  "words": 638,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9506,7 +9509,7 @@
   "ldInvalid": 0,
   "internalLinks": 52,
   "externalLinks": 4,
-  "bytes": 68692
+  "bytes": 68288
  },
  {
   "path": "/news/2022/1/3/innovation-winter-2022",
@@ -9526,7 +9529,7 @@
   "h1Count": 1,
   "h2Count": 2,
   "h3Count": 7,
-  "words": 481,
+  "words": 477,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9537,12 +9540,13 @@
    "ContactPoint",
    "WebSite",
    "NewsArticle",
-   "WebPage"
+   "WebPage",
+   "VideoObject"
   ],
   "ldInvalid": 0,
   "internalLinks": 52,
   "externalLinks": 4,
-  "bytes": 64763
+  "bytes": 66203
  },
  {
   "path": "/news/2021/4/26/promation-usa-adds-30-robot-models-to-the-quick-robotic-product-line",
@@ -9562,7 +9566,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 447,
+  "words": 443,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9578,7 +9582,7 @@
   "ldInvalid": 0,
   "internalLinks": 54,
   "externalLinks": 4,
-  "bytes": 65237
+  "bytes": 64833
  },
  {
   "path": "/news/2020/2/7/panda-soldering-system-wins-2020-new-product-introduction-award",
@@ -9598,7 +9602,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 404,
+  "words": 400,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9614,7 +9618,7 @@
   "ldInvalid": 0,
   "internalLinks": 53,
   "externalLinks": 4,
-  "bytes": 64249
+  "bytes": 63845
  },
  {
   "path": "/news/2020/1/30/promation-introduces-quick-9394f-soldering-robot",
@@ -9634,7 +9638,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 384,
+  "words": 380,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9650,7 +9654,7 @@
   "ldInvalid": 0,
   "internalLinks": 52,
   "externalLinks": 4,
-  "bytes": 63026
+  "bytes": 62635
  },
  {
   "path": "/news/2020/1/27/kevin-brennan-announced-international-sales-manager-for-promation-usa",
@@ -9670,7 +9674,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 339,
+  "words": 335,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9686,7 +9690,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 59981
+  "bytes": 59577
  },
  {
   "path": "/news/panda-soldering-systems",
@@ -9706,7 +9710,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 677,
+  "words": 673,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9722,7 +9726,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 69100
+  "bytes": 68653
  },
  {
   "path": "/news/2019",
@@ -9742,7 +9746,7 @@
   "h1Count": 1,
   "h2Count": 4,
   "h3Count": 7,
-  "words": 385,
+  "words": 381,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9758,7 +9762,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 64448
+  "bytes": 64057
  },
  {
   "path": "/news/2018/8/13/promation-launches-soldering-technology-initiative",
@@ -9778,7 +9782,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 794,
+  "words": 790,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9794,7 +9798,7 @@
   "ldInvalid": 0,
   "internalLinks": 60,
   "externalLinks": 4,
-  "bytes": 73842
+  "bytes": 73438
  },
  {
   "path": "/news/2018/2/2/altus-group-europe-and-danutek-hungary-complete-robotic-soldering-training-at-promation-usa",
@@ -9814,7 +9818,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 482,
+  "words": 478,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9830,7 +9834,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 64547
+  "bytes": 64156
  },
  {
   "path": "/news/2017/12/20/promation-usa-offers-new-intelligent-hand-soldering-stations",
@@ -9850,7 +9854,7 @@
   "h1Count": 1,
   "h2Count": 1,
   "h3Count": 7,
-  "words": 488,
+  "words": 484,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9861,12 +9865,13 @@
    "ContactPoint",
    "WebSite",
    "NewsArticle",
-   "WebPage"
+   "WebPage",
+   "VideoObject"
   ],
   "ldInvalid": 0,
   "internalLinks": 54,
   "externalLinks": 4,
-  "bytes": 66732
+  "bytes": 68289
  },
  {
   "path": "/news/2017/11/7/promation-scheduled-to-attend-2017-productronica-in-munich-germany",
@@ -9886,7 +9891,7 @@
   "h1Count": 1,
   "h2Count": 0,
   "h3Count": 4,
-  "words": 100,
+  "words": 96,
   "imgCount": 0,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
@@ -9902,7 +9907,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 49198
+  "bytes": 48794
  },
  {
   "path": "/store/quick-191ad",

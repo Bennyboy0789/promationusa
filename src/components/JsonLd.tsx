@@ -443,3 +443,50 @@ export function NewsArticleJsonLd({
     />
   );
 }
+
+/**
+ * An embedded video.
+ *
+ * Google requires `name`, `description`, `thumbnailUrl` and `uploadDate` for a
+ * VideoObject to be eligible for video rich results, so a video missing any of
+ * them should not emit the markup at all rather than emit it incomplete.
+ * Thumbnails come from YouTube's own CDN at a size Google accepts.
+ */
+export function VideoObjectJsonLd({
+  id,
+  name,
+  description,
+  uploadDate,
+  duration,
+  pageUrl,
+}: {
+  id: string;
+  name: string;
+  description: string;
+  uploadDate: string;
+  duration?: string | null;
+  /** Site-relative path of the page the video appears on. */
+  pageUrl: string;
+}) {
+  if (!name || !uploadDate) return null;
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name,
+        ...(description ? { description } : {}),
+        thumbnailUrl: [
+          `https://i.ytimg.com/vi/${id}/maxresdefault.jpg`,
+          `https://i.ytimg.com/vi/${id}/hqdefault.jpg`,
+        ],
+        uploadDate,
+        ...(duration ? { duration } : {}),
+        embedUrl: `https://www.youtube.com/embed/${id}`,
+        contentUrl: `https://www.youtube.com/watch?v=${id}`,
+        publisher: { "@id": `${BASE}/#organization` },
+        mainEntityOfPage: { "@type": "WebPage", "@id": `${BASE}${pageUrl}` },
+      }}
+    />
+  );
+}

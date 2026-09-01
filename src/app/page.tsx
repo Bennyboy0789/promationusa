@@ -11,6 +11,8 @@ import { ParallaxBand } from "@/components/fx/ParallaxBand";
 import { QuotePortrait } from "@/components/QuotePortrait";
 import { SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { partners, homeVideo, whatWeDo } from "@/lib/content";
+import { getVideoMeta, youtubeId } from "@/lib/videos";
+import { VideoObjectJsonLd } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -267,6 +269,19 @@ export default function Home() {
           intro="Watch the PROMATION platform at work — then book a live virtual demo with our engineers."
           align="center"
         />
+        {(() => {
+          const meta = getVideoMeta(homeVideo);
+          return meta ? (
+            <VideoObjectJsonLd
+              id={meta.id}
+              name={meta.name}
+              description={meta.description}
+              uploadDate={meta.uploadDate}
+              duration={meta.duration}
+              pageUrl="/"
+            />
+          ) : null;
+        })()}
         <Reveal delay={0.15}>
           <div className="mx-auto mt-12 max-w-4xl">
             <div className="border-beam clip-corner p-1.5">

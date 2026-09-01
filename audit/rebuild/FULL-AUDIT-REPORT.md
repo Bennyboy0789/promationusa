@@ -463,3 +463,137 @@ Unchanged, and all genuinely blocked:
 | GTM ID, Resend credentials | Accounts under PROMATION's control. |
 | 33 thin pages | Mostly store parts; needs real compatibility data. |
 | Events in nav | In the navigation but retired from the index. A business call. |
+
+---
+
+# Deck commitments — final verification
+
+Checked against the client PDF (`audit/PROMATION-Website-Audit.pdf`) rather than against this
+report, item by item, on a running production build.
+
+## Slide 14 — Action plan
+
+| # | Commitment | State |
+|---|---|---|
+| 01 | Viewport meta tag sitewide | ✅ every page |
+| 02 | Consolidate the 4 TechMan pages | ✅ 4 URLs → one canonical |
+| 03 | Standardise company data + disambiguate | ✅ one phone format in site chrome; `disambiguatingDescription` on the Organization node |
+| 04 | Fix wrong-model copy and placeholder captions | ✅ 9733D description corrected; zero "Make it stand out" captions |
+| C1 | tel: + phone + Request a Quote in a sticky header | ✅ |
+| C1 | Cut the form to 5 fields | ⚠️ **deliberate deviation** — the 14-field form was rebuilt to parity at your instruction; a 3-field RFQ now sits above it |
+| C3 | Install GA4 + conversion events | ⚠️ instrumented and inert — needs a container ID |
+| C3 | Diagnose the Ads account | ✅ done in the audit (dark since Nov 2024) |
+| 06 | Drop tag archives, merge dupes, retire "-copy" | ✅ 0 of each in the sitemap |
+| 07 | aggregateRating | ❌ **blocked** — needs real reviews |
+| 07 | LocalBusiness, BreadcrumbList, JobPosting | ✅ all three |
+| 10 | Fix /store and /contact above the fold | ✅ in the CRO pass |
+| — | 351-row redirect map, one hop, no chains | ✅ generated and resolved; 0 chains |
+
+## Slide 15 / 20 — Schema sweep
+
+The deck promised **Product + Offer + FAQ + VideoObject + BreadcrumbList**.
+
+| Type | Pages |
+|---|---|
+| Product | 186 |
+| Offer | 186 |
+| FAQPage | 208 |
+| **VideoObject** | **4** |
+| BreadcrumbList | 236 |
+| LocalBusiness / JobPosting / NewsArticle | 1 / 1 / 17 |
+
+**VideoObject was the last one outstanding, and I had wrongly written it off.** I checked
+`products.json`, found one video URL, and called it blocked. The site actually embeds four real
+YouTube videos — the homepage laser-marking film and three press releases — and YouTube
+publishes everything Google requires for the markup. All four now carry `VideoObject` with real
+`name`, `description`, `uploadDate`, `duration` and thumbnails, captured once into
+`src/lib/videos.ts` rather than scraped at build time.
+
+One of them is the screw-driving video the deck singles out: *"pairing it with on-page embeds,
+transcripts, and VideoObject schema converts that video visibility into page rankings."* Two of
+those three are now done. Transcripts are not — that needs the caption file.
+
+## Fixed while verifying
+
+- **A CSP of mine was blocking every YouTube embed.** `frame-src` listed only
+  googletagmanager, so all four videos rendered as "This content is blocked". Not a removed
+  video — YouTube's oEmbed confirms all four are live. `frame-src` and `img-src` now allow
+  youtube.com, youtube-nocookie.com and the thumbnail CDN.
+- **The article byline rendered twice.** My earlier byline patch added one where the template
+  already had one. Now renders once.
+- **The byline separator measured 1.23:1.** `aria-hidden` exempts it from 1.4.3, but a
+  separator that invisible is not doing its job either. Darkened.
+
+Two of my own checkers were also wrong and are fixed: the CSP checker matched the bare word
+"blocked" and reported 77 phantom problems that were Edge's tracking prevention, not CSP; and
+the first CSP pass only watched the top of the page for 3.5 seconds, which is why it missed the
+lazy-loaded video iframes entirely.
+
+## Final measured state
+
+| | |
+|---|---|
+| Pages crawled | 371 |
+| Indexable | 268 |
+| Broken links / redirect hops | **0** |
+| Canonical coverage | **268/268** |
+| Titles > 60 / descriptions > 160 | **0 / 0** |
+| Duplicate titles | **0** |
+| CSP violations | **0** |
+| WCAG issues / contrast failures | **0 / 0** |
+
+## Genuinely outstanding
+
+Everything left needs PROMATION:
+
+| Item | Needs |
+|---|---|
+| ET8484 / ET8384 | Which machine that page is for — clears the last duplicate |
+| `aggregateRating` | Real reviews; cannot be fabricated |
+| Video transcripts | Caption files for the four videos |
+| Testimonials, install-base number | Only PROMATION has them |
+| Price bands | Would unlock `price` on Offer and give the cost guides a figure |
+| GTM container ID, Resend credentials | Accounts under their control |
+| Events in nav | In the navigation but retired from the index — a business call |
+| Phase 3 (application pages, case studies, awards page, directory listings, trade press) | Post-launch by the deck's own plan |
+
+---
+
+# ET8484 / ET8384 — resolved
+
+The last open duplicate, decided on evidence rather than referred to the client.
+
+**The model numbers encode the machine.** Across the ET dispensing range the digits are
+positional: the third digit is the working area, the fifth is the axis count.
+
+| Model | Axes | Working area |
+|---|---|---|
+| ET8383 | 3 | 300 × 300 × 100 |
+| ET8384 | 4 | 300 × 300 × 100 |
+| ET8483 | 3 | **400 × 400** × 100 |
+| ET8484 | **4** | **400 × 400** × 100 |
+
+The page in question publishes **4-axis** and **400 × 400 × 100**. That is the ET8484 on both
+counts; the ET8384 is 4-axis but 300 × 300.
+
+**The live page confirms it.** On promationusa.com the same page carries:
+
+- `<h2>` — **"ET8484 Dispensing Robot"** ✅ the page's own visible heading
+- `<title>` — "ET8384 Dispensing Robot" ❌
+
+The page was duplicated inside Squarespace from the ET8384 and the title tag was never updated.
+Our extraction took the title tag, which is how the wrong model number reached the catalogue —
+and why the audit found the ranking URL was `/et8484-dispensing-robot-copy` while the clean
+`/et8484-dispensing-robot` was a 404.
+
+**Decision: the URL, the specifications and the on-page heading were right; the title was
+wrong.** The catalogue title and the opening line of the description now read ET8484. The
+sibling ET8384 page is untouched and still correct at 300 × 300.
+
+Duplicate titles and duplicate descriptions are now **0**. There is no remaining duplicate
+content anywhere on the site.
+
+**Worth PROMATION confirming**, though nothing depends on it: the same title-tag error is still
+live on their Squarespace site, so anyone checking the source there will see ET8384. If the
+machine really is a 300 × 300 unit mislabelled with 400 × 400 specs, that is a different and
+larger content problem — but every signal on the page points the other way.

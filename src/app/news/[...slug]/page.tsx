@@ -6,7 +6,8 @@ import { articles, getArticleByPath, getAllTags, formatDate, type Article, foldT
 import { PageHero, SectionHeading, GlowButton, Chip } from "@/components/ui";
 import { Reveal } from "@/components/fx/Reveal";
 import { Markdown } from "@/lib/markdown";
-import { NewsArticleJsonLd } from "@/components/JsonLd";
+import { NewsArticleJsonLd, VideoObjectJsonLd } from "@/components/JsonLd";
+import { getVideoMeta } from "@/lib/videos";
 
 /**
  * Catch-all for the original news URL space:
@@ -153,7 +154,7 @@ export default async function NewsCatchAll({
             <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
               By {a.author}
             </span>
-            <span className="text-line" aria-hidden>
+            <span className="text-muted" aria-hidden>
               |
             </span>
             <time
@@ -162,12 +163,6 @@ export default async function NewsCatchAll({
             >
               {formatDate(a.date)}
             </time>
-            <span className="text-line" aria-hidden>
-              |
-            </span>
-            <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">
-              By {a.author}
-            </span>
           </div>
         </Reveal>
 
@@ -183,8 +178,19 @@ export default async function NewsCatchAll({
               const id =
                 v.match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{6,})/)?.[1];
               if (!id) return null;
+              const meta = getVideoMeta(v);
               return (
                 <Reveal key={v}>
+                  {meta && (
+                    <VideoObjectJsonLd
+                      id={meta.id}
+                      name={meta.name}
+                      description={meta.description}
+                      uploadDate={meta.uploadDate}
+                      duration={meta.duration}
+                      pageUrl={`/news/${a.path}`}
+                    />
+                  )}
                   <div className="border-beam clip-corner p-1.5">
                     <div className="clip-corner relative aspect-video overflow-hidden bg-black">
                       <iframe
