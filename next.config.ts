@@ -18,9 +18,12 @@ const csp = [
   "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com data:",
-  "img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com",
+  "img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://i.ytimg.com https://img.youtube.com",
   "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://api.resend.com",
-  "frame-src https://www.googletagmanager.com",
+  // YouTube embeds appear on the homepage and on press releases carrying a
+  // video. Both the standard and the no-cookie player domain are listed so
+  // either can be used without editing this file again.
+  "frame-src https://www.googletagmanager.com https://www.youtube.com https://www.youtube-nocookie.com",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",
