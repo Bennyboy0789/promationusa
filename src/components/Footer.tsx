@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { site, mainNav, productCategories, companyNav } from "@/lib/site";
+import { Wordmark } from "@/components/Wordmark";
 
 const socials = [
   { label: "YouTube", href: site.social.youtube },
@@ -16,9 +17,12 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
           <div className="space-y-4">
-            <Link href="/" className="font-display text-xl font-bold tracking-tight">
-              <span className="text-slate-900">PROMATION</span>{" "}
-              <span className="text-blue-600">USA</span>
+            <Link
+              href="/"
+              aria-label="PROMATION USA — home"
+              className="inline-flex transition-opacity hover:opacity-80"
+            >
+              <Wordmark height={30} />
             </Link>
             <p className="text-sm leading-relaxed text-muted">
               Premium automated solutions for electronics manufacturing and

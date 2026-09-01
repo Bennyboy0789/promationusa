@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { AnimatePresence, motion, useScroll, useMotionValueEvent } from "motion/react";
 import { mainNav, site } from "@/lib/site";
+import { Wordmark } from "@/components/Wordmark";
 
 const phoneHref = `tel:+1${site.phone.replace(/\D/g, "")}`;
 
@@ -38,15 +39,13 @@ export function Navbar() {
         className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
       >
         {/* Logo */}
-        <Link href="/" onClick={closeMenus} className="group flex min-w-0 shrink items-center gap-2.5">
-          <span className="relative flex h-8 w-8 items-center justify-center clip-corner bg-blue-400/10 border border-blue-400/40">
-            <span className="font-display text-sm font-bold text-blue-600">P</span>
-            <span className="absolute inset-0 clip-corner bg-blue-400/0 transition-colors duration-300 group-hover:bg-blue-400/15" />
-          </span>
-          <span className="truncate font-display text-base font-bold tracking-tight sm:text-lg">
-            <span className="text-slate-900">PROMATION</span>{" "}
-            <span className="text-blue-600">USA</span>
-          </span>
+        <Link
+          href="/"
+          onClick={closeMenus}
+          aria-label="PROMATION USA — home"
+          className="flex min-w-0 shrink items-center transition-opacity hover:opacity-80"
+        >
+          <Wordmark height={26} />
         </Link>
 
         {/* Desktop nav */}

@@ -12,6 +12,7 @@ import {
 } from "@/lib/products";
 import { QuickRfq } from "@/components/QuickRfq";
 import { TrustStrip } from "@/components/Conversion";
+import { Wordmark } from "@/components/Wordmark";
 import { site } from "@/lib/site";
 import { shorten } from "@/lib/seo";
 
@@ -75,10 +76,7 @@ export default async function LandingPage({ params }: PageProps<"/lp/[slug]">) {
       {/* Minimal header — logo and phone, no navigation */}
       <header className="border-b border-line">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
-          <span className="font-display text-lg font-bold tracking-tight">
-            <span className="text-slate-900">PROMATION</span>{" "}
-            <span className="text-blue-600">USA</span>
-          </span>
+          <Wordmark height={26} />
           <a
             href={phoneHref}
             className="inline-flex min-h-[24px] items-center font-mono text-xs uppercase tracking-[0.15em] text-slate-900 transition-colors hover:text-blue-600"
