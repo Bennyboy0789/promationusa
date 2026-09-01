@@ -156,6 +156,81 @@ export function LineupHero() {
 
   const advance = useCallback(() => setActive((i) => (i + 1) % LINES.length), []);
 
+  /** Move by a signed number of slides, wrapping in both directions. */
+  const step = useCallback(
+    (delta: number) =>
+      setActive((i) => (i + delta + LINES.length) % LINES.length),
+    []
+  );
+
+  // --- swipe, phone and tablet ---------------------------------------------
+  //
+  // Written with pointer events rather than a drag library because the hard
+  // part is not the drag, it is *not* stealing vertical scroll. The axis is
+  // decided once per gesture from the first few pixels of movement: past the
+  // slop threshold the larger delta wins and the gesture is locked, so a
+  // slightly diagonal flick still does what the reader meant. `touch-action:
+  // pan-y` tells the browser it keeps vertical and we take horizontal, which
+  // is what stops the page juddering mid-swipe.
+  const SWIPE_SLOP = 10; // px before an axis is chosen
+  const SWIPE_TRIGGER = 48; // px of travel that counts as a swipe
+  const gesture = useRef<{
+    x: number;
+    y: number;
+    axis: "none" | "x" | "y";
+    id: number;
+  } | null>(null);
+  const [dragX, setDragX] = useState(0);
+  const [dragging, setDragging] = useState(false);
+
+  const onPointerDown = useCallback((e: React.PointerEvent) => {
+    // Never hijack a mouse drag — that is text selection, and on desktop the
+    // tab bar already exists.
+    if (e.pointerType === "mouse") return;
+    gesture.current = { x: e.clientX, y: e.clientY, axis: "none", id: e.pointerId };
+    setDragging(true);
+    setPaused(true);
+  }, []);
+
+  const onPointerMove = useCallback((e: React.PointerEvent) => {
+    const g = gesture.current;
+    if (!g || g.id !== e.pointerId) return;
+    const dx = e.clientX - g.x;
+    const dy = e.clientY - g.y;
+
+    if (g.axis === "none") {
+      if (Math.abs(dx) < SWIPE_SLOP && Math.abs(dy) < SWIPE_SLOP) return;
+      g.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+      // A vertical gesture is the reader scrolling the page. Let go of it.
+      if (g.axis === "y") {
+        gesture.current = null;
+        setDragging(false);
+        setPaused(false);
+        setDragX(0);
+        return;
+      }
+    }
+    // Follow the finger, damped, so the plate feels attached to the gesture
+    // without sliding the whole way off.
+    setDragX(dx * 0.4);
+  }, []);
+
+  const endGesture = useCallback(
+    (e: React.PointerEvent) => {
+      const g = gesture.current;
+      gesture.current = null;
+      setDragging(false);
+      setDragX(0);
+      setPaused(false);
+      if (!g || g.axis !== "x") return;
+      const dx = e.clientX - g.x;
+      if (Math.abs(dx) < SWIPE_TRIGGER) return;
+      // Swipe left travels forward, matching every carousel people already use.
+      step(dx < 0 ? 1 : -1);
+    },
+    [step]
+  );
+
   useEffect(() => {
     if (reduced || paused) return;
     timer.current = setTimeout(advance, DWELL);
@@ -346,9 +421,28 @@ export function LineupHero() {
         </div>
 
         {/* ---------- phone & tablet: the plate, full-bleed and generous ---------- */}
-        <div className="relative left-1/2 mt-8 h-[46vh] min-h-[300px] w-screen -translate-x-1/2 overflow-hidden lg:hidden">
-          <div className="absolute inset-0" style={FEATHER_MOBILE}>
-            <Plate line={line} reduced={!!reduced} priority={false} />
+        <div
+          className="relative left-1/2 mt-8 h-[46vh] min-h-[300px] w-screen -translate-x-1/2 overflow-hidden lg:hidden"
+          // The browser keeps vertical scrolling; we take horizontal.
+          style={{ touchAction: "pan-y" }}
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={endGesture}
+          onPointerCancel={endGesture}
+          role="group"
+          aria-roledescription="carousel"
+          aria-label="Product lines — swipe to change"
+        >
+          <div
+            className="absolute inset-0"
+            style={{
+              transform: `translate3d(${dragX}px, 0, 0)`,
+              transition: dragging ? "none" : "transform 320ms cubic-bezier(0.22, 0.68, 0.19, 1)",
+            }}
+          >
+            <div className="absolute inset-0" style={FEATHER_MOBILE}>
+              <Plate line={line} reduced={!!reduced} priority={false} />
+            </div>
           </div>
           <div className="absolute inset-x-0 bottom-0 px-4 pb-5 sm:px-6">
             <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-sky-300">
@@ -364,6 +458,10 @@ export function LineupHero() {
               View systems <span aria-hidden>→</span>
             </Link>
           </div>
+
+          <p className="sr-only" aria-live="polite">
+            {line.name}, {active + 1} of {LINES.length}
+          </p>
         </div>
 
         <div className="mt-5 flex items-center gap-3 lg:hidden">
