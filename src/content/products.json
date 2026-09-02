@@ -173,18 +173,23 @@
     "images": [
       {
         "src": "/images/products/transfer-conveyors-1.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/transfer-conveyors-2.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/transfer-conveyors-3.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
+      },
+      {
+        "src": "/images/products/transfer-conveyors-4.webp",
+        "width": 2500,
+        "height": 1667
       }
     ]
   },
@@ -375,18 +380,18 @@
     "images": [
       {
         "src": "/images/products/shuttle-gate-1.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/shuttle-gate-2.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/shuttle-gate-3.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       }
     ]
   },
@@ -477,18 +482,18 @@
     "images": [
       {
         "src": "/images/products/pcb-inspection-stations-1.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/pcb-inspection-stations-2.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/pcb-inspection-stations-3.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       }
     ]
   },
@@ -530,13 +535,13 @@
     "images": [
       {
         "src": "/images/products/bare-board-loading-stations-1.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/bare-board-loading-stations-2.webp",
-        "width": 1500,
-        "height": 2000
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/bare-board-loading-stations-3.webp",
@@ -671,18 +676,13 @@
     "images": [
       {
         "src": "/images/products/pcb-wave-unloading-1.webp",
-        "width": 2500,
-        "height": 3333
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/pcb-wave-unloading-2.webp",
-        "width": 2500,
-        "height": 3333
-      },
-      {
-        "src": "/images/products/pcb-wave-unloading-3.webp",
-        "width": 1120,
-        "height": 840
+        "width": 1875,
+        "height": 2500
       }
     ]
   },
@@ -1544,8 +1544,8 @@
     "images": [
       {
         "src": "/images/products/laser-marking-at-a-glance-1.webp",
-        "width": 1000,
-        "height": 460
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/laser-marking-at-a-glance-2.webp",
@@ -1745,6 +1745,26 @@
     ],
     "images": [
       {
+        "src": "/images/products/auto-screw-driving-at-a-glance-2.webp",
+        "width": 1875,
+        "height": 2500
+      },
+      {
+        "src": "/images/products/auto-screw-driving-at-a-glance-3.webp",
+        "width": 1875,
+        "height": 2500
+      },
+      {
+        "src": "/images/products/auto-screw-driving-at-a-glance-4.webp",
+        "width": 2500,
+        "height": 1875
+      },
+      {
+        "src": "/images/products/auto-screw-driving-at-a-glance-5.webp",
+        "width": 2016,
+        "height": 1512
+      },
+      {
         "src": "/images/products/auto-screw-driving-at-a-glance-1.webp",
         "width": 1500,
         "height": 844
@@ -1792,18 +1812,18 @@
     "images": [
       {
         "src": "/images/products/intelligent-mobile-robot-solutions-1.webp",
-        "width": 786,
-        "height": 429
+        "width": 2500,
+        "height": 1875
       },
       {
         "src": "/images/products/intelligent-mobile-robot-solutions-2.webp",
-        "width": 1121,
-        "height": 713
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/intelligent-mobile-robot-solutions-3.webp",
-        "width": 1121,
-        "height": 689
+        "width": 2500,
+        "height": 1875
       }
     ]
   },
@@ -4574,18 +4594,28 @@
     "images": [
       {
         "src": "/images/products/panda-laser-marking-1.webp",
-        "width": 2500,
-        "height": 1875
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/panda-laser-marking-2.webp",
-        "width": 2500,
-        "height": 1875
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/panda-laser-marking-3.webp",
         "width": 2500,
-        "height": 3333
+        "height": 1875
+      },
+      {
+        "src": "/images/products/panda-laser-marking-4.webp",
+        "width": 2500,
+        "height": 1875
+      },
+      {
+        "src": "/images/products/panda-laser-marking-5.webp",
+        "width": 2500,
+        "height": 1875
       }
     ]
   },
@@ -4642,6 +4672,16 @@
       },
       {
         "src": "/images/products/pcb-magazine-line-loader-3.webp",
+        "width": 1512,
+        "height": 2016
+      },
+      {
+        "src": "/images/products/pcb-magazine-line-loader-4.webp",
+        "width": 1512,
+        "height": 2016
+      },
+      {
+        "src": "/images/products/pcb-magazine-line-loader-5.webp",
         "width": 1512,
         "height": 2016
       }
@@ -4748,6 +4788,11 @@
         "src": "/images/products/pcb-handling-buffering-1.webp",
         "width": 2500,
         "height": 3333
+      },
+      {
+        "src": "/images/products/pcb-handling-buffering-4.webp",
+        "width": 1875,
+        "height": 2500
       },
       {
         "src": "/images/products/pcb-handling-buffering-2.webp",

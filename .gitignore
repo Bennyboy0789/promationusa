@@ -41,3 +41,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Original photo shoots (82MB of camera files) - processed versions live in public/images/products
+source-photos/
