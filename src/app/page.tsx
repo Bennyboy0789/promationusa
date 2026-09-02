@@ -24,7 +24,7 @@ const divisions = [
     index: "01",
     title: "PCB Handling",
     href: "/pcb-handling",
-    image: "/images/pcb-handling-photo.webp",
+    image: "/images/products/bare-board-loading-stations-1.webp",
     blurb:
       "Loaders, unloaders, conveyors, buffers, turners and inspection stations — the complete SMEMA-compliant board-flow platform.",
     tags: ["Conveyors", "Loaders", "Buffering"],
@@ -33,7 +33,7 @@ const divisions = [
     index: "02",
     title: "Robotic Soldering",
     href: "/robotic-soldering",
-    image: "/images/soldering-photo.webp",
+    image: "/images/products/m-series-2.webp",
     blurb:
       "QUICK and PANDA intelligent soldering robots — batch and in-line selective soldering with hot air, molten drop and hot bar.",
     tags: ["QUICK", "PANDA", "In-Line"],
@@ -42,7 +42,7 @@ const divisions = [
     index: "03",
     title: "Robotic Dispensing",
     href: "/robotic-dispensing",
-    image: "/images/dispensing-photo.webp",
+    image: "/images/products/et8283-dispensing-robot-1.webp",
     blurb:
       "High-precision automated dispensing platforms for adhesives, coatings and solder paste across the ET and QS series.",
     tags: ["ET Series", "Precision", "Coating"],
@@ -60,7 +60,7 @@ const divisions = [
     index: "05",
     title: "Laser Marking",
     href: "/laser-marking",
-    image: "/images/laser-photo.webp",
+    image: "/images/products/panda-laser-marking-1.webp",
     blurb:
       "PANDA Robotics laser marking systems — permanent, high-contrast PCB traceability, awarded for innovation.",
     tags: ["PANDA", "Traceability"],
@@ -69,7 +69,7 @@ const divisions = [
     index: "06",
     title: "TechMan Cobots",
     href: "/collaborative-robots",
-    image: "/images/cobots-photo.webp",
+    image: "/images/products/tm-robots-at-a-glance-2.webp",
     blurb:
       "TechMan collaborative robots with built-in vision — TM5 to TM20 payload classes for flexible automation.",
     tags: ["TM Series", "Vision", "Cobots"],
@@ -96,7 +96,7 @@ const divisions = [
     index: "09",
     title: "Mobile Robots",
     href: "/mobile-robots",
-    image: "/images/mobile-robot-photo.webp",
+    image: "/images/products/intelligent-mobile-robot-solutions-2.webp",
     blurb:
       "OMRON autonomous mobile robots for intelligent line loading and unloading — routing themselves rather than following tape.",
     tags: ["AMR", "OMRON", "Line Loading"],
@@ -379,8 +379,8 @@ export default function Home() {
 
       {/* ================= PARALLAX — THE LINE ================= */}
       <ParallaxBand
-        src="/images/laser-photo.webp"
-        alt="PCB panels under a PANDA laser marking head"
+        src="/images/products/panda-laser-marking-5.webp"
+        alt="Inside the PANDA laser marking head"
         height="min-h-[46vh]"
         overlay="bg-[#050d1a]/84"
         speed={0.32}
