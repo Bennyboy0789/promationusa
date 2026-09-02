@@ -12,7 +12,8 @@ const LINES = [
   { label: "Screw Driving", tone: "text-sky-300" },
   { label: "Laser Marking", tone: "text-sky-300" },
   { label: "Cobots", tone: "text-sky-300" },
-  { label: "X-Ray Inspection", tone: "text-sky-300" },
+  { label: "Depaneling", tone: "text-sky-300" },
+  { label: "Label Placement", tone: "text-sky-300" },
 ];
 
 export function CircuitHero() {

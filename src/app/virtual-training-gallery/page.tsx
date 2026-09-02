@@ -1,18 +1,32 @@
 import type { Metadata } from "next";
 import { PageHero, SectionHeading, GlowButton } from "@/components/ui";
-import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
+import { Reveal } from "@/components/fx/Reveal";
+import { VideoEmbed } from "@/components/VideoEmbed";
+import { CtaBar } from "@/components/Conversion";
+import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { training } from "@/lib/content";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/virtual-training-gallery" },
   title: "Virtual Training Gallery",
   description:
-    "PROMATION USA training videos — soldering robots, conveyors and TechMan cobots, from certified IPC experts with 20+ years of experience.",
+    "Free training videos from PROMATION USA — soldering robots, PCB conveyors and TechMan cobots, recorded by IPC-certified engineers.",
 };
 
+const PATH = "/virtual-training-gallery";
+
 export default function TrainingPage() {
+  const total = training.categories.reduce((n, c) => n + c.videos.length, 0);
+
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Virtual Training Gallery", href: PATH },
+        ]}
+      />
+
       <PageHero
         eyebrow="Knowledge Base"
         title="Virtual Training Gallery"
@@ -20,44 +34,54 @@ export default function TrainingPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Training" }]}
       />
 
+      <CtaBar
+        label="Want this on your own machine?"
+        primary={{ label: "Book a session", href: "/book-a-demo" }}
+        secondary={{ label: "Request a quote", href: "/contact" }}
+      />
+
       <div className="mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <RevealGroup className="grid gap-5 md:grid-cols-3">
-          {training.categories.map((c, i) => (
-            <RevealItem key={c.title} className="h-full">
-              <div className="glass clip-corner flex h-full flex-col gap-4 p-7">
-                <div className="flex items-center justify-between">
-                  <span className="font-mono text-[11px] text-blue-600">
-                    MODULE_{String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span
-                    aria-hidden
-                    className="flex h-9 w-9 items-center justify-center border border-blue-400/30 bg-blue-400/5 font-mono text-blue-600 clip-corner"
-                  >
-                    ▶
-                  </span>
-                </div>
-                <h3 className="font-display text-lg font-semibold text-slate-900">
-                  {c.title}
-                </h3>
-                <p className="flex-1 text-sm leading-relaxed text-muted">{c.body}</p>
-              </div>
-            </RevealItem>
-          ))}
-        </RevealGroup>
+        <Reveal>
+          <p className="max-w-3xl text-lg leading-relaxed text-foreground/90">
+            {total} training videos, free to watch and recorded by the engineers
+            who set these machines up. Setup, adjustment, programming and
+            maintenance — the things a manual describes and a video actually
+            shows.
+          </p>
+        </Reveal>
+
+        {training.categories.map((c, ci) => (
+          <section key={c.title} className="mt-16">
+            <SectionHeading
+              eyebrow={`Module ${String(ci + 1).padStart(2, "0")} — ${c.videos.length} ${
+                c.videos.length === 1 ? "video" : "videos"
+              }`}
+              title={c.title}
+              intro={c.body}
+            />
+            <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+              {c.videos.map((id) => (
+                <Reveal key={id}>
+                  <VideoEmbed id={id} pageUrl={PATH} />
+                </Reveal>
+              ))}
+            </div>
+          </section>
+        ))}
 
         <div className="mt-20 text-center">
           <SectionHeading
             eyebrow="Join Promation Nation"
-            title="The full video library lives on YouTube"
-            intro='"Like" and "Subscribe" to stay up-to-date with our latest product training videos and new product introductions — or book a virtual video session with our team.'
+            title="More on the YouTube channel"
+            intro="Subscribe for new product training and introductions as they are published — or book a session and we will walk your team through it on your own parts."
             align="center"
           />
           <Reveal delay={0.15}>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-              <GlowButton href={training.youtube} external>
+              <GlowButton href={training.youtube} external cta="training-youtube">
                 Join Promation Nation
               </GlowButton>
-              <GlowButton href="/contact" variant="ghost">
+              <GlowButton href="/book-a-demo" variant="ghost">
                 Book a Virtual Session
               </GlowButton>
             </div>

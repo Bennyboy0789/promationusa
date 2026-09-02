@@ -206,30 +206,6 @@ export const landingPages: LandingPage[] = [
       },
     ],
   },
-  {
-    slug: "x-ray-inspection",
-    headline: "X-ray inspection for hidden solder joints",
-    subhead:
-      "See voids, shorts and head-in-pillow under BGAs and QFNs — non-destructively. Also counts components on reels.",
-    metaTitle: "X-Ray Inspection for Hidden Solder Joints",
-    proof: COMMON_PROOF,
-    category: "xray-inspection",
-    cta: { label: "Get a quote", href: "/contact" },
-    bullets: [
-      {
-        heading: "Sees what AOI cannot",
-        body: "Once the joint is under the component body, X-ray is the only non-destructive way to inspect it.",
-      },
-      {
-        heading: "Void and defect detection",
-        body: "Voids, shorts, insufficient solder and head-in-pillow — measured repeatably rather than estimated.",
-      },
-      {
-        heading: "Component counting too",
-        body: "X-ray reel counting often justifies the machine on inventory accuracy alone, separately from inspection.",
-      },
-    ],
-  },
 ];
 
 export function getLandingPage(slug: string): LandingPage | undefined {

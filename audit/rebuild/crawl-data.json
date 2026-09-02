@@ -18,7 +18,7 @@
   "h2Count": 10,
   "h3Count": 14,
   "words": 806,
-  "imgCount": 12,
+  "imgCount": 14,
   "imgNoAlt": 0,
   "imgEmptyAlt": 7,
   "imgNoDims": 0,
@@ -33,7 +33,7 @@
   "ldInvalid": 0,
   "internalLinks": 66,
   "externalLinks": 4,
-  "bytes": 138126
+  "bytes": 139615
  },
  {
   "path": "/products",
@@ -54,7 +54,7 @@
   "h2Count": 11,
   "h3Count": 169,
   "words": 1994,
-  "imgCount": 158,
+  "imgCount": 160,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -67,7 +67,7 @@
   "ldInvalid": 0,
   "internalLinks": 222,
   "externalLinks": 4,
-  "bytes": 665511
+  "bytes": 666874
  },
  {
   "path": "/guides",
@@ -88,7 +88,7 @@
   "h2Count": 5,
   "h3Count": 26,
   "words": 783,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -101,7 +101,7 @@
   "ldInvalid": 0,
   "internalLinks": 65,
   "externalLinks": 4,
-  "bytes": 102291
+  "bytes": 103847
  },
  {
   "path": "/why-promation",
@@ -122,7 +122,7 @@
   "h2Count": 7,
   "h3Count": 4,
   "words": 266,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -135,7 +135,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 56362
+  "bytes": 57792
  },
  {
   "path": "/what-we-do",
@@ -156,7 +156,7 @@
   "h2Count": 3,
   "h3Count": 8,
   "words": 323,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -169,7 +169,7 @@
   "ldInvalid": 0,
   "internalLinks": 45,
   "externalLinks": 4,
-  "bytes": 69103
+  "bytes": 70466
  },
  {
   "path": "/news",
@@ -190,7 +190,7 @@
   "h2Count": 3,
   "h3Count": 20,
   "words": 932,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -203,7 +203,7 @@
   "ldInvalid": 0,
   "internalLinks": 74,
   "externalLinks": 4,
-  "bytes": 112648
+  "bytes": 114078
  },
  {
   "path": "/contact",
@@ -224,7 +224,7 @@
   "h2Count": 7,
   "h3Count": 4,
   "words": 258,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -239,7 +239,7 @@
   "ldInvalid": 0,
   "internalLinks": 39,
   "externalLinks": 4,
-  "bytes": 69366
+  "bytes": 71007
  },
  {
   "path": "/store",
@@ -260,7 +260,7 @@
   "h2Count": 2,
   "h3Count": 25,
   "words": 328,
-  "imgCount": 21,
+  "imgCount": 23,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -273,7 +273,7 @@
   "ldInvalid": 0,
   "internalLinks": 63,
   "externalLinks": 4,
-  "bytes": 133157
+  "bytes": 134713
  },
  {
   "path": "/robotic-soldering",
@@ -294,7 +294,7 @@
   "h2Count": 9,
   "h3Count": 104,
   "words": 2417,
-  "imgCount": 91,
+  "imgCount": 93,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -312,7 +312,7 @@
   "ldInvalid": 0,
   "internalLinks": 341,
   "externalLinks": 4,
-  "bytes": 520498
+  "bytes": 521888
  },
  {
   "path": "/pcb-trial",
@@ -333,7 +333,7 @@
   "h2Count": 3,
   "h3Count": 7,
   "words": 204,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -346,7 +346,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 54532
+  "bytes": 55962
  },
  {
   "path": "/pcb-handling",
@@ -367,7 +367,7 @@
   "h2Count": 5,
   "h3Count": 39,
   "words": 1332,
-  "imgCount": 25,
+  "imgCount": 27,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -385,7 +385,7 @@
   "ldInvalid": 0,
   "internalLinks": 134,
   "externalLinks": 4,
-  "bytes": 205049
+  "bytes": 206439
  },
  {
   "path": "/robotic-dispensing",
@@ -406,7 +406,7 @@
   "h2Count": 6,
   "h3Count": 21,
   "words": 826,
-  "imgCount": 14,
+  "imgCount": 16,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -424,7 +424,7 @@
   "ldInvalid": 0,
   "internalLinks": 95,
   "externalLinks": 4,
-  "bytes": 143945
+  "bytes": 145335
  },
  {
   "path": "/robotic-screw-driving",
@@ -445,7 +445,7 @@
   "h2Count": 5,
   "h3Count": 21,
   "words": 649,
-  "imgCount": 13,
+  "imgCount": 15,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -463,7 +463,7 @@
   "ldInvalid": 0,
   "internalLinks": 66,
   "externalLinks": 4,
-  "bytes": 115319
+  "bytes": 116709
  },
  {
   "path": "/laser-marking",
@@ -484,7 +484,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 408,
-  "imgCount": 2,
+  "imgCount": 4,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -502,7 +502,7 @@
   "ldInvalid": 0,
   "internalLinks": 55,
   "externalLinks": 4,
-  "bytes": 76208
+  "bytes": 77598
  },
  {
   "path": "/collaborative-robots",
@@ -523,7 +523,7 @@
   "h2Count": 4,
   "h3Count": 14,
   "words": 602,
-  "imgCount": 6,
+  "imgCount": 8,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -541,7 +541,7 @@
   "ldInvalid": 0,
   "internalLinks": 59,
   "externalLinks": 4,
-  "bytes": 90825
+  "bytes": 92215
  },
  {
   "path": "/x-ray-inspection",
@@ -562,7 +562,7 @@
   "h2Count": 5,
   "h3Count": 7,
   "words": 309,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -580,7 +580,7 @@
   "ldInvalid": 0,
   "internalLinks": 54,
   "externalLinks": 4,
-  "bytes": 70257
+  "bytes": 71647
  },
  {
   "path": "/mobile-robots",
@@ -601,7 +601,7 @@
   "h2Count": 4,
   "h3Count": 9,
   "words": 332,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -619,7 +619,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 76790
+  "bytes": 78180
  },
  {
   "path": "/laser-marking/panda-robotics-usa",
@@ -640,7 +640,7 @@
   "h2Count": 6,
   "h3Count": 9,
   "words": 453,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -661,7 +661,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 87360
+  "bytes": 89013
  },
  {
   "path": "/news/2025/11/11/panda-robotics-usa-recognized-in-2025-titan-innovation-awards-season-2-for-excellence-in-robotic-technology",
@@ -682,7 +682,7 @@
   "h2Count": 5,
   "h3Count": 7,
   "words": 684,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -697,7 +697,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 68528
+  "bytes": 69971
  },
  {
   "path": "/news/2025/10/28/the-next-generation-of-laser-marking-by-panda-robotics-usa",
@@ -718,7 +718,7 @@
   "h2Count": 2,
   "h3Count": 7,
   "words": 622,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -733,7 +733,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 66869
+  "bytes": 68327
  },
  {
   "path": "/news/2024/11/15/whats-new-november-2024",
@@ -754,7 +754,7 @@
   "h2Count": 4,
   "h3Count": 7,
   "words": 327,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -770,7 +770,7 @@
   "ldInvalid": 0,
   "internalLinks": 53,
   "externalLinks": 4,
-  "bytes": 65809
+  "bytes": 67252
  },
  {
   "path": "/new-products",
@@ -791,7 +791,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 150,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -806,7 +806,7 @@
   "ldInvalid": 0,
   "internalLinks": 53,
   "externalLinks": 4,
-  "bytes": 58075
+  "bytes": 59532
  },
  {
   "path": "/services",
@@ -827,7 +827,7 @@
   "h2Count": 3,
   "h3Count": 7,
   "words": 295,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -842,7 +842,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 72516
+  "bytes": 73962
  },
  {
   "path": "/partners",
@@ -863,7 +863,7 @@
   "h2Count": 2,
   "h3Count": 19,
   "words": 231,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -876,7 +876,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 77479
+  "bytes": 79035
  },
  {
   "path": "/events",
@@ -897,7 +897,7 @@
   "h2Count": 6,
   "h3Count": 19,
   "words": 550,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -910,14 +910,14 @@
   "ldInvalid": 0,
   "internalLinks": 54,
   "externalLinks": 4,
-  "bytes": 87820
+  "bytes": 89250
  },
  {
   "path": "/virtual-training-gallery",
   "title": "Virtual Training Gallery | PROMATION USA",
   "titleLen": 40,
-  "desc": "PROMATION USA training videos — soldering robots, conveyors and TechMan cobots, from certified IPC experts with 20+ years of experience.",
-  "descLen": 136,
+  "desc": "Free training videos from PROMATION USA — soldering robots, PCB conveyors and TechMan cobots, recorded by IPC-certified engineers.",
+  "descLen": 130,
   "robotsMeta": "",
   "canonicalHref": "https://www.promationusa.com/virtual-training-gallery",
   "viewport": true,
@@ -928,10 +928,10 @@
    "Virtual Training Gallery"
   ],
   "h1Count": 1,
-  "h2Count": 1,
-  "h3Count": 7,
-  "words": 149,
-  "imgCount": 0,
+  "h2Count": 4,
+  "h3Count": 4,
+  "words": 305,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -939,12 +939,16 @@
    "Organization",
    "PostalAddress",
    "ContactPoint",
-   "WebSite"
+   "WebSite",
+   "BreadcrumbList",
+   "ListItem",
+   "VideoObject",
+   "WebPage"
   ],
   "ldInvalid": 0,
-  "internalLinks": 40,
+  "internalLinks": 42,
   "externalLinks": 5,
-  "bytes": 52723
+  "bytes": 90892
  },
  {
   "path": "/careers",
@@ -965,7 +969,7 @@
   "h2Count": 3,
   "h3Count": 5,
   "words": 221,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -980,7 +984,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 66132
+  "bytes": 67646
  },
  {
   "path": "/compare",
@@ -1001,7 +1005,7 @@
   "h2Count": 6,
   "h3Count": 17,
   "words": 543,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -1014,7 +1018,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 85464
+  "bytes": 87020
  },
  {
   "path": "/brands",
@@ -1035,7 +1039,7 @@
   "h2Count": 7,
   "h3Count": 4,
   "words": 470,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -1048,7 +1052,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 65024
+  "bytes": 66580
  },
  {
   "path": "/book-a-demo",
@@ -1069,7 +1073,7 @@
   "h2Count": 4,
   "h3Count": 7,
   "words": 311,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -1082,7 +1086,7 @@
   "ldInvalid": 0,
   "internalLinks": 43,
   "externalLinks": 4,
-  "bytes": 59632
+  "bytes": 61104
  },
  {
   "path": "/pcb-handling/transfer-conveyors",
@@ -1103,7 +1107,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 603,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1125,7 +1129,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 102177
+  "bytes": 103830
  },
  {
   "path": "/pcb-handling/dual-lane-conveyors",
@@ -1146,7 +1150,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 645,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1168,7 +1172,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103631
+  "bytes": 105284
  },
  {
   "path": "/pcb-handling/accumulation-stations",
@@ -1189,7 +1193,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 700,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1211,7 +1215,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 107670
+  "bytes": 109323
  },
  {
   "path": "/pcb-handling/turning-stations",
@@ -1232,7 +1236,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 717,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1254,7 +1258,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 105478
+  "bytes": 107131
  },
  {
   "path": "/pcb-handling/shuttle-gate",
@@ -1275,7 +1279,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 704,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1297,7 +1301,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 105639
+  "bytes": 107292
  },
  {
   "path": "/pcb-handling/pcb-inverter-stations",
@@ -1318,7 +1322,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 705,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1340,7 +1344,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 105564
+  "bytes": 107217
  },
  {
   "path": "/pcb-handling/pcb-inspection-stations",
@@ -1361,7 +1365,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 649,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1383,7 +1387,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 106551
+  "bytes": 108204
  },
  {
   "path": "/pcb-handling/bare-board-loading-stations",
@@ -1404,7 +1408,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 702,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1426,7 +1430,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 107629
+  "bytes": 109282
  },
  {
   "path": "/pcb-handling/bare-board-loading-stations-destacking",
@@ -1447,7 +1451,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 652,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1469,7 +1473,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 106686
+  "bytes": 108339
  },
  {
   "path": "/pcb-handling/pcb-wave-loading",
@@ -1490,7 +1494,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 657,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1512,7 +1516,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 101590
+  "bytes": 103243
  },
  {
   "path": "/pcb-handling/pcb-wave-unloading",
@@ -1533,7 +1537,7 @@
   "h2Count": 6,
   "h3Count": 13,
   "words": 655,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1555,7 +1559,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 101530
+  "bytes": 103183
  },
  {
   "path": "/pcb-handling/workstations",
@@ -1576,7 +1580,7 @@
   "h2Count": 6,
   "h3Count": 12,
   "words": 552,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -1598,7 +1602,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 90240
+  "bytes": 91893
  },
  {
   "path": "/pcb-handling/hand-assembly",
@@ -1619,7 +1623,7 @@
   "h2Count": 6,
   "h3Count": 12,
   "words": 639,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1641,7 +1645,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103454
+  "bytes": 105107
  },
  {
   "path": "/pcb-handling/assembly-solutions",
@@ -1662,7 +1666,7 @@
   "h2Count": 5,
   "h3Count": 12,
   "words": 486,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -1683,7 +1687,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 82142
+  "bytes": 83753
  },
  {
   "path": "/pcb-handling/large-platform-led-systems",
@@ -1704,7 +1708,7 @@
   "h2Count": 6,
   "h3Count": 12,
   "words": 588,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1726,7 +1730,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99388
+  "bytes": 101041
  },
  {
   "path": "/pcb-handling/pcb-magazine-line-loader",
@@ -1747,7 +1751,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 773,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1769,7 +1773,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 112603
+  "bytes": 114256
  },
  {
   "path": "/pcb-handling/pcb-magazine-unloading-stations",
@@ -1790,7 +1794,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 796,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1812,7 +1816,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 115429
+  "bytes": 117082
  },
  {
   "path": "/pcb-handling/pcb-handling-buffering",
@@ -1833,7 +1837,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 679,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1855,7 +1859,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 108379
+  "bytes": 110032
  },
  {
   "path": "/pcb-handling/pcb-post-aoi-sorting-systems",
@@ -1876,7 +1880,7 @@
   "h2Count": 7,
   "h3Count": 12,
   "words": 596,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1898,7 +1902,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 100677
+  "bytes": 102330
  },
  {
   "path": "/pcb-handling/pcb-handling-post-aoi-sorting-systems",
@@ -1919,7 +1923,7 @@
   "h2Count": 7,
   "h3Count": 12,
   "words": 642,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1941,7 +1945,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97975
+  "bytes": 99628
  },
  {
   "path": "/pcb-handling/pcb-post-aoi-sorting-buffer",
@@ -1962,7 +1966,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 771,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -1984,7 +1988,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 114884
+  "bytes": 116537
  },
  {
   "path": "/pcb-handling/barcode-scanning-conveyor",
@@ -2005,7 +2009,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 755,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -2027,7 +2031,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 108914
+  "bytes": 110567
  },
  {
   "path": "/pcb-handling/flat-belt-conveyors",
@@ -2048,7 +2052,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 674,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2070,7 +2074,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 108659
+  "bytes": 110312
  },
  {
   "path": "/pcb-handling/lead-frame-handlers",
@@ -2091,7 +2095,7 @@
   "h2Count": 7,
   "h3Count": 12,
   "words": 596,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2113,7 +2117,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 102926
+  "bytes": 104579
  },
  {
   "path": "/pcb-handling/labelpro",
@@ -2134,7 +2138,7 @@
   "h2Count": 4,
   "h3Count": 12,
   "words": 552,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2155,7 +2159,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 86848
+  "bytes": 88430
  },
  {
   "path": "/pcb-handling/auto-label-placement-at-a-glance",
@@ -2176,7 +2180,7 @@
   "h2Count": 4,
   "h3Count": 12,
   "words": 518,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -2197,7 +2201,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 78517
+  "bytes": 80044
  },
  {
   "path": "/pcb-handling/automatic-scanning-conveyor",
@@ -2218,7 +2222,7 @@
   "h2Count": 4,
   "h3Count": 12,
   "words": 594,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2239,7 +2243,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 88498
+  "bytes": 90067
  },
  {
   "path": "/robotic-soldering/quick-usa-6101a1",
@@ -2260,7 +2264,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 681,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2282,7 +2286,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103507
+  "bytes": 105160
  },
  {
   "path": "/robotic-soldering/quick-usa-6102a1",
@@ -2303,7 +2307,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 703,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2325,7 +2329,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103640
+  "bytes": 105293
  },
  {
   "path": "/robotic-soldering/quick-usa-447",
@@ -2346,7 +2350,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 716,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -2368,7 +2372,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103802
+  "bytes": 105455
  },
  {
   "path": "/robotic-soldering/quick-usa-440a",
@@ -2389,7 +2393,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 700,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2411,7 +2415,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 104783
+  "bytes": 106436
  },
  {
   "path": "/robotic-soldering/quick-usa-441b",
@@ -2432,7 +2436,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 709,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2454,7 +2458,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 105182
+  "bytes": 106835
  },
  {
   "path": "/robotic-soldering/quick-usa-442-2",
@@ -2475,7 +2479,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 715,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -2497,7 +2501,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 104303
+  "bytes": 105956
  },
  {
   "path": "/robotic-soldering/quick-usa-442-3",
@@ -2518,7 +2522,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 699,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2540,7 +2544,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 105748
+  "bytes": 107401
  },
  {
   "path": "/robotic-soldering/quick-usa-100-6c",
@@ -2561,7 +2565,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 650,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2583,7 +2587,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 101714
+  "bytes": 103367
  },
  {
   "path": "/robotic-soldering/quick-usa-100-155",
@@ -2604,7 +2608,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 615,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2626,7 +2630,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 102136
+  "bytes": 103789
  },
  {
   "path": "/robotic-soldering/eco-series",
@@ -2647,7 +2651,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 499,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -2668,7 +2672,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 90841
+  "bytes": 92494
  },
  {
   "path": "/robotic-soldering/e-series-soldering-collection",
@@ -2689,7 +2693,7 @@
   "h2Count": 7,
   "h3Count": 11,
   "words": 576,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2711,7 +2715,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97794
+  "bytes": 99447
  },
  {
   "path": "/robotic-soldering/n-series",
@@ -2732,7 +2736,7 @@
   "h2Count": 7,
   "h3Count": 11,
   "words": 572,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2754,7 +2758,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96701
+  "bytes": 98354
  },
  {
   "path": "/robotic-soldering/m-series",
@@ -2775,7 +2779,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 544,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2797,7 +2801,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94441
+  "bytes": 96094
  },
  {
   "path": "/robotic-soldering/f-series-1",
@@ -2818,7 +2822,7 @@
   "h2Count": 7,
   "h3Count": 11,
   "words": 602,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2840,7 +2844,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95968
+  "bytes": 97621
  },
  {
   "path": "/robotic-soldering/hotbarsoldering",
@@ -2861,7 +2865,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 704,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2883,7 +2887,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103989
+  "bytes": 105642
  },
  {
   "path": "/robotic-soldering/inline-custom-solutions",
@@ -2904,7 +2908,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 514,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2925,7 +2929,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 93290
+  "bytes": 94943
  },
  {
   "path": "/robotic-soldering/panda-soldering",
@@ -2946,7 +2950,7 @@
   "h2Count": 5,
   "h3Count": 11,
   "words": 488,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -2967,7 +2971,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 91592
+  "bytes": 93245
  },
  {
   "path": "/robotic-soldering/soldering-robot-central",
@@ -2988,7 +2992,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 568,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -3009,7 +3013,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 110785
+  "bytes": 112438
  },
  {
   "path": "/robotic-soldering/9544cj",
@@ -3030,7 +3034,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 795,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -3052,7 +3056,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 110616
+  "bytes": 112269
  },
  {
   "path": "/robotic-soldering/9733d-pro-model",
@@ -3073,7 +3077,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 774,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3095,7 +3099,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 113207
+  "bytes": 114860
  },
  {
   "path": "/robotic-soldering/9744cj-pro-model",
@@ -3116,7 +3120,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 795,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3138,7 +3142,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 113263
+  "bytes": 114916
  },
  {
   "path": "/robotic-soldering/9n393w-hot-air-soldering-robot",
@@ -3159,7 +3163,7 @@
   "h2Count": 7,
   "h3Count": 12,
   "words": 673,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3181,7 +3185,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98859
+  "bytes": 100512
  },
  {
   "path": "/robotic-soldering/9r393t-molten-drop-soldering-robot",
@@ -3202,7 +3206,7 @@
   "h2Count": 7,
   "h3Count": 12,
   "words": 662,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -3224,7 +3228,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98141
+  "bytes": 99794
  },
  {
   "path": "/robotic-soldering/quick-usa-870",
@@ -3245,7 +3249,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 675,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -3267,7 +3271,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 88808
+  "bytes": 90335
  },
  {
   "path": "/robotic-soldering/quick-usa-957d",
@@ -3288,7 +3292,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 676,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3310,7 +3314,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 93590
+  "bytes": 95159
  },
  {
   "path": "/robotic-soldering/quick-usa-854",
@@ -3331,7 +3335,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 719,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3353,7 +3357,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99015
+  "bytes": 100584
  },
  {
   "path": "/robotic-soldering/official-robot-center",
@@ -3374,7 +3378,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 430,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3395,7 +3399,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 84319
+  "bytes": 85888
  },
  {
   "path": "/robotic-soldering/quick-9434-soldering-robot",
@@ -3416,7 +3420,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 744,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3438,7 +3442,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 101249
+  "bytes": 102818
  },
  {
   "path": "/robotic-soldering/quick-9430-series-with-base-vision",
@@ -3459,7 +3463,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 809,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3481,7 +3485,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 106590
+  "bytes": 108159
  },
  {
   "path": "/robotic-soldering/quick-9433d-dual-tip-soldering-robot",
@@ -3502,7 +3506,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 730,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3524,7 +3528,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 102886
+  "bytes": 104455
  },
  {
   "path": "/robotic-soldering/heating-technology",
@@ -3545,7 +3549,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 651,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3566,7 +3570,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 87453
+  "bytes": 89022
  },
  {
   "path": "/robotic-soldering/quick-usa-372b",
@@ -3587,7 +3591,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 650,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3609,7 +3613,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 93939
+  "bytes": 95508
  },
  {
   "path": "/robotic-soldering/soldering-robot-accessories",
@@ -3630,7 +3634,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 500,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3651,7 +3655,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 86672
+  "bytes": 88241
  },
  {
   "path": "/robotic-soldering/9264ec",
@@ -3672,7 +3676,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 726,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3694,7 +3698,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97781
+  "bytes": 99350
  },
  {
   "path": "/robotic-soldering/9464",
@@ -3715,7 +3719,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 759,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3737,7 +3741,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 102022
+  "bytes": 103604
  },
  {
   "path": "/robotic-soldering/9334",
@@ -3758,7 +3762,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 721,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -3780,7 +3784,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97516
+  "bytes": 99098
  },
  {
   "path": "/robotic-soldering/9533y-dualslide",
@@ -3801,7 +3805,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 774,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -3823,7 +3827,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98063
+  "bytes": 99632
  },
  {
   "path": "/robotic-soldering/9244cj",
@@ -3844,7 +3848,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 716,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3866,7 +3870,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97878
+  "bytes": 99447
  },
  {
   "path": "/robotic-soldering/9333-light-curtain",
@@ -3887,7 +3891,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 710,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -3909,7 +3913,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97862
+  "bytes": 99431
  },
  {
   "path": "/robotic-soldering/9534y-dualslide",
@@ -3930,7 +3934,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 812,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3952,7 +3956,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 102388
+  "bytes": 103957
  },
  {
   "path": "/robotic-soldering/9433-vision",
@@ -3973,7 +3977,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 794,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -3995,7 +3999,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 103865
+  "bytes": 105434
  },
  {
   "path": "/robotic-soldering/quick-usa-ts2300",
@@ -4016,7 +4020,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 563,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4038,7 +4042,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 92560
+  "bytes": 94129
  },
  {
   "path": "/robotic-soldering/quick-ts2200",
@@ -4059,7 +4063,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 563,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4081,7 +4085,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 92214
+  "bytes": 93783
  },
  {
   "path": "/robotic-soldering/quick-usa-492e",
@@ -4102,7 +4106,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 675,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4124,7 +4128,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95911
+  "bytes": 97480
  },
  {
   "path": "/robotic-soldering/quick-usa-300-series",
@@ -4145,7 +4149,7 @@
   "h2Count": 5,
   "h3Count": 12,
   "words": 595,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4167,7 +4171,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 92046
+  "bytes": 93615
  },
  {
   "path": "/robotic-soldering/9181",
@@ -4188,7 +4192,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 715,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4210,7 +4214,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97977
+  "bytes": 99559
  },
  {
   "path": "/robotic-soldering/9153n",
@@ -4231,7 +4235,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4252,7 +4256,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85080
+  "bytes": 86662
  },
  {
   "path": "/robotic-soldering/9152n",
@@ -4273,7 +4277,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 553,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4294,7 +4298,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85141
+  "bytes": 86723
  },
  {
   "path": "/robotic-soldering/9252d",
@@ -4315,7 +4319,7 @@
   "h2Count": 5,
   "h3Count": 12,
   "words": 606,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4337,7 +4341,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 91082
+  "bytes": 92664
  },
  {
   "path": "/robotic-soldering/9252k",
@@ -4358,7 +4362,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 690,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4380,7 +4384,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94881
+  "bytes": 96463
  },
  {
   "path": "/robotic-soldering/quick-usa-6301",
@@ -4401,7 +4405,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 665,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4423,7 +4427,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98057
+  "bytes": 99626
  },
  {
   "path": "/robotic-soldering/quick-usa-191ad",
@@ -4444,7 +4448,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 531,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4465,7 +4469,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85944
+  "bytes": 87513
  },
  {
   "path": "/robotic-soldering/quick-usa-885-1",
@@ -4486,7 +4490,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 692,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4508,7 +4512,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95014
+  "bytes": 96583
  },
  {
   "path": "/robotic-soldering/quick-usa-376di",
@@ -4529,7 +4533,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 581,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4551,7 +4555,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 92533
+  "bytes": 94102
  },
  {
   "path": "/robotic-soldering/quick-usa-ts1200",
@@ -4572,7 +4576,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 563,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4594,7 +4598,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 92555
+  "bytes": 94124
  },
  {
   "path": "/robotic-soldering/9494f",
@@ -4615,7 +4619,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 678,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4637,7 +4641,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95886
+  "bytes": 97468
  },
  {
   "path": "/robotic-soldering/quick-usa-443c",
@@ -4658,7 +4662,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 667,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -4680,7 +4684,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 92320
+  "bytes": 93889
  },
  {
   "path": "/robotic-soldering/quick-usa-443c-2",
@@ -4701,7 +4705,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 666,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -4723,7 +4727,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96313
+  "bytes": 97882
  },
  {
   "path": "/robotic-soldering/quick-usa-tr1300",
@@ -4744,7 +4748,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 603,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4766,7 +4770,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94131
+  "bytes": 95700
  },
  {
   "path": "/robotic-soldering/9440-iru-infrared-preheating-robot",
@@ -4787,7 +4791,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 756,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4809,7 +4813,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98601
+  "bytes": 100170
  },
  {
   "path": "/robotic-soldering/quick-usa-3202",
@@ -4830,7 +4834,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 587,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4852,7 +4856,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94363
+  "bytes": 95932
  },
  {
   "path": "/robotic-soldering/quick-usa-tr1100",
@@ -4873,7 +4877,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 609,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4895,7 +4899,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94914
+  "bytes": 96483
  },
  {
   "path": "/robotic-soldering/smart-line-control-solution",
@@ -4916,7 +4920,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 563,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4937,7 +4941,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 87659
+  "bytes": 89228
  },
  {
   "path": "/robotic-soldering/9153a",
@@ -4958,7 +4962,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 538,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -4979,7 +4983,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 84778
+  "bytes": 86360
  },
  {
   "path": "/robotic-soldering/agv",
@@ -5000,7 +5004,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 489,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5021,7 +5025,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 83757
+  "bytes": 85339
  },
  {
   "path": "/robotic-soldering/arc21-automatic-routing-machine",
@@ -5042,7 +5046,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 501,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5063,7 +5067,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 86681
+  "bytes": 88250
  },
  {
   "path": "/robotic-soldering/ar-smart-glasses",
@@ -5084,7 +5088,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 510,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -5105,7 +5109,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 83036
+  "bytes": 84605
  },
  {
   "path": "/robotic-soldering/laser-soldering",
@@ -5126,7 +5130,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 440,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -5147,7 +5151,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 75867
+  "bytes": 77394
  },
  {
   "path": "/robotic-soldering/pcb-routing-at-a-glance",
@@ -5168,7 +5172,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 665,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5189,7 +5193,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 87744
+  "bytes": 89313
  },
  {
   "path": "/robotic-soldering/9394f",
@@ -5210,7 +5214,7 @@
   "h2Count": 5,
   "h3Count": 13,
   "words": 679,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5232,7 +5236,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95884
+  "bytes": 97466
  },
  {
   "path": "/robotic-soldering/9153na",
@@ -5253,7 +5257,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5274,7 +5278,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85235
+  "bytes": 86804
  },
  {
   "path": "/robotic-soldering/9252n",
@@ -5295,7 +5299,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 553,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5316,7 +5320,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85141
+  "bytes": 86723
  },
  {
   "path": "/robotic-soldering/9253n",
@@ -5337,7 +5341,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5358,7 +5362,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85081
+  "bytes": 86663
  },
  {
   "path": "/robotic-soldering/9253na",
@@ -5379,7 +5383,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5400,7 +5404,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85235
+  "bytes": 86804
  },
  {
   "path": "/robotic-soldering/9353n",
@@ -5421,7 +5425,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5442,7 +5446,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85080
+  "bytes": 86662
  },
  {
   "path": "/robotic-soldering/9353na",
@@ -5463,7 +5467,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5484,7 +5488,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85234
+  "bytes": 86803
  },
  {
   "path": "/robotic-soldering/9453na",
@@ -5505,7 +5509,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5526,7 +5530,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85234
+  "bytes": 86803
  },
  {
   "path": "/robotic-soldering/9154n",
@@ -5547,7 +5551,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5568,7 +5572,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85081
+  "bytes": 86663
  },
  {
   "path": "/robotic-soldering/9154na",
@@ -5589,7 +5593,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5610,7 +5614,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85235
+  "bytes": 86804
  },
  {
   "path": "/robotic-soldering/9254n",
@@ -5631,7 +5635,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5652,7 +5656,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85081
+  "bytes": 86663
  },
  {
   "path": "/robotic-soldering/9254na",
@@ -5673,7 +5677,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5694,7 +5698,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85235
+  "bytes": 86804
  },
  {
   "path": "/robotic-soldering/9354na",
@@ -5715,7 +5719,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5736,7 +5740,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85234
+  "bytes": 86803
  },
  {
   "path": "/robotic-soldering/9354n",
@@ -5757,7 +5761,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5778,7 +5782,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85080
+  "bytes": 86662
  },
  {
   "path": "/robotic-soldering/9454n",
@@ -5799,7 +5803,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5820,7 +5824,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85081
+  "bytes": 86663
  },
  {
   "path": "/robotic-soldering/9454na",
@@ -5841,7 +5845,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5862,7 +5866,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85235
+  "bytes": 86804
  },
  {
   "path": "/robotic-soldering/et9484e",
@@ -5883,7 +5887,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5904,7 +5908,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85376
+  "bytes": 86945
  },
  {
   "path": "/robotic-soldering/et9384e",
@@ -5925,7 +5929,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5946,7 +5950,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85376
+  "bytes": 86945
  },
  {
   "path": "/robotic-soldering/et9483e",
@@ -5967,7 +5971,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -5988,7 +5992,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85374
+  "bytes": 86943
  },
  {
   "path": "/robotic-soldering/et9383e",
@@ -6009,7 +6013,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6030,7 +6034,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85374
+  "bytes": 86943
  },
  {
   "path": "/robotic-soldering/et9583eya",
@@ -6051,7 +6055,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6072,7 +6076,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85634
+  "bytes": 87203
  },
  {
   "path": "/robotic-soldering/et9584eya",
@@ -6093,7 +6097,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6114,7 +6118,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85634
+  "bytes": 87203
  },
  {
   "path": "/robotic-soldering/et9594fya",
@@ -6135,7 +6139,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 547,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6156,7 +6160,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 85634
+  "bytes": 87203
  },
  {
   "path": "/robotic-soldering/9101",
@@ -6177,7 +6181,7 @@
   "h2Count": 5,
   "h3Count": 14,
   "words": 724,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6199,7 +6203,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98234
+  "bytes": 99816
  },
  {
   "path": "/robotic-soldering/thank-you",
@@ -6220,7 +6224,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 452,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -6241,7 +6245,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 76151
+  "bytes": 77678
  },
  {
   "path": "/robotic-soldering/new-page-1",
@@ -6262,7 +6266,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 463,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -6283,7 +6287,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 75708
+  "bytes": 77235
  },
  {
   "path": "/robotic-soldering/schedule-service",
@@ -6304,7 +6308,7 @@
   "h2Count": 4,
   "h3Count": 11,
   "words": 421,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -6325,7 +6329,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 75535
+  "bytes": 77062
  },
  {
   "path": "/robotic-dispensing/et8253n-dispensing-robot",
@@ -6346,7 +6350,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 591,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6368,7 +6372,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99762
+  "bytes": 101415
  },
  {
   "path": "/robotic-dispensing/et8283-dispensing-robot",
@@ -6389,7 +6393,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 593,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6411,7 +6415,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99683
+  "bytes": 101336
  },
  {
   "path": "/robotic-dispensing/et8353n-dispensing-robot",
@@ -6432,7 +6436,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 591,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6454,7 +6458,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99762
+  "bytes": 101415
  },
  {
   "path": "/robotic-dispensing/et8383-dispensing-robot",
@@ -6475,7 +6479,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 610,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6497,7 +6501,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 100266
+  "bytes": 101919
  },
  {
   "path": "/robotic-dispensing/et8384-dispensing-robot",
@@ -6518,7 +6522,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 595,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6540,7 +6544,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99625
+  "bytes": 101278
  },
  {
   "path": "/robotic-dispensing/et8393sf-dispensing-robot",
@@ -6561,7 +6565,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 594,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6583,7 +6587,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 100013
+  "bytes": 101666
  },
  {
   "path": "/robotic-dispensing/et8483-dispensing-robot",
@@ -6604,7 +6608,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 613,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6626,7 +6630,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 100347
+  "bytes": 102000
  },
  {
   "path": "/robotic-dispensing/et8484-dispensing-robot",
@@ -6647,7 +6651,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 599,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6669,7 +6673,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 100131
+  "bytes": 101784
  },
  {
   "path": "/robotic-dispensing/et8493sf-dispensing-robot",
@@ -6690,7 +6694,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 594,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6712,7 +6716,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99903
+  "bytes": 101556
  },
  {
   "path": "/robotic-dispensing/et8583ya-dispensing-robot",
@@ -6733,7 +6737,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 614,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6755,7 +6759,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 100707
+  "bytes": 102360
  },
  {
   "path": "/robotic-dispensing/et8593-dispensing-robot",
@@ -6776,7 +6780,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 594,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6798,7 +6802,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 99720
+  "bytes": 101373
  },
  {
   "path": "/robotic-dispensing/qs-800",
@@ -6819,7 +6823,7 @@
   "h2Count": 7,
   "h3Count": 13,
   "words": 666,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -6841,7 +6845,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98829
+  "bytes": 100482
  },
  {
   "path": "/robotic-dispensing/s100-p4",
@@ -6862,7 +6866,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 769,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6884,7 +6888,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 118489
+  "bytes": 120142
  },
  {
   "path": "/robotic-dispensing/s100t4",
@@ -6905,7 +6909,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 769,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6927,7 +6931,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 118400
+  "bytes": 120053
  },
  {
   "path": "/robotic-screw-driving/7483kxz",
@@ -6948,7 +6952,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 673,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -6969,7 +6973,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 101893
+  "bytes": 103546
  },
  {
   "path": "/robotic-screw-driving/et72h3ka",
@@ -6990,7 +6994,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 657,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -7011,7 +7015,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94833
+  "bytes": 96486
  },
  {
   "path": "/robotic-screw-driving/et7383k",
@@ -7032,7 +7036,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 647,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7053,7 +7057,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95735
+  "bytes": 97388
  },
  {
   "path": "/robotic-screw-driving/et7383kc-screw-driving-robot",
@@ -7074,7 +7078,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 644,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7095,7 +7099,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 98169
+  "bytes": 99822
  },
  {
   "path": "/robotic-screw-driving/et7483kxzc",
@@ -7116,7 +7120,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 633,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7137,7 +7141,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95899
+  "bytes": 97552
  },
  {
   "path": "/robotic-screw-driving/et7583k",
@@ -7158,7 +7162,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 659,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7179,7 +7183,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96459
+  "bytes": 98112
  },
  {
   "path": "/robotic-screw-driving/et7583kya",
@@ -7200,7 +7204,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 650,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7221,7 +7225,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95955
+  "bytes": 97608
  },
  {
   "path": "/robotic-screw-driving/et7583kyac",
@@ -7242,7 +7246,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 628,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7263,7 +7267,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95822
+  "bytes": 97475
  },
  {
   "path": "/robotic-screw-driving/et7683kya",
@@ -7284,7 +7288,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 645,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7305,7 +7309,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 95919
+  "bytes": 97572
  },
  {
   "path": "/robotic-screw-driving/sn7353k",
@@ -7326,7 +7330,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 646,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7347,7 +7351,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96227
+  "bytes": 97880
  },
  {
   "path": "/robotic-screw-driving/sn7453ka",
@@ -7368,7 +7372,7 @@
   "h2Count": 6,
   "h3Count": 11,
   "words": 654,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7389,7 +7393,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96475
+  "bytes": 98128
  },
  {
   "path": "/robotic-screw-driving/c100",
@@ -7410,7 +7414,7 @@
   "h2Count": 7,
   "h3Count": 14,
   "words": 852,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -7432,7 +7436,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 110346
+  "bytes": 111999
  },
  {
   "path": "/robotic-screw-driving/robotic-screw-driving-accessories",
@@ -7453,7 +7457,7 @@
   "h2Count": 5,
   "h3Count": 11,
   "words": 510,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7474,7 +7478,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 94024
+  "bytes": 95677
  },
  {
   "path": "/laser-marking/panda-laser-marking",
@@ -7495,7 +7499,7 @@
   "h2Count": 7,
   "h3Count": 9,
   "words": 545,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7517,7 +7521,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 96544
+  "bytes": 98197
  },
  {
   "path": "/collaborative-robots/tm5-700",
@@ -7538,7 +7542,7 @@
   "h2Count": 11,
   "h3Count": 11,
   "words": 881,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7559,7 +7563,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97623
+  "bytes": 99276
  },
  {
   "path": "/collaborative-robots/tm5-900",
@@ -7580,7 +7584,7 @@
   "h2Count": 11,
   "h3Count": 11,
   "words": 886,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7601,7 +7605,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97683
+  "bytes": 99336
  },
  {
   "path": "/collaborative-robots/tm12",
@@ -7622,7 +7626,7 @@
   "h2Count": 11,
   "h3Count": 11,
   "words": 708,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7643,7 +7647,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96565
+  "bytes": 98218
  },
  {
   "path": "/collaborative-robots/tm-14",
@@ -7664,7 +7668,7 @@
   "h2Count": 11,
   "h3Count": 11,
   "words": 862,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7685,7 +7689,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97081
+  "bytes": 98734
  },
  {
   "path": "/collaborative-robots/tm16",
@@ -7706,7 +7710,7 @@
   "h2Count": 11,
   "h3Count": 11,
   "words": 890,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7727,7 +7731,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 97389
+  "bytes": 99042
  },
  {
   "path": "/collaborative-robots/tm20",
@@ -7748,7 +7752,7 @@
   "h2Count": 11,
   "h3Count": 11,
   "words": 829,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7769,7 +7773,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 96668
+  "bytes": 98321
  },
  {
   "path": "/mobile-robots/tm-mobile-robot-solutions",
@@ -7790,7 +7794,7 @@
   "h2Count": 6,
   "h3Count": 10,
   "words": 506,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7811,7 +7815,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 91678
+  "bytes": 93331
  },
  {
   "path": "/mobile-robots/mobile-robot-line-loading",
@@ -7832,7 +7836,7 @@
   "h2Count": 6,
   "h3Count": 12,
   "words": 722,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7854,7 +7858,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 107845
+  "bytes": 109498
  },
  {
   "path": "/mobile-robots/mobile-robot-line-unloading",
@@ -7875,7 +7879,7 @@
   "h2Count": 6,
   "h3Count": 12,
   "words": 653,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7897,7 +7901,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 101679
+  "bytes": 103332
  },
  {
   "path": "/x-ray-inspection/xc1000",
@@ -7918,7 +7922,7 @@
   "h2Count": 7,
   "h3Count": 9,
   "words": 618,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -7940,7 +7944,7 @@
   "ldInvalid": 0,
   "internalLinks": 45,
   "externalLinks": 4,
-  "bytes": 103543
+  "bytes": 105209
  },
  {
   "path": "/services/soldering-integration-kits",
@@ -7961,7 +7965,7 @@
   "h2Count": 5,
   "h3Count": 10,
   "words": 527,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -7982,7 +7986,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 89959
+  "bytes": 91612
  },
  {
   "path": "/services/heated-nitrogen-output-kit",
@@ -8003,7 +8007,7 @@
   "h2Count": 6,
   "h3Count": 10,
   "words": 585,
-  "imgCount": 4,
+  "imgCount": 6,
   "imgNoAlt": 0,
   "imgEmptyAlt": 3,
   "imgNoDims": 0,
@@ -8025,7 +8029,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 95906
+  "bytes": 97559
  },
  {
   "path": "/services/robot-safety-enclosures",
@@ -8046,7 +8050,7 @@
   "h2Count": 4,
   "h3Count": 10,
   "words": 463,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 2,
   "imgNoDims": 0,
@@ -8067,7 +8071,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 81761
+  "bytes": 83330
  },
  {
   "path": "/guides/how-much-does-a-robotic-soldering-machine-cost",
@@ -8088,7 +8092,7 @@
   "h2Count": 6,
   "h3Count": 7,
   "words": 684,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8106,7 +8110,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 71122
+  "bytes": 72565
  },
  {
   "path": "/guides/how-much-does-a-dispensing-robot-cost",
@@ -8127,7 +8131,7 @@
   "h2Count": 6,
   "h3Count": 7,
   "words": 539,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8145,7 +8149,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 67578
+  "bytes": 69021
  },
  {
   "path": "/guides/how-much-does-a-screw-driving-robot-cost",
@@ -8166,7 +8170,7 @@
   "h2Count": 6,
   "h3Count": 7,
   "words": 597,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8184,7 +8188,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 68346
+  "bytes": 69832
  },
  {
   "path": "/guides/how-much-does-pcb-handling-equipment-cost",
@@ -8205,7 +8209,7 @@
   "h2Count": 6,
   "h3Count": 7,
   "words": 512,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8223,7 +8227,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 67839
+  "bytes": 69282
  },
  {
   "path": "/guides/how-much-does-a-pcb-laser-marking-machine-cost",
@@ -8244,7 +8248,7 @@
   "h2Count": 6,
   "h3Count": 7,
   "words": 511,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8262,7 +8266,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 68110
+  "bytes": 69553
  },
  {
   "path": "/guides/robotic-soldering-buyers-guide",
@@ -8283,7 +8287,7 @@
   "h2Count": 6,
   "h3Count": 6,
   "words": 477,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8301,7 +8305,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 66972
+  "bytes": 68415
  },
  {
   "path": "/guides/screw-driving-buyers-guide",
@@ -8322,7 +8326,7 @@
   "h2Count": 5,
   "h3Count": 6,
   "words": 393,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8340,7 +8344,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 64306
+  "bytes": 65749
  },
  {
   "path": "/guides/dispensing-buyers-guide",
@@ -8361,7 +8365,7 @@
   "h2Count": 5,
   "h3Count": 6,
   "words": 370,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8379,7 +8383,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 63451
+  "bytes": 64894
  },
  {
   "path": "/guides/pcb-handling-buyers-guide",
@@ -8400,7 +8404,7 @@
   "h2Count": 5,
   "h3Count": 6,
   "words": 365,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8418,7 +8422,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 64083
+  "bytes": 65569
  },
  {
   "path": "/guides/laser-marking-buyers-guide",
@@ -8439,7 +8443,7 @@
   "h2Count": 5,
   "h3Count": 6,
   "words": 360,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8457,7 +8461,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 64377
+  "bytes": 65863
  },
  {
   "path": "/guides/collaborative-robot-buyers-guide",
@@ -8478,7 +8482,7 @@
   "h2Count": 5,
   "h3Count": 6,
   "words": 368,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8496,7 +8500,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 62908
+  "bytes": 64351
  },
  {
   "path": "/guides/benchtop-vs-cobot-screw-driving",
@@ -8517,7 +8521,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 358,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8535,7 +8539,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 63142
+  "bytes": 64585
  },
  {
   "path": "/guides/iron-vs-laser-soldering",
@@ -8556,7 +8560,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 335,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8574,7 +8578,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 63138
+  "bytes": 64581
  },
  {
   "path": "/guides/amr-vs-agv",
@@ -8595,7 +8599,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 290,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8613,7 +8617,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 60351
+  "bytes": 61794
  },
  {
   "path": "/guides/x-ray-vs-aoi-inspection",
@@ -8634,7 +8638,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 269,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8652,7 +8656,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 60720
+  "bytes": 62206
  },
  {
   "path": "/guides/selective-vs-wave-soldering",
@@ -8673,7 +8677,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 322,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8691,7 +8695,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 63004
+  "bytes": 64447
  },
  {
   "path": "/guides/fiber-vs-co2-vs-uv-laser-marking",
@@ -8712,7 +8716,7 @@
   "h2Count": 6,
   "h3Count": 5,
   "words": 327,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8730,7 +8734,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 63590
+  "bytes": 65033
  },
  {
   "path": "/guides/pcb-traceability-guide",
@@ -8751,7 +8755,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 333,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8769,7 +8773,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 62794
+  "bytes": 64237
  },
  {
   "path": "/guides/smema-integration-guide",
@@ -8790,7 +8794,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 331,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8808,7 +8812,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 62342
+  "bytes": 63785
  },
  {
   "path": "/guides/solder-joint-voids-and-quality",
@@ -8829,7 +8833,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 301,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8847,7 +8851,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 61014
+  "bytes": 62457
  },
  {
   "path": "/guides/robotic-soldering-roi",
@@ -8868,7 +8872,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 352,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8886,7 +8890,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 63254
+  "bytes": 64697
  },
  {
   "path": "/guides/when-to-automate-electronics-assembly",
@@ -8907,7 +8911,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 312,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8925,7 +8929,7 @@
   "ldInvalid": 0,
   "internalLinks": 45,
   "externalLinks": 4,
-  "bytes": 60341
+  "bytes": 61784
  },
  {
   "path": "/news/tag/quick%20soldering",
@@ -8946,7 +8950,7 @@
   "h2Count": 0,
   "h3Count": 11,
   "words": 311,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8959,7 +8963,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 55979
+  "bytes": 57422
  },
  {
   "path": "/news/tag/promation%20usa",
@@ -8980,7 +8984,7 @@
   "h2Count": 0,
   "h3Count": 10,
   "words": 232,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -8993,7 +8997,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 53662
+  "bytes": 55105
  },
  {
   "path": "/news/tag/soldering%20robot",
@@ -9014,7 +9018,7 @@
   "h2Count": 0,
   "h3Count": 9,
   "words": 211,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9027,7 +9031,7 @@
   "ldInvalid": 0,
   "internalLinks": 45,
   "externalLinks": 4,
-  "bytes": 52360
+  "bytes": 53803
  },
  {
   "path": "/news/tag/promation",
@@ -9048,7 +9052,7 @@
   "h2Count": 0,
   "h3Count": 9,
   "words": 196,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9061,7 +9065,7 @@
   "ldInvalid": 0,
   "internalLinks": 45,
   "externalLinks": 4,
-  "bytes": 51608
+  "bytes": 53051
  },
  {
   "path": "/news/tag/promation%20soldering",
@@ -9082,7 +9086,7 @@
   "h2Count": 0,
   "h3Count": 9,
   "words": 210,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9095,7 +9099,7 @@
   "ldInvalid": 0,
   "internalLinks": 45,
   "externalLinks": 4,
-  "bytes": 51978
+  "bytes": 53421
  },
  {
   "path": "/news/tag/laser%20marking",
@@ -9116,7 +9120,7 @@
   "h2Count": 0,
   "h3Count": 8,
   "words": 211,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9129,7 +9133,7 @@
   "ldInvalid": 0,
   "internalLinks": 44,
   "externalLinks": 4,
-  "bytes": 50775
+  "bytes": 52218
  },
  {
   "path": "/news/tag/panda%20robotics",
@@ -9150,7 +9154,7 @@
   "h2Count": 0,
   "h3Count": 8,
   "words": 204,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9163,7 +9167,7 @@
   "ldInvalid": 0,
   "internalLinks": 44,
   "externalLinks": 4,
-  "bytes": 51038
+  "bytes": 52481
  },
  {
   "path": "/news/tag/soldering%20machine",
@@ -9184,7 +9188,7 @@
   "h2Count": 0,
   "h3Count": 8,
   "words": 165,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9197,7 +9201,7 @@
   "ldInvalid": 0,
   "internalLinks": 44,
   "externalLinks": 4,
-  "bytes": 50391
+  "bytes": 51834
  },
  {
   "path": "/news/tag/panda%20laser",
@@ -9218,7 +9222,7 @@
   "h2Count": 0,
   "h3Count": 7,
   "words": 170,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9231,7 +9235,7 @@
   "ldInvalid": 0,
   "internalLinks": 43,
   "externalLinks": 4,
-  "bytes": 49089
+  "bytes": 50532
  },
  {
   "path": "/news/tag/solder",
@@ -9252,7 +9256,7 @@
   "h2Count": 0,
   "h3Count": 7,
   "words": 139,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9265,7 +9269,7 @@
   "ldInvalid": 0,
   "internalLinks": 43,
   "externalLinks": 4,
-  "bytes": 48546
+  "bytes": 49989
  },
  {
   "path": "/news/tag/promationusa",
@@ -9286,7 +9290,7 @@
   "h2Count": 0,
   "h3Count": 7,
   "words": 122,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9299,7 +9303,7 @@
   "ldInvalid": 0,
   "internalLinks": 43,
   "externalLinks": 4,
-  "bytes": 48041
+  "bytes": 49484
  },
  {
   "path": "/news/tag/laser%20marking%20machine",
@@ -9320,7 +9324,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 132,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9333,7 +9337,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47431
+  "bytes": 48874
  },
  {
   "path": "/news/tag/panda%20laser%20marker",
@@ -9354,7 +9358,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 110,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9367,7 +9371,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46784
+  "bytes": 48227
  },
  {
   "path": "/news/tag/robotic%20soldering",
@@ -9388,7 +9392,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 95,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9401,7 +9405,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46956
+  "bytes": 48399
  },
  {
   "path": "/news/2022/10/25/horizon-sales-doubles-down-on-promation-usa-new-innovative-line-of-robotic-soldering-solutions",
@@ -9422,7 +9426,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 402,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9437,7 +9441,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 62188
+  "bytes": 63644
  },
  {
   "path": "/news/2022/8/3/panda-intelligent-soldering-solutions-featured-by-global-smt-amp-packaging-magazine",
@@ -9458,7 +9462,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 350,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9473,7 +9477,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 62061
+  "bytes": 63517
  },
  {
   "path": "/news/2022/5/31/2022-international-sales-training-conference",
@@ -9494,7 +9498,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 638,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9509,7 +9513,7 @@
   "ldInvalid": 0,
   "internalLinks": 52,
   "externalLinks": 4,
-  "bytes": 68288
+  "bytes": 69746
  },
  {
   "path": "/news/2022/1/3/innovation-winter-2022",
@@ -9530,7 +9534,7 @@
   "h2Count": 2,
   "h3Count": 7,
   "words": 477,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9546,7 +9550,7 @@
   "ldInvalid": 0,
   "internalLinks": 52,
   "externalLinks": 4,
-  "bytes": 66203
+  "bytes": 67646
  },
  {
   "path": "/news/2021/4/26/promation-usa-adds-30-robot-models-to-the-quick-robotic-product-line",
@@ -9567,7 +9571,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 443,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9582,7 +9586,7 @@
   "ldInvalid": 0,
   "internalLinks": 54,
   "externalLinks": 4,
-  "bytes": 64833
+  "bytes": 66291
  },
  {
   "path": "/news/2020/2/7/panda-soldering-system-wins-2020-new-product-introduction-award",
@@ -9603,7 +9607,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 400,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9618,7 +9622,7 @@
   "ldInvalid": 0,
   "internalLinks": 53,
   "externalLinks": 4,
-  "bytes": 63845
+  "bytes": 65303
  },
  {
   "path": "/news/2020/1/30/promation-introduces-quick-9394f-soldering-robot",
@@ -9639,7 +9643,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 380,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9654,7 +9658,7 @@
   "ldInvalid": 0,
   "internalLinks": 52,
   "externalLinks": 4,
-  "bytes": 62635
+  "bytes": 64093
  },
  {
   "path": "/news/2020/1/27/kevin-brennan-announced-international-sales-manager-for-promation-usa",
@@ -9675,7 +9679,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 335,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9690,7 +9694,7 @@
   "ldInvalid": 0,
   "internalLinks": 48,
   "externalLinks": 4,
-  "bytes": 59577
+  "bytes": 61035
  },
  {
   "path": "/news/panda-soldering-systems",
@@ -9711,7 +9715,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 673,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9726,7 +9730,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 68653
+  "bytes": 70139
  },
  {
   "path": "/news/2019",
@@ -9747,7 +9751,7 @@
   "h2Count": 4,
   "h3Count": 7,
   "words": 381,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9762,7 +9766,7 @@
   "ldInvalid": 0,
   "internalLinks": 56,
   "externalLinks": 4,
-  "bytes": 64057
+  "bytes": 65485
  },
  {
   "path": "/news/2018/8/13/promation-launches-soldering-technology-initiative",
@@ -9783,7 +9787,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 790,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9798,7 +9802,7 @@
   "ldInvalid": 0,
   "internalLinks": 60,
   "externalLinks": 4,
-  "bytes": 73438
+  "bytes": 74896
  },
  {
   "path": "/news/2018/2/2/altus-group-europe-and-danutek-hungary-complete-robotic-soldering-training-at-promation-usa",
@@ -9819,7 +9823,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 478,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9834,7 +9838,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 64156
+  "bytes": 65612
  },
  {
   "path": "/news/2017/12/20/promation-usa-offers-new-intelligent-hand-soldering-stations",
@@ -9855,7 +9859,7 @@
   "h2Count": 1,
   "h3Count": 7,
   "words": 484,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9871,7 +9875,7 @@
   "ldInvalid": 0,
   "internalLinks": 54,
   "externalLinks": 4,
-  "bytes": 68289
+  "bytes": 69790
  },
  {
   "path": "/news/2017/11/7/promation-scheduled-to-attend-2017-productronica-in-munich-germany",
@@ -9892,7 +9896,7 @@
   "h2Count": 0,
   "h3Count": 4,
   "words": 96,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9907,7 +9911,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 48794
+  "bytes": 50252
  },
  {
   "path": "/store/quick-191ad",
@@ -9928,7 +9932,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 142,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9946,7 +9950,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 64326
+  "bytes": 65576
  },
  {
   "path": "/store/replacement-brass-mesh-insert",
@@ -9967,7 +9971,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 149,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -9985,7 +9989,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 64452
+  "bytes": 65702
  },
  {
   "path": "/store/100-authentic-quick-solder-tips-912-series",
@@ -10006,7 +10010,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 315,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10025,7 +10029,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 91512
+  "bytes": 92762
  },
  {
   "path": "/store/brass-rollers",
@@ -10046,7 +10050,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 132,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10064,7 +10068,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 63400
+  "bytes": 64650
  },
  {
   "path": "/store/conveyor-belts",
@@ -10085,7 +10089,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 950,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10104,7 +10108,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 189641
+  "bytes": 190891
  },
  {
   "path": "/store/100-authentic-quick-solder-tips-912-series-372mr",
@@ -10125,7 +10129,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 474,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10144,7 +10148,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 119571
+  "bytes": 120821
  },
  {
   "path": "/store/quick-feed-tube-zlbsm",
@@ -10165,7 +10169,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 169,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10184,7 +10188,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 73021
+  "bytes": 74271
  },
  {
   "path": "/store/quick-feed-tube",
@@ -10205,7 +10209,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 183,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10224,7 +10228,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 74535
+  "bytes": 75785
  },
  {
   "path": "/store/quick-150watt-soldering-irons",
@@ -10245,7 +10249,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 187,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10264,7 +10268,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 68391
+  "bytes": 69641
  },
  {
   "path": "/store/quick-180-watt-robot-soldering-irons",
@@ -10285,7 +10289,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 176,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10304,7 +10308,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 68447
+  "bytes": 69697
  },
  {
   "path": "/store/quick-100-6c",
@@ -10325,7 +10329,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 123,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10343,7 +10347,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 63000
+  "bytes": 64293
  },
  {
   "path": "/store/quick-100-15s",
@@ -10364,7 +10368,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 130,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10382,7 +10386,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 63395
+  "bytes": 64645
  },
  {
   "path": "/store/quick-ts1200",
@@ -10403,7 +10407,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 193,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10421,7 +10425,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 65009
+  "bytes": 66259
  },
  {
   "path": "/store/quick-ts2200",
@@ -10442,7 +10446,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 201,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10460,7 +10464,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 65074
+  "bytes": 66324
  },
  {
   "path": "/store/quick-376di",
@@ -10481,7 +10485,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 247,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10500,7 +10504,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 72233
+  "bytes": 73483
  },
  {
   "path": "/store/quick-885-hot-air-gun",
@@ -10521,7 +10525,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 172,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10539,7 +10543,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 64772
+  "bytes": 66022
  },
  {
   "path": "/store/quick-6102a1",
@@ -10560,7 +10564,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 151,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10578,7 +10582,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 63803
+  "bytes": 65053
  },
  {
   "path": "/store/quick",
@@ -10599,7 +10603,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 163,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10618,7 +10622,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 68634
+  "bytes": 69869
  },
  {
   "path": "/store/quick-ylt4n",
@@ -10639,7 +10643,7 @@
   "h2Count": 2,
   "h3Count": 8,
   "words": 153,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10658,7 +10662,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 68529
+  "bytes": 69779
  },
  {
   "path": "/store/quick-9039",
@@ -10679,7 +10683,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 152,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10697,7 +10701,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 63698
+  "bytes": 64948
  },
  {
   "path": "/store/2020d-hot-air-rework-station",
@@ -10718,7 +10722,7 @@
   "h2Count": 1,
   "h3Count": 8,
   "words": 170,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10736,7 +10740,7 @@
   "ldInvalid": 0,
   "internalLinks": 46,
   "externalLinks": 4,
-  "bytes": 65346
+  "bytes": 66596
  },
  {
   "path": "/news/tag/titan%20innovation%20award%202025",
@@ -10757,7 +10761,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 80,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10770,7 +10774,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45451
+  "bytes": 46894
  },
  {
   "path": "/news/tag/panda%20laser%20marking",
@@ -10791,7 +10795,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 70,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10804,7 +10808,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45052
+  "bytes": 46495
  },
  {
   "path": "/news/tag/laser%20mark",
@@ -10825,7 +10829,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 54,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10838,7 +10842,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44683
+  "bytes": 46126
  },
  {
   "path": "/news/tag/9544CJ",
@@ -10859,7 +10863,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 52,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10872,7 +10876,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44643
+  "bytes": 46086
  },
  {
   "path": "/news/tag/screw%20driving%20robot",
@@ -10893,7 +10897,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 56,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10906,7 +10910,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44768
+  "bytes": 46211
  },
  {
   "path": "/events/2023/5/17/robotic-soldering-open-house-technology-day",
@@ -10927,7 +10931,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 66,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10940,7 +10944,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47532
+  "bytes": 48990
  },
  {
   "path": "/events/2023/5/16/smta-wisconsin-chapter-expo-amp-tech-forum",
@@ -10961,7 +10965,7 @@
   "h2Count": 1,
   "h3Count": 4,
   "words": 45,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -10974,7 +10978,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46385
+  "bytes": 47843
  },
  {
   "path": "/events/2023/5/3/promation-usa-to-display-at-horizon-sales-technology-day",
@@ -10995,7 +10999,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 65,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11008,7 +11012,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47483
+  "bytes": 48941
  },
  {
   "path": "/events/2022/10/19/smta-expo-long-island",
@@ -11029,7 +11033,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 61,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11042,7 +11046,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47308
+  "bytes": 48751
  },
  {
   "path": "/events/2022/6/7/smta-expo-space-coast",
@@ -11063,7 +11067,7 @@
   "h2Count": 1,
   "h3Count": 4,
   "words": 41,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11076,7 +11080,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46234
+  "bytes": 47677
  },
  {
   "path": "/events/2022/9/7/smta-expo-tampa-bay",
@@ -11097,7 +11101,7 @@
   "h2Count": 1,
   "h3Count": 4,
   "words": 40,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11110,7 +11114,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46194
+  "bytes": 47637
  },
  {
   "path": "/events/2022/6/7/smta-expo-ohio-valley",
@@ -11131,7 +11135,7 @@
   "h2Count": 1,
   "h3Count": 4,
   "words": 42,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11144,7 +11148,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46244
+  "bytes": 47687
  },
  {
   "path": "/events/2022/5/12/automate-expo-detroit-mi-usa",
@@ -11165,7 +11169,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 66,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11178,7 +11182,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47522
+  "bytes": 48965
  },
  {
   "path": "/events/2022/5/2/2022-promation-usa-technology-demo-day-open-house",
@@ -11199,7 +11203,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 70,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11212,7 +11216,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47542
+  "bytes": 49000
  },
  {
   "path": "/events/2020/2/4/2020-ipc-apex-expo",
@@ -11233,7 +11237,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 57,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11246,7 +11250,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47174
+  "bytes": 48617
  },
  {
   "path": "/events/2019/1/29/ipcapex-trade-show-san-diego",
@@ -11267,7 +11271,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 59,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11280,7 +11284,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47247
+  "bytes": 48690
  },
  {
   "path": "/events/2018/5/22/smta-detroit",
@@ -11301,7 +11305,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11314,7 +11318,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47004
+  "bytes": 48447
  },
  {
   "path": "/events/2017/10/4/2018-ipc-expo",
@@ -11335,7 +11339,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 64,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11348,7 +11352,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47168
+  "bytes": 48611
  },
  {
   "path": "/events/productronica2017",
@@ -11369,7 +11373,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 48,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11382,7 +11386,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 47155
+  "bytes": 48598
  },
  {
   "path": "/events/2017/10/4/smtai-expo-in-guadalajara-mx",
@@ -11403,7 +11407,7 @@
   "h2Count": 2,
   "h3Count": 4,
   "words": 40,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11416,7 +11420,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46847
+  "bytes": 48290
  },
  {
   "path": "/compare/yj-link-alternative",
@@ -11437,7 +11441,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 423,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11455,7 +11459,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 72309
+  "bytes": 73752
  },
  {
   "path": "/compare/nutek-alternative",
@@ -11476,7 +11480,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 413,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11494,7 +11498,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 71598
+  "bytes": 73041
  },
  {
   "path": "/compare/cti-systems-alternative",
@@ -11515,7 +11519,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 422,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11533,7 +11537,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 71824
+  "bytes": 73267
  },
  {
   "path": "/compare/flexlink-alternative",
@@ -11554,7 +11558,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 383,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11572,7 +11576,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 71129
+  "bytes": 72572
  },
  {
   "path": "/compare/quick-vs-japan-unix-soldering-robots",
@@ -11593,7 +11597,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 525,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11611,7 +11615,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 74313
+  "bytes": 75756
  },
  {
   "path": "/compare/apollo-seiko-alternative",
@@ -11632,7 +11636,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 487,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11650,7 +11654,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 73121
+  "bytes": 74564
  },
  {
   "path": "/compare/quick-9434-vs-thermaltronics-tmt-r9800s",
@@ -11671,7 +11675,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 481,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11689,7 +11693,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 72864
+  "bytes": 74307
  },
  {
   "path": "/compare/quick-vs-panda-soldering-robots",
@@ -11710,7 +11714,7 @@
   "h2Count": 5,
   "h3Count": 8,
   "words": 389,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11728,7 +11732,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 69584
+  "bytes": 71027
  },
  {
   "path": "/compare/quick-et-vs-fisnar-dispensing-robots",
@@ -11749,7 +11753,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 449,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11767,7 +11771,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 71798
+  "bytes": 73241
  },
  {
   "path": "/compare/nordson-efd-alternative",
@@ -11788,7 +11792,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 447,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11806,7 +11810,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 71486
+  "bytes": 72972
  },
  {
   "path": "/compare/gpd-global-alternative",
@@ -11827,7 +11831,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 407,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11845,7 +11849,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 71124
+  "bytes": 72610
  },
  {
   "path": "/compare/janome-screw-driving-alternative",
@@ -11866,7 +11870,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 462,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11884,7 +11888,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 70984
+  "bytes": 72427
  },
  {
   "path": "/compare/panda-vs-asys-insignum-laser-marking",
@@ -11905,7 +11909,7 @@
   "h2Count": 5,
   "h3Count": 9,
   "words": 452,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11923,7 +11927,7 @@
   "ldInvalid": 0,
   "internalLinks": 47,
   "externalLinks": 4,
-  "bytes": 71335
+  "bytes": 72778
  },
  {
   "path": "/brands/quick",
@@ -11944,7 +11948,7 @@
   "h2Count": 5,
   "h3Count": 45,
   "words": 545,
-  "imgCount": 40,
+  "imgCount": 42,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11959,7 +11963,7 @@
   "ldInvalid": 0,
   "internalLinks": 90,
   "externalLinks": 4,
-  "bytes": 193949
+  "bytes": 195310
  },
  {
   "path": "/brands/panda-robotics",
@@ -11980,7 +11984,7 @@
   "h2Count": 5,
   "h3Count": 7,
   "words": 250,
-  "imgCount": 3,
+  "imgCount": 5,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -11995,7 +11999,7 @@
   "ldInvalid": 0,
   "internalLinks": 53,
   "externalLinks": 4,
-  "bytes": 74650
+  "bytes": 76026
  },
  {
   "path": "/brands/techman",
@@ -12016,7 +12020,7 @@
   "h2Count": 5,
   "h3Count": 10,
   "words": 292,
-  "imgCount": 6,
+  "imgCount": 8,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12031,7 +12035,7 @@
   "ldInvalid": 0,
   "internalLinks": 55,
   "externalLinks": 4,
-  "bytes": 83809
+  "bytes": 85170
  },
  {
   "path": "/brands/seamark",
@@ -12052,7 +12056,7 @@
   "h2Count": 4,
   "h3Count": 4,
   "words": 174,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12067,7 +12071,7 @@
   "ldInvalid": 0,
   "internalLinks": 49,
   "externalLinks": 4,
-  "bytes": 61175
+  "bytes": 62730
  },
  {
   "path": "/brands/omron",
@@ -12088,7 +12092,7 @@
   "h2Count": 5,
   "h3Count": 5,
   "words": 205,
-  "imgCount": 1,
+  "imgCount": 3,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12103,7 +12107,7 @@
   "ldInvalid": 0,
   "internalLinks": 50,
   "externalLinks": 4,
-  "bytes": 66480
+  "bytes": 67841
  },
  {
   "path": "/news/tag/horizon%20sales",
@@ -12124,7 +12128,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 48,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12137,7 +12141,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44909
+  "bytes": 46352
  },
  {
   "path": "/news/tag/midwest%20robotic%20soldering",
@@ -12158,7 +12162,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 50,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12171,7 +12175,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45021
+  "bytes": 46464
  },
  {
   "path": "/news/tag/panda%20soldering",
@@ -12192,7 +12196,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 88,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12205,7 +12209,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46642
+  "bytes": 48085
  },
  {
   "path": "/news/tag/panda%20robotics%20interview",
@@ -12226,7 +12230,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12239,7 +12243,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44942
+  "bytes": 46385
  },
  {
   "path": "/news/tag/global%20smt%20%26%20packaging",
@@ -12260,7 +12264,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12273,7 +12277,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44963
+  "bytes": 46406
  },
  {
   "path": "/news/tag/intelligent%20soldering%20machine",
@@ -12294,7 +12298,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12307,7 +12311,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44987
+  "bytes": 46430
  },
  {
   "path": "/news/tag/tm%20robot",
@@ -12328,7 +12332,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 52,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12341,7 +12345,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44752
+  "bytes": 46195
  },
  {
   "path": "/news/tag/techman%20collaborative%20robots",
@@ -12362,7 +12366,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 54,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12375,7 +12379,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44936
+  "bytes": 46379
  },
  {
   "path": "/news/tag/cobotics",
@@ -12396,7 +12400,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 50,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12409,7 +12413,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44748
+  "bytes": 46191
  },
  {
   "path": "/news/tag/robotics",
@@ -12430,7 +12434,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 50,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12443,7 +12447,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44748
+  "bytes": 46191
  },
  {
   "path": "/news/tag/TM-14",
@@ -12464,7 +12468,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 50,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12477,7 +12481,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44736
+  "bytes": 46164
  },
  {
   "path": "/news/tag/Sales",
@@ -12498,7 +12502,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 50,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12511,7 +12515,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44736
+  "bytes": 46164
  },
  {
   "path": "/news/tag/conveyors",
@@ -12532,7 +12536,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 44,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12545,7 +12549,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44532
+  "bytes": 45975
  },
  {
   "path": "/news/tag/soldering",
@@ -12566,7 +12570,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 84,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12579,7 +12583,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46413
+  "bytes": 47856
  },
  {
   "path": "/news/tag/promation%20conveyor",
@@ -12600,7 +12604,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 46,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12613,7 +12617,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44617
+  "bytes": 46060
  },
  {
   "path": "/news/tag/manufacturing",
@@ -12634,7 +12638,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12647,7 +12651,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44919
+  "bytes": 46362
  },
  {
   "path": "/news/tag/best%20soldering%20machine",
@@ -12668,7 +12672,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 64,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12681,7 +12685,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45008
+  "bytes": 46451
  },
  {
   "path": "/news/tag/best%20soldering%20station",
@@ -12702,7 +12706,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 104,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12715,7 +12719,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46889
+  "bytes": 48332
  },
  {
   "path": "/news/tag/best%20soldering%20robot",
@@ -12736,7 +12740,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 64,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12749,7 +12753,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44990
+  "bytes": 46433
  },
  {
   "path": "/news/tag/QUICK%20Soldering%20Robot",
@@ -12770,7 +12774,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 100,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12783,7 +12787,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46772
+  "bytes": 48215
  },
  {
   "path": "/news/tag/promation%20usa%20soldering",
@@ -12804,7 +12808,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 64,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12817,7 +12821,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45017
+  "bytes": 46460
  },
  {
   "path": "/news/tag/NPI%20Award%20PROMATION",
@@ -12838,7 +12842,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12851,7 +12855,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44812
+  "bytes": 46255
  },
  {
   "path": "/news/tag/NPI%20AWARD",
@@ -12872,7 +12876,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 51,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12885,7 +12889,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44718
+  "bytes": 46161
  },
  {
   "path": "/news/tag/Circuits%20Assembly&",
@@ -12910,7 +12914,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12923,7 +12927,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44875
+  "bytes": 46318
  },
  {
   "path": "/news/tag/2020%20IPC%20APEX%20EXPO",
@@ -12944,7 +12948,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12957,7 +12961,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44807
+  "bytes": 46250
  },
  {
   "path": "/news/tag/autosolder",
@@ -12978,7 +12982,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 48,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -12991,7 +12995,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44711
+  "bytes": 46154
  },
  {
   "path": "/news/tag/quick%209394F",
@@ -13012,7 +13016,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 50,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13025,7 +13029,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44724
+  "bytes": 46167
  },
  {
   "path": "/news/tag/kevin%20brennan",
@@ -13046,7 +13050,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 47,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13059,7 +13063,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44741
+  "bytes": 46184
  },
  {
   "path": "/news/tag/kevin%20brennan%20promation",
@@ -13080,7 +13084,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 49,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13093,7 +13097,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44835
+  "bytes": 46278
  },
  {
   "path": "/news/tag/kevin%20brennan%20promation%20usa",
@@ -13114,7 +13118,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 51,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13127,7 +13131,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44875
+  "bytes": 46318
  },
  {
   "path": "/news/tag/pandasolderingsystems",
@@ -13148,7 +13152,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 58,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13161,7 +13165,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44766
+  "bytes": 46209
  },
  {
   "path": "/news/tag/pandasoldering",
@@ -13182,7 +13186,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 58,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13195,7 +13199,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44703
+  "bytes": 46146
  },
  {
   "path": "/news/tag/panda%20series",
@@ -13216,7 +13220,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13229,7 +13233,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44689
+  "bytes": 46132
  },
  {
   "path": "/news/tag/panda%20promation",
@@ -13250,7 +13254,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13263,7 +13267,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44716
+  "bytes": 46159
  },
  {
   "path": "/news/tag/promation%20panda",
@@ -13284,7 +13288,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13297,7 +13301,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44716
+  "bytes": 46159
  },
  {
   "path": "/news/tag/panda%20in-line%20soldering",
@@ -13318,7 +13322,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 62,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13331,7 +13335,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44792
+  "bytes": 46235
  },
  {
   "path": "/news/tag/panda%20soldering%20usa",
@@ -13352,7 +13356,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 62,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13365,7 +13369,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44756
+  "bytes": 46199
  },
  {
   "path": "/news/tag/panda%20promation%20soldering",
@@ -13386,7 +13390,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 62,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13399,7 +13403,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44810
+  "bytes": 46253
  },
  {
   "path": "/news/tag/thermaltronics%20soldering",
@@ -13420,7 +13424,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13433,7 +13437,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44797
+  "bytes": 46240
  },
  {
   "path": "/news/tag/thermaltronics",
@@ -13454,7 +13458,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 58,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13467,7 +13471,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44703
+  "bytes": 46146
  },
  {
   "path": "/news/tag/apollo%20soldering",
@@ -13488,7 +13492,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13501,7 +13505,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44725
+  "bytes": 46168
  },
  {
   "path": "/news/tag/wisconsin%20manufacturing",
@@ -13522,7 +13526,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13535,7 +13539,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44719
+  "bytes": 46162
  },
  {
   "path": "/news/tag/largest%20soldering%20robot",
@@ -13556,7 +13560,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 57,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13569,7 +13573,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44723
+  "bytes": 46166
  },
  {
   "path": "/news/tag/intelligent%20line%20control%20solution",
@@ -13590,7 +13594,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 59,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13603,7 +13607,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44817
+  "bytes": 46260
  },
  {
   "path": "/news/tag/PRO%204.0",
@@ -13624,7 +13628,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13637,7 +13641,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44575
+  "bytes": 46018
  },
  {
   "path": "/news/tag/PRO%204.1",
@@ -13658,7 +13662,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13671,7 +13675,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44575
+  "bytes": 46018
  },
  {
   "path": "/news/tag/QUICK%209544CJ%20PRO",
@@ -13692,7 +13696,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 57,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13705,7 +13709,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44660
+  "bytes": 46103
  },
  {
   "path": "/news/tag/QUICK%20USA%20Soldering",
@@ -13726,7 +13730,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 57,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13739,7 +13743,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44687
+  "bytes": 46130
  },
  {
   "path": "/news/tag/kester%20solder",
@@ -13760,7 +13764,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13773,7 +13777,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44904
+  "bytes": 46347
  },
  {
   "path": "/news/tag/indium%20solder",
@@ -13794,7 +13798,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13807,7 +13811,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44904
+  "bytes": 46347
  },
  {
   "path": "/news/tag/aim%20solder",
@@ -13828,7 +13832,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13841,7 +13845,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44877
+  "bytes": 46320
  },
  {
   "path": "/news/tag/hand%20soldering",
@@ -13862,7 +13866,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13875,7 +13879,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44913
+  "bytes": 46356
  },
  {
   "path": "/news/tag/how%20to%20solder",
@@ -13896,7 +13900,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13909,7 +13913,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44908
+  "bytes": 46351
  },
  {
   "path": "/news/tag/solder%20wire%20perforation",
@@ -13930,7 +13934,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 55,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13943,7 +13947,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44998
+  "bytes": 46441
  },
  {
   "path": "/news/tag/QUICK%20300A",
@@ -13964,7 +13968,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -13977,7 +13981,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44877
+  "bytes": 46320
  },
  {
   "path": "/news/tag/QUICK%20300B",
@@ -13998,7 +14002,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14011,7 +14015,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44877
+  "bytes": 46320
  },
  {
   "path": "/news/tag/QUICK%20376DI",
@@ -14032,7 +14036,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14045,7 +14049,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44886
+  "bytes": 46329
  },
  {
   "path": "/news/tag/QUICK%20372B",
@@ -14066,7 +14070,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 53,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14079,7 +14083,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44877
+  "bytes": 46320
  },
  {
   "path": "/news/tag/Flux%20Cored%20Solder%20Wire",
@@ -14100,7 +14104,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 57,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14113,7 +14117,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44993
+  "bytes": 46436
  },
  {
   "path": "/news/tag/lead-free%20soldering",
@@ -14134,7 +14138,7 @@
   "h2Count": 0,
   "h3Count": 6,
   "words": 93,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14147,7 +14151,7 @@
   "ldInvalid": 0,
   "internalLinks": 42,
   "externalLinks": 4,
-  "bytes": 46839
+  "bytes": 48282
  },
  {
   "path": "/news/tag/altus%20group",
@@ -14168,7 +14172,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 61,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14181,7 +14185,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44962
+  "bytes": 46405
  },
  {
   "path": "/news/tag/automated%20soldering",
@@ -14202,7 +14206,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 61,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14215,7 +14219,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45034
+  "bytes": 46477
  },
  {
   "path": "/news/tag/auto%20solder",
@@ -14236,7 +14240,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 61,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14249,7 +14253,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44962
+  "bytes": 46405
  },
  {
   "path": "/news/tag/TS%20Series%20Intelligent%20Hand%20Soldering",
@@ -14270,7 +14274,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 60,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14283,7 +14287,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 45069
+  "bytes": 46512
  },
  {
   "path": "/news/tag/QUICK%20Hand%20Soldering",
@@ -14304,7 +14308,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 56,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14317,7 +14321,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44917
+  "bytes": 46360
  },
  {
   "path": "/news/tag/Soldering%20Stations",
@@ -14338,7 +14342,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 54,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14351,7 +14355,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44895
+  "bytes": 46338
  },
  {
   "path": "/news/tag/Network%20Capable",
@@ -14372,7 +14376,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 54,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14385,7 +14389,7 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44868
+  "bytes": 46311
  },
  {
   "path": "/news/tag/Estacion%20de%20Soldar",
@@ -14406,7 +14410,7 @@
   "h2Count": 0,
   "h3Count": 5,
   "words": 56,
-  "imgCount": 0,
+  "imgCount": 2,
   "imgNoAlt": 0,
   "imgEmptyAlt": 0,
   "imgNoDims": 0,
@@ -14419,6 +14423,6 @@
   "ldInvalid": 0,
   "internalLinks": 41,
   "externalLinks": 4,
-  "bytes": 44899
+  "bytes": 46342
  }
 ]

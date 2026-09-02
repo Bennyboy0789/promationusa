@@ -74,7 +74,8 @@ const ALL_LINES = [
   { label: "Screw Driving", href: "/robotic-screw-driving" },
   { label: "Laser Marking", href: "/laser-marking" },
   { label: "Cobots", href: "/collaborative-robots" },
-  { label: "X-Ray Inspection", href: "/x-ray-inspection" },
+  { label: "Depaneling", href: "/pcb-depaneling" },
+  { label: "Label Placement", href: "/label-placement" },
 ];
 
 const DWELL = 5600;
@@ -306,7 +307,7 @@ export function LineupHero() {
             transition={{ duration: 0.5 }}
             className="mb-5 font-mono text-[9px] uppercase leading-relaxed tracking-[0.16em] text-sky-300 sm:text-[10px] sm:tracking-[0.2em] lg:tracking-[0.14em]"
           >
-            Official North American source · QUICK · PANDA · TechMan · SEAMARK
+            Official North American source · QUICK · PANDA · TechMan
           </motion.p>
 
           <motion.h1

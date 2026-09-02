@@ -159,17 +159,40 @@ export const categoryContent: Record<string, CategoryContent> = {
     ],
   },
 
-  "xray-inspection": {
+  depaneling: {
     definition:
-      "X-ray inspection images solder joints hidden beneath component bodies — BGAs, QFNs, connectors — where optical inspection cannot see. It is how voids, shorts, insufficient solder and head-in-pillow defects are found without destroying the board.",
+      "Depaneling separates finished boards from the panel they were assembled in. An automatic router cuts the tabs or scored web with a spindle following a programmed path, which keeps the mechanical stress away from the joints and components that hand-breaking or manual shearing puts under load.",
     faqs: [
       {
-        q: "When do we need X-ray rather than AOI?",
-        a: "As soon as you place bottom-terminated parts. AOI inspects what a camera can see; once the joint is under the component body, X-ray is the only non-destructive way to inspect it.",
+        q: "Why not just break the panel by hand?",
+        a: "Hand-breaking flexes the board, and that flex travels into the solder joints — ceramic capacitors near the break line are the usual casualty, and the cracks are rarely visible. A router removes the material instead of bending it, so the stress never reaches the joints.",
       },
       {
-        q: "Can it count components on reels?",
-        a: "Yes — X-ray component counting is a common secondary use and often justifies the machine on inventory accuracy alone, separately from its inspection role.",
+        q: "Routing or laser depaneling?",
+        a: "Routing suits most FR-4 work and handles thicker stackups at lower cost per machine. Laser earns its place on flex, on very thin boards, and where components sit close enough to the cut line that a spindle cannot reach. Send us the panel and we will tell you which one your board actually needs.",
+      },
+      {
+        q: "What about the dust?",
+        a: "Routing FR-4 makes abrasive, partly conductive dust, so extraction is part of the machine rather than an accessory — it protects the board, the spindle and the operator. Systems are quoted with extraction included.",
+      },
+    ],
+  },
+
+  "label-placement": {
+    definition:
+      "An automatic label placement system prints, applies and verifies labels on assembled boards in line. It replaces a hand-applied label with a printer, a pick-and-place head and a barcode reader, so position is repeatable and every code is confirmed readable before the board moves on.",
+    faqs: [
+      {
+        q: "Does it verify the code it just applied?",
+        a: "Yes — that is most of the point. The system reads each label after placement, so an unreadable or misprinted code is caught at the station rather than at the customer. 1D and 2D codes are both supported.",
+      },
+      {
+        q: "How accurate is the placement?",
+        a: "Vision locates the board before the head places, so accuracy comes from the fiducials rather than from conveyor repeatability. That matters when the label has to sit inside a silkscreened box or clear of a connector.",
+      },
+      {
+        q: "Can it handle our existing label stock?",
+        a: "The LabelPRO integrates a 600 dpi Zebra printer and takes most common label stock. Send us a sample roll and the board and we will confirm the combination on the machine before you order.",
       },
     ],
   },

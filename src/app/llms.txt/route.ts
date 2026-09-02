@@ -23,8 +23,9 @@ export function GET() {
 
 > Distributor and integrator of electronics manufacturing automation for North
 > America: robotic soldering, PCB handling, dispensing, screw driving, laser
-> marking, collaborative robots and X-ray inspection. Official source for QUICK,
-> PANDA Robotics, TechMan and SEAMARK. Machines are held in US stock and
+> marking, collaborative robots, PCB depaneling and label placement. Official
+> source for QUICK,
+> PANDA Robotics and TechMan. Machines are held in US stock and
 > configured by IPC-certified engineers before shipping.
 
 Not to be confused with other companies named Promation — this is PROMATION INC.

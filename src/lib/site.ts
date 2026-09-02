@@ -2,7 +2,7 @@ export const site = {
   name: "PROMATION USA",
   tagline: "Start Your Automation Journey",
   description:
-    "PROMATION USA provides premium automated solutions for electronics manufacturing and assembly — PCB handling systems, robotic soldering, dispensing, screw driving, laser marking, cobots and X-ray inspection.",
+    "PROMATION USA provides premium automated solutions for electronics manufacturing and assembly — PCB handling systems, robotic soldering, dispensing, screw driving, laser marking, cobots, PCB depaneling and label placement.",
   phone: "262.764.4832",
   email: "sales@promationusa.com",
   address: {
@@ -35,9 +35,10 @@ export const productCategories: NavItem[] = [
   { label: "Laser Marking", href: "/laser-marking" },
   { label: "Robotic Dispensing", href: "/robotic-dispensing" },
   { label: "Robotic Screw Driving", href: "/robotic-screw-driving" },
+  { label: "PCB Depaneling", href: "/pcb-depaneling" },
+  { label: "Label Placement", href: "/label-placement" },
   { label: "Mobile Robot Solutions", href: "/mobile-robots" },
   { label: "TechMan Cobots", href: "/collaborative-robots" },
-  { label: "SEAMARK X-Ray", href: "/x-ray-inspection" },
   { label: "Services & Support", href: "/services" },
 ];
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/brands" },
   title: "Brands We Source",
   description:
-    "The lines PROMATION USA is the named North American source for — QUICK, PANDA Robotics, TechMan, SEAMARK and OMRON.",
+    "The lines PROMATION USA is the named North American source for — QUICK, PANDA Robotics, TechMan and OMRON.",
 };
 
 export default function BrandsPage() {

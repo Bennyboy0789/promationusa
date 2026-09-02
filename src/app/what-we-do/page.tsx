@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHero, SectionHeading, GlowButton } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
@@ -41,8 +42,8 @@ export default function WhatWeDoPage() {
         intro={whatWeDo.intro}
         crumbs={[{ label: "Home", href: "/" }, { label: "What We Do" }]}
         aside={
-          <figure className="relative mx-auto -mb-16 w-[20rem] sm:w-[24rem] xl:w-[29rem]">
-            <div className="relative h-[24rem] w-full sm:h-[29rem] xl:h-[34rem]">
+          <figure className="relative mx-auto -mb-8 w-[19rem] sm:w-[23rem] xl:w-[27rem]">
+            <div className="relative aspect-[1096/1024] w-full">
               <div
                 aria-hidden
                 className="absolute inset-x-10 bottom-0 h-32 rounded-[50%] bg-blue-500/20 blur-2xl"
@@ -52,12 +53,12 @@ export default function WhatWeDoPage() {
                 alt={`${whatWeDo.quote.author}, ${whatWeDo.quote.role} of PROMATION USA`}
                 fill
                 priority
-                sizes="(max-width: 640px) 288px, (max-width: 1280px) 320px, 368px"
+                sizes="(max-width: 640px) 304px, (max-width: 1280px) 368px, 432px"
                 className="object-contain object-bottom"
               />
             </div>
             {/* sits low over the torso so it never crosses his face */}
-            <figcaption className="absolute bottom-24 -left-4 z-10 bg-white px-5 py-3.5 shadow-[0_12px_30px_-12px_rgba(13,27,46,0.45)] clip-corner sm:-left-6 sm:bottom-28">
+            <figcaption className="absolute bottom-6 -left-4 z-10 bg-white px-5 py-3.5 shadow-[0_12px_30px_-12px_rgba(13,27,46,0.45)] clip-corner sm:-left-6 sm:bottom-8">
               <span className="block font-display text-xl font-bold leading-tight tracking-tight text-slate-900 sm:text-2xl">
                 {whatWeDo.quote.author}
               </span>
@@ -131,13 +132,13 @@ export default function WhatWeDoPage() {
           <div className="mt-20 flex flex-col items-center gap-7 text-center">
             <div className="flex flex-wrap justify-center gap-3">
               <GlowButton href="/contact">Start the Conversation</GlowButton>
-              <a
+              <Link
                 href="/why-promation"
                 data-cta="about-to-why"
                 className="clip-corner border border-blue-400/25 px-6 py-3 font-mono text-[11px] uppercase tracking-[0.15em] text-slate-900 transition-colors hover:border-blue-400/50"
               >
                 Why PROMATION
-              </a>
+              </Link>
             </div>
           </div>
         </Reveal>

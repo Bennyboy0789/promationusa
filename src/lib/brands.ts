@@ -76,21 +76,6 @@ export const brands: Brand[] = [
     match: /\bTECHMAN\b|\bTM\d/i,
   },
   {
-    slug: "seamark",
-    name: "SEAMARK",
-    relationship: "X-ray inspection partner",
-    origin: "SEAMARK ZM, China",
-    summary:
-      "SEAMARK supplies the X-ray inspection systems in this catalogue — the machines that see solder joints hidden underneath BGAs, QFNs and connectors, where an optical camera cannot reach. The same platforms are widely used for X-ray component counting, which often justifies the purchase on inventory accuracy alone.",
-    strengths: [
-      "Non-destructive inspection of bottom-terminated components that AOI cannot see",
-      "Void, short, insufficient-solder and head-in-pillow detection",
-      "Component counting on reels as a secondary use of the same machine",
-    ],
-    categoryKeys: ["xray-inspection"],
-    match: /\bSEAMARK\b|X-?RAY/i,
-  },
-  {
     slug: "omron",
     name: "OMRON",
     relationship: "Mobile robot integration partner",

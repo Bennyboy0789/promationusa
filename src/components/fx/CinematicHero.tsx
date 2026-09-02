@@ -58,7 +58,7 @@ export function CinematicHero() {
           >
             For 20+ years PROMATION USA has armed electronics manufacturers
             with award-winning robotic soldering, PCB handling, laser marking,
-            cobots and X-ray inspection.
+            cobots and depaneling.
           </motion.p>
 
           <motion.div

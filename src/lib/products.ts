@@ -147,19 +147,28 @@ export const categories: CategoryMeta[] = [
       "TechMan collaborative robots with built-in vision — TM5 through TM20 payload classes.",
   },
   {
+    key: "depaneling",
+    path: "pcb-depaneling",
+    label: "PCB Depaneling",
+    rootSlug: "pcb-routing-at-a-glance",
+    blurb:
+      "Automatic routing and depaneling systems that separate finished boards from the panel without stressing the joints.",
+  },
+  {
+    key: "label-placement",
+    path: "label-placement",
+    label: "Label Placement",
+    rootSlug: "auto-label-placement-at-a-glance",
+    blurb:
+      "LabelPRO pick-and-place labelling — barcode and traceability labels applied and verified in line.",
+  },
+  {
     key: "mobile-robots",
     path: "mobile-robots",
     label: "Mobile Robot Solutions",
     rootSlug: "intelligent-mobile-robot-solutions",
     blurb:
       "OMRON autonomous mobile robots for intelligent line loading and unloading.",
-  },
-  {
-    key: "xray-inspection",
-    path: "x-ray-inspection",
-    label: "X-Ray Inspection",
-    rootSlug: "xray-at-a-glance",
-    blurb: "SEAMARK X-ray inspection systems for hidden solder-joint quality.",
   },
   {
     key: "services",

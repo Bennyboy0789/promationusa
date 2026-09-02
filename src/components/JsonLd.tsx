@@ -35,7 +35,7 @@ export function OrganizationJsonLd() {
             url: BASE,
             description: site.description,
             disambiguatingDescription:
-              "Distributor of electronics manufacturing automation equipment — robotic soldering, PCB handling, dispensing, screw driving, laser marking, collaborative robots and X-ray inspection. Not affiliated with other companies trading under the Promation name.",
+              "Distributor of electronics manufacturing automation equipment — robotic soldering, PCB handling, dispensing, screw driving, laser marking, collaborative robots, PCB depaneling and label placement. Not affiliated with other companies trading under the Promation name.",
             // TODO: add `logo` once a dedicated logo asset exists in /public.
             // Google requires it for the Organization knowledge panel image.
             telephone: phoneE164,
@@ -96,7 +96,7 @@ export function BreadcrumbJsonLd({ items }: { items: Crumb[] }) {
  * Brand is the actual equipment manufacturer where the product name identifies
  * one — attributing every machine to the distributor misstates the catalogue.
  */
-const BRANDS = ["QUICK", "PANDA", "TechMan", "SEAMARK", "Techman"] as const;
+const BRANDS = ["QUICK", "PANDA", "TechMan", "Techman"] as const;
 
 export function brandFor(title: string): string {
   const hit = BRANDS.find((b) => title.toUpperCase().includes(b.toUpperCase()));

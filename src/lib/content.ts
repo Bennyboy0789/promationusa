@@ -196,7 +196,7 @@ export const whatWeDo = {
     text: "PROMATION is committed to 100% customer satisfaction. Recognizing that no company is perfect, we focus on what we do during those imperfect times that differentiates us from our competitors.",
     author: "Gary Goldberg",
     role: "President & CEO",
-    portrait: "/images/team/Gary-Goldberg-CEO-Promation.png",
+    portrait: "/images/team/gary-goldberg-ceo.png",
   },
 };
 
@@ -247,18 +247,29 @@ export const contactPage = {
 export const training = {
   intro:
     "With over 20 years of industry experience, our team of certified experts want to share our knowledge of electronics manufacturing with you.",
+  // Video ids are grouped exactly as the live gallery groups them, so the
+  // library a returning customer knows is the library they find here.
   categories: [
     {
       title: "Soldering Robot Training",
       body: "Our soldering robot experts have compiled several educational videos to streamline your automation knowledge and ongoing exploration. Trust in our certified team of IPC soldering experts to fast-track your automation goals and manufacturing needs.",
+      videos: [
+        "Yhje3IpHRAk",
+        "wV97cjFbw-M",
+        "kWYu9dnmKtc",
+        "mvz8xD3vjlY",
+        "9bp6SsbO5CA",
+      ],
     },
     {
       title: "Conveyor Training",
       body: "Setup, adjustment and maintenance walkthroughs for the PROMATION PCB handling and conveyor platform.",
+      videos: ["fbCTXU-AZ28", "M1wLAcfIbQI"],
     },
     {
       title: "TechMan Cobot Training",
       body: "Programming and deployment fundamentals for the TechMan collaborative robot series.",
+      videos: ["Y_O7jOYViQk", "_lxd0V_wIW8"],
     },
   ],
   youtube: "https://www.youtube.com/channel/UCjKi1_rUM2q2pAiAO626yDw",

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/why-promation" },
   title: "Why PROMATION — The Official NA Source",
   description:
-    "The official North American source for QUICK, PANDA, TechMan and SEAMARK automation — machines held in US stock and supported by IPC-certified engineers.",
+    "The official North American source for QUICK, PANDA and TechMan automation — machines held in US stock and supported by IPC-certified engineers.",
 };
 
 const proof = [
   {
     title: "Official North American source",
-    body: "Authorized for QUICK, PANDA, TechMan and SEAMARK — buying here is buying from the brands' own channel, with the warranty and support that comes with it.",
+    body: "Authorized for QUICK, PANDA and TechMan — buying here is buying from the brands' own channel, with the warranty and support that comes with it.",
   },
   {
     title: "Machines in US stock",

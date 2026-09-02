@@ -692,46 +692,6 @@ export const guides: Guide[] = [
     ],
   },
   {
-    slug: "x-ray-vs-aoi-inspection",
-    title: "X-ray vs AOI inspection",
-    metaTitle: "X-Ray vs AOI: What Each Can Actually See",
-    description:
-      "Optical inspection sees what a camera can see. Once the joint is under the component, only X-ray can inspect it non-destructively.",
-    definition:
-      "AOI inspects what a camera can see — placement, polarity, visible joints. X-ray images solder joints hidden beneath component bodies such as BGAs, QFNs and connectors. They are complementary rather than alternative: as soon as you place bottom-terminated components, AOI alone cannot verify the joints.",
-    kind: "decision",
-    category: "xray-inspection",
-    sections: [
-      {
-        heading: "What AOI covers",
-        body: [
-          "Component presence, placement offset, polarity and visible solder fillets.",
-          "Fast, in-line and inexpensive per board.",
-        ],
-      },
-      {
-        heading: "What only X-ray covers",
-        body: [
-          "Voids, shorts, insufficient solder and head-in-pillow defects under BGAs and QFNs.",
-          "Internal structure of connectors and shielded assemblies.",
-          "Component counting on reels, which often justifies the machine on inventory accuracy alone.",
-        ],
-      },
-      {
-        heading: "Deciding",
-        body: [
-          "If your boards carry bottom-terminated parts and you currently verify them by cross-sectioning, X-ray pays for itself in destroyed boards alone.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: "Do we need both?",
-        a: "Most lines placing BGAs run both. AOI catches the high-volume visible defects cheaply; X-ray covers what AOI structurally cannot see.",
-      },
-    ],
-  },
-  {
     slug: "selective-vs-wave-soldering",
     title: "Selective vs wave soldering",
     metaTitle: "Selective vs Wave Soldering",
@@ -900,46 +860,6 @@ export const guides: Guide[] = [
       {
         q: "Will your conveyors connect to our existing line?",
         a: "SMEMA handshaking is standard across our handling range, so signalling is not the issue. Confirm pass line height and board envelope and the connection is normally straightforward.",
-      },
-    ],
-  },
-  {
-    slug: "solder-joint-voids-and-quality",
-    title: "Solder joint voids and how to control them",
-    metaTitle: "Solder Joint Voids: Causes and Control",
-    description:
-      "Why voids form, when they matter, and which process variables actually reduce them.",
-    definition:
-      "A void is a gas pocket trapped in a solidified solder joint. Small voids are normal and usually harmless; large or numerous voids reduce the joint's thermal and mechanical performance. They form when outgassing flux cannot escape before the solder solidifies.",
-    kind: "technical",
-    category: "xray-inspection",
-    sections: [
-      {
-        heading: "Why they form",
-        body: [
-          "Flux volatiles boil off during reflow. If the solder freezes before the gas escapes, the gas stays.",
-          "Thermal profile, paste chemistry, pad and via design and stencil aperture all influence how much gas is generated and how easily it escapes.",
-        ],
-      },
-      {
-        heading: "When they matter",
-        body: [
-          "Under power devices, where the joint carries heat as well as current.",
-          "Where the joint is structural.",
-          "Acceptance limits belong in your process specification — a percentage-area threshold is the usual form.",
-        ],
-      },
-      {
-        heading: "How you would even know",
-        body: [
-          "Voids are invisible to optical inspection. X-ray is the only non-destructive way to see them, which is the main reason X-ray inspection enters a line.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: "What void percentage is acceptable?",
-        a: "It depends on the joint's function and your own acceptance standard — there is no universal number. What matters is that you can measure it repeatably, which needs X-ray.",
       },
     ],
   },

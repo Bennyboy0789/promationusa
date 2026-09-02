@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/products" },
   title: "Products",
   description:
-    "The full PROMATION USA automation catalog — PCB handling, robotic soldering, dispensing, screw driving, laser marking, cobots and X-ray inspection.",
+    "The full PROMATION USA automation catalog — PCB handling, robotic soldering, dispensing, screw driving, laser marking, cobots, depaneling and label placement.",
 };
 
 export default function ProductsPage() {
@@ -29,7 +29,7 @@ export default function ProductsPage() {
       <PageHero
         eyebrow="Product Index"
         title="The Automation Catalog"
-        intro="Every PROMATION system, organized by division — from bare-board loading to X-ray inspection."
+        intro="Every PROMATION system, organized by division — from bare-board loading to depaneling and labelling."
         crumbs={[{ label: "Home", href: "/" }, { label: "Products" }]}
       />
 

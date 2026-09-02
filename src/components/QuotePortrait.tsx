@@ -37,17 +37,25 @@ export function QuotePortrait({
   }
 
   return (
-    <div className="relative h-72 w-full sm:h-[26rem]">
+    <div className="relative aspect-[1096/1024] w-full">
       {/* a soft plate so the cut-out has something to stand on */}
       <div
         aria-hidden
         className="absolute inset-x-12 bottom-0 h-32 rounded-[50%] bg-blue-500/15 blur-2xl"
       />
+      {/*
+        The figure spans the card, which is full-bleed until the quote moves
+        into a column at lg. Measured widths: ~95vw below 1024px, settling at
+        580px from lg up. A `sizes` hint smaller than the real box makes the
+        browser pick a candidate it then has to upscale; a larger one makes it
+        fetch pixels it never shows. The 1023px bound is Tailwind's `lg` minus
+        one — at exactly 1024 the column layout has already taken over.
+      */}
       <Image
         src={src}
         alt={`${name}, ${role} of PROMATION USA`}
         fill
-        sizes="(max-width: 640px) 100vw, 420px"
+        sizes="(max-width: 1023px) 95vw, 600px"
         className="object-contain object-bottom"
       />
     </div>

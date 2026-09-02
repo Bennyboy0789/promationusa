@@ -76,12 +76,30 @@ const divisions = [
   },
   {
     index: "07",
-    title: "Mobile Robots & X-Ray",
+    title: "PCB Depaneling",
+    href: "/pcb-depaneling",
+    image: "/images/products/pcb-routing-at-a-glance-1.webp",
+    blurb:
+      "Automatic routing and depaneling — separating finished boards from the panel without the stress a hand break puts through a joint.",
+    tags: ["Routing", "Depaneling"],
+  },
+  {
+    index: "08",
+    title: "Label Placement",
+    href: "/label-placement",
+    image: "/images/products/labelpro-1.webp",
+    blurb:
+      "LabelPRO pick-and-place labelling — barcode and traceability labels applied and verified in line, at a placement rate no operator matches.",
+    tags: ["LabelPRO", "Traceability"],
+  },
+  {
+    index: "09",
+    title: "Mobile Robots",
     href: "/mobile-robots",
     image: "/images/mobile-robot-photo.webp",
     blurb:
-      "OMRON autonomous mobile robots for line loading plus SEAMARK X-ray inspection for hidden-joint quality.",
-    tags: ["AMR", "SEAMARK", "Inspection"],
+      "OMRON autonomous mobile robots for intelligent line loading and unloading — routing themselves rather than following tape.",
+    tags: ["AMR", "OMRON", "Line Loading"],
   },
 ];
 
@@ -122,8 +140,8 @@ export default function Home() {
       <section className="relative mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Product Divisions"
-          title="Seven systems. One automated line."
-          intro="Every division of the PROMATION platform is engineered to slot into your production line — from bare-board loading to final inspection."
+          title="Nine systems. One automated line."
+          intro="Every division of the PROMATION platform is engineered to slot into your production line — from bare-board loading to depaneling and labelling."
           decode
         />
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
