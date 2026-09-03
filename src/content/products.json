@@ -780,7 +780,14 @@
       "Roller beds"
     ],
     "specs": {},
-    "videos": []
+    "videos": [],
+    "images": [
+      {
+        "src": "/images/products/assembly-solutions-1.webp",
+        "width": 1875,
+        "height": 2500
+      }
+    ]
   },
   {
     "slug": "large-platform-led-systems",
