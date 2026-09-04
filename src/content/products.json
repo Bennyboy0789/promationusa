@@ -964,7 +964,7 @@
     "slug": "quick-usa-6101a1",
     "url": "https://www.promationusa.com/quick-usa-6101a1",
     "title": "QUICK 6101A1 Fume Extraction Solution",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Fume Extraction System 6101A1",
     "description": "As indoor environmental regulations continue to grow so does the necessity to keep your facility's air quality at a safe and healthy level. The QUICK 6101A1 improves workplace air quality by absorbing fumes directly from the source, filtering and recirculating the air. The system comes complete with hose, remote control, and power cord.",
     "features": [
@@ -1011,7 +1011,7 @@
     "slug": "quick-usa-6102a1",
     "url": "https://www.promationusa.com/quick-usa-6102a1",
     "title": "QUICK 6102A1 Fume Extraction Station",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Fume Extraction System 6102A1",
     "description": "As indoor environmental regulations continue to grow so does the necessity to keep the air quality in your facility at a safe and healthy level. The QUICK 6102A1 improves workplace conditions by extracting fumes at the source, then filters and recirculates clean air. The package includes hoses, power cords, and remote control.",
     "features": [
@@ -1058,7 +1058,7 @@
     "slug": "quick-usa-447",
     "url": "https://www.promationusa.com/quick-usa-447",
     "title": "QUICK 447 Anti-Static Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Hanging type anti-static fan for electro-sensitive product protection",
     "description": "The QUICK 447 is a hanging type anti-static fan that blows ionized air over the surface of electro-sensitive products. When positioned above a work cell, it covers a large surface thoroughly while compact enough to fit in a narrow location. The ionized air neutralizes surface electrical charge to help comply with ESD requirements, with variable speed controls allowing operators to adjust ionized air flow volume across the workspace.",
     "features": [
@@ -1103,7 +1103,7 @@
     "slug": "quick-usa-440a",
     "url": "https://www.promationusa.com/quick-usa-440a",
     "title": "QUICK 440A Anti-Static Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "QUICK small stand-up model 440A",
     "description": "The QUICK 440A is a small footprint desk-top anti-static fan that blows ionized air over the surface of electro-static sensitive products. This ionized air neutralizes the surface electrical charge to help comply with ESD requirements. Variable speed allows operators to control the volume of ionized air flow across the work area.",
     "features": [
@@ -1152,7 +1152,7 @@
     "slug": "quick-usa-441b",
     "url": "https://www.promationusa.com/quick-usa-441b",
     "title": "QUICK 441B Anti-Static Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Static elimination fan for work benches",
     "description": "The QUICK 441B is a desktop anti-static fan that blows ionized air over electro-sensitive product surfaces. It provides wide-area airflow suitable for workcells or desktops. Ionized air neutralizes surface electrical charges to support ESD compliance. Variable speed enables operators to regulate ionized airflow volume across the work zone.",
     "features": [
@@ -1201,7 +1201,7 @@
     "slug": "quick-usa-442-2",
     "url": "https://www.promationusa.com/quick-usa-442-2",
     "title": "QUICK 442-2 Anti-Static Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Suspension type anti-static fan for electro-sensitive products",
     "description": "The QUICK 442-2 is a suspension type anti-static fan that blows ionized air over the surface of electro-sensitive products. When suspended above work cells, this device distributes ionized air across expansive areas. The ionization process neutralizes electrical surface charges to meet ESD compliance standards. Speed adjustment enables operators to regulate ionized airflow volume throughout the workspace.",
     "features": [
@@ -1246,7 +1246,7 @@
     "slug": "quick-usa-442-3",
     "url": "https://www.promationusa.com/quick-usa-442-3",
     "title": "QUICK 442-3 Anti-Static Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Suspension type 442-3",
     "description": "The QUICK 442-3 is a suspension-type anti-static fan that blows ionized air over electro-sensitive product surfaces. Designed to hang above work cells, this device covers large areas thoroughly. The ionized air neutralizes surface electrical charge to support ESD compliance requirements. Variable speed controls allow operators to manage ionized air flow volume across work zones.",
     "features": [
@@ -1296,7 +1296,7 @@
     "slug": "quick-usa-100-6c",
     "url": "https://www.promationusa.com/quick-usa-100-6c",
     "title": "QUICK 100-6C Solder Pot",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "Portable solder pot for pre-tinning components and wires",
     "description": "The QUICK 100-6C Solder Pot is easy-to-use, portable, great for melting solder/tinning component ends, and tinning the ends of wire leads. Ideal for manufacturers seeking a cost-effective solution for pre-tinning components or wires. Package includes power cord and dross scraper.",
     "features": [
@@ -1341,7 +1341,7 @@
     "slug": "quick-usa-100-155",
     "url": "https://www.promationusa.com/quick-usa-100-155",
     "title": "QUICK 100-15S Solder Pot",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "QUICK 100-15S",
     "description": "An accessible, portable solution designed for melting solder and pre-tinning component ends and wire leads. Manufacturers seeking cost-effective pre-tinning capabilities will find this product suitable. The package includes a power cord and dross scraper.",
     "features": [
@@ -1784,7 +1784,7 @@
     "title": "Intelligent Mobile Robot Solutions",
     "category": "mobile-robots",
     "tagline": "PROMATION USA is your trusted Integrator for OMRON AMR Intelligent Routing Solutions",
-    "description": "PROMATION USA offers a wide variety of intelligent material handling equipment, including Mobile Robot Line Loading and Mobile Robot Line Unloading solutions built around OMRON AMR intelligent routing.\n\nCall to action: \"Start your AMR Journey\" (links to /contact).",
+    "description": "PROMATION USA offers a wide variety of intelligent material handling equipment, including Mobile Robot Line Loading and Mobile Robot Line Unloading solutions built around OMRON AMR intelligent routing.",
     "features": [
       "OMRON AMR intelligent routing integration",
       "Mobile Robot Line Loading",
@@ -5221,7 +5221,7 @@
     "slug": "quick-usa-870",
     "url": "https://www.promationusa.com/quick-usa-870",
     "title": "QUICK 870 Hot Plate",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "Accurate heating element capable of evenly distributing set temperature across the entire plate surface.\n\nClosed-loop sensor, PID control, precise and stable temperature.\n\nTwo switches control power supply and heating separately. Actual temperature of the plate will be displayed even when the units is not being heated.\n\nSuitable for PCB preheating, Reflowing and other processes which require whole and even heating.\n\nQuick and Precise PCB Preheating or Reflow. Great for preheating larger components before adding to board!",
     "features": [],
     "specs": {
@@ -5242,7 +5242,7 @@
     "slug": "quick-usa-957d",
     "url": "https://www.promationusa.com/quick-usa-957d",
     "title": "QUICK 957D Hot Air Gun",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "Great for difficult to reach soldering areas. For applications where traditional soldering irons cannot reach, this unit is ideal for reflowing solder paste or providing stable and consistent heating through an output nozzle. The Hot Air Gun Station comes complete with a small assortment of output nozzles for a range of different sized applications.\n\nDigital LCD Temperature Readout and Industrial Grade Design make for an easy-to-use operation and out-of-the-box installation and use!\n\nClosed loop sensor, large power supply, rapid heating, precise and stable temperature.\n\nAuto cooling for prolonged lifetime of heating element.\n\nVarious applications such as shielding case, connectors, plastic components, etc.\n\nSensor based heating. When gun is lifted off of holster, heating starts. Heating stops when handle is set back in holster.",
     "features": [],
     "specs": {
@@ -5276,7 +5276,7 @@
     "slug": "quick-usa-854",
     "url": "https://www.promationusa.com/quick-usa-854",
     "title": "QUICK 854 Infrared Preheating Station",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "Imported Infrared Ceramic Heater. Fast Heating, High Efficiency, Long Life.\n\nClosed-Loop Sensor. PID Control, Accurate and Stable Temperature.\n\nSuitable for PCB Preheating and other Processes which require whole and even heating.\n\nQuick and Accurate Heating - Great for HMP, High Melting Point/high heat, Soldering Applications! This Preheat station can be used to apply heat to PCBs and allow for better wetting of solder joints during the soldering process. Small and compact design utilizes less table space and is ideal for applications in which there are large heat sinks in the PCB that make standard soldering difficult.",
     "features": [],
     "specs": {
@@ -5498,7 +5498,7 @@
     "slug": "quick-usa-372b",
     "url": "https://www.promationusa.com/quick-usa-372b",
     "title": "QUICK 372B Solder Wire Perforation",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK 372B is a desktop solder wire perforation station. The station works to pull solder from a solder spool through a toothed gear set that drills into the wire to expose the flux core. This perforation process allows for better flux flow and out-gassing during the soldering process, resulting in less solder splatter and flux splash. It's compact design makes it portable and easy to manage.\n\nDIAMETER OF SOLDER WIRE: 0.3, 0.5, 0.6, 0.8, 1.0, 1.2, 1.5, 1.6, 2.0(can be customized)",
     "features": [],
     "specs": {
@@ -5531,7 +5531,7 @@
     "slug": "soldering-robot-accessories",
     "url": "https://www.promationusa.com/soldering-robot-accessories",
     "title": "Soldering Robot Accessories: HD Camera Kits, Nitrogen Kits, and more!",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "features": [],
     "models": [],
     "videos": [],
@@ -5868,7 +5868,7 @@
     "slug": "quick-usa-ts2300",
     "url": "https://www.promationusa.com/quick-usa-ts2300",
     "title": "QUICK TS2300",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK TS2300 is an intelligent lead-free soldering station. Utilizing a 150 watt power supply, this system is great for meeting the everyday challenges of most soldering applications and offers consistent soldering quality.\n\nThe QUICK TS2300 is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nThe station features all new ergonomic design and brilliant LCD Display.\n\nTS Series Online Monitoring Software Available Upon Request!",
     "features": [],
     "specs": {
@@ -5903,7 +5903,7 @@
     "slug": "quick-ts2200",
     "url": "https://www.promationusa.com/quick-ts2200",
     "title": "QUICK TS2200",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK TS2200 is an intelligent lead-free soldering station. Utilizing a 90 watt power supply, this system is great for meeting the everyday challenges of most soldering applications and offers consistent soldering quality.\n\nThe QUICK TS2200 is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nThe station features all new ergonomic design and brilliant LCD Display.\n\nTS Series Online Monitoring Software Available Upon Request!",
     "features": [],
     "specs": {
@@ -5938,7 +5938,7 @@
     "slug": "quick-usa-492e",
     "url": "https://www.promationusa.com/quick-usa-492e",
     "title": "QUICK 492E Combo ESD Testing Station",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK 492E is a static protection station combining hand and foot static detection. The testing station offers 2 test modes: Individual and Comprehensive.\n\nThe Individual test mode will test the wear status of the wrist strap and single foot (or both feet) separately.\n\nThe Comprehensive test mode will test the wear status of the wrist strap and both feet simultaneously.\n\nThe testing station offers 2 test modes: Individual and Comprehensive.\n\nThe Individual test mode will test the wear status of the wrist strap and single foot (or both feet) separately.\n\nThe Comprehensive test mode will test the wear status of the wrist strap and both feet simultaneously.",
     "features": [],
     "specs": {
@@ -5975,7 +5975,7 @@
     "slug": "quick-usa-300-series",
     "url": "https://www.promationusa.com/quick-usa-300-series",
     "title": "QUICK 300 Series Solder Wire Perforation",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "Great for any soldering environment, the QUICK 300 Series Solder Drill and Re-Spool Station is ideal for anyone interested in optimizing their soldering process. The system is designed to accept a common/standard solder spool and feed the solder wire through a toothed gear set. The system works to gently perforate the solder wire which allows for better out-gassing of the inner flux-core, while re-spooling the solder wire onto a new spool.\n\nThis system is design to eliminate and reduce soldering defects such as: Solder Ball, Solder Splash, and Flux Splatter defects.\n\nGear Diameters Available: 0.8mm / 1.0mm / 1.2mm",
     "features": [],
     "specs": {
@@ -6177,7 +6177,7 @@
     "slug": "quick-usa-6301",
     "url": "https://www.promationusa.com/quick-usa-6301",
     "title": "QUICK 6301 Fume Extraction Station",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "As indoor environmental regulations continue to grow, so does the necessity to keep your facility's air quality at a safe and healthy level. The QUICK 6301 can dramatically improve workplace air quality conditions by absorbing fumes directly from the source. This system is a heavy duty version of the QUICK 6101A1 which can service multiple work stations simultaneously. This machine features an extra large housing and filtration system which produces an airflow draw of 700 cubic meters per hour.\n\nSTATIC PRESSURE:                                                                                        3000Pa\n\nAIRFLOW:                                                                                                         700m3/h\n\nSYSTEM FLOW (INCLUDING FILTER MECHANISM):                               480m3/h\n\nFILTERING EFFICIENCY:                                                                               0.3μm 99.97%\n\nPOWER CONSUMPTION:                                                                              300W\n\nNOISE:                                                                                                              ≤ 65dB",
     "features": [],
     "specs": {
@@ -6214,7 +6214,7 @@
     "slug": "quick-usa-191ad",
     "url": "https://www.promationusa.com/quick-usa-191ad",
     "title": "QUICK 191AD Thermometer",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "QUICK\n191AD",
     "description": "The QUICK 191AD Thermometer is designed to quickly and accurately measure temperature seen at the solder tip and allow the end user to calibrate soldering equipment with the utmost precision. This tool will aid in temperature calibration across a multitude of Hot Iron Soldering Equipment and is recommended for all robotic soldering platforms.\n\nCompared to similar models: The QUICK 191AD Unit operates in both: Celsius and Fahrenheit. (Variable)\n\nMeasure tip temperature quickly and accurately with CA sensor (Dia o.2mm).\n\nAuto shut-off function available, shut-off time can be set. If the time when the unit is not in use reaches the set value, the unit shuts it off automatically.\n\nCan record max temperature. It shows the highest temperature of the tip when pressing (MAX HOLD) button.\n\nPOWER SUPPLY: 9V Alkaline battery recommended.",
     "features": [],
@@ -6242,7 +6242,7 @@
     "slug": "quick-usa-885-1",
     "url": "https://www.promationusa.com/quick-usa-885-1",
     "title": "QUICK 885 Hot Air Gun",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "Closed loop sensor, rapid heating, precise and stable temperature.\n\nIntegrated cooling function for prolonged lifetime of internal heating element.\n\nVarious applications such as: heat skrinkage, paint removal, defrosting, sterizing copper, pre-tinning, preheating, and much more!\n\nIdeal for any manufacturing environment! \n- High Utilization Rate and Ultimate Application Flexibility!\n\nThis system is designed to delivery consistent temperature as the unit applies directional hot air current. Ideal for: Heat Shrink, paint removal, defrosting, preheating, sterilizing copper, soldering, and pre-tinning.\n\nThis compact and powerful unit is built for end users requiring multi-faceted use; as opposed to the use of a traditional hot air gun station.",
     "features": [],
     "specs": {
@@ -6276,7 +6276,7 @@
     "slug": "quick-usa-376di",
     "url": "https://www.promationusa.com/quick-usa-376di",
     "title": "QUICK 376DI",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK 376DI is an ingenious semi-automatic lead-free soldering station. Utilizing a 90 watt power supply, this system is ideal for meeting the everyday challenges of tight area soldering applications and offers consistent soldering quality through its motorized solder feeder.\n\nThe Self-Feeding Solder Station located on-top the power supply incorporates the same perforation technology our fully automated soldering robots use. This technology is designed to minimize solder ball and flux splatter defects commonly seen in the micro-electronics soldering world.\n\nThe station features an all new ergonomic design and brilliant LCD Display.\n\nSOLDER WIRE DIAMETERS (HANDLING): 0.6mm ~ 1..4mm",
     "features": [],
     "specs": {
@@ -6311,7 +6311,7 @@
     "slug": "quick-usa-ts1200",
     "url": "https://www.promationusa.com/quick-usa-ts1200",
     "title": "QUICK TS1200",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK TS1200 is an intelligent lead-free soldering station. Utilizing a 120 watt power supply, this system is great for meeting the everyday challenges of most soldering applications and offers consistent soldering quality.\n\nThe QUICK TS1200 is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nThe station features all new ergonomic design and brilliant LCD Display.\n\nTS Series Online Monitoring Software Available Upon Request!",
     "features": [],
     "specs": {
@@ -6385,7 +6385,7 @@
     "slug": "quick-usa-443c",
     "url": "https://www.promationusa.com/quick-usa-443c",
     "title": "QUICK 443C Intelligent Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK 443C is an intelligent desk top anti-static fan that blows ionized air over the surface of electro-static sensitive products. This ionized air neutralizes surface electrical charge to help comply with ESD requirements. Variable speed allows operators to control the volume of ionized air flow across the work area.\n\nThe QUICK 443C is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nOZONE PROTECTION: ≤0.03ppm (150mm from center of air outlet)",
     "features": [],
     "specs": {
@@ -6414,7 +6414,7 @@
     "slug": "quick-usa-443c-2",
     "url": "https://www.promationusa.com/quick-usa-443c-2",
     "title": "QUICK 443C-2 Intelligent Ionizing Fan",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK 443C-2 is an intelligent desk top anti-static fan that blows ionized air over the surface of electro-static sensitive products. This ionized air neutralizes surface electrical charge to help comply with ESD requirements. Variable speed allows operators to control the volume of ionized air flow across the work area.\n\nThe QUICK 443C-2 is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nOZONE PRODUCTION: ≤0.03ppm (150mm from center of air outlet)",
     "features": [],
     "specs": {
@@ -6448,7 +6448,7 @@
     "slug": "quick-usa-tr1300",
     "url": "https://www.promationusa.com/quick-usa-tr1300",
     "title": "QUICK TR-1300",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK TR1300 is an intelligent lead-free rework station. Utilizing a robust 1000 watt power supply, this system is great for high temperature solder rework applications and consistent quality.\n\nThe QUICK TR1300 is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nThe station features an all new ergonomic design, a brilliant LCD Display, and PC communication capability.\n\nTR Series Online Monitoring Software Available Upon Request!",
     "features": [],
     "specs": {
@@ -6520,7 +6520,7 @@
     "slug": "quick-usa-3202",
     "url": "https://www.promationusa.com/quick-usa-3202",
     "title": "QUICK 3202 Soldering Station",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "description": "The QUICK 3202 is an powerful and compact lead-free soldering station. Utilizing a 90 watt power supply, this system is ideal for meeting the everyday challenges of tight area soldering applications and offers consistent soldering quality through superior thermal feedback loop.\n\nThe station features an ergonomic design, solid performance, and brilliant LCD Temperature Display.\n\nTEMPERATURE STABILITY: ±2℃ (Stationary air, no load)",
     "features": [],
     "specs": {
@@ -6557,7 +6557,7 @@
     "slug": "quick-usa-tr1100",
     "url": "https://www.promationusa.com/quick-usa-tr1100",
     "title": "QUICK TR1100",
-    "category": "soldering",
+    "category": "soldering-accessories",
     "tagline": "QUICK\nTR1100",
     "description": "The QUICK TR1100 is an intelligent lead-free rework station. Utilizing a robust 100 watt power supply, this system is great for high temperature solder rework applications and consistent quality.\n\nThe QUICK TR1100 is compatible with our online monitoring software package; allowing users to connect up to 100 units and monitor from an offline PC / Work Station.\n\nThe station features an all new ergonomic design, a brilliant LCD Display, and PC communication capability.\n\nTR Series Online Monitoring Software Available Upon Request!",
     "features": [],
@@ -6650,7 +6650,7 @@
     "slug": "agv",
     "url": "https://www.promationusa.com/agv",
     "title": "Automated Guided Vehicles",
-    "category": "soldering",
+    "category": "mobile-robots",
     "description": "PROMATION's latest Industry 4.0 Innovation is the all new AGV Signature Series. The automated guided vehicle offers all the latest in transport technology with the added convenience of Industry 4.0 Integration. The system can be easily taught transport routes through a magnetic induction line. The AGV offers safe and responsible transport of materials and products around the factory floor.",
     "features": [],
     "models": [],

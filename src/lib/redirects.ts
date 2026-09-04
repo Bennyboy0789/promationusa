@@ -69,14 +69,60 @@ export const RETIREMENTS: Redirect[] = [
 
   // Not products — recovered pages that belong elsewhere in the new structure.
   { source: "/official-robot-center", destination: "/why-promation" },
-  { source: "/soldering-robot-accessories", destination: "/store" },
   { source: "/schedule-service", destination: "/contact" },
+  { source: "/new-page-1", destination: "/contact" },
+  { source: "/thank-you", destination: "/contact" },
+
+  // Mobile robots are OMRON's line; TechMan stays under cobots.
+  { source: "/tm-mobile-robot-solutions", destination: "/mobile-robots" },
+];
+
+/**
+ * Products that changed category after launch. The flat legacy URL follows the
+ * catalogue automatically, but the previously published nested URL does not —
+ * these keep it answering.
+ */
+export const MOVED: Redirect[] = [
+  { source: "/robotic-soldering/quick-usa-6101a1", destination: "/soldering-accessories/quick-usa-6101a1" },
+  { source: "/robotic-soldering/quick-usa-6102a1", destination: "/soldering-accessories/quick-usa-6102a1" },
+  { source: "/robotic-soldering/quick-usa-6301", destination: "/soldering-accessories/quick-usa-6301" },
+  { source: "/robotic-soldering/quick-usa-447", destination: "/soldering-accessories/quick-usa-447" },
+  { source: "/robotic-soldering/quick-usa-440a", destination: "/soldering-accessories/quick-usa-440a" },
+  { source: "/robotic-soldering/quick-usa-441b", destination: "/soldering-accessories/quick-usa-441b" },
+  { source: "/robotic-soldering/quick-usa-442-2", destination: "/soldering-accessories/quick-usa-442-2" },
+  { source: "/robotic-soldering/quick-usa-442-3", destination: "/soldering-accessories/quick-usa-442-3" },
+  { source: "/robotic-soldering/quick-usa-443c", destination: "/soldering-accessories/quick-usa-443c" },
+  { source: "/robotic-soldering/quick-usa-443c-2", destination: "/soldering-accessories/quick-usa-443c-2" },
+  { source: "/robotic-soldering/quick-usa-492e", destination: "/soldering-accessories/quick-usa-492e" },
+  { source: "/robotic-soldering/quick-usa-100-6c", destination: "/soldering-accessories/quick-usa-100-6c" },
+  { source: "/robotic-soldering/quick-usa-100-155", destination: "/soldering-accessories/quick-usa-100-155" },
+  { source: "/robotic-soldering/quick-usa-870", destination: "/soldering-accessories/quick-usa-870" },
+  { source: "/robotic-soldering/quick-usa-957d", destination: "/soldering-accessories/quick-usa-957d" },
+  { source: "/robotic-soldering/quick-usa-885-1", destination: "/soldering-accessories/quick-usa-885-1" },
+  { source: "/robotic-soldering/quick-usa-854", destination: "/soldering-accessories/quick-usa-854" },
+  { source: "/robotic-soldering/quick-usa-372b", destination: "/soldering-accessories/quick-usa-372b" },
+  { source: "/robotic-soldering/quick-usa-300-series", destination: "/soldering-accessories/quick-usa-300-series" },
+  { source: "/robotic-soldering/quick-usa-3202", destination: "/soldering-accessories/quick-usa-3202" },
+  { source: "/robotic-soldering/quick-usa-ts1200", destination: "/soldering-accessories/quick-usa-ts1200" },
+  { source: "/robotic-soldering/quick-ts2200", destination: "/soldering-accessories/quick-ts2200" },
+  { source: "/robotic-soldering/quick-usa-ts2300", destination: "/soldering-accessories/quick-usa-ts2300" },
+  { source: "/robotic-soldering/quick-usa-tr1100", destination: "/soldering-accessories/quick-usa-tr1100" },
+  { source: "/robotic-soldering/quick-usa-tr1300", destination: "/soldering-accessories/quick-usa-tr1300" },
+  { source: "/robotic-soldering/quick-usa-376di", destination: "/soldering-accessories/quick-usa-376di" },
+  { source: "/robotic-soldering/quick-usa-191ad", destination: "/soldering-accessories/quick-usa-191ad" },
+  { source: "/robotic-soldering/agv", destination: "/mobile-robots/agv" },
+  { source: "/robotic-soldering/arc21-automatic-routing-machine", destination: "/pcb-depaneling/arc21-automatic-routing-machine" },
+  { source: "/robotic-soldering/pcb-routing-at-a-glance", destination: "/pcb-depaneling" },
+  { source: "/pcb-handling/labelpro", destination: "/label-placement/labelpro" },
+  { source: "/pcb-handling/auto-label-placement-at-a-glance", destination: "/label-placement" },
+  { source: "/mobile-robots/tm-mobile-robot-solutions", destination: "/mobile-robots" },
 ];
 
 export const REDIRECTS: Redirect[] = [
   ...CONSOLIDATIONS,
   ...SLUG_CLEANUPS,
   ...RETIREMENTS,
+  ...MOVED,
 ];
 
 /** Slugs (without leading slash) that must never appear in the sitemap. */

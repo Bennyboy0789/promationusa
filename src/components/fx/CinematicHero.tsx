@@ -56,7 +56,7 @@ export function CinematicHero() {
             transition={{ duration: 0.7, delay: 0.45 }}
             className="mt-7 max-w-xl text-lg leading-relaxed text-slate-300"
           >
-            For 20+ years PROMATION USA has armed electronics manufacturers
+            For 25+ years PROMATION USA has armed electronics manufacturers
             with award-winning robotic soldering, PCB handling, laser marking,
             cobots and depaneling.
           </motion.p>

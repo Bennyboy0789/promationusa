@@ -98,7 +98,11 @@ export default async function CategoryHub({
       />
 
       <CtaBar
-        label={`Choosing a ${cat.label.toLowerCase()} system?`}
+        label={
+          cat.key === "soldering-accessories"
+            ? "Outfitting a soldering bench?"
+            : `Choosing a ${cat.label.toLowerCase()} system?`
+        }
         primary={{ label: "Request a quote", href: "/contact" }}
         secondary={{ label: "Send us your board", href: "/pcb-trial" }}
       />
@@ -117,7 +121,11 @@ export default async function CategoryHub({
           <div className="mt-16">
             <SectionHeading
               eyebrow="Compare the range"
-              title={`Every ${cat.label.toLowerCase()} model`}
+              title={
+                cat.key === "soldering-accessories"
+                  ? "Every tool in the range"
+                  : `Every ${cat.label.toLowerCase()} model`
+              }
               intro="Pricing depends on configuration, so we quote per build rather than list a headline figure — ask and we will send the range for any model here."
             />
             <Reveal>
@@ -226,6 +234,24 @@ export default async function CategoryHub({
             <div className="prose-future mt-16 max-w-3xl">
               <Markdown text={root.description} />
             </div>
+          </Reveal>
+        )}
+
+        {/* Built-to-order callout, for the lines where the catalogue is a starting point */}
+        {extra?.customNote && (
+          <Reveal>
+            <aside className="clip-corner mt-16 max-w-3xl border border-blue-400/25 bg-blue-500/[0.06] p-6">
+              <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-blue-600">
+                Built to order
+              </p>
+              <p className="mt-3 leading-relaxed text-foreground/90">{extra.customNote}</p>
+              <Link
+                href="/contact"
+                className="mt-4 inline-block font-mono text-[11px] uppercase tracking-[0.15em] text-blue-600 underline-offset-4 hover:underline"
+              >
+                Describe what you need &rarr;
+              </Link>
+            </aside>
           </Reveal>
         )}
 

@@ -32,6 +32,7 @@ export const productCategories: NavItem[] = [
   { label: "New Products", href: "/new-products" },
   { label: "PCB Handling", href: "/pcb-handling" },
   { label: "Robotic Soldering", href: "/robotic-soldering" },
+  { label: "Soldering Tools & Accessories", href: "/soldering-accessories" },
   { label: "Laser Marking", href: "/laser-marking" },
   { label: "Robotic Dispensing", href: "/robotic-dispensing" },
   { label: "Robotic Screw Driving", href: "/robotic-screw-driving" },

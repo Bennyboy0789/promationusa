@@ -246,7 +246,7 @@ export const contactPage = {
 
 export const training = {
   intro:
-    "With over 20 years of industry experience, our team of certified experts want to share our knowledge of electronics manufacturing with you.",
+    "With over 25 years of industry experience, our team of certified experts want to share our knowledge of electronics manufacturing with you.",
   // Video ids are grouped exactly as the live gallery groups them, so the
   // library a returning customer knows is the library they find here.
   categories: [

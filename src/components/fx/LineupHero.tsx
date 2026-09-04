@@ -326,7 +326,7 @@ export function LineupHero() {
             transition={{ duration: 0.6, delay: 0.12 }}
             className="mt-4 max-w-xl text-[15px] leading-relaxed text-slate-300 sm:mt-5 sm:text-base"
           >
-            For over 20 years PROMATION USA has engineered soldering, handling,
+            For over 25 years PROMATION USA has engineered soldering, handling,
             dispensing, screw driving and marking machines into production lines
             across North America — held in US stock and supported by
             IPC-certified engineers.

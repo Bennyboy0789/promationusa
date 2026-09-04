@@ -104,7 +104,7 @@ const divisions = [
 ];
 
 const stats = [
-  { value: 20, suffix: "+", label: "Years of Experience" },
+  { value: 25, suffix: "+", label: "Years of Experience" },
   { value: 120, suffix: "+", label: "Automation Products" },
   { value: 38, suffix: "", label: "Soldering Robot Models" },
   { value: 4, suffix: "", label: "Regions Served" },

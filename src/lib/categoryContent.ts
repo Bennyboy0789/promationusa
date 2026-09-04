@@ -19,6 +19,12 @@
 export type CategoryContent = {
   definition: string;
   faqs: { q: string; a: string }[];
+  /**
+   * Shown as a callout under the model grid. For the lines where every unit is
+   * built to order, a spec table understates what can actually be built — this
+   * says so explicitly, which Mike asked for on the review call.
+   */
+  customNote?: string;
 };
 
 export const categoryContent: Record<string, CategoryContent> = {
@@ -46,6 +52,8 @@ export const categoryContent: Record<string, CategoryContent> = {
   },
 
   "pcb-handling": {
+    customNote:
+      "Every station on this page is built to order — belt type, width, length, guarding and controls are configured to your board and process, so treat the models here as starting points rather than fixed specifications. PROMATION regularly builds custom and unusual handling solutions; if what you need is not listed, reach out and we will quote to your spec.",
     definition:
       "PCB handling equipment moves bare and populated boards between process steps — loading magazines, conveying, buffering, turning, inverting and unloading. It is the connective tissue of an SMT line: the machines that decide whether printers, placement and reflow run continuously or wait on an operator.",
     faqs: [
@@ -60,6 +68,25 @@ export const categoryContent: Record<string, CategoryContent> = {
       {
         q: "What board sizes can you handle?",
         a: "Standard machines cover the common SMT envelope, and width adjustment is motorised on most models. Oversized, heavy or unusually thin boards are a configuration question rather than a yes-or-no one — tell us the dimensions and we will confirm before you order.",
+      },
+    ],
+  },
+
+  "soldering-accessories": {
+    definition:
+      "Soldering tools and accessories are the benchtop side of the QUICK line: hand soldering and rework stations, solder pots, fume extraction, ionizing fans and ESD testing, preheating and tip thermometers. They outfit the manual stations that sit alongside automated soldering — and they are sold a la carte, no robot required.",
+    faqs: [
+      {
+        q: "Do these tools require a PROMATION robot?",
+        a: "No. Everything on this page is sold on its own. Many customers start with a bench setup — a soldering station, fume extraction and ESD control — and add automation later; others buy tools to outfit the stations around a robot they already run.",
+      },
+      {
+        q: "Why buy QUICK tools from PROMATION rather than importing them?",
+        a: "Same reason as the robots: US stock, US warranty support, and a team that can tell you which model fits before you order. An imported unit saves little on a bench tool and leaves you without local recourse when it needs service.",
+      },
+      {
+        q: "Which soldering station should we start with?",
+        a: "For everyday lead-free hand soldering, the TS series covers most benches — the differences are wattage and recovery speed. High-thermal-demand work such as connectors and ground planes moves you up the range. Tell us what you solder and we will point you at the right one.",
       },
     ],
   },

@@ -115,6 +115,14 @@ export const categories: CategoryMeta[] = [
       "QUICK and PANDA intelligent soldering robots for batch and in-line selective soldering.",
   },
   {
+    key: "soldering-accessories",
+    path: "soldering-accessories",
+    label: "Soldering Tools & Accessories",
+    rootSlug: "soldering-robot-accessories",
+    blurb:
+      "Benchtop soldering stations, rework, fume extraction, ESD control and heating tools — the hand-tool side of the QUICK line, sold a la carte.",
+  },
+  {
     key: "dispensing",
     path: "robotic-dispensing",
     label: "Robotic Dispensing",
