@@ -16,9 +16,9 @@ import type { Config } from "./WorkTableConfigurator";
  * Every option drives real geometry — station length and board width size the
  * frame, the conveyance choice swaps the bed (belt, chain, pins, timing belt,
  * round belts), and lighting, trays and the swing arm come and go as modelled
- * parts. The machine stands in a white-walled bay on sealed concrete with the
- * blue PROMATION mat out front — the same staging as the company's own product
- * photography, so the render and the photos read as one family.
+ * parts. The machine stands in a blacked-out modern garage bay — satin dark
+ * walls, a PROMATION-blue LED line around the perimeter — with the navy
+ * PROMATION mat out front.
  *
  * The "HDR" look is a real pipeline, not a filter: ACES tone mapping with
  * lifted exposure, an environment map driving reflections in the powder-coat
@@ -46,8 +46,8 @@ const TOP_Y = 0.92; // worktop height
 const RAIL_H = 0.09; // conveyor side rail height
 const POST = 0.04; // aluminium extrusion section
 
-const ROOM = 16; // warehouse bay is a ROOM x ROOM footprint
-const CEIL = 4.4;
+const ROOM = 18; // garage bay is a ROOM x ROOM footprint
+const CEIL = 4.6;
 
 // ---- materials -------------------------------------------------------------
 
@@ -56,10 +56,10 @@ function makeMaterials() {
     alu: new THREE.MeshStandardMaterial({ color: 0xc7ccd4, metalness: 0.75, roughness: 0.38 }),
     panel: new THREE.MeshStandardMaterial({ color: 0xf0f2f5, metalness: 0.15, roughness: 0.5 }),
     dark: new THREE.MeshStandardMaterial({ color: 0x2a3038, metalness: 0.4, roughness: 0.6 }),
-    beltEsd: new THREE.MeshStandardMaterial({ color: 0x284a3c, metalness: 0.05, roughness: 0.85 }),
+    beltEsd: new THREE.MeshStandardMaterial({ color: 0x2c6e50, metalness: 0.05, roughness: 0.85 }),
     beltRib: new THREE.MeshStandardMaterial({ color: 0x23272e, metalness: 0.1, roughness: 0.8 }),
     chain: new THREE.MeshStandardMaterial({ color: 0x7d838d, metalness: 0.9, roughness: 0.35 }),
-    bin: new THREE.MeshStandardMaterial({ color: 0x2f6fd0, metalness: 0.05, roughness: 0.55 }),
+    bin: new THREE.MeshStandardMaterial({ color: 0x2a6fdd, metalness: 0.05, roughness: 0.5 }),
     binInner: new THREE.MeshStandardMaterial({ color: 0x1d4487, metalness: 0.05, roughness: 0.8 }),
     red: new THREE.MeshStandardMaterial({ color: 0xc22a2a, metalness: 0.2, roughness: 0.4 }),
     yellow: new THREE.MeshStandardMaterial({ color: 0xe8c73a, metalness: 0.1, roughness: 0.55 }),
@@ -80,7 +80,7 @@ function makeMaterials() {
 }
 type Mats = ReturnType<typeof makeMaterials>;
 
-/** The lowercase wordmark on the front rail, drawn once onto a canvas. */
+/** Badge plate on the front rail; the real wordmark is drawn in by applyLogo. */
 function wordmarkTexture(): THREE.CanvasTexture {
   const c = document.createElement("canvas");
   c.width = 512;
@@ -88,11 +88,6 @@ function wordmarkTexture(): THREE.CanvasTexture {
   const g = c.getContext("2d")!;
   g.fillStyle = "#f0f2f5";
   g.fillRect(0, 0, 512, 96);
-  g.fillStyle = "#346fb6";
-  g.font = "600 58px Archivo, 'Segoe UI', sans-serif";
-  g.textBaseline = "middle";
-  g.textAlign = "center";
-  g.fillText("promation", 256, 52);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 4;
@@ -112,114 +107,116 @@ function matTexture(): THREE.CanvasTexture {
     g.fillStyle = Math.random() > 0.5 ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.16)";
     g.fillRect(Math.random() * 1024, Math.random() * 512, 2, 2);
   }
-  g.strokeStyle = "#161c24";
+  g.strokeStyle = "#41506b";
   g.lineWidth = 26;
   g.strokeRect(13, 13, 998, 486);
-  g.fillStyle = "#4a90d9";
-  g.font = "600 150px Archivo, 'Segoe UI', sans-serif";
-  g.textBaseline = "middle";
-  g.textAlign = "center";
-  g.fillText("promation", 512, 268);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 8;
   return t;
 }
 
-/** Sealed-concrete floor: pale grey with faint 2 m saw-cut seams. */
+/** Dark epoxy floor: satin charcoal with faint 2 m saw-cut seams. */
 function floorTexture(): THREE.CanvasTexture {
   const c = document.createElement("canvas");
   c.width = 512;
   c.height = 512;
   const g = c.getContext("2d")!;
-  g.fillStyle = "#aeb6c0";
+  g.fillStyle = "#33363c";
   g.fillRect(0, 0, 512, 512);
   for (let i = 0; i < 900; i++) {
-    g.fillStyle = `rgba(120,130,145,${0.02 + Math.random() * 0.05})`;
+    g.fillStyle = Math.random() > 0.5 ? `rgba(160,170,185,${0.02 + Math.random() * 0.04})` : `rgba(0,0,0,${0.05 + Math.random() * 0.08})`;
     const r = 1 + Math.random() * 3;
     g.fillRect(Math.random() * 512, Math.random() * 512, r, r);
   }
-  g.strokeStyle = "rgba(110,120,134,0.6)";
+  g.strokeStyle = "rgba(18,20,24,0.35)";
   g.lineWidth = 2;
   g.strokeRect(0, 0, 512, 512);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
-  t.repeat.set(ROOM / 2, ROOM / 2); // one tile = one 2 m saw-cut bay
+  t.repeat.set(ROOM / 3, ROOM / 3); // one tile = one 3 m saw-cut bay
   t.anisotropy = 8;
   return t;
 }
 
+/**
+ * Draw the real PROMATION wordmark onto the badge plate and the floor mat.
+ *
+ * The logo ships with the site as /promation-logo.png (blue letterforms on
+ * transparency). The plate takes it as-is — blue on powder-coat white, like
+ * the badges on the machines. The mat recolours the same letterforms to the
+ * light blue of the physical entrance mat, via a source-in tint pass.
+ */
+function applyLogo(plate: THREE.CanvasTexture, mat: THREE.CanvasTexture) {
+  const img = new Image();
+  img.onload = () => {
+    if (!img.naturalWidth) return;
+
+    const pc = plate.image as HTMLCanvasElement;
+    const pg = pc.getContext("2d")!;
+    pg.fillStyle = "#f0f2f5";
+    pg.fillRect(0, 0, pc.width, pc.height);
+    const ps = Math.min((pc.width - 56) / img.width, (pc.height - 26) / img.height);
+    pg.drawImage(img, (pc.width - img.width * ps) / 2, (pc.height - img.height * ps) / 2, img.width * ps, img.height * ps);
+    plate.needsUpdate = true;
+
+    const tint = document.createElement("canvas");
+    tint.width = img.width;
+    tint.height = img.height;
+    const tg = tint.getContext("2d")!;
+    tg.drawImage(img, 0, 0);
+    tg.globalCompositeOperation = "source-in";
+    tg.fillStyle = "#74abe6";
+    tg.fillRect(0, 0, tint.width, tint.height);
+
+    const mc = mat.image as HTMLCanvasElement;
+    const mg = mc.getContext("2d")!;
+    const ms = Math.min((mc.width - 240) / img.width, (mc.height - 220) / img.height);
+    mg.drawImage(tint, (mc.width - img.width * ms) / 2, (mc.height - img.height * ms) / 2, img.width * ms, img.height * ms);
+    mat.needsUpdate = true;
+  };
+  img.src = "/promation-logo.png";
+}
+
 // ---- warehouse -------------------------------------------------------------
 
-function buildWarehouse(floorTex: THREE.CanvasTexture, stripGlow: number): THREE.Group {
+function buildGarage(floorTex: THREE.CanvasTexture): THREE.Group {
   const g = new THREE.Group();
 
   const floor = new THREE.Mesh(
     new THREE.PlaneGeometry(ROOM, ROOM),
-    new THREE.MeshStandardMaterial({ map: floorTex, metalness: 0.06, roughness: 0.32 })
+    new THREE.MeshStandardMaterial({ map: floorTex, metalness: 0.22, roughness: 0.34 })
   );
   floor.rotation.x = -Math.PI / 2;
   floor.receiveShadow = true;
   g.add(floor);
 
-  const wallMat = new THREE.MeshStandardMaterial({ color: 0xd3d9e0, roughness: 0.95, metalness: 0, side: THREE.BackSide });
-  const shell = new THREE.Mesh(new THREE.BoxGeometry(ROOM, CEIL, ROOM), wallMat);
-  shell.position.y = CEIL / 2;
+  // satin black shell — walls and ceiling in one
+  const wallMat = new THREE.MeshStandardMaterial({ color: 0x16181c, roughness: 0.6, metalness: 0.25, side: THREE.BackSide });
+  const shell = new THREE.Mesh(new THREE.BoxGeometry(ROOM, CEIL + 0.05, ROOM), wallMat);
+  // bottom face sits below the floor plane so the two never z-fight
+  shell.position.y = (CEIL + 0.05) / 2 - 0.05;
   shell.receiveShadow = true;
   g.add(shell);
 
-  // grey wainscot trim around the base of the walls
-  const trimMat = new THREE.MeshStandardMaterial({ color: 0xb9c0c9, roughness: 0.7 });
-  const trimH = 0.18;
-  const half = ROOM / 2 - 0.02;
-  for (const [w, d, x, z] of [
-    [ROOM, 0.04, 0, -half],
-    [ROOM, 0.04, 0, half],
-    [0.04, ROOM, -half, 0],
-    [0.04, ROOM, half, 0],
-  ] as const) {
-    const trim = new THREE.Mesh(new THREE.BoxGeometry(w, trimH, d), trimMat);
-    trim.position.set(x, trimH / 2, z);
-    g.add(trim);
-  }
-
-  // wall pilasters, the structural rhythm of a real bay
-  const colMat = new THREE.MeshStandardMaterial({ color: 0xe6e9ed, roughness: 0.8 });
-  for (let x = -6; x <= 6; x += 4) {
-    for (const z of [-half, half]) {
-      const col = new THREE.Mesh(new THREE.BoxGeometry(0.3, CEIL, 0.12), colMat);
-      col.position.set(x, CEIL / 2, z);
-      g.add(col);
-    }
-  }
-
-  // blue accent stripe along the walls at eye height
-  const stripeMat = new THREE.MeshStandardMaterial({ color: 0x346fb6, roughness: 0.6 });
-  for (const [w, d, x, z] of [
-    [ROOM, 0.02, 0, -half + 0.005],
-    [0.02, ROOM, -half + 0.005, 0],
-  ] as const) {
-    const stripe = new THREE.Mesh(new THREE.BoxGeometry(w, 0.09, d), stripeMat);
-    stripe.position.set(x, 1.7, z);
-    g.add(stripe);
-  }
-
-  // ceiling LED strips — bright enough for the bloom pass to pick up
-  const stripMat = new THREE.MeshStandardMaterial({
-    color: 0xffffff,
-    emissive: 0xf4f8ff,
-    emissiveIntensity: stripGlow,
+  // PROMATION-blue LED line around the perimeter at waist height
+  const ledMat = new THREE.MeshStandardMaterial({
+    color: 0x11253f,
+    emissive: 0x2f7ddd,
+    emissiveIntensity: 2.6,
     roughness: 0.4,
   });
-  const housingMat = new THREE.MeshStandardMaterial({ color: 0xd7dbe0, roughness: 0.6 });
-  for (const z of [-4, 0, 4]) {
-    const housing = new THREE.Mesh(new THREE.BoxGeometry(9, 0.07, 0.24), housingMat);
-    housing.position.set(0, CEIL - 0.06, z);
-    g.add(housing);
-    const strip = new THREE.Mesh(new THREE.BoxGeometry(8.8, 0.02, 0.16), stripMat);
-    strip.position.set(0, CEIL - 0.105, z);
-    g.add(strip);
+  const half = ROOM / 2 - 0.03;
+  for (const [w, d, x, z] of [
+    [ROOM - 0.1, 0.03, 0, -half],
+    [ROOM - 0.1, 0.03, 0, half],
+    [0.03, ROOM - 0.1, -half, 0],
+    [0.03, ROOM - 0.1, half, 0],
+  ] as const) {
+    const led = new THREE.Mesh(new THREE.BoxGeometry(w, 0.045, d), ledMat);
+    led.position.set(x, 0.95, z);
+    g.add(led);
   }
 
   return g;
@@ -432,7 +429,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     if (!host) return;
 
     // Tunables, overridable from the query string while this page is a
-    // prototype: ?exp=1.1&bs=0.2&br=0.3&bt=1.2&strip=1.6&env=0.9
+    // prototype: ?exp=1.1&bs=0.2&br=0.3&bt=1.2&env=0.9
     const q = new URLSearchParams(window.location.search);
     const num = (k: string, d: number) => {
       const v = parseFloat(q.get(k) ?? "");
@@ -440,11 +437,10 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     };
     const TUNE = {
       exposure: num("exp", 1.1),
-      bloomStrength: num("bs", 0.34),
+      bloomStrength: num("bs", 0.3),
       bloomRadius: num("br", 0.35),
-      bloomThreshold: num("bt", 2.4),
-      stripGlow: num("strip", 3.2),
-      env: num("env", 0.75),
+      bloomThreshold: num("bt", 2.1),
+      env: num("env", 0.42),
     };
 
     const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -456,40 +452,41 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     host.appendChild(renderer.domElement);
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0xe2e7ee);
+    scene.background = new THREE.Color(0x0b0d10);
+    scene.fog = new THREE.Fog(0x0b0d10, 11, 26);
     const pmrem = new THREE.PMREMGenerator(renderer);
     scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
     scene.environmentIntensity = TUNE.env;
 
-    const camera = new THREE.PerspectiveCamera(34, 1, 0.1, 40);
-    camera.position.set(2.7, 1.75, 3.1);
+    const camera = new THREE.PerspectiveCamera(38, 1, 0.06, 40);
+    camera.position.set(2.7, 1.9, 3.1);
 
-    const key = new THREE.DirectionalLight(0xffffff, 1.1);
+    const key = new THREE.DirectionalLight(0xfff4e8, 1.5);
     key.position.set(3, 5, 2.5);
     key.castShadow = true;
     key.shadow.mapSize.set(2048, 2048);
-    key.shadow.camera.left = -2.6;
-    key.shadow.camera.right = 2.6;
-    key.shadow.camera.top = 2.6;
-    key.shadow.camera.bottom = -2.6;
+    key.shadow.camera.left = -4.2;
+    key.shadow.camera.right = 4.2;
+    key.shadow.camera.top = 4.2;
+    key.shadow.camera.bottom = -4.2;
     key.shadow.bias = -0.0004;
     key.shadow.radius = 6;
     scene.add(key);
     // cool rim from behind so the powder-coat edges catch light
-    const rim = new THREE.DirectionalLight(0xdbe8ff, 0.5);
+    const rim = new THREE.DirectionalLight(0x9cc4ff, 0.7);
     rim.position.set(-3.5, 2.6, -3);
     scene.add(rim);
-    scene.add(new THREE.AmbientLight(0xdde6f2, 0.18));
+    scene.add(new THREE.HemisphereLight(0x9fb8dd, 0x23262b, 0.3));
 
-    const warehouse = buildWarehouse(floorTexture(), TUNE.stripGlow);
+    const warehouse = buildGarage(floorTexture());
     scene.add(warehouse);
 
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.target.set(0, 0.72, 0);
+    controls.target.set(0, 0.92, 0);
     controls.enableDamping = true;
     controls.dampingFactor = 0.08;
-    controls.minDistance = 1.6;
-    controls.maxDistance = 6.5;
+    controls.minDistance = 2.0;
+    controls.maxDistance = 7.5;
     controls.maxPolarAngle = Math.PI / 2 - 0.06;
     controls.enablePan = false;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -507,14 +504,15 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
 
     const wordmark = wordmarkTexture();
     const mat = matTexture();
+    applyLogo(wordmark, mat);
     let model = buildModel(configRef.current, wordmark, mat);
     scene.add(model);
 
     // Keep the machine framed as its size changes — but only until the
     // visitor takes the camera; after that their view is theirs.
     const fitCamera = (c: Config) => {
-      const L = LENGTH_M[c.length];
-      const dist = Math.max(2.6, L * 1.9);
+      const half = LENGTH_M[c.length] / 2 + (c.swingArm ? 0.85 : 0.45);
+      const dist = Math.min(7, Math.max(4.6, half * 3.0));
       const dir = camera.position.clone().sub(controls.target).normalize();
       camera.position.copy(controls.target.clone().add(dir.multiplyScalar(dist)));
     };
@@ -535,6 +533,11 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
       renderer.setSize(w, h);
       composer.setSize(w, h);
       camera.aspect = w / h;
+      // On the wide layout the control panels live on the left, so the
+      // machine is framed right of centre — a view offset keeps it there
+      // through every orbit angle. Centered again on narrow screens.
+      if (w > 900) camera.setViewOffset(w, h, -Math.round(w * 0.13), 0, w, h);
+      else camera.clearViewOffset();
       camera.updateProjectionMatrix();
     };
     resize();
@@ -571,12 +574,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     rebuildRef.current(config);
   }, [config]);
 
-  return (
-    <div>
-      <div ref={hostRef} className="h-[26rem] w-full sm:h-[30rem]" aria-label="3D model of the configured work table in a warehouse bay" role="img" />
-      <p className="mt-2 text-center font-mono text-[10px] uppercase tracking-[0.16em] text-muted">
-        Drag to rotate &middot; scroll to zoom
-      </p>
-    </div>
-  );
+  // Fills its container — the page decides how much of the screen the
+  // environment gets, and the resize observer follows.
+  return <div ref={hostRef} className="h-full w-full" aria-label="3D model of the configured work table in a black showroom bay" role="img" />;
 }
