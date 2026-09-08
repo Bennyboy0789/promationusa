@@ -4,20 +4,26 @@ import { useEffect, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
+import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js";
+import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass.js";
+import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
+import { OutputPass } from "three/examples/jsm/postprocessing/OutputPass.js";
 import type { Config } from "./WorkTableConfigurator";
 
 /**
- * Parametric render of the configured work table.
+ * Parametric render of the configured work table, staged in a clean warehouse.
  *
  * Every option drives real geometry — station length and board width size the
  * frame, the conveyance choice swaps the bed (belt, chain, pins, timing belt,
  * round belts), and lighting, trays and the swing arm come and go as modelled
- * parts. The point is Mike's ask from the review call taken literally: the
- * visitor sees the machine they specified, not a diagram of it.
+ * parts. The machine stands in a white-walled bay on sealed concrete with the
+ * blue PROMATION mat out front — the same staging as the company's own product
+ * photography, so the render and the photos read as one family.
  *
- * Rendering choices are showroom, not CAD: a studio environment map for the
- * powder-coat and aluminium to reflect, ACES tone mapping, soft shadows, and
- * a slow turntable until the visitor grabs it.
+ * The "HDR" look is a real pipeline, not a filter: ACES tone mapping with
+ * lifted exposure, an environment map driving reflections in the powder-coat
+ * and aluminium, and a restrained bloom pass that lets the light fixture,
+ * ceiling strips and status LEDs actually glow.
  */
 
 // ---- dimensions (metres) ---------------------------------------------------
@@ -40,6 +46,9 @@ const TOP_Y = 0.92; // worktop height
 const RAIL_H = 0.09; // conveyor side rail height
 const POST = 0.04; // aluminium extrusion section
 
+const ROOM = 16; // warehouse bay is a ROOM x ROOM footprint
+const CEIL = 4.4;
+
 // ---- materials -------------------------------------------------------------
 
 function makeMaterials() {
@@ -57,13 +66,13 @@ function makeMaterials() {
     screen: new THREE.MeshStandardMaterial({
       color: 0x0c1a2e,
       emissive: 0x7fb2ff,
-      emissiveIntensity: 0.55,
+      emissiveIntensity: 0.9,
       roughness: 0.3,
     }),
     lightLens: new THREE.MeshStandardMaterial({
       color: 0xffffff,
       emissive: 0xfff3d6,
-      emissiveIntensity: 2.2,
+      emissiveIntensity: 3.2,
       roughness: 0.3,
     }),
     foot: new THREE.MeshStandardMaterial({ color: 0x14171b, metalness: 0.3, roughness: 0.7 }),
@@ -88,6 +97,132 @@ function wordmarkTexture(): THREE.CanvasTexture {
   t.colorSpace = THREE.SRGBColorSpace;
   t.anisotropy = 4;
   return t;
+}
+
+/** The navy floor mat from the product photos, wordmark and all. */
+function matTexture(): THREE.CanvasTexture {
+  const c = document.createElement("canvas");
+  c.width = 1024;
+  c.height = 512;
+  const g = c.getContext("2d")!;
+  g.fillStyle = "#232b36";
+  g.fillRect(0, 0, 1024, 512);
+  // carpet nap: sparse light speckle
+  for (let i = 0; i < 2600; i++) {
+    g.fillStyle = Math.random() > 0.5 ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.16)";
+    g.fillRect(Math.random() * 1024, Math.random() * 512, 2, 2);
+  }
+  g.strokeStyle = "#161c24";
+  g.lineWidth = 26;
+  g.strokeRect(13, 13, 998, 486);
+  g.fillStyle = "#4a90d9";
+  g.font = "600 150px Archivo, 'Segoe UI', sans-serif";
+  g.textBaseline = "middle";
+  g.textAlign = "center";
+  g.fillText("promation", 512, 268);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.anisotropy = 8;
+  return t;
+}
+
+/** Sealed-concrete floor: pale grey with faint 2 m saw-cut seams. */
+function floorTexture(): THREE.CanvasTexture {
+  const c = document.createElement("canvas");
+  c.width = 512;
+  c.height = 512;
+  const g = c.getContext("2d")!;
+  g.fillStyle = "#aeb6c0";
+  g.fillRect(0, 0, 512, 512);
+  for (let i = 0; i < 900; i++) {
+    g.fillStyle = `rgba(120,130,145,${0.02 + Math.random() * 0.05})`;
+    const r = 1 + Math.random() * 3;
+    g.fillRect(Math.random() * 512, Math.random() * 512, r, r);
+  }
+  g.strokeStyle = "rgba(110,120,134,0.6)";
+  g.lineWidth = 2;
+  g.strokeRect(0, 0, 512, 512);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.repeat.set(ROOM / 2, ROOM / 2); // one tile = one 2 m saw-cut bay
+  t.anisotropy = 8;
+  return t;
+}
+
+// ---- warehouse -------------------------------------------------------------
+
+function buildWarehouse(floorTex: THREE.CanvasTexture, stripGlow: number): THREE.Group {
+  const g = new THREE.Group();
+
+  const floor = new THREE.Mesh(
+    new THREE.PlaneGeometry(ROOM, ROOM),
+    new THREE.MeshStandardMaterial({ map: floorTex, metalness: 0.06, roughness: 0.32 })
+  );
+  floor.rotation.x = -Math.PI / 2;
+  floor.receiveShadow = true;
+  g.add(floor);
+
+  const wallMat = new THREE.MeshStandardMaterial({ color: 0xd3d9e0, roughness: 0.95, metalness: 0, side: THREE.BackSide });
+  const shell = new THREE.Mesh(new THREE.BoxGeometry(ROOM, CEIL, ROOM), wallMat);
+  shell.position.y = CEIL / 2;
+  shell.receiveShadow = true;
+  g.add(shell);
+
+  // grey wainscot trim around the base of the walls
+  const trimMat = new THREE.MeshStandardMaterial({ color: 0xb9c0c9, roughness: 0.7 });
+  const trimH = 0.18;
+  const half = ROOM / 2 - 0.02;
+  for (const [w, d, x, z] of [
+    [ROOM, 0.04, 0, -half],
+    [ROOM, 0.04, 0, half],
+    [0.04, ROOM, -half, 0],
+    [0.04, ROOM, half, 0],
+  ] as const) {
+    const trim = new THREE.Mesh(new THREE.BoxGeometry(w, trimH, d), trimMat);
+    trim.position.set(x, trimH / 2, z);
+    g.add(trim);
+  }
+
+  // wall pilasters, the structural rhythm of a real bay
+  const colMat = new THREE.MeshStandardMaterial({ color: 0xe6e9ed, roughness: 0.8 });
+  for (let x = -6; x <= 6; x += 4) {
+    for (const z of [-half, half]) {
+      const col = new THREE.Mesh(new THREE.BoxGeometry(0.3, CEIL, 0.12), colMat);
+      col.position.set(x, CEIL / 2, z);
+      g.add(col);
+    }
+  }
+
+  // blue accent stripe along the walls at eye height
+  const stripeMat = new THREE.MeshStandardMaterial({ color: 0x346fb6, roughness: 0.6 });
+  for (const [w, d, x, z] of [
+    [ROOM, 0.02, 0, -half + 0.005],
+    [0.02, ROOM, -half + 0.005, 0],
+  ] as const) {
+    const stripe = new THREE.Mesh(new THREE.BoxGeometry(w, 0.09, d), stripeMat);
+    stripe.position.set(x, 1.7, z);
+    g.add(stripe);
+  }
+
+  // ceiling LED strips — bright enough for the bloom pass to pick up
+  const stripMat = new THREE.MeshStandardMaterial({
+    color: 0xffffff,
+    emissive: 0xf4f8ff,
+    emissiveIntensity: stripGlow,
+    roughness: 0.4,
+  });
+  const housingMat = new THREE.MeshStandardMaterial({ color: 0xd7dbe0, roughness: 0.6 });
+  for (const z of [-4, 0, 4]) {
+    const housing = new THREE.Mesh(new THREE.BoxGeometry(9, 0.07, 0.24), housingMat);
+    housing.position.set(0, CEIL - 0.06, z);
+    g.add(housing);
+    const strip = new THREE.Mesh(new THREE.BoxGeometry(8.8, 0.02, 0.16), stripMat);
+    strip.position.set(0, CEIL - 0.105, z);
+    g.add(strip);
+  }
+
+  return g;
 }
 
 // ---- model -----------------------------------------------------------------
@@ -153,7 +288,7 @@ function buildBed(g: THREE.Group, cfg: Config, mats: Mats, L: number, D: number)
   }
 }
 
-function buildModel(cfg: Config, wordmark: THREE.CanvasTexture): THREE.Group {
+function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.CanvasTexture): THREE.Group {
   const mats = makeMaterials();
   const g = new THREE.Group();
   const L = LENGTH_M[cfg.length];
@@ -184,7 +319,7 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture): THREE.Group {
     new THREE.PlaneGeometry(0.34, 0.055),
     new THREE.MeshBasicMaterial({ map: wordmark })
   );
-  plate.position.set(0, TOP_Y - RAIL_H / 2 + 0.02, D / 2 + 0.0005);
+  plate.position.set(0, TOP_Y - RAIL_H / 2 + 0.02, D / 2 + 0.031);
   g.add(plate);
 
   // e-stop on a yellow plate, front right
@@ -198,10 +333,21 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture): THREE.Group {
   g.add(box(0.16, 0.1, 0.05, mats.dark, L / 2 - 0.16, TOP_Y - RAIL_H - 0.09, D / 2 - 0.01));
   const led = new THREE.Mesh(
     new THREE.SphereGeometry(0.006),
-    new THREE.MeshStandardMaterial({ color: 0x30d072, emissive: 0x30d072, emissiveIntensity: 2 })
+    new THREE.MeshStandardMaterial({ color: 0x30d072, emissive: 0x30d072, emissiveIntensity: 3 })
   );
   led.position.set(L / 2 - 0.11, TOP_Y - RAIL_H - 0.06, D / 2 + 0.016);
   g.add(led);
+
+  // the PROMATION mat on the floor in front of the station
+  const matW = Math.min(L * 0.95, 1.9);
+  const floorMat = new THREE.Mesh(
+    new THREE.PlaneGeometry(matW, matW * 0.5),
+    new THREE.MeshStandardMaterial({ map: mat, roughness: 0.95 })
+  );
+  floorMat.rotation.x = -Math.PI / 2;
+  floorMat.position.set(0, 0.004, D / 2 + 0.12 + matW * 0.25);
+  floorMat.receiveShadow = true;
+  g.add(floorMat);
 
   // overhead light gantry
   if (cfg.light) {
@@ -264,7 +410,7 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture): THREE.Group {
   return g;
 }
 
-function disposeGroup(g: THREE.Group) {
+function disposeGroup(g: THREE.Object3D) {
   g.traverse((o) => {
     const mesh = o as THREE.Mesh;
     if (mesh.geometry) mesh.geometry.dispose();
@@ -285,45 +431,65 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     const host = hostRef.current;
     if (!host) return;
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    // Tunables, overridable from the query string while this page is a
+    // prototype: ?exp=1.1&bs=0.2&br=0.3&bt=1.2&strip=1.6&env=0.9
+    const q = new URLSearchParams(window.location.search);
+    const num = (k: string, d: number) => {
+      const v = parseFloat(q.get(k) ?? "");
+      return Number.isFinite(v) ? v : d;
+    };
+    const TUNE = {
+      exposure: num("exp", 1.1),
+      bloomStrength: num("bs", 0.34),
+      bloomRadius: num("br", 0.35),
+      bloomThreshold: num("bt", 2.4),
+      stripGlow: num("strip", 3.2),
+      env: num("env", 0.75),
+    };
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
-    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMappingExposure = TUNE.exposure;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     host.appendChild(renderer.domElement);
 
     const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0xe2e7ee);
     const pmrem = new THREE.PMREMGenerator(renderer);
     scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+    scene.environmentIntensity = TUNE.env;
 
-    const camera = new THREE.PerspectiveCamera(34, 1, 0.1, 30);
+    const camera = new THREE.PerspectiveCamera(34, 1, 0.1, 40);
     camera.position.set(2.7, 1.75, 3.1);
 
-    const key = new THREE.DirectionalLight(0xffffff, 1.4);
+    const key = new THREE.DirectionalLight(0xffffff, 1.1);
     key.position.set(3, 5, 2.5);
     key.castShadow = true;
     key.shadow.mapSize.set(2048, 2048);
-    key.shadow.camera.left = -2.4;
-    key.shadow.camera.right = 2.4;
-    key.shadow.camera.top = 2.4;
-    key.shadow.camera.bottom = -2.4;
+    key.shadow.camera.left = -2.6;
+    key.shadow.camera.right = 2.6;
+    key.shadow.camera.top = 2.6;
+    key.shadow.camera.bottom = -2.6;
     key.shadow.bias = -0.0004;
     key.shadow.radius = 6;
     scene.add(key);
-    scene.add(new THREE.AmbientLight(0xdde6f2, 0.35));
+    // cool rim from behind so the powder-coat edges catch light
+    const rim = new THREE.DirectionalLight(0xdbe8ff, 0.5);
+    rim.position.set(-3.5, 2.6, -3);
+    scene.add(rim);
+    scene.add(new THREE.AmbientLight(0xdde6f2, 0.18));
 
-    const floor = new THREE.Mesh(new THREE.CircleGeometry(4, 48), new THREE.ShadowMaterial({ opacity: 0.16 }));
-    floor.rotation.x = -Math.PI / 2;
-    floor.receiveShadow = true;
-    scene.add(floor);
+    const warehouse = buildWarehouse(floorTexture(), TUNE.stripGlow);
+    scene.add(warehouse);
 
     const controls = new OrbitControls(camera, renderer.domElement);
     controls.target.set(0, 0.72, 0);
     controls.enableDamping = true;
     controls.dampingFactor = 0.08;
     controls.minDistance = 1.6;
-    controls.maxDistance = 7;
+    controls.maxDistance = 6.5;
     controls.maxPolarAngle = Math.PI / 2 - 0.06;
     controls.enablePan = false;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -332,8 +498,16 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     const stopSpin = () => (controls.autoRotate = false);
     renderer.domElement.addEventListener("pointerdown", stopSpin);
 
+    // HDR-style output: render, bloom the emissives, then tone-map.
+    const composer = new EffectComposer(renderer);
+    composer.addPass(new RenderPass(scene, camera));
+    const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), TUNE.bloomStrength, TUNE.bloomRadius, TUNE.bloomThreshold);
+    composer.addPass(bloom);
+    composer.addPass(new OutputPass());
+
     const wordmark = wordmarkTexture();
-    let model = buildModel(configRef.current, wordmark);
+    const mat = matTexture();
+    let model = buildModel(configRef.current, wordmark, mat);
     scene.add(model);
 
     // Keep the machine framed as its size changes — but only until the
@@ -349,7 +523,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     rebuildRef.current = (c: Config) => {
       scene.remove(model);
       disposeGroup(model);
-      model = buildModel(c, wordmark);
+      model = buildModel(c, wordmark, mat);
       scene.add(model);
       if (controls.autoRotate) fitCamera(c);
     };
@@ -359,6 +533,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
       const h = host.clientHeight;
       if (!w || !h) return;
       renderer.setSize(w, h);
+      composer.setSize(w, h);
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
     };
@@ -369,7 +544,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     let raf = 0;
     const loop = () => {
       controls.update();
-      renderer.render(scene, camera);
+      composer.render();
       raf = requestAnimationFrame(loop);
     };
     loop();
@@ -380,7 +555,10 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
       renderer.domElement.removeEventListener("pointerdown", stopSpin);
       controls.dispose();
       disposeGroup(model);
+      disposeGroup(warehouse);
       wordmark.dispose();
+      mat.dispose();
+      composer.dispose();
       pmrem.dispose();
       renderer.dispose();
       host.removeChild(renderer.domElement);
@@ -395,7 +573,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
 
   return (
     <div>
-      <div ref={hostRef} className="h-[26rem] w-full sm:h-[30rem]" aria-label="3D model of the configured work table" role="img" />
+      <div ref={hostRef} className="h-[26rem] w-full sm:h-[30rem]" aria-label="3D model of the configured work table in a warehouse bay" role="img" />
       <p className="mt-2 text-center font-mono text-[10px] uppercase tracking-[0.16em] text-muted">
         Drag to rotate &middot; scroll to zoom
       </p>
