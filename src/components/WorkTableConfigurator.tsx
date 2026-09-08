@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { site } from "@/lib/site";
+import { WorkTablePreview3D } from "./WorkTablePreview3D";
 
 /**
  * Interactive prototype for the configure-to-order work table.
@@ -47,7 +48,7 @@ const TRAYS = [
   { key: "double", label: "Double rear row" },
 ] as const;
 
-type Config = {
+export type Config = {
   conveyance: (typeof CONVEYANCE)[number]["key"];
   width: (typeof WIDTHS)[number]["key"];
   length: (typeof LENGTHS)[number]["key"];
@@ -67,92 +68,6 @@ const DEFAULTS: Config = {
 
 function labelFor<T extends { key: string; label: string }>(list: readonly T[], key: string) {
   return list.find((o) => o.key === key)?.label ?? key;
-}
-
-/** Front-elevation schematic that redraws as options change. */
-function Preview({ config }: { config: Config }) {
-  // Station length drives the drawn table width; board width drives lane depth.
-  const tableW = { "1000": 240, "1500": 320, "2000": 400, "custom-l": 440 }[config.length];
-  const cx = 270; // canvas midline
-  const left = cx - tableW / 2;
-  const topY = 190; // worktop line
-  const laneH = { "250": 14, "330": 18, "460": 24, "custom-w": 28 }[config.width];
-
-  // The belt pattern is the one visual cue per conveyance type.
-  const lane = (() => {
-    switch (config.conveyance) {
-      case "o6b-chain":
-      case "pin-chain": {
-        const links = [];
-        const pitch = config.conveyance === "o6b-chain" ? 18 : 26;
-        for (let x = left + 10; x < left + tableW - 10; x += pitch) {
-          links.push(<circle key={x} cx={x} cy={topY + laneH / 2} r={3} className="fill-blue-400/70" />);
-        }
-        return links;
-      }
-      case "timing-belt": {
-        const teeth = [];
-        for (let x = left + 8; x < left + tableW - 8; x += 12) {
-          teeth.push(<rect key={x} x={x} y={topY + laneH - 5} width={6} height={4} className="fill-blue-400/60" />);
-        }
-        return teeth;
-      }
-      case "round-belt":
-        return [
-          <line key="a" x1={left + 8} y1={topY + 5} x2={left + tableW - 8} y2={topY + 5} strokeWidth={2} className="stroke-blue-400/70" />,
-          <line key="b" x1={left + 8} y1={topY + laneH - 5} x2={left + tableW - 8} y2={topY + laneH - 5} strokeWidth={2} className="stroke-blue-400/70" />,
-        ];
-      default: // esd-flat
-        return [
-          <rect key="belt" x={left + 6} y={topY + 4} width={tableW - 12} height={laneH - 8} rx={2} className="fill-blue-500/25" />,
-        ];
-    }
-  })();
-
-  return (
-    <svg viewBox="0 0 580 340" role="img" aria-label="Schematic preview of the configured work table" className="w-full">
-      {/* floor line */}
-      <line x1={30} y1={310} x2={550} y2={310} className="stroke-line" strokeWidth={1} />
-
-      {/* legs */}
-      <rect x={left + 8} y={topY + laneH} width={10} height={310 - topY - laneH} className="fill-slate-400/50" />
-      <rect x={left + tableW - 18} y={topY + laneH} width={10} height={310 - topY - laneH} className="fill-slate-400/50" />
-      {/* worktop + lane */}
-      <rect x={left} y={topY} width={tableW} height={laneH} rx={3} className="fill-slate-300/60" />
-      {lane}
-
-      {/* rear parts trays, drawn raised behind the worktop */}
-      {config.trays !== "none" && (
-        <g>
-          <rect x={left + 20} y={topY - 26} width={tableW - 40} height={12} rx={2} className="fill-slate-400/45" />
-          {config.trays === "double" && (
-            <rect x={left + 20} y={topY - 44} width={tableW - 40} height={12} rx={2} className="fill-slate-400/45" />
-          )}
-          <line x1={left + 30} y1={topY - 14} x2={left + 30} y2={topY} className="stroke-slate-400/60" strokeWidth={3} />
-          <line x1={left + tableW - 30} y1={topY - 14} x2={left + tableW - 30} y2={topY} className="stroke-slate-400/60" strokeWidth={3} />
-        </g>
-      )}
-
-      {/* overhead light bar on its gantry */}
-      {config.light && (
-        <g>
-          <line x1={left + 14} y1={80} x2={left + 14} y2={topY} className="stroke-slate-400/70" strokeWidth={4} />
-          <line x1={left + tableW - 14} y1={80} x2={left + tableW - 14} y2={topY} className="stroke-slate-400/70" strokeWidth={4} />
-          <rect x={left + 10} y={68} width={tableW - 20} height={14} rx={3} className="fill-slate-300/80" />
-          <rect x={left + 24} y={82} width={tableW - 48} height={4} rx={2} className="fill-amber-300/90" />
-        </g>
-      )}
-
-      {/* swing-arm monitor mount */}
-      {config.swingArm && (
-        <g>
-          <line x1={left + tableW + 16} y1={topY + laneH} x2={left + tableW + 16} y2={120} className="stroke-slate-400/70" strokeWidth={4} />
-          <line x1={left + tableW + 16} y1={128} x2={left + tableW + 58} y2={112} className="stroke-slate-400/70" strokeWidth={4} />
-          <rect x={left + tableW + 46} y={84} width={44} height={30} rx={3} className="fill-slate-500/70" />
-        </g>
-      )}
-    </svg>
-  );
 }
 
 export function WorkTableConfigurator() {
@@ -245,8 +160,8 @@ export function WorkTableConfigurator() {
         </div>
 
         <div>
-          <div className="clip-corner border border-line bg-white/60 p-4">
-            <Preview config={config} />
+          <div className="clip-corner border border-line bg-white/60 p-2">
+            <WorkTablePreview3D config={config} />
           </div>
 
           <div className="clip-corner mt-6 border border-line p-5">
