@@ -11,6 +11,8 @@ import {
   specLabel,
 } from "@/lib/products";
 import { categoryContent } from "@/lib/categoryContent";
+import { brochuresFor } from "@/lib/brochures";
+import { BrochureDownloads } from "@/components/BrochureDownloads";
 import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
@@ -115,6 +117,8 @@ export default async function CategoryHub({
             </p>
           </Reveal>
         )}
+
+        <BrochureDownloads items={brochuresFor(cat.key)} className="mt-8" />
 
         {/* Comparison table — the artefact category SERPs reward */}
         {models.length > 1 && columns.length > 0 && (

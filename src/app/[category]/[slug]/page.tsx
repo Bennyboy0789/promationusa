@@ -17,6 +17,8 @@ import { PageHero, SectionHeading, Chip } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { Markdown } from "@/lib/markdown";
+import { brochuresFor } from "@/lib/brochures";
+import { BrochureDownloads } from "@/components/BrochureDownloads";
 import { site } from "@/lib/site";
 import { ProductJsonLd, BreadcrumbJsonLd, FaqJsonLd } from "@/components/JsonLd";
 import { modelFaqs, categoryDefinition } from "@/lib/modelFaq";
@@ -227,6 +229,8 @@ export default async function ProductPage({
               </div>
             </Reveal>
           )}
+
+          <BrochureDownloads items={brochuresFor(product.category)} className="mt-10" />
 
           {product.features && product.features.length > 0 && (
             <div className="mt-14">

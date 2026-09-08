@@ -13,6 +13,8 @@ import { PageHero, SectionHeading } from "@/components/ui";
 import { Reveal, RevealGroup, RevealItem } from "@/components/fx/Reveal";
 import { TiltCard } from "@/components/fx/TiltCard";
 import { CtaBar, InlineAsk, RequestQuoteBlock } from "@/components/Conversion";
+import { brochures } from "@/lib/brochures";
+import { BrochureDownloads } from "@/components/BrochureDownloads";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/products" },
@@ -113,6 +115,15 @@ export default function ProductsPage() {
             </Fragment>
           );
         })}
+      </div>
+
+      <div className="mx-auto w-full max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+        <SectionHeading
+          eyebrow="Downloads"
+          title="Line brochures"
+          intro="The full product-line brochure plus the soldering, screw driving and dispensing line books, as printable PDFs."
+        />
+        <BrochureDownloads items={brochures} className="mt-8" />
       </div>
 
       <div className="pb-20">
