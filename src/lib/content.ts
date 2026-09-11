@@ -153,7 +153,6 @@ export const partners: Partner[] = [
   { name: "Production Basics", blurb: "Technical workstations" },
   { name: "Altus Group", blurb: "European capital equipment distribution" },
   { name: "Interlatin", blurb: "Mexico & LATAM distribution" },
-  { name: "RCT", blurb: "Robotic control technologies" },
   { name: "SMT Today", blurb: "Industry media partner" },
   { name: "Global SMT & Packaging", blurb: "Industry media partner" },
   { name: "GLASS", blurb: "Assisted-reality wearables" },
@@ -188,7 +187,7 @@ export const storeProducts: StoreProduct[] = [
 
 export const whatWeDo = {
   intro:
-    "PROMATION USA builds soldering, PCB handling, dispensing, screw driving and marking machines into electronics production lines across North America. Before you commit to anything, send us your board and we will run it on the machine you are considering — you get cycle times, joint quality and footage of your own part coming off it. Shops replacing a manual soldering bench typically see the machine pay for itself inside a year.",
+    "PROMATION USA builds soldering, PCB handling, dispensing, screw driving and laser marking machines that seamlessly integrate into your production line. Before you commit to anything, send us your samples and we will run them on the machine you are considering — you get cycle times, a quality review and video footage of your own parts on one of our solutions. In most cases, ROI is a year or less.",
   mission:
     "We supply PCB handling, in-line label placement, laser marking, workstation solutions and robotic soldering systems — and we hold them in US stock, so a lead time is a delivery date rather than a shipping schedule. Every system is configured by IPC-certified engineers who have run the process on a real part before it ships, and supported afterwards by the same people who set it up.",
   quote: {

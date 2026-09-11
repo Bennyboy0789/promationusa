@@ -25,24 +25,28 @@ const divisions = [
     title: "PCB Handling",
     href: "/pcb-handling",
     image: "/images/products/bare-board-loading-stations-1.webp",
+    // Crop high: the badge and the window are the machine, the lower cabinet is not.
+    imagePosition: "object-[center_32%]",
     blurb:
-      "Loaders, unloaders, conveyors, buffers, turners and inspection stations — the complete SMEMA-compliant board-flow platform.",
+      "Loaders, unloaders, conveyors, buffers, inverters and inspection stations — the complete SMEMA-compliant board-flow platform.",
     tags: ["Conveyors", "Loaders", "Buffering"],
   },
   {
     index: "02",
     title: "Robotic Soldering",
     href: "/robotic-soldering",
-    image: "/images/products/m-series-2.webp",
+    image: "/images/products/robotic-soldering-joint-macro-2.webp",
     blurb:
-      "QUICK and PANDA intelligent soldering robots — batch and in-line selective soldering with hot air, molten drop and hot bar.",
-    tags: ["QUICK", "PANDA", "In-Line"],
+      "QUICK and PANDA intelligent soldering robots — batch and in-line hot iron soldering, hot bar, molten drop and hot air.",
+    tags: ["Tabletop", "In-Line", "PANDA"],
   },
   {
     index: "03",
     title: "Robotic Dispensing",
     href: "/robotic-dispensing",
-    image: "/images/products/et8283-dispensing-robot-1.webp",
+    image: "/images/products/robotic-dispensing-head-1.webp",
+    // Tall frame in a short band: crop low to hold the valve, needle and syringe.
+    imagePosition: "object-[center_62%]",
     blurb:
       "High-precision automated dispensing platforms for adhesives, coatings and solder paste across the ET and QS series.",
     tags: ["ET Series", "Precision", "Coating"],
@@ -51,9 +55,9 @@ const divisions = [
     index: "04",
     title: "Robotic Screw Driving",
     href: "/robotic-screw-driving",
-    image: "/images/products/auto-screw-driving-at-a-glance-1.webp",
+    image: "/images/products/automatic-screw-feeder-fcs05-1.webp",
     blurb:
-      "Automated screw-feeding and driving robots engineered for repeatable, torque-controlled assembly.",
+      "Automated screw driving systems engineered for repeatable, torque-controlled assembly.",
     tags: ["Auto-Feed", "Torque Control"],
   },
   {
@@ -61,6 +65,8 @@ const divisions = [
     title: "Laser Marking",
     href: "/laser-marking",
     image: "/images/products/panda-laser-marking-1.webp",
+    // Crop high: the illuminated PANDA badge sits at the top of this frame.
+    imagePosition: "object-[center_22%]",
     blurb:
       "PANDA Robotics laser marking systems — permanent, high-contrast PCB traceability, awarded for innovation.",
     tags: ["PANDA", "Traceability"],
@@ -69,7 +75,9 @@ const divisions = [
     index: "06",
     title: "TechMan Cobots",
     href: "/collaborative-robots",
-    image: "/images/products/tm-robots-at-a-glance-2.webp",
+    image: "/images/products/techman-cobot-pallet-cell-1.webp",
+    // Crop high: the wrist and the vacuum gripper sit in the top third.
+    imagePosition: "object-[center_28%]",
     blurb:
       "TechMan collaborative robots with built-in vision — TM5 to TM20 payload classes for flexible automation.",
     tags: ["TM Series", "Vision", "Cobots"],
@@ -89,7 +97,7 @@ const divisions = [
     href: "/label-placement",
     image: "/images/products/labelpro-1.webp",
     blurb:
-      "LabelPRO pick-and-place labelling — barcode and traceability labels applied and verified in line, at a placement rate no operator matches.",
+      "Automatic pick-and-place labeling — barcode and traceability labels applied and verified prior to placement.",
     tags: ["LabelPRO", "Traceability"],
   },
   {
@@ -98,15 +106,15 @@ const divisions = [
     href: "/mobile-robots",
     image: "/images/products/intelligent-mobile-robot-solutions-2.webp",
     blurb:
-      "OMRON autonomous mobile robots for intelligent line loading and unloading — routing themselves rather than following tape.",
-    tags: ["AMR", "OMRON", "Line Loading"],
+      "OMRON autonomous mobile robots for intelligent material transport — automatic factory routing via GPS.",
+    tags: ["AMR", "OMRON", "Material Transport"],
   },
 ];
 
 const stats = [
   { value: 25, suffix: "+", label: "Years of Experience" },
   { value: 120, suffix: "+", label: "Automation Products" },
-  { value: 38, suffix: "", label: "Soldering Robot Models" },
+  { value: 38, suffix: "+", label: "Soldering Robot Models" },
   { value: 4, suffix: "", label: "Regions Served" },
 ];
 
@@ -140,8 +148,8 @@ export default function Home() {
       <section className="relative mx-auto w-full max-w-7xl px-4 py-28 sm:px-6 lg:px-8">
         <SectionHeading
           eyebrow="Product Divisions"
-          title="Nine systems. One automated line."
-          intro="Every division of the PROMATION platform is engineered to slot into your production line — from bare-board loading to depaneling and labelling."
+          title="Endless possibilities. One automated line."
+          intro="Every division of the PROMATION platform is engineered to plug into your production line — from bare-board loading to depaneling and labeling."
           decode
         />
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -159,7 +167,9 @@ export default function Home() {
                         alt=""
                         fill
                         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        className={`object-cover transition-transform duration-700 group-hover:scale-105 ${
+                          d.imagePosition ?? "object-center"
+                        }`}
                       />
                     ) : (
                       <div
@@ -208,7 +218,7 @@ export default function Home() {
       >
         <div className="max-w-xl text-white">
           <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-sky-300">
-            Recognised engineering
+            Recognized engineering
           </p>
           <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
             The PANDA line — three golds at the 2025 TITAN Innovation Awards
@@ -390,9 +400,9 @@ export default function Home() {
             From bare-board loading to final inspection — one connected line
           </h2>
           <p className="mt-4 text-base leading-relaxed text-slate-300">
-            Every PROMATION system is built to slot into the line you already
-            run, with the handoffs, footprints and interfaces worked out before
-            it ships.
+            Every PROMATION system is built to plug into the line you already
+            run, with the communication handoffs, footprints and interfaces
+            worked out before it ships.
           </p>
         </div>
       </ParallaxBand>

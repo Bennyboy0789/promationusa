@@ -20,27 +20,31 @@ type Line = {
   image: string;
   brands: string;
   blurb: string;
+  /** Tailwind object-position class — where the subject actually sits in the frame. */
+  position?: string;
 };
 
 const LINES: Line[] = [
-  {
-    name: "Robotic Soldering",
-    href: "/robotic-soldering",
-    image: "/images/products/m-series-2.webp",
-    brands: "QUICK · PANDA",
-    blurb: "Benchtop and in-line selective soldering — iron-tip, laser and hot bar.",
-  },
   {
     name: "PCB Handling",
     href: "/pcb-handling",
     image: "/images/products/bare-board-loading-stations-1.webp",
     brands: "SMEMA-compliant",
-    blurb: "Loaders, unloaders, conveyors, buffers, flippers and inspection stations.",
+    // Crop high: the badge and the window read as the machine; the cabinet does not.
+    position: "object-[center_32%]",
+    blurb: "Loaders, unloaders, conveyors, buffers, inverters and inspection stations.",
+  },
+  {
+    name: "Robotic Soldering",
+    href: "/robotic-soldering",
+    image: "/images/products/robotic-soldering-joint-macro-1.webp",
+    brands: "QUICK · PANDA",
+    blurb: "Batch and in-line hot iron soldering — hot bar, molten drop and hot air.",
   },
   {
     name: "Robotic Dispensing",
     href: "/robotic-dispensing",
-    image: "/images/products/et8283-dispensing-robot-1.webp",
+    image: "/images/products/robotic-dispensing-head-1.webp",
     brands: "QUICK ET · QS Series",
     blurb: "Precision dispensing for adhesives, potting and conformal coating.",
   },
@@ -49,12 +53,14 @@ const LINES: Line[] = [
     href: "/laser-marking",
     image: "/images/products/panda-laser-marking-1.webp",
     brands: "PANDA Robotics",
+    // Crop high: the illuminated PANDA badge sits at the top of this frame.
+    position: "object-[center_22%]",
     blurb: "Permanent, high-contrast PCB traceability marking — inline or standalone.",
   },
   {
     name: "TechMan Cobots",
     href: "/collaborative-robots",
-    image: "/images/products/tm-robots-at-a-glance-2.webp",
+    image: "/images/products/techman-cobot-pallet-cell-1.webp",
     brands: "TM5 – TM20",
     blurb: "Collaborative robots with built-in vision for flexible cell automation.",
   },
@@ -62,16 +68,16 @@ const LINES: Line[] = [
     name: "Mobile Robots",
     href: "/mobile-robots",
     image: "/images/products/intelligent-mobile-robot-solutions-2.webp",
-    brands: "AMR line loading",
-    blurb: "Autonomous mobile robots that feed and unload your line unattended.",
+    brands: "AMR · OMRON",
+    blurb: "Autonomous mobile robots for intelligent material transport across the floor.",
   },
 ];
 
 const ALL_LINES = [
-  { label: "Robotic Soldering", href: "/robotic-soldering" },
   { label: "PCB Handling", href: "/pcb-handling" },
-  { label: "Dispensing", href: "/robotic-dispensing" },
-  { label: "Screw Driving", href: "/robotic-screw-driving" },
+  { label: "Robotic Soldering", href: "/robotic-soldering" },
+  { label: "Robotic Dispensing", href: "/robotic-dispensing" },
+  { label: "Robotic Screw Driving", href: "/robotic-screw-driving" },
   { label: "Laser Marking", href: "/laser-marking" },
   { label: "Cobots", href: "/collaborative-robots" },
   { label: "Depaneling", href: "/pcb-depaneling" },
@@ -141,7 +147,7 @@ function Plate({
             fill
             priority={priority}
             sizes="(max-width: 1023px) 100vw, 50vw"
-            className="object-cover object-center"
+            className={`object-cover ${line.position ?? "object-center"}`}
           />
         </motion.div>
       </motion.div>
@@ -316,7 +322,7 @@ export function LineupHero() {
             transition={{ duration: 0.6, delay: 0.05 }}
             className="font-display text-[1.9rem] font-bold leading-[1.08] tracking-tight sm:text-[2.5rem] lg:text-[3rem]"
           >
-            Robotic soldering &amp; PCB assembly automation
+            Premium automated solutions
             <span className="block text-sky-300">for electronics manufacturers</span>
           </motion.h1>
 
@@ -328,8 +334,8 @@ export function LineupHero() {
           >
             For over 25 years PROMATION USA has engineered soldering, handling,
             dispensing, screw driving and marking machines into production lines
-            across North America — held in US stock and supported by
-            IPC-certified engineers.
+            across North America and around the world — held in US stock and
+            supported by IPC-certified engineers.
           </motion.p>
 
           <motion.div
