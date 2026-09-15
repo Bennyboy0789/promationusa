@@ -160,7 +160,7 @@ export default function Home() {
                   href={d.href}
                   className="glass clip-corner relative flex h-full flex-col gap-4 p-7 transition-colors duration-300 hover:border-blue-400/40"
                 >
-                  <div className="relative -mx-7 -mt-7 mb-3 h-40 overflow-hidden bg-[#0d1b2e]">
+                  <div className="relative -mx-7 -mt-7 mb-3 h-56 overflow-hidden bg-[#0d1b2e]">
                     {d.image ? (
                       <Image
                         src={d.image}
