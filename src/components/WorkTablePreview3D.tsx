@@ -16,9 +16,9 @@ import type { Config } from "./WorkTableConfigurator";
  * Every option drives real geometry — station length and board width size the
  * frame, the conveyance choice swaps the bed (belt, chain, pins, timing belt,
  * round belts), and lighting, trays and the swing arm come and go as modelled
- * parts. The machine stands in a blacked-out modern garage bay — satin dark
- * walls, a PROMATION-blue LED line around the perimeter — with the navy
- * PROMATION mat out front.
+ * parts. The machine stands in a modern showroom bay — vertical oak slat walls
+ * over a black backing and a dark concrete slab — with the navy PROMATION mat
+ * out front.
  *
  * The "HDR" look is a real pipeline, not a filter: ACES tone mapping with
  * lifted exposure, an environment map driving reflections in the powder-coat
@@ -56,17 +56,23 @@ function makeMaterials() {
     alu: new THREE.MeshStandardMaterial({ color: 0xc7ccd4, metalness: 0.75, roughness: 0.38 }),
     panel: new THREE.MeshStandardMaterial({ color: 0xf0f2f5, metalness: 0.15, roughness: 0.5 }),
     dark: new THREE.MeshStandardMaterial({ color: 0x2a3038, metalness: 0.4, roughness: 0.6 }),
-    beltEsd: new THREE.MeshStandardMaterial({ color: 0x2c6e50, metalness: 0.05, roughness: 0.85 }),
+    beltEsd: new THREE.MeshStandardMaterial({ color: 0x3ab4c9, metalness: 0.05, roughness: 0.7 }),
+    skin: new THREE.MeshStandardMaterial({ color: 0xc9ced5, metalness: 0.2, roughness: 0.55 }),
     beltRib: new THREE.MeshStandardMaterial({ color: 0x23272e, metalness: 0.1, roughness: 0.8 }),
     chain: new THREE.MeshStandardMaterial({ color: 0x7d838d, metalness: 0.9, roughness: 0.35 }),
-    bin: new THREE.MeshStandardMaterial({ color: 0x2a6fdd, metalness: 0.05, roughness: 0.5 }),
-    binInner: new THREE.MeshStandardMaterial({ color: 0x1d4487, metalness: 0.05, roughness: 0.8 }),
+    bin: new THREE.MeshStandardMaterial({ color: 0x2440dc, metalness: 0.05, roughness: 0.5 }),
+    binInner: new THREE.MeshStandardMaterial({ color: 0x172a8f, metalness: 0.05, roughness: 0.8 }),
     red: new THREE.MeshStandardMaterial({ color: 0xc22a2a, metalness: 0.2, roughness: 0.4 }),
-    yellow: new THREE.MeshStandardMaterial({ color: 0xe8c73a, metalness: 0.1, roughness: 0.55 }),
     screen: new THREE.MeshStandardMaterial({
       color: 0x0c1a2e,
       emissive: 0x7fb2ff,
       emissiveIntensity: 0.9,
+      roughness: 0.3,
+    }),
+    hmi: new THREE.MeshStandardMaterial({
+      color: 0x0f3d24,
+      emissive: 0x3ce27a,
+      emissiveIntensity: 1.4,
       roughness: 0.3,
     }),
     lightLens: new THREE.MeshStandardMaterial({
@@ -116,7 +122,7 @@ function matTexture(): THREE.CanvasTexture {
   return t;
 }
 
-/** Dark epoxy floor: satin charcoal with faint 2 m saw-cut seams. */
+/** Dark concrete floor: matte charcoal with a fine aggregate speckle, no seams. */
 function floorTexture(): THREE.CanvasTexture {
   const c = document.createElement("canvas");
   c.width = 512;
@@ -129,13 +135,51 @@ function floorTexture(): THREE.CanvasTexture {
     const r = 1 + Math.random() * 3;
     g.fillRect(Math.random() * 512, Math.random() * 512, r, r);
   }
-  g.strokeStyle = "rgba(18,20,24,0.35)";
-  g.lineWidth = 2;
-  g.strokeRect(0, 0, 512, 512);
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
-  t.repeat.set(ROOM / 3, ROOM / 3); // one tile = one 3 m saw-cut bay
+  t.repeat.set(ROOM / 3, ROOM / 3); // one tile ≈ 3 m, keeps the speckle fine
+  t.anisotropy = 8;
+  return t;
+}
+
+/** Warm oak: vertical grain streaks with a few tighter dark lines, tileable in Y. */
+function woodTexture(): THREE.CanvasTexture {
+  const W = 128, H = 1024;
+  const c = document.createElement("canvas");
+  c.width = W;
+  c.height = H;
+  const g = c.getContext("2d")!;
+  const rnd = (a: number, b: number) => a + Math.random() * (b - a);
+
+  g.fillStyle = "#b39a78";
+  g.fillRect(0, 0, W, H);
+
+  // broad tonal bands across the width so no two slats read identical
+  for (let i = 0; i < 10; i++) {
+    const x = rnd(0, W), w = rnd(12, 40);
+    g.fillStyle = Math.random() > 0.5 ? `rgba(225,200,165,${rnd(0.08, 0.16)})` : `rgba(100,75,50,${rnd(0.06, 0.16)})`;
+    g.fillRect(x, 0, w, H);
+  }
+
+  // grain — long, thin, slightly wandering vertical streaks
+  for (let i = 0; i < 90; i++) {
+    let x = rnd(0, W);
+    const dark = Math.random() > 0.35;
+    g.strokeStyle = dark ? `rgba(95,68,42,${rnd(0.12, 0.35)})` : `rgba(240,220,190,${rnd(0.08, 0.24)})`;
+    g.lineWidth = rnd(0.6, 2.2);
+    g.beginPath();
+    g.moveTo(x, 0);
+    for (let y = 0; y <= H; y += 32) {
+      x += rnd(-1.6, 1.6);
+      g.lineTo(x, y);
+    }
+    g.stroke();
+  }
+
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
   t.anisotropy = 8;
   return t;
 }
@@ -181,43 +225,59 @@ function applyLogo(plate: THREE.CanvasTexture, mat: THREE.CanvasTexture) {
 
 // ---- warehouse -------------------------------------------------------------
 
-function buildGarage(floorTex: THREE.CanvasTexture): THREE.Group {
+function buildGarage(floorTex: THREE.CanvasTexture, woodTex: THREE.CanvasTexture): THREE.Group {
   const g = new THREE.Group();
 
   const floor = new THREE.Mesh(
     new THREE.PlaneGeometry(ROOM, ROOM),
-    new THREE.MeshStandardMaterial({ map: floorTex, metalness: 0.22, roughness: 0.34 })
+    // Matte, non-metallic: a sealed concrete slab should not mirror the lights.
+    new THREE.MeshStandardMaterial({ map: floorTex, metalness: 0, roughness: 0.92 })
   );
   floor.rotation.x = -Math.PI / 2;
   floor.receiveShadow = true;
   g.add(floor);
 
-  // satin black shell — walls and ceiling in one
-  const wallMat = new THREE.MeshStandardMaterial({ color: 0x16181c, roughness: 0.6, metalness: 0.25, side: THREE.BackSide });
+  // matte black shell behind the slats — the felt backing of a slat wall — and
+  // the ceiling in one
+  const wallMat = new THREE.MeshStandardMaterial({ color: 0x0e1013, roughness: 0.92, metalness: 0, side: THREE.BackSide });
   const shell = new THREE.Mesh(new THREE.BoxGeometry(ROOM, CEIL + 0.05, ROOM), wallMat);
   // bottom face sits below the floor plane so the two never z-fight
   shell.position.y = (CEIL + 0.05) / 2 - 0.05;
   shell.receiveShadow = true;
   g.add(shell);
 
-  // PROMATION-blue LED line around the perimeter at waist height
-  const ledMat = new THREE.MeshStandardMaterial({
-    color: 0x11253f,
-    emissive: 0x2f7ddd,
-    emissiveIntensity: 2.6,
-    roughness: 0.4,
-  });
-  const half = ROOM / 2 - 0.03;
-  for (const [w, d, x, z] of [
-    [ROOM - 0.1, 0.03, 0, -half],
-    [ROOM - 0.1, 0.03, 0, half],
-    [0.03, ROOM - 0.1, -half, 0],
-    [0.03, ROOM - 0.1, half, 0],
-  ] as const) {
-    const led = new THREE.Mesh(new THREE.BoxGeometry(w, 0.045, d), ledMat);
-    led.position.set(x, 0.95, z);
-    g.add(led);
+  // vertical oak slats on all four walls, one instanced draw for the lot
+  const SLAT_W = 0.06, SLAT_D = 0.035, SLAT_GAP = 0.03;
+  const pitch = SLAT_W + SLAT_GAP;
+  const perWall = Math.floor((ROOM - 0.1) / pitch);
+  const slatGeo = new THREE.BoxGeometry(SLAT_W, CEIL, SLAT_D);
+  const slatMat = new THREE.MeshStandardMaterial({ map: woodTex, roughness: 0.68, metalness: 0 });
+  woodTex.repeat.set(1, CEIL / 1.2); // grain runs up the slat, ~1.2 m per tile
+  const slats = new THREE.InstancedMesh(slatGeo, slatMat, perWall * 4);
+  slats.receiveShadow = true;
+  const m = new THREE.Matrix4();
+  const col = new THREE.Color();
+  const inset = ROOM / 2 - SLAT_D / 2 - 0.004;
+  let idx = 0;
+  for (let wall = 0; wall < 4; wall++) {
+    for (let i = 0; i < perWall; i++) {
+      const along = -ROOM / 2 + 0.05 + pitch * i + SLAT_W / 2;
+      const pos =
+        wall === 0 ? [along, CEIL / 2, -inset]
+        : wall === 1 ? [along, CEIL / 2, inset]
+        : wall === 2 ? [-inset, CEIL / 2, along]
+        : [inset, CEIL / 2, along];
+      m.makeRotationY(wall < 2 ? 0 : Math.PI / 2);
+      m.setPosition(pos[0], pos[1], pos[2]);
+      slats.setMatrixAt(idx, m);
+      // slight per-board tonal variation, as sawn oak has
+      slats.setColorAt(idx, col.setHSL(0.09 + Math.random() * 0.012, 0.22, 0.56 + Math.random() * 0.12));
+      idx++;
+    }
   }
+  slats.instanceMatrix.needsUpdate = true;
+  if (slats.instanceColor) slats.instanceColor.needsUpdate = true;
+  g.add(slats);
 
   return g;
 }
@@ -290,100 +350,142 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.Canva
   const g = new THREE.Group();
   const L = LENGTH_M[cfg.length];
   const D = DEPTH_M[cfg.width];
+  // The cabinet is deeper than the belt it carries — the rear rail, drive and
+  // the electrical enclosure all live behind the board path.
+  const BD = D + 0.2;
 
-  // frame posts, lower shelf and feet
+  // ---- cabinet: extrusion posts, grey skins on three sides, open front ------
+  const FOOT_H = 0.08;
+  const HEADER_H = 0.1;
+  const bodyTop = TOP_Y - RAIL_H - 0.03 - HEADER_H; // underside of the header
+  const postH = bodyTop - FOOT_H;
   const px = L / 2 - POST / 2;
-  const pz = D / 2 - POST / 2;
+  const pz = BD / 2 - POST / 2;
   for (const [x, z] of [[-px, -pz], [px, -pz], [-px, pz], [px, pz]] as const) {
-    g.add(box(POST, TOP_Y - RAIL_H, POST, mats.alu, x, (TOP_Y - RAIL_H) / 2, z));
-    g.add(cylinder(0.022, 0.05, mats.foot, x, 0.025, z));
+    g.add(box(POST, postH, POST, mats.alu, x, FOOT_H + postH / 2, z));
+    // levelling feet: black pad on a threaded stem
+    g.add(cylinder(0.03, 0.015, mats.foot, x, 0.0075, z));
+    g.add(cylinder(0.008, FOOT_H - 0.015, mats.alu, x, 0.015 + (FOOT_H - 0.015) / 2, z));
   }
-  g.add(box(L - 0.02, 0.02, D - 0.02, mats.panel, 0, 0.28, 0)); // lower shelf
-  for (const z of [-pz, pz]) g.add(box(L - 0.02, POST, POST, mats.alu, 0, 0.55, z)); // cross braces
+  const skinY = FOOT_H + postH / 2;
+  const skinH = postH;
+  for (const x of [-(L / 2 - POST - 0.005), L / 2 - POST - 0.005]) {
+    g.add(box(0.01, skinH, BD - POST * 2, mats.skin, x, skinY, 0)); // sides
+  }
+  g.add(box(L - POST * 2, skinH, 0.01, mats.skin, 0, skinY, -(BD / 2 - POST - 0.005))); // back
+  g.add(box(L - POST * 2, 0.012, BD - POST * 2, mats.dark, 0, FOOT_H + 0.03, 0)); // black floor plate
+  // inside: electrical enclosure on the back wall, control panel on the
+  // left post, terminal block on the floor
+  g.add(box(0.28, 0.36, 0.1, mats.panel, 0, FOOT_H + 0.06 + 0.18 + 0.1, -(BD / 2) + POST + 0.06));
+  const ctlX = -(L / 2) + POST + 0.012;
+  g.add(box(0.02, 0.16, 0.09, mats.dark, ctlX, bodyTop - 0.14, BD / 2 - POST - 0.07));
+  const knob = cylinder(0.014, 0.012, mats.red, ctlX + 0.016, bodyTop - 0.1, BD / 2 - POST - 0.07, Math.PI / 2);
+  g.add(knob);
+  g.add(box(0.08, 0.03, 0.05, mats.dark, -0.1, FOOT_H + 0.05, 0.05));
 
-  // conveyor bed: side rails, end caps, bed plate
-  for (const z of [-(D / 2 - 0.015), D / 2 - 0.015]) {
-    g.add(box(L, RAIL_H, 0.03, mats.panel, 0, TOP_Y - RAIL_H / 2 + 0.02, z));
-  }
-  for (const x of [-(L / 2 - 0.015), L / 2 - 0.015]) {
-    g.add(box(0.03, RAIL_H, D - 0.06, mats.alu, x, TOP_Y - RAIL_H / 2 + 0.02, 0));
-  }
-  g.add(box(L, 0.05, D, mats.alu, 0, TOP_Y - RAIL_H - 0.005, 0)); // bed underframe
-  buildBed(g, cfg, mats, L, D);
-
-  // wordmark plate on the front rail
+  // ---- header band under the top: wordmark left, HMI right ------------------
+  const headerY = bodyTop + HEADER_H / 2;
+  g.add(box(L, HEADER_H, BD, mats.skin, 0, headerY, 0));
   const plate = new THREE.Mesh(
-    new THREE.PlaneGeometry(0.34, 0.055),
+    new THREE.PlaneGeometry(0.3, 0.048),
     new THREE.MeshBasicMaterial({ map: wordmark })
   );
-  plate.position.set(0, TOP_Y - RAIL_H / 2 + 0.02, D / 2 + 0.031);
+  plate.position.set(-(L / 2) + 0.22, headerY, BD / 2 + 0.001);
   g.add(plate);
 
-  // e-stop on a yellow plate, front right
-  const ex = L / 2 - 0.14;
-  g.add(box(0.07, 0.05, 0.012, mats.yellow, ex, TOP_Y - 0.03, D / 2 + 0.006));
-  const stop = cylinder(0.016, 0.022, mats.red, ex, TOP_Y - 0.025, D / 2 + 0.022);
-  stop.rotation.x = Math.PI / 2;
-  g.add(stop);
+  // ---- top: bed underframe, thin front lip, tall black rear rail, alu ends ---
+  g.add(box(L, 0.05, BD, mats.alu, 0, TOP_Y - RAIL_H - 0.005, 0)); // bed underframe
+  g.add(box(L, 0.03, 0.03, mats.alu, 0, TOP_Y - 0.015, BD / 2 - 0.015)); // front lip
+  g.add(box(L, RAIL_H, 0.03, mats.dark, 0, TOP_Y - RAIL_H / 2 + 0.02, -(BD / 2 - 0.015))); // rear rail
+  for (const x of [-(L / 2 - 0.015), L / 2 - 0.015]) {
+    g.add(box(0.03, 0.05, BD - 0.06, mats.alu, x, TOP_Y - 0.025 + 0.01, 0));
+  }
+  buildBed(g, cfg, mats, L, BD);
+  // belt drive shaft poking out of the right rear
+  g.add(cylinder(0.018, 0.12, mats.chain, L / 2 + 0.05, TOP_Y - 0.03, -(BD / 2) + 0.12, Math.PI / 2));
 
-  // small controls box under the bed with a power LED
-  g.add(box(0.16, 0.1, 0.05, mats.dark, L / 2 - 0.16, TOP_Y - RAIL_H - 0.09, D / 2 - 0.01));
-  const led = new THREE.Mesh(
-    new THREE.SphereGeometry(0.006),
-    new THREE.MeshStandardMaterial({ color: 0x30d072, emissive: 0x30d072, emissiveIntensity: 3 })
-  );
-  led.position.set(L / 2 - 0.11, TOP_Y - RAIL_H - 0.06, D / 2 + 0.016);
-  g.add(led);
+  // HMI on the front-right corner of the top, tilted to the operator
+  const hmi = new THREE.Group();
+  hmi.add(box(0.17, 0.11, 0.03, mats.panel, 0, 0, 0));
+  const scr = box(0.12, 0.07, 0.004, mats.hmi, 0, 0, 0.017);
+  scr.castShadow = false;
+  hmi.add(scr);
+  hmi.position.set(L / 2 - 0.16, TOP_Y + 0.03, BD / 2 - 0.03);
+  hmi.rotation.x = -0.55;
+  g.add(hmi);
+
+  // e-stop on the rear-left corner of the top
+  const ex = -(L / 2) + 0.09;
+  const ez = -(BD / 2) + 0.06;
+  g.add(box(0.05, 0.035, 0.05, mats.dark, ex, TOP_Y + 0.03, ez));
+  g.add(cylinder(0.017, 0.02, mats.red, ex, TOP_Y + 0.055, ez));
 
   // the PROMATION mat on the floor in front of the station
-  const matW = Math.min(L * 0.95, 1.9);
+  const matW = Math.min(L * 1.6, 1.9);
   const floorMat = new THREE.Mesh(
     new THREE.PlaneGeometry(matW, matW * 0.5),
     new THREE.MeshStandardMaterial({ map: mat, roughness: 0.95 })
   );
   floorMat.rotation.x = -Math.PI / 2;
-  floorMat.position.set(0, 0.004, D / 2 + 0.12 + matW * 0.25);
+  floorMat.position.set(0, 0.004, BD / 2 + 0.12 + matW * 0.25);
   floorMat.receiveShadow = true;
   g.add(floorMat);
 
-  // overhead light gantry
-  if (cfg.light) {
-    const gy = TOP_Y + 0.62;
+  // ---- gantry: rear uprights carry both the bin shelf and the light frame ---
+  const upright = cfg.light || cfg.trays !== "none";
+  const rows = cfg.trays === "double" ? 2 : cfg.trays === "single" ? 1 : 0;
+  const shelfY = (r: number) => TOP_Y + 0.38 + r * 0.32;
+  const gy = TOP_Y + 0.9; // top frame height, ~0.9 m over the worktop
+  const upTop = cfg.light ? gy : shelfY(rows - 1) + 0.16;
+  const uz = -(BD / 2 - POST / 2);
+  if (upright) {
     for (const x of [-(L / 2 - POST / 2), L / 2 - POST / 2]) {
-      g.add(box(POST, gy - TOP_Y + 0.06, POST, mats.alu, x, TOP_Y + (gy - TOP_Y + 0.06) / 2 - 0.03, -(D / 2 - POST / 2)));
+      const h = upTop - TOP_Y + 0.02;
+      g.add(box(POST, h, POST, mats.alu, x, TOP_Y - 0.02 + h / 2, uz));
     }
-    g.add(box(L, POST, POST, mats.alu, 0, gy, -(D / 2 - POST / 2)));
-    // fixture reaches forward over the belt
-    g.add(box(0.04, 0.04, 0.3, mats.alu, 0, gy, -(D / 2) + 0.17));
-    g.add(box(L * 0.72, 0.045, 0.11, mats.panel, 0, gy - 0.04, 0));
-    const lens = box(L * 0.66, 0.008, 0.08, mats.lightLens, 0, gy - 0.065, 0);
-    lens.castShadow = false;
-    g.add(lens);
+  }
+  if (cfg.light) {
+    // rectangular top frame: rear bar, two side bars reaching forward, front bar
+    const reach = BD * 0.8;
+    g.add(box(L, POST, POST, mats.alu, 0, gy, uz));
+    for (const x of [-(L / 2 - POST / 2), L / 2 - POST / 2]) {
+      g.add(box(POST, POST, reach, mats.alu, x, gy, uz + reach / 2));
+    }
+    const fz = uz + reach;
+    g.add(box(L, POST, POST, mats.alu, 0, gy, fz));
+    // LED tube on two black clamps under the front bar
+    const tubeL = Math.min(L * 0.55, 0.9);
+    for (const x of [-tubeL / 2, tubeL / 2]) {
+      g.add(box(0.03, 0.04, 0.05, mats.dark, x, gy - 0.04, fz));
+    }
+    const tube = cylinder(0.014, tubeL, mats.lightLens, 0, gy - 0.06, fz, Math.PI / 2);
+    tube.castShadow = false;
+    g.add(tube);
   }
 
-  // rear parts trays with bins
-  if (cfg.trays !== "none") {
-    const rows = cfg.trays === "double" ? 2 : 1;
-    const rearZ = -(D / 2) - 0.09;
-    for (const x of [-(L / 2 - 0.1), L / 2 - 0.1]) {
-      g.add(box(POST, 0.34 + (rows - 1) * 0.2, POST, mats.alu, x, TOP_Y + (0.34 + (rows - 1) * 0.2) / 2, rearZ));
+  // ---- bin shelves: tipped toward the operator, long bins nose-down --------
+  for (let r = 0; r < rows; r++) {
+    const tilt = 0.42; // front edge low, back edge high
+    const shelf = new THREE.Group();
+    shelf.position.set(0, shelfY(r), uz + 0.06);
+    shelf.rotation.x = tilt;
+    const SHELF_D = 0.42;
+    shelf.add(box(L - 0.1, 0.014, SHELF_D, mats.alu, 0, 0, 0));
+    // front and rear lips of the shelf frame
+    shelf.add(box(L - 0.1, 0.03, 0.02, mats.alu, 0, 0.01, SHELF_D / 2 - 0.01));
+    shelf.add(box(L - 0.1, 0.03, 0.02, mats.alu, 0, 0.01, -(SHELF_D / 2 - 0.01)));
+    // bins: 150 wide, 150 tall, 360 long, packed across the shelf
+    const BIN_W = 0.15, BIN_H = 0.15, BIN_L = 0.36, PITCH = 0.17;
+    const n = Math.max(2, Math.floor((L - 0.12) / PITCH));
+    for (let i = 0; i < n; i++) {
+      const bx = -((n - 1) / 2) * PITCH + i * PITCH;
+      const bin = new THREE.Group();
+      bin.add(box(BIN_W, BIN_H, BIN_L, mats.bin, 0, 0, 0));
+      bin.add(box(BIN_W - 0.02, BIN_H - 0.01, BIN_L - 0.02, mats.binInner, 0, 0.012, 0));
+      bin.position.set(bx, 0.007 + BIN_H / 2, 0.05); // noses overhang the front lip
+      shelf.add(bin);
     }
-    for (let r = 0; r < rows; r++) {
-      const ty = TOP_Y + 0.22 + r * 0.2;
-      const shelf = box(L - 0.12, 0.014, 0.24, mats.panel, 0, ty, rearZ - 0.02);
-      shelf.rotation.x = -0.32; // tipped toward the operator
-      g.add(shelf);
-      const n = Math.max(2, Math.floor((L - 0.2) / 0.3));
-      for (let i = 0; i < n; i++) {
-        const bx = -((n - 1) / 2) * 0.3 + i * 0.3;
-        const bin = new THREE.Group();
-        bin.add(box(0.26, 0.11, 0.17, mats.bin, 0, 0, 0));
-        bin.add(box(0.24, 0.1, 0.15, mats.binInner, 0, 0.012, 0));
-        bin.position.set(bx, ty + 0.075, rearZ - 0.03);
-        bin.rotation.x = -0.32;
-        g.add(bin);
-      }
-    }
+    g.add(shelf);
   }
 
   // swing-arm monitor
@@ -395,9 +497,9 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.Canva
     g.add(arm);
     const mon = new THREE.Group();
     mon.add(box(0.34, 0.22, 0.02, mats.dark, 0, 0, 0));
-    const scr = box(0.31, 0.19, 0.004, mats.screen, 0, 0, 0.012);
-    scr.castShadow = false;
-    mon.add(scr);
+    const mscr = box(0.31, 0.19, 0.004, mats.screen, 0, 0, 0.012);
+    mscr.castShadow = false;
+    mon.add(mscr);
     mon.position.set(sx + 0.32, TOP_Y + 0.52, 0.21);
     mon.rotation.y = -0.55;
     mon.rotation.x = -0.08;
@@ -478,7 +580,7 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     scene.add(rim);
     scene.add(new THREE.HemisphereLight(0x9fb8dd, 0x23262b, 0.3));
 
-    const warehouse = buildGarage(floorTexture());
+    const warehouse = buildGarage(floorTexture(), woodTexture());
     scene.add(warehouse);
 
     const controls = new OrbitControls(camera, renderer.domElement);
@@ -576,5 +678,5 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
 
   // Fills its container — the page decides how much of the screen the
   // environment gets, and the resize observer follows.
-  return <div ref={hostRef} className="h-full w-full" aria-label="3D model of the configured work table in a black showroom bay" role="img" />;
+  return <div ref={hostRef} className="h-full w-full" aria-label="3D model of the configured work table in a wood-slat showroom bay" role="img" />;
 }

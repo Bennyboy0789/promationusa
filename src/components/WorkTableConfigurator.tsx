@@ -127,7 +127,7 @@ export function WorkTableConfigurator() {
           the canvas edge is invisible. */}
       <div className="relative h-[52vh] lg:absolute lg:inset-0 lg:h-auto">
         <WorkTablePreview3D config={config} />
-        <p className="pointer-events-none absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap font-mono text-[10px] uppercase tracking-[0.16em] text-slate-600">
+        <p className="pointer-events-none absolute bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-white px-4 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-black shadow-lg shadow-black/40">
           Drag to rotate &middot; scroll to zoom
         </p>
       </div>
