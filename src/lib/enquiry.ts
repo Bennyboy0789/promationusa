@@ -15,15 +15,18 @@ export type EnquiryResult =
   | { status: "invalid"; missing: string[] }
   | { status: "error" };
 
+export type EnquiryKind = "quote" | "quick" | "config";
+
 export async function submitEnquiry(
-  kind: "quote" | "quick",
-  fields: Record<string, string>
+  kind: EnquiryKind,
+  fields: Record<string, string>,
+  extra?: { snapshot?: string }
 ): Promise<EnquiryResult> {
   try {
     const res = await fetch("/api/enquiry", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ kind, fields }),
+      body: JSON.stringify({ kind, fields, ...extra }),
     });
 
     if (res.ok) return { status: "sent" };

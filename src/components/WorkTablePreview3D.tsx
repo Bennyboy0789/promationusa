@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useImperativeHandle, useRef } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
@@ -28,14 +28,14 @@ import type { Config } from "./WorkTableConfigurator";
 
 // ---- dimensions (metres) ---------------------------------------------------
 
-const LENGTH_M: Record<Config["length"], number> = {
+export const LENGTH_M: Record<Config["length"], number> = {
   "1000": 1.0,
   "1500": 1.5,
   "2000": 2.0,
   "custom-l": 2.4,
 };
 
-const DEPTH_M: Record<Config["width"], number> = {
+export const DEPTH_M: Record<Config["width"], number> = {
   "250": 0.38,
   "330": 0.46,
   "460": 0.6,
@@ -58,6 +58,7 @@ function makeMaterials() {
     dark: new THREE.MeshStandardMaterial({ color: 0x2a3038, metalness: 0.4, roughness: 0.6 }),
     beltEsd: new THREE.MeshStandardMaterial({ color: 0x3ab4c9, metalness: 0.05, roughness: 0.7 }),
     skin: new THREE.MeshStandardMaterial({ color: 0xc9ced5, metalness: 0.2, roughness: 0.55 }),
+    pcb: new THREE.MeshStandardMaterial({ color: 0x1d6a43, metalness: 0.1, roughness: 0.55 }),
     beltRib: new THREE.MeshStandardMaterial({ color: 0x23272e, metalness: 0.1, roughness: 0.8 }),
     chain: new THREE.MeshStandardMaterial({ color: 0x7d838d, metalness: 0.9, roughness: 0.35 }),
     bin: new THREE.MeshStandardMaterial({ color: 0x2440dc, metalness: 0.05, roughness: 0.5 }),
@@ -182,6 +183,45 @@ function woodTexture(): THREE.CanvasTexture {
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
   t.anisotropy = 8;
   return t;
+}
+
+/** Soft radial falloff — stretched under the cabinet as a contact shadow. */
+function contactShadowTexture(): THREE.CanvasTexture {
+  const c = document.createElement("canvas");
+  c.width = c.height = 256;
+  const g = c.getContext("2d")!;
+  const grad = g.createRadialGradient(128, 128, 24, 128, 128, 128);
+  grad.addColorStop(0, "rgba(0,0,0,0.9)");
+  grad.addColorStop(0.55, "rgba(0,0,0,0.42)");
+  grad.addColorStop(1, "rgba(0,0,0,0)");
+  g.fillStyle = grad;
+  g.fillRect(0, 0, 256, 256);
+  return new THREE.CanvasTexture(c);
+}
+
+/** A dimension label: mono text on a dark pill, always drawn over the model. */
+function labelSprite(text: string, x: number, y: number, z: number): THREE.Sprite {
+  const c = document.createElement("canvas");
+  c.width = 256;
+  c.height = 64;
+  const g = c.getContext("2d")!;
+  g.font = "600 28px ui-monospace, SFMono-Regular, Menlo, monospace";
+  g.textAlign = "center";
+  g.textBaseline = "middle";
+  const w = Math.min(248, g.measureText(text).width + 30);
+  g.fillStyle = "rgba(5,13,26,0.8)";
+  g.beginPath();
+  g.roundRect(128 - w / 2, 10, w, 44, 12);
+  g.fill();
+  g.fillStyle = "#bfe7ff";
+  g.fillText(text, 128, 33);
+  const t = new THREE.CanvasTexture(c);
+  t.colorSpace = THREE.SRGBColorSpace;
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, transparent: true, depthTest: false }));
+  sp.scale.set(0.4, 0.1, 1);
+  sp.position.set(x, y, z);
+  sp.renderOrder = 10;
+  return sp;
 }
 
 /**
@@ -345,11 +385,12 @@ function buildBed(g: THREE.Group, cfg: Config, mats: Mats, L: number, D: number)
   }
 }
 
-function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.CanvasTexture): THREE.Group {
+type Dims = { L: number; D: number };
+type Tex = { wordmark: THREE.CanvasTexture; mat: THREE.CanvasTexture; shadow: THREE.CanvasTexture };
+
+function buildModel(cfg: Config, { L, D }: Dims, { wordmark, mat, shadow }: Tex): THREE.Group {
   const mats = makeMaterials();
   const g = new THREE.Group();
-  const L = LENGTH_M[cfg.length];
-  const D = DEPTH_M[cfg.width];
   // The cabinet is deeper than the belt it carries — the rear rail, drive and
   // the electrical enclosure all live behind the board path.
   const BD = D + 0.2;
@@ -401,6 +442,25 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.Canva
     g.add(box(0.03, 0.05, BD - 0.06, mats.alu, x, TOP_Y - 0.025 + 0.01, 0));
   }
   buildBed(g, cfg, mats, L, BD);
+
+  // a populated board on the belt, sized to the width option — scale and use
+  const bw = D * 0.72;
+  const bl = Math.min(D * 0.6, 0.28);
+  const bx0 = -L * 0.12;
+  const pcb = box(bl, 0.0016, bw, mats.pcb, bx0, TOP_Y - 0.004, 0);
+  pcb.castShadow = false;
+  g.add(pcb);
+  const sx = bl / 0.28;
+  const sz = bw / 0.33;
+  for (const [w, d, h, ox, oz, m] of [
+    [0.05, 0.05, 0.006, -0.03, 0.02, mats.dark],
+    [0.03, 0.02, 0.004, 0.04, -0.05, mats.dark],
+    [0.02, 0.02, 0.01, 0.06, 0.06, mats.chain],
+    [0.012, 0.045, 0.003, -0.08, -0.06, mats.dark],
+    [0.02, 0.012, 0.014, 0.0, -0.1, mats.dark],
+  ] as const) {
+    g.add(box(w * sx, h, d * sz, m, bx0 + ox * sx, TOP_Y - 0.003 + h / 2, oz * sz));
+  }
   // belt drive shaft poking out of the right rear
   g.add(cylinder(0.018, 0.12, mats.chain, L / 2 + 0.05, TOP_Y - 0.03, -(BD / 2) + 0.12, Math.PI / 2));
 
@@ -430,6 +490,16 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.Canva
   floorMat.position.set(0, 0.004, BD / 2 + 0.12 + matW * 0.25);
   floorMat.receiveShadow = true;
   g.add(floorMat);
+
+  // soft contact shadow that grounds the cabinet on the slab
+  const cs = new THREE.Mesh(
+    new THREE.PlaneGeometry(L + 0.5, BD + 0.5),
+    new THREE.MeshBasicMaterial({ map: shadow, transparent: true, opacity: 0.6, depthWrite: false })
+  );
+  cs.rotation.x = -Math.PI / 2;
+  cs.position.y = 0.002;
+  cs.renderOrder = -1;
+  g.add(cs);
 
   // ---- gantry: rear uprights carry both the bin shelf and the light frame ---
   const upright = cfg.light || cfg.trays !== "none";
@@ -506,11 +576,45 @@ function buildModel(cfg: Config, wordmark: THREE.CanvasTexture, mat: THREE.Canva
     g.add(mon);
   }
 
+  // ---- dimension callouts: length, belt width, worktop height -------------
+  const dim = new THREE.Group();
+  const lineMat = new THREE.MeshBasicMaterial({ color: 0x8fd6ff });
+  const seg = (w: number, h: number, d: number, x: number, y: number, z: number) => {
+    const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), lineMat);
+    m.position.set(x, y, z);
+    dim.add(m);
+  };
+  const TH = 0.004;
+  const ly = TOP_Y + 0.02;
+  const lz = BD / 2 + 0.16;
+  seg(L, TH, TH, 0, ly, lz);
+  seg(TH, TH, 0.06, -L / 2, ly, lz);
+  seg(TH, TH, 0.06, L / 2, ly, lz);
+  dim.add(labelSprite(`${Math.round(L * 1000)} mm`, 0, ly + 0.08, lz));
+  const wx = L / 2 + 0.16;
+  seg(TH, TH, D, wx, ly, 0);
+  seg(0.06, TH, TH, wx, ly, -D / 2);
+  seg(0.06, TH, TH, wx, ly, D / 2);
+  dim.add(labelSprite(`${Math.round(D * 1000)} mm belt`, wx, ly + 0.08, 0));
+  const hx = -L / 2 - 0.16;
+  const hz = BD / 2;
+  seg(TH, TOP_Y, TH, hx, TOP_Y / 2, hz);
+  seg(0.06, TH, TH, hx, 0.002, hz);
+  seg(0.06, TH, TH, hx, TOP_Y, hz);
+  dim.add(labelSprite(`${Math.round(TOP_Y * 1000)} mm`, hx, TOP_Y / 2, hz + 0.02));
+  g.add(dim);
+
   return g;
 }
 
 function disposeGroup(g: THREE.Object3D) {
   g.traverse((o) => {
+    if (o instanceof THREE.Sprite) {
+      // sprites share one module-level geometry; only the label is ours
+      o.material.map?.dispose();
+      o.material.dispose();
+      return;
+    }
     const mesh = o as THREE.Mesh;
     if (mesh.geometry) mesh.geometry.dispose();
     const m = mesh.material as THREE.Material | THREE.Material[] | undefined;
@@ -521,10 +625,35 @@ function disposeGroup(g: THREE.Object3D) {
 
 // ---- component -------------------------------------------------------------
 
-export function WorkTablePreview3D({ config }: { config: Config }) {
+export type ViewName = "three-quarter" | "front" | "top" | "operator";
+
+export type WorkTablePreviewHandle = {
+  /** JPEG data-URL of the frame on screen right now, or null if unavailable. */
+  snapshot: () => string | null;
+  /** Glide the camera to a named preset. */
+  setView: (v: ViewName) => void;
+};
+
+const dimsFor = (c: Config): Dims => ({ L: LENGTH_M[c.length], D: DEPTH_M[c.width] });
+const easeInOut = (t: number) => (t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2);
+const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+
+export function WorkTablePreview3D({
+  config,
+  ref,
+}: {
+  config: Config;
+  ref?: React.Ref<WorkTablePreviewHandle>;
+}) {
   const hostRef = useRef<HTMLDivElement>(null);
   const configRef = useRef(config);
   const rebuildRef = useRef<(c: Config) => void>(() => undefined);
+  const apiRef = useRef<WorkTablePreviewHandle>({ snapshot: () => null, setView: () => undefined });
+  useImperativeHandle(
+    ref,
+    () => ({ snapshot: () => apiRef.current.snapshot(), setView: (v) => apiRef.current.setView(v) }),
+    []
+  );
 
   useEffect(() => {
     const host = hostRef.current;
@@ -551,6 +680,10 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     renderer.toneMappingExposure = TUNE.exposure;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    // Held invisible until the first frame is drawn, then faded up — the
+    // scene arrives rather than flashing on.
+    renderer.domElement.style.opacity = "0";
+    renderer.domElement.style.transition = "opacity 600ms ease";
     host.appendChild(renderer.domElement);
 
     const scene = new THREE.Scene();
@@ -583,19 +716,18 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     const warehouse = buildGarage(floorTexture(), woodTexture());
     scene.add(warehouse);
 
+    const HOME_TARGET = new THREE.Vector3(0, 0.92, 0);
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.target.set(0, 0.92, 0);
+    controls.target.copy(HOME_TARGET);
     controls.enableDamping = true;
     controls.dampingFactor = 0.08;
-    controls.minDistance = 2.0;
+    controls.minDistance = 1.2;
     controls.maxDistance = 7.5;
     controls.maxPolarAngle = Math.PI / 2 - 0.06;
     controls.enablePan = false;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     controls.autoRotate = !reduced;
     controls.autoRotateSpeed = 0.9;
-    const stopSpin = () => (controls.autoRotate = false);
-    renderer.domElement.addEventListener("pointerdown", stopSpin);
 
     // HDR-style output: render, bloom the emissives, then tone-map.
     const composer = new EffectComposer(renderer);
@@ -607,25 +739,99 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     const wordmark = wordmarkTexture();
     const mat = matTexture();
     applyLogo(wordmark, mat);
-    let model = buildModel(configRef.current, wordmark, mat);
+    const tex: Tex = { wordmark, mat, shadow: contactShadowTexture() };
+
+    let dims = dimsFor(configRef.current);
+    let model = buildModel(configRef.current, dims, tex);
     scene.add(model);
+    const swap = (c: Config, d: Dims) => {
+      scene.remove(model);
+      disposeGroup(model);
+      model = buildModel(c, d, tex);
+      scene.add(model);
+    };
 
     // Keep the machine framed as its size changes — but only until the
     // visitor takes the camera; after that their view is theirs.
-    const fitCamera = (c: Config) => {
+    const fitDist = (c: Config) => {
       const half = LENGTH_M[c.length] / 2 + (c.swingArm ? 0.85 : 0.45);
-      const dist = Math.min(7, Math.max(4.6, half * 3.0));
+      return Math.min(7, Math.max(4.6, half * 3.0));
+    };
+    const fitCamera = (c: Config) => {
       const dir = camera.position.clone().sub(controls.target).normalize();
-      camera.position.copy(controls.target.clone().add(dir.multiplyScalar(dist)));
+      camera.position.copy(controls.target.clone().add(dir.multiplyScalar(fitDist(c))));
     };
     fitCamera(configRef.current);
 
+    // A size change glides rather than jumps: the frame is rebuilt each
+    // frame at interpolated dimensions for ~0.4 s. Toggled parts (light,
+    // trays, arm) appear at the start of the glide.
+    let dimAnim: { from: Dims; to: Dims; start: number } | null = null;
     rebuildRef.current = (c: Config) => {
-      scene.remove(model);
-      disposeGroup(model);
-      model = buildModel(c, wordmark, mat);
-      scene.add(model);
+      const to = dimsFor(c);
+      if (reduced || (to.L === dims.L && to.D === dims.D)) {
+        dims = to;
+        swap(c, dims);
+      } else {
+        dimAnim = { from: dims, to, start: performance.now() };
+      }
       if (controls.autoRotate) fitCamera(c);
+    };
+
+    // Camera presets glide the same way. Any pointer on the canvas cancels
+    // both the glide and the idle spin — the visitor has taken over.
+    let camAnim: {
+      fromP: THREE.Vector3;
+      toP: THREE.Vector3;
+      fromT: THREE.Vector3;
+      toT: THREE.Vector3;
+      start: number;
+    } | null = null;
+    const takeOver = () => {
+      controls.autoRotate = false;
+      camAnim = null;
+    };
+    renderer.domElement.addEventListener("pointerdown", takeOver);
+
+    apiRef.current.setView = (v) => {
+      controls.autoRotate = false;
+      const c = configRef.current;
+      const dist = fitDist(c);
+      const BD = dims.D + 0.2;
+      let toP: THREE.Vector3;
+      let toT = HOME_TARGET.clone();
+      switch (v) {
+        case "front":
+          toP = new THREE.Vector3(0, 1.45, dist);
+          break;
+        case "top":
+          toP = new THREE.Vector3(0, 0.92 + dist * 0.9, 0.001);
+          break;
+        case "operator":
+          // eye height, standing at the belt
+          toP = new THREE.Vector3(0, 1.62, BD / 2 + 0.8);
+          toT = new THREE.Vector3(0, TOP_Y + 0.05, -0.15);
+          break;
+        default:
+          toP = new THREE.Vector3(2.7, 0.98, 3.1).normalize().multiplyScalar(dist).add(HOME_TARGET);
+      }
+      camAnim = {
+        fromP: camera.position.clone(),
+        toP,
+        fromT: controls.target.clone(),
+        toT,
+        start: performance.now(),
+      };
+    };
+
+    apiRef.current.snapshot = () => {
+      try {
+        // Draw and read back in the same tick, so no preserveDrawingBuffer.
+        composer.render();
+        return renderer.domElement.toDataURL("image/jpeg", 0.82);
+      } catch {
+        return null;
+      }
     };
 
     const resize = () => {
@@ -647,9 +853,29 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     ro.observe(host);
 
     let raf = 0;
+    let shown = false;
     const loop = () => {
+      const now = performance.now();
+      if (dimAnim) {
+        const t = Math.min(1, (now - dimAnim.start) / 420);
+        const e = easeInOut(t);
+        dims = { L: lerp(dimAnim.from.L, dimAnim.to.L, e), D: lerp(dimAnim.from.D, dimAnim.to.D, e) };
+        swap(configRef.current, dims);
+        if (t >= 1) dimAnim = null;
+      }
+      if (camAnim) {
+        const t = Math.min(1, (now - camAnim.start) / 700);
+        const e = easeInOut(t);
+        camera.position.lerpVectors(camAnim.fromP, camAnim.toP, e);
+        controls.target.lerpVectors(camAnim.fromT, camAnim.toT, e);
+        if (t >= 1) camAnim = null;
+      }
       controls.update();
       composer.render();
+      if (!shown) {
+        shown = true;
+        requestAnimationFrame(() => (renderer.domElement.style.opacity = "1"));
+      }
       raf = requestAnimationFrame(loop);
     };
     loop();
@@ -657,17 +883,19 @@ export function WorkTablePreview3D({ config }: { config: Config }) {
     return () => {
       cancelAnimationFrame(raf);
       ro.disconnect();
-      renderer.domElement.removeEventListener("pointerdown", stopSpin);
+      renderer.domElement.removeEventListener("pointerdown", takeOver);
       controls.dispose();
       disposeGroup(model);
       disposeGroup(warehouse);
       wordmark.dispose();
       mat.dispose();
+      tex.shadow.dispose();
       composer.dispose();
       pmrem.dispose();
       renderer.dispose();
       host.removeChild(renderer.domElement);
       rebuildRef.current = () => undefined;
+      apiRef.current = { snapshot: () => null, setView: () => undefined };
     };
   }, []);
 

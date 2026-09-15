@@ -20,7 +20,7 @@ import { site } from "@/lib/site";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-type Kind = "quote" | "quick";
+type Kind = "quote" | "quick" | "config";
 
 const REQUIRED: Record<Kind, string[]> = {
   quote: [
@@ -37,6 +37,8 @@ const REQUIRED: Record<Kind, string[]> = {
     "message",
   ],
   quick: ["email", "company", "message"],
+  // the work-table configurator: the build itself is the message
+  config: ["email", "company", "configuration"],
 };
 
 const LABELS: Record<string, string> = {
@@ -53,6 +55,8 @@ const LABELS: Record<string, string> = {
   country: "Country",
   model: "PROMATION model number",
   message: "Information needed",
+  name: "Name",
+  configuration: "Configuration",
   newsletter: "Newsletter opt-in",
   page: "Submitted from",
 };
@@ -64,14 +68,15 @@ function esc(s: string): string {
 }
 
 export async function POST(request: Request) {
-  let payload: { kind?: string; fields?: Record<string, unknown> };
+  let payload: { kind?: string; fields?: Record<string, unknown>; snapshot?: unknown };
   try {
     payload = await request.json();
   } catch {
     return Response.json({ ok: false, error: "Invalid JSON" }, { status: 400 });
   }
 
-  const kind: Kind = payload.kind === "quick" ? "quick" : "quote";
+  const kind: Kind =
+    payload.kind === "quick" ? "quick" : payload.kind === "config" ? "config" : "quote";
   const raw = payload.fields ?? {};
   const fields: Record<string, string> = {};
   for (const [k, v] of Object.entries(raw)) {
@@ -109,7 +114,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const order = [...REQUIRED[kind], "phone", "address2", "newsletter", "page"];
+  const order = [...REQUIRED[kind], "name", "phone", "message", "address2", "newsletter", "page"];
   const seen = new Set<string>();
   const rows = order
     .filter((k) => !seen.has(k) && (seen.add(k), fields[k]))
@@ -126,7 +131,19 @@ export async function POST(request: Request) {
   const heading =
     kind === "quick"
       ? `Quick RFQ — ${fields.company}`
-      : `Website enquiry — ${fields.company}`;
+      : kind === "config"
+        ? `Work table configuration — ${fields.company}`
+        : `Website enquiry — ${fields.company}`;
+
+  // The configurator sends a JPEG of the build the visitor was looking at.
+  // Bounded so a hostile client cannot push megabytes through the mail API.
+  const attachments: { filename: string; content: string }[] = [];
+  if (kind === "config" && typeof payload.snapshot === "string") {
+    const m = /^data:image\/jpeg;base64,([A-Za-z0-9+/=]+)$/.exec(payload.snapshot);
+    if (m && m[1].length <= 1_500_000) {
+      attachments.push({ filename: "configuration.jpg", content: m[1] });
+    }
+  }
 
   try {
     const res = await fetch("https://api.resend.com/emails", {
@@ -143,6 +160,7 @@ export async function POST(request: Request) {
         html: `<h2 style="font:600 18px system-ui;color:#0f172a">${esc(
           heading
         )}</h2><table style="font:14px system-ui;border-collapse:collapse">${rows}</table>`,
+        ...(attachments.length ? { attachments } : {}),
       }),
     });
 
