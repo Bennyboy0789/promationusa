@@ -4086,7 +4086,14 @@
       "Weight": "24 kg",
       "Repeatability": "±0.03 mm",
       "IP Rating": "IP65 arm / IP54 control box"
-    }
+    },
+    "images": [
+      {
+        "src": "/images/products/tm5s-1.webp",
+        "width": 1200,
+        "height": 1000
+      }
+    ]
   },
   {
     "slug": "tm7s",
@@ -4100,7 +4107,14 @@
       "Weight": "23 kg",
       "Repeatability": "±0.03 mm",
       "IP Rating": "IP65 arm / IP54 control box"
-    }
+    },
+    "images": [
+      {
+        "src": "/images/products/tm7s-1.webp",
+        "width": 1200,
+        "height": 1000
+      }
+    ]
   },
   {
     "slug": "tm12s",
@@ -4114,7 +4128,14 @@
       "Weight": "33 kg",
       "Repeatability": "±0.03 mm",
       "IP Rating": "IP65 arm / IP54 control box"
-    }
+    },
+    "images": [
+      {
+        "src": "/images/products/tm12s-1.webp",
+        "width": 1200,
+        "height": 1000
+      }
+    ]
   },
   {
     "slug": "tm14s",
@@ -4128,7 +4149,14 @@
       "Weight": "33 kg",
       "Repeatability": "±0.03 mm",
       "IP Rating": "IP65 arm / IP54 control box"
-    }
+    },
+    "images": [
+      {
+        "src": "/images/products/tm14s-1.webp",
+        "width": 1200,
+        "height": 1000
+      }
+    ]
   },
   {
     "slug": "tm25s",
@@ -4142,7 +4170,14 @@
       "Weight": "82 kg",
       "Repeatability": "±0.05 mm",
       "IP Rating": "IP65 arm / IP54 control box"
-    }
+    },
+    "images": [
+      {
+        "src": "/images/products/tm25s-1.webp",
+        "width": 1200,
+        "height": 1000
+      }
+    ]
   },
   {
     "slug": "tm5-700",
