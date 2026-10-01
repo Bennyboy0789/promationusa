@@ -61,7 +61,7 @@ const LINES: Line[] = [
     name: "TechMan Cobots",
     href: "/collaborative-robots",
     image: "/images/products/techman-cobot-pallet-cell-1.webp",
-    brands: "TM5 – TM20",
+    brands: "Standard & S Series",
     blurb: "Collaborative robots with built-in vision for flexible cell automation.",
   },
   {

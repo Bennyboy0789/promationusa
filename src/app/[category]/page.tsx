@@ -57,6 +57,13 @@ export default async function CategoryHub({
   const models = getProductsInCategory(cat.key).filter(
     (p) => p.slug !== cat.rootSlug
   );
+  // A category with curated ranks shows those models up front; the rest stay
+  // live and crawlable in the complete model index below.
+  const curated = models
+    .filter((m) => m.featured != null)
+    .sort((a, b) => (a.featured ?? 0) - (b.featured ?? 0));
+  const shown = curated.length > 0 ? curated : models;
+  const background = curated.length > 0 ? models.filter((m) => m.featured == null) : [];
   const extra = categoryContent[cat.key];
 
   // Spec columns are chosen from what this category actually publishes: the
@@ -64,7 +71,7 @@ export default async function CategoryHub({
   // one or two models — there the table would repeat the card grid with a row
   // of dashes, so it is dropped entirely rather than padded out.
   const counts = new Map<string, number>();
-  for (const m of models) {
+  for (const m of shown) {
     for (const [k, v] of Object.entries(m.specs ?? {})) {
       if (typeof v === "string" || typeof v === "number") {
         counts.set(k, (counts.get(k) ?? 0) + 1);
@@ -72,7 +79,7 @@ export default async function CategoryHub({
     }
   }
   const columns = [...counts.entries()]
-    .filter(([, n]) => n >= 3 && n >= models.length * 0.25)
+    .filter(([, n]) => n >= 3 && n >= shown.length * 0.25)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 3)
     .map(([k]) => k);
@@ -121,7 +128,7 @@ export default async function CategoryHub({
         <BrochureDownloads items={brochuresFor(cat.key)} className="mt-8" />
 
         {/* Comparison table — the artefact category SERPs reward */}
-        {models.length > 1 && columns.length > 0 && (
+        {shown.length > 1 && columns.length > 0 && (
           <div className="mt-16">
             <SectionHeading
               eyebrow="Compare the range"
@@ -154,7 +161,7 @@ export default async function CategoryHub({
                     </tr>
                   </thead>
                   <tbody>
-                    {models.map((m) => (
+                    {shown.map((m) => (
                       <tr
                         key={m.slug}
                         className="border-b border-line/60 last:border-0"
@@ -191,11 +198,11 @@ export default async function CategoryHub({
         )}
 
         {/* The models themselves */}
-        {models.length > 0 && (
+        {shown.length > 0 && (
           <div className="mt-16">
             <SectionHeading eyebrow="The range" title="Models in this line" />
             <RevealGroup className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {models.map((m) => {
+              {shown.map((m) => {
                 const img = heroImage(m);
                 return (
                   <RevealItem key={m.slug} className="h-full">
@@ -229,6 +236,31 @@ export default async function CategoryHub({
                 );
               })}
             </RevealGroup>
+          </div>
+        )}
+
+        {/* Models beyond the curated range — live, linked, crawlable */}
+        {background.length > 0 && (
+          <div className="mt-16">
+            <SectionHeading
+              eyebrow="Full catalogue"
+              title="Complete model index"
+              intro="Every model PROMATION configures and supports beyond the featured range — each page carries the full specifications."
+            />
+            <Reveal>
+              <ul className="mt-8 grid gap-x-8 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
+                {background.map((m) => (
+                  <li key={m.slug}>
+                    <Link
+                      href={productHref(m)}
+                      className="text-sm text-foreground/80 underline-offset-4 hover:text-blue-600 hover:underline"
+                    >
+                      {m.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Reveal>
           </div>
         )}
 

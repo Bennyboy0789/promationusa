@@ -1869,7 +1869,8 @@
         "width": 2500,
         "height": 1667
       }
-    ]
+    ],
+    "featured": 1
   },
   {
     "slug": "e-series-soldering-collection",
@@ -1913,7 +1914,8 @@
         "width": 1000,
         "height": 1042
       }
-    ]
+    ],
+    "featured": 2
   },
   {
     "slug": "n-series",
@@ -1959,7 +1961,8 @@
         "width": 1500,
         "height": 1000
       }
-    ]
+    ],
+    "featured": 3
   },
   {
     "slug": "m-series",
@@ -2000,7 +2003,8 @@
         "width": 1512,
         "height": 2016
       }
-    ]
+    ],
+    "featured": 5
   },
   {
     "slug": "f-series-1",
@@ -2042,7 +2046,8 @@
         "width": 1404,
         "height": 1346
       }
-    ]
+    ],
+    "featured": 4
   },
   {
     "slug": "hotbarsoldering",
@@ -2093,7 +2098,8 @@
         "width": 1500,
         "height": 938
       }
-    ]
+    ],
+    "featured": 11
   },
   {
     "slug": "inline-custom-solutions",
@@ -2133,7 +2139,8 @@
         "width": 726,
         "height": 823
       }
-    ]
+    ],
+    "featured": 15
   },
   {
     "slug": "panda-soldering",
@@ -2170,7 +2177,8 @@
         "width": 2500,
         "height": 1667
       }
-    ]
+    ],
+    "featured": 6
   },
   {
     "slug": "soldering-robot-central",
@@ -2304,7 +2312,8 @@
         "width": 636,
         "height": 380
       }
-    ]
+    ],
+    "featured": 8
   },
   {
     "slug": "9733d-pro-model",
@@ -2366,7 +2375,8 @@
         "width": 460,
         "height": 655
       }
-    ]
+    ],
+    "featured": 9
   },
   {
     "slug": "9744cj-pro-model",
@@ -2427,7 +2437,8 @@
         "width": 1500,
         "height": 2000
       }
-    ]
+    ],
+    "featured": 10
   },
   {
     "slug": "9n393w-hot-air-soldering-robot",
@@ -2469,7 +2480,8 @@
         "width": 1280,
         "height": 1280
       }
-    ]
+    ],
+    "featured": 14
   },
   {
     "slug": "9r393t-molten-drop-soldering-robot",
@@ -2508,7 +2520,8 @@
         "width": 1280,
         "height": 1280
       }
-    ]
+    ],
+    "featured": 13
   },
   {
     "slug": "7483kxz",
@@ -4062,11 +4075,81 @@
     ]
   },
   {
+    "slug": "tm5s",
+    "title": "TECHMAN TM5S AI Cobot",
+    "category": "cobots",
+    "tagline": "TM AI Cobot S Series — 5 kg payload · 946 mm reach",
+    "description": "The TM5S is part of TechMan's current-generation TM AI Cobot S Series: 5 kg payload and 946 mm reach with ±0.03 mm repeatability. The S Series tightens repeatability, doubles the wrist joint speed to 450°/s for faster cycle times, and upgrades the built-in AI vision system — with an IP65-rated arm and IP54 control box for harsher environments. Programming stays in TMflow: hand-guide the arm and build the task in a flow chart, no robot code required. PROMATION USA configures, integrates and supports the S Series across North America.",
+    "specs": {
+      "Payload": "5 kg",
+      "Reach": "946 mm",
+      "Weight": "24 kg",
+      "Repeatability": "±0.03 mm",
+      "IP Rating": "IP65 arm / IP54 control box"
+    }
+  },
+  {
+    "slug": "tm7s",
+    "title": "TECHMAN TM7S AI Cobot",
+    "category": "cobots",
+    "tagline": "TM AI Cobot S Series — 7 kg payload · 758 mm reach",
+    "description": "The TM7S is part of TechMan's current-generation TM AI Cobot S Series: 7 kg payload and 758 mm reach with ±0.03 mm repeatability. The S Series tightens repeatability, doubles the wrist joint speed to 450°/s for faster cycle times, and upgrades the built-in AI vision system — with an IP65-rated arm and IP54 control box for harsher environments. Programming stays in TMflow: hand-guide the arm and build the task in a flow chart, no robot code required. PROMATION USA configures, integrates and supports the S Series across North America.",
+    "specs": {
+      "Payload": "7 kg",
+      "Reach": "758 mm",
+      "Weight": "23 kg",
+      "Repeatability": "±0.03 mm",
+      "IP Rating": "IP65 arm / IP54 control box"
+    }
+  },
+  {
+    "slug": "tm12s",
+    "title": "TECHMAN TM12S AI Cobot",
+    "category": "cobots",
+    "tagline": "TM AI Cobot S Series — 12 kg payload · 1300 mm reach",
+    "description": "The TM12S is part of TechMan's current-generation TM AI Cobot S Series: 12 kg payload and 1300 mm reach with ±0.03 mm repeatability. The S Series tightens repeatability, doubles the wrist joint speed to 450°/s for faster cycle times, and upgrades the built-in AI vision system — with an IP65-rated arm and IP54 control box for harsher environments. Programming stays in TMflow: hand-guide the arm and build the task in a flow chart, no robot code required. PROMATION USA configures, integrates and supports the S Series across North America.",
+    "specs": {
+      "Payload": "12 kg",
+      "Reach": "1300 mm",
+      "Weight": "33 kg",
+      "Repeatability": "±0.03 mm",
+      "IP Rating": "IP65 arm / IP54 control box"
+    }
+  },
+  {
+    "slug": "tm14s",
+    "title": "TECHMAN TM14S AI Cobot",
+    "category": "cobots",
+    "tagline": "TM AI Cobot S Series — 14 kg payload · 1100 mm reach",
+    "description": "The TM14S is part of TechMan's current-generation TM AI Cobot S Series: 14 kg payload and 1100 mm reach with ±0.03 mm repeatability. The S Series tightens repeatability, doubles the wrist joint speed to 450°/s for faster cycle times, and upgrades the built-in AI vision system — with an IP65-rated arm and IP54 control box for harsher environments. Programming stays in TMflow: hand-guide the arm and build the task in a flow chart, no robot code required. PROMATION USA configures, integrates and supports the S Series across North America.",
+    "specs": {
+      "Payload": "14 kg",
+      "Reach": "1100 mm",
+      "Weight": "33 kg",
+      "Repeatability": "±0.03 mm",
+      "IP Rating": "IP65 arm / IP54 control box"
+    }
+  },
+  {
+    "slug": "tm25s",
+    "title": "TECHMAN TM25S AI Cobot",
+    "category": "cobots",
+    "tagline": "TM AI Cobot S Series — 25 kg payload · 1902 mm reach",
+    "description": "The TM25S is part of TechMan's current-generation TM AI Cobot S Series: 25 kg payload and 1902 mm reach with ±0.05 mm repeatability. The S Series tightens repeatability, doubles the wrist joint speed to 450°/s for faster cycle times, and upgrades the built-in AI vision system — with an IP65-rated arm and IP54 control box for harsher environments. Programming stays in TMflow: hand-guide the arm and build the task in a flow chart, no robot code required. PROMATION USA configures, integrates and supports the S Series across North America.",
+    "specs": {
+      "Payload": "25 kg",
+      "Reach": "1902 mm",
+      "Weight": "82 kg",
+      "Repeatability": "±0.05 mm",
+      "IP Rating": "IP65 arm / IP54 control box"
+    }
+  },
+  {
     "slug": "tm5-700",
     "url": "https://www.promationusa.com/tm5-700",
     "title": "TECHMAN TM5-700 Precision Collaborative Robot",
     "category": "cobots",
-    "tagline": "THE FIRST CHOICE FOR FLEXIBLE AUTOMATION APPLICATIONS",
+    "tagline": "TM AI Cobot Standard Series — 6 kg payload · 700 mm reach",
     "description": "The TM5 collaborative robot features simple programming, innovative integrated vision capabilities together with the latest safety functionality, all leading to rapid deployment in a huge variety of applications. Having vision identification functionality completely integrated within the collaborative robot platform, provides an easy and intuitive way to achieve robot calibration to work piece or tooling, product selection, 1D or 2D barcodes and a host of other vision applications, delivering a true Industry 4.0 solution.\n\n## What is the Difference Between TM Robot and Traditional Robot?\n\nTM Robot is a high-performance production tool that is highly compatible and flexible to man and machine collaboration. Compared to traditional industrial robots that require more manpower to maintain the rigorous workplace environment, our friendly TM Robot can safely do the work without such hassle. It demonstrates how companies can harness technology to work faster and better, and they don't need to have millions in capital or a massive production to justify the investment. Cobots technology has gone through so many developments, they are now accessible and affordable to smaller business enterprises.\n\nIn an era that is trending towards quality over quantity, machines that can provide both can give you a competitive advantage. Go beyond traditional and choose collaborative robots. The TM robot will be your best option to help achieve a smart factory.\n\n## Smart — Built-in Vision System: TM Vision\n\nRobot vision or the ability to \"see\" and interpret visual data into command prompts is one of the features that makes collaborative robots superior to traditional industrial robotics. TM Vision is a built-in, vision system that provides the user with friendly programming functions such as vision recognition, positioning, image enhancement, barcode identification, and so on.\n\n## Simple\n\nPatented technology lets operators with no coding experience to quickly learn and program their first robotic task.\n\n## Safe\n\nTechman Robot complies with the ISO 10218-1:2011 & ISO/TS 15066:2016 human-robot co-operation safety requirements for collaborative robots. TM Robot can provide a pressure-free and safe environment for human operators to work in.\n\n## TM Add-On\n\nTechman Robot is not only a robot manufacturer. We are also dedicated to develop software and hardware solutions that are pre-integrated with our robot. TM Add-Ons can help you introduce cobots to your production line in a faster and easier way, such as implementing a conveyor tracking add-on, AI module, ROS driver and more!",
     "features": [
       "Smart: built-in vision system (TM Vision) with vision recognition, positioning, image enhancement, barcode identification",
@@ -4076,7 +4159,10 @@
       "Integrated 1D/2D barcode reading and vision calibration to workpiece or tooling",
       "True Industry 4.0 solution with rapid deployment"
     ],
-    "specs": {},
+    "specs": {
+      "Payload": "6 kg",
+      "Reach": "700 mm"
+    },
     "models": [
       "TM5-700"
     ],
@@ -4104,7 +4190,7 @@
     "url": "https://www.promationusa.com/tm5-900",
     "title": "TECHMAN TM5-900 Precision Collaborative Robot",
     "category": "cobots",
-    "tagline": "THE FIRST CHOICE FOR FLEXIBLE AUTOMATION APPLICATIONS",
+    "tagline": "TM AI Cobot Standard Series — 4 kg payload · 900 mm reach",
     "description": "The TM5 collaborative robot features simple programming, innovative integrated vision capabilities together with the latest safety functionality, all leading to rapid deployment in a huge variety of applications. Having vision identification functionality completely integrated within the collaborative robot platform, provides an easy and intuitive way to achieve robot calibration to work piece or tooling, product selection, 1D or 2D barcodes and a host of other vision applications, delivering a true Industry 4.0 solution.\n\n## What is the Difference Between TM Robot and Traditional Robot?\n\nTM Robot is a high-performance production tool that is highly compatible and flexible to man and machine collaboration. Compared to traditional industrial robots that require more manpower to maintain the rigorous workplace environment, our friendly TM Robot can safely do the work without such hassle. It demonstrates how companies can harness technology to work faster and better, and they don't need to have millions in capital or a massive production to justify the investment. Cobots technology has gone through so many developments, they are now accessible and affordable to smaller business enterprises.\n\nIn an era that is trending towards quality over quantity, machines that can provide both can give you a competitive advantage. Go beyond traditional and choose collaborative robots. The TM robot will be your best option to help achieve a smart factory.\n\n## Smart — Built-in Vision System: TM Vision\n\nRobot vision or the ability to \"see\" and interpret visual data into command prompts is one of the features that makes collaborative robots superior to traditional industrial robotics. TM Vision is a built-in, vision system that provides the user with friendly programming functions such as vision recognition, positioning, image enhancement, barcode identification, and so on.\n\n## Simple\n\nPatented technology lets operators with no coding experience to quickly learn and program their first robotic task.\n\n## Safe\n\nTechman Robot complies with the ISO 10218-1:2011 & ISO/TS 15066:2016 human-robot co-operation safety requirements for collaborative robots. TM Robot can provide a pressure-free and safe environment for human operators to work in.\n\n## TM Add-On\n\nTechman Robot is not only a robot manufacturer. We are also dedicated to develop software and hardware solutions that are pre-integrated with our robot. TM Add-Ons can help you introduce cobots to your production line in a faster and easier way, such as implementing a conveyor tracking add-on, AI module, ROS driver and more!",
     "features": [
       "Smart: built-in vision system (TM Vision) with vision recognition, positioning, image enhancement, barcode identification",
@@ -4114,7 +4200,10 @@
       "Integrated 1D/2D barcode reading and vision calibration to workpiece or tooling",
       "True Industry 4.0 solution with rapid deployment"
     ],
-    "specs": {},
+    "specs": {
+      "Payload": "4 kg",
+      "Reach": "900 mm"
+    },
     "models": [
       "TM5-900"
     ],
@@ -4142,7 +4231,7 @@
     "url": "https://www.promationusa.com/tm12",
     "title": "TECHMAN TM12 Precision Collaborative Robot",
     "category": "cobots",
-    "tagline": "THE FIRST CHOICE FOR FLEXIBLE AUTOMATION APPLICATIONS",
+    "tagline": "TM AI Cobot Standard Series — 12 kg payload · 1300 mm reach",
     "description": "The TM12 collaborative robot features simple programming, innovative integrated vision capabilities together with the latest safety functionality, all leading to rapid deployment in a huge variety of applications. Its integrated vision identification functionality enables robot calibration to work pieces or tooling, product selection, 1D or 2D barcode scanning, and other vision-based tasks, delivering a true Industry 4.0 solution.\n\n## What is the Difference Between TM Robot and Traditional Robot?\n\nTM Robot is a high-performance production tool that is highly compatible and flexible to man and machine collaboration. Compared to traditional industrial robots that require more manpower to maintain the rigorous workplace environment, our friendly TM Robot can safely do the work without such hassle. Companies no longer need massive capital investment or production volume to justify implementation — modern cobot technology is accessible and affordable for smaller enterprises, delivering competitive advantage through quality alongside quantity.\n\n## Smart — Built-in Vision System: TM Vision\n\nTM Vision provides integrated visual data interpretation capabilities including vision recognition, positioning, image enhancement, barcode identification, and related functions.\n\n## Simple\n\nPatented technology enables operators without coding experience to quickly learn and program robotic tasks, replacing traditional programming with an intuitive graphics-based interface.\n\n## Safe — Ergonomic Design and Force Limiting\n\nTechman Robot complies with ISO 10218-1:2011 and ISO/TS 15066:2016 human-robot co-operation safety requirements, ensuring pressure-free, safe human-robot collaboration environments.\n\n## TM Add-On\n\nSoftware and hardware solutions pre-integrated with TM robots support faster production line implementation, including conveyor tracking, AI modules, and ROS drivers.",
     "features": [
       "Built-in Vision System (TM Vision)",
@@ -4154,7 +4243,10 @@
       "ISO 10218-1:2011 & ISO/TS 15066:2016 compliant",
       "TM Add-On: conveyor tracking, AI modules, ROS drivers"
     ],
-    "specs": {},
+    "specs": {
+      "Payload": "12 kg",
+      "Reach": "1300 mm"
+    },
     "models": [
       "TM12"
     ],
@@ -4182,7 +4274,7 @@
     "url": "https://www.promationusa.com/tm-14",
     "title": "TECHMAN TM14 Precision Collaborative Robot",
     "category": "cobots",
-    "tagline": "THE FIRST CHOICE FOR FLEXIBLE AUTOMATION APPLICATIONS",
+    "tagline": "TM AI Cobot Standard Series — 14 kg payload · 1100 mm reach",
     "description": "The TM14 collaborative robot features simple programming, innovative integrated vision capabilities together with the latest safety functionality, all leading to rapid deployment in a huge variety of applications. Having vision identification functionality completely integrated within the collaborative robot platform, provides an easy and intuitive way to achieve robot calibration to work piece or tooling, product selection, 1D or 2D barcodes and a host of other vision applications, delivering a true Industry 4.0 solution.\n\n## What is the Difference Between TM Robot and Traditional Robot?\n\nTM Robot is a high-performance production tool that is highly compatible and flexible to man and machine collaboration. Compared to traditional industrial robots that require more manpower to maintain the rigorous workplace environment, our friendly TM Robot can safely do the work without such hassle. It demonstrates how companies can harness technology to work faster and better, and they don't need to have millions in capital or a massive production to justify the investment. Cobots technology has gone through so many developments, they are now accessible and affordable to smaller business enterprises.\n\nIn an era that is trending towards quality over quantity, machines that can provide both can give you a competitive advantage. Go beyond traditional and choose collaborative robots. The TM robot will be your best option to help achieve a smart factory.\n\n## Smart — Built-in Vision System: TM Vision\n\nTM Vision is a built-in, vision system that provides the user with friendly programming functions such as vision recognition, positioning, image enhancement, barcode identification, and so on.\n\n## Simple\n\nReplace traditional programming with intuitive interface and graphics. Patented technology lets operators with no coding experience to quickly learn and program their first robotic task.\n\n## Safe — Ergonomic Design and Force Limiting\n\nTechman Robot complies with the ISO 10218-1:2011 & ISO/TS 15066:2016 human-robot co-operation safety requirements for collaborative robots. TM Robot can provide a pressure-free and safe environment for human operators to work in.\n\n## TM Add-On\n\nTechman Robot is not only a robot manufacturer. We are also dedicated to develop software and hardware solutions that are pre-integrated with our robot. TM Add-Ons can help you introduce cobots to your production line in a faster and easier way, such as implementing a conveyor tracking add-on, AI module, ROS driver and more!",
     "features": [
       "Smart: built-in vision system (TM Vision) with vision recognition, positioning, image enhancement, barcode identification",
@@ -4192,7 +4284,10 @@
       "Integrated 1D/2D barcode reading and vision calibration to workpiece or tooling",
       "True Industry 4.0 solution with rapid deployment"
     ],
-    "specs": {},
+    "specs": {
+      "Payload": "14 kg",
+      "Reach": "1100 mm"
+    },
     "models": [
       "TM14"
     ],
@@ -4220,7 +4315,7 @@
     "url": "https://www.promationusa.com/tm16",
     "title": "TECHMAN TM16 Precision Collaborative Robot",
     "category": "cobots",
-    "tagline": "THE FIRST CHOICE FOR FLEXIBLE AUTOMATION APPLICATIONS",
+    "tagline": "TM AI Cobot Standard Series — 16 kg payload · 900 mm reach",
     "description": "The TM16 collaborative robot features simple programming, innovative integrated vision capabilities together with the latest safety functionality, all leading to rapid deployment in a huge variety of applications. Having vision identification functionality completely integrated within the collaborative robot platform, provides an easy and intuitive way to achieve robot calibration to work piece or tooling, product selection, 1D or 2D barcodes and a host of other vision applications, delivering a true Industry 4.0 solution.\n\n## What is the Difference Between TM Robot and Traditional Robot?\n\nTM Robot is a high-performance production tool that is highly compatible and flexible to man and machine collaboration. Compared to traditional industrial robots that require more manpower to maintain the rigorous workplace environment, our friendly TM Robot can safely do the work without such hassle. It demonstrates how companies can harness technology to work faster and better, and they don't need to have millions in capital or a massive production to justify the investment. Cobots technology has gone through so many developments, they are now accessible and affordable to smaller business enterprises.\n\nIn an era that is trending towards quality over quantity, machines that can provide both can give you a competitive advantage. Go beyond traditional and choose collaborative robots. The TM robot will be your best option to help achieve a smart factory.\n\n## Smart — Built-in Vision System: TM Vision\n\nRobot vision or the ability to \"see\" and interpret visual data into command prompts is one of the features that makes collaborative robots superior to traditional industrial robotics. TM Vision is a built-in, vision system that provides the user with friendly programming functions such as vision recognition, positioning, image enhancement, barcode identification, and so on.\n\n## Simple\n\nReplace traditional programming with intuitive interface and graphics. Patented technology lets operators with no coding experience to quickly learn and program their first robotic task.\n\n## Safe — Ergonomic Design and Force Limiting\n\nTechman Robot complies with the ISO 10218-1:2011 & ISO/TS 15066:2016 human-robot co-operation safety requirements for collaborative robots. TM Robot can provide a pressure-free and safe environment for human operators to work in.\n\n## TM Add-On\n\nTechman Robot is not only a robot manufacturer. We are also dedicated to develop software and hardware solutions that are pre-integrated with our robot. TM Add-Ons can help you introduce cobots to your production line in a faster and easier way, such as implementing a conveyor tracking add-on, AI module, ROS driver and more!",
     "features": [
       "Smart: built-in vision system (TM Vision) with vision recognition, positioning, image enhancement, barcode identification",
@@ -4230,7 +4325,10 @@
       "Integrated 1D/2D barcode reading and vision calibration to workpiece or tooling",
       "True Industry 4.0 solution with rapid deployment"
     ],
-    "specs": {},
+    "specs": {
+      "Payload": "16 kg",
+      "Reach": "900 mm"
+    },
     "models": [
       "TM16"
     ],
@@ -4258,7 +4356,7 @@
     "url": "https://www.promationusa.com/tm20",
     "title": "TECHMAN TM20 Precision Collaborative Robot",
     "category": "cobots",
-    "tagline": "THE FIRST CHOICE FOR FLEXIBLE AUTOMATION APPLICATIONS",
+    "tagline": "TM AI Cobot Standard Series — 20 kg payload · 1300 mm reach",
     "description": "The TM20 collaborative robot features simple programming, innovative integrated vision capabilities together with the latest safety functionality, all leading to rapid deployment in a huge variety of applications. Having vision identification functionality completely integrated within the collaborative robot platform, provides an easy and intuitive way to achieve robot calibration to work piece or tooling, product selection, 1D or 2D barcodes and a host of other vision applications, delivering a true Industry 4.0 solution.\n\n## What is the Difference Between TM Robot and Traditional Robot?\n\nTM Robot is a high-performance production tool that is highly compatible and flexible to man and machine collaboration. Compared to traditional industrial robots that require more manpower to maintain the rigorous workplace environment, our friendly TM Robot can safely do the work without such hassle. It demonstrates how companies can harness technology to work faster and better, and they don't need to have millions in capital or a massive production to justify the investment. Cobots technology has gone through so many developments, they are now accessible and affordable to smaller business enterprises.\n\nIn an era that is trending towards quality over quantity, machines that can provide both can give you a competitive advantage. Go beyond traditional and choose collaborative robots. The TM robot will be your best option to help achieve a smart factory.\n\n## Smart — Built-in Vision System: TM Vision\n\nRobot vision or the ability to \"see\" and interpret visual data into command prompts is one of the features that makes collaborative robots superior to traditional industrial robotics. TM Vision is a built-in system providing vision recognition, positioning, image enhancement, and barcode identification.\n\n## Simple\n\nReplace traditional programming with intuitive interface and graphics. Patented technology lets operators with no coding experience to quickly learn and program their first robotic task.\n\n## Safe — Ergonomic Design and Force Limiting\n\nTechman Robot complies with the ISO 10218-1:2011 & ISO/TS 15066:2016 human-robot co-operation safety requirements for collaborative robots. TM Robot provides a pressure-free and safe environment for human operators.\n\n## TM Add-On\n\nTechman Robot is not only a robot manufacturer. We are also dedicated to develop software and hardware solutions that are pre-integrated with our robot. Solutions include conveyor tracking, AI modules, and ROS drivers.",
     "features": [
       "Built-in vision system with recognition, positioning, and barcode identification",
@@ -4268,7 +4366,10 @@
       "Industry 4.0 solution capabilities",
       "TM Add-On: conveyor tracking, AI modules, ROS drivers"
     ],
-    "specs": {},
+    "specs": {
+      "Payload": "20 kg",
+      "Reach": "1300 mm"
+    },
     "models": [
       "TM20"
     ],
@@ -5183,36 +5284,40 @@
   {
     "slug": "labelpro",
     "url": "https://www.promationusa.com/labelpro",
-    "title": "LabelPRO Automatic Label Placement",
+    "title": "LabelPRO Table-Top Label Placement System",
     "category": "label-placement",
-    "description": "Our LABELPRO System is used to print and place labels onto PCBs. This station is integrated with a high resolution 600 dpi zebra label printer that is compatible with most common labels. 1d / 2d code verifiers are also available with “re-print” feature and internal flip options.\n\nLCD with advanced GUI bar code generator software.\n\nLeft to right & right to left process flow available; front fixed rail.\n\nProcessing speed: average. 2 ~ 4.5 sec (depends upon verification feature).\n\nOverhead gantry for x-axis, y-axis: x-axis 500mm, y-axis 500mm",
-    "features": [],
+    "description": "Our LABELPRO is a table-top system used to print and place labels onto PCBs. This station is integrated with a high resolution 600 dpi zebra label printer that is compatible with most common labels. 1d / 2d code verifiers are also available with “re-print” feature and internal flip options.\n\nLCD with advanced GUI bar code generator software.\n\nLeft to right & right to left process flow available; front fixed rail.\n\nProcessing speed: average. 2 ~ 4.5 sec (depends upon verification feature).\n\nOverhead gantry for x-axis, y-axis: x-axis 500mm, y-axis 500mm",
+    "features": [
+      "High-resolution printing: integrated 600 dpi Zebra thermal printer, labels as small as 6 mm square",
+      "Vision-led programming: PCB mapping for on-screen programming and fiducial alignment",
+      "Verify, reject and reprint: overhead barcode verification before placement; rejects trigger an automatic repeat print",
+      "Precise, flexible placement: servo gantry with 180-degree orientation and Z-height placement",
+      "Built for the connected factory: MES ready, intuitive software, remote support capable"
+    ],
     "models": [],
     "videos": [],
     "images": [
       {
         "src": "/images/products/labelpro-1.webp",
-        "width": 1000,
-        "height": 750
-      },
-      {
-        "src": "/images/products/labelpro-2.webp",
-        "width": 2448,
-        "height": 2448
-      },
-      {
-        "src": "/images/products/labelpro-3.webp",
-        "width": 2370,
-        "height": 3102
+        "width": 1448,
+        "height": 1086
       }
-    ]
+    ],
+    "tagline": "Tabletop print-on-demand labeling - print, verify, place",
+    "specs": {
+      "Printer": "Integrated 600 dpi Zebra thermal",
+      "Minimum Label Size": "6 mm square",
+      "Verification": "Overhead barcode scan before placement, auto re-print on reject",
+      "Placement": "Servo gantry, 180-degree orientation, Z-height control",
+      "Connectivity": "MES ready, remote support capable"
+    }
   },
   {
     "slug": "auto-label-placement-at-a-glance",
     "url": "https://www.promationusa.com/auto-label-placement-at-a-glance",
     "title": "Automatic Label Placement Solutions",
     "category": "label-placement",
-    "description": "The LabelPRO series is PROMATION's line of Automatic Label Placement. This system is an in-line, SMEMA based machine that comes with programmed software on an included PC to automatically print, verify, and place labels. The machine then can send label populated boards down the line to the next work cell. A board invert feature is also available upon request to flip the board 180° for easy label placement on either side. Please use the side navigation on this page to view LabelPRO photos, features, and specifications.",
+    "description": "The LabelPRO series is PROMATION's line of automatic label placement. The current system is a table-top machine that prints, verifies and places labels onto PCBs — integrated 600 dpi Zebra printer, 1D/2D code verification with re-print, and advanced GUI barcode generator software. Boards are labelled and confirmed readable at the station before they move on.",
     "features": [],
     "models": [],
     "videos": []
@@ -5741,7 +5846,8 @@
         "width": 1280,
         "height": 1280
       }
-    ]
+    ],
+    "featured": 7
   },
   {
     "slug": "9333-light-curtain",
@@ -6758,7 +6864,8 @@
     "description": "State of the Art, Patented Laser Soldering Technology. Coming Soon…",
     "features": [],
     "models": [],
-    "videos": []
+    "videos": [],
+    "featured": 12
   },
   {
     "slug": "pcb-routing-at-a-glance",

@@ -20,6 +20,12 @@ export type ProductLink = {
 };
 
 export type Product = {
+  /**
+   * Display rank in the curated "Models in this line" grid. Models without it
+   * stay live at their URLs but move to the hub's complete model index —
+   * Mike's "background", built so nothing deindexes.
+   */
+  featured?: number;
   slug: string;
   url: string;
   title: string;
@@ -168,7 +174,7 @@ export const categories: CategoryMeta[] = [
     label: "Label Placement",
     rootSlug: "auto-label-placement-at-a-glance",
     blurb:
-      "LabelPRO pick-and-place labelling — barcode and traceability labels applied and verified in line.",
+      "LabelPRO table-top pick-and-place labelling — barcode and traceability labels printed, placed and verified at the station.",
   },
   {
     key: "mobile-robots",

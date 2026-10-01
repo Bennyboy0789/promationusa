@@ -165,6 +165,10 @@ export const categoryContent: Record<string, CategoryContent> = {
         a: "TechMan arms are taught by hand-guiding and a flow-based interface rather than by writing robot code, so a manufacturing engineer can build a working task without a robotics background. We include training either way.",
       },
       {
+        q: "What is the difference between the standard series and the S Series?",
+        a: "The S Series is TechMan's current generation: repeatability tightens to ±0.03 mm, the wrist joint doubles its speed to 450°/s for faster cycles, and the built-in AI vision is upgraded — with an IP65 arm and IP54 control box for harsher environments. The standard series remains available, and both program the same way in TMflow.",
+      },
+      {
         q: "What payload do we need?",
         a: "Payload is the part plus the gripper plus any cable or hose carried at full reach — the gripper is what most first-time buyers forget. TM5 through TM20 covers the range electronics assembly typically needs; tell us the part and we will size it.",
       },
@@ -207,7 +211,7 @@ export const categoryContent: Record<string, CategoryContent> = {
 
   "label-placement": {
     definition:
-      "An automatic label placement system prints, applies and verifies labels on assembled boards in line. It replaces a hand-applied label with a printer, a pick-and-place head and a barcode reader, so position is repeatable and every code is confirmed readable before the board moves on.",
+      "An automatic label placement system prints, applies and verifies labels on assembled boards. The LabelPRO is a compact table-top station that replaces a hand-applied label with a printer, a pick-and-place head and a barcode reader, so position is repeatable and every code is confirmed readable before the board moves on.",
     faqs: [
       {
         q: "Does it verify the code it just applied?",
@@ -215,7 +219,11 @@ export const categoryContent: Record<string, CategoryContent> = {
       },
       {
         q: "How accurate is the placement?",
-        a: "Vision locates the board before the head places, so accuracy comes from the fiducials rather than from conveyor repeatability. That matters when the label has to sit inside a silkscreened box or clear of a connector.",
+        a: "Vision locates the board before the head places, so accuracy comes from the fiducials rather than from how the board was loaded. That matters when the label has to sit inside a silkscreened box or clear of a connector.",
+      },
+      {
+        q: "Is there an in-line version?",
+        a: "The current LabelPRO is a table-top system. An in-line version is not offered at the moment — tell us your throughput and board flow and we will advise on the right way to fit labelling into the line.",
       },
       {
         q: "Can it handle our existing label stock?",

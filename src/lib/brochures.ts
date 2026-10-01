@@ -41,6 +41,12 @@ export const brochures: Brochure[] = [
     size: "3 MB",
     categories: ["dispensing"],
   },
+  {
+    label: "LabelPRO Brochure",
+    href: "/brochures/promation-labelpro-brochure.pdf",
+    size: "3 MB",
+    categories: ["label-placement"],
+  },
 ];
 
 export function brochuresFor(categoryKey: string): Brochure[] {
