@@ -215,19 +215,19 @@ export const categoryContent: Record<string, CategoryContent> = {
     faqs: [
       {
         q: "Does it verify the code it just applied?",
-        a: "Yes — that is most of the point. The system reads each label after placement, so an unreadable or misprinted code is caught at the station rather than at the customer. 1D and 2D codes are both supported.",
+        a: "Yes — all labels are scanned for readability prior to placement, and a failed scan triggers an automatic re-print. 1D and 2D codes are both supported.",
       },
       {
         q: "How accurate is the placement?",
-        a: "Vision locates the board before the head places, so accuracy comes from the fiducials rather than from how the board was loaded. That matters when the label has to sit inside a silkscreened box or clear of a connector.",
+        a: "The servo gantry is accurate to a tenth of a millimetre on its own, and the vision system can be turned on or off based upon the accuracy the job requires. That matters when the label has to sit inside a silkscreened box or clear of a connector.",
       },
       {
         q: "Is there an in-line version?",
-        a: "The current LabelPRO is a table-top system. An in-line version is not offered at the moment — tell us your throughput and board flow and we will advise on the right way to fit labelling into the line.",
+        a: "No — at this time PROMATION is building table-top solutions only. Tell us your throughput and board flow and we will advise on the right way to fit labelling into your process.",
       },
       {
         q: "Can it handle our existing label stock?",
-        a: "The LabelPRO integrates a 600 dpi Zebra printer and takes most common label stock. Send us a sample roll and the board and we will confirm the combination on the machine before you order.",
+        a: "Automated systems use labels made for automation, so not all label stock is suitable. Check with us and we will confirm your stock or point you to the right one before you order.",
       },
     ],
   },

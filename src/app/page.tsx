@@ -24,7 +24,7 @@ const divisions = [
     index: "01",
     title: "PCB Handling",
     href: "/pcb-handling",
-    image: "/images/products/bare-board-loading-stations-1.webp",
+    image: "/images/products/pcb-handling-main.webp",
     // Crop high: the badge and the window are the machine, the lower cabinet is not.
     imagePosition: "object-[center_32%]",
     blurb:
@@ -86,7 +86,7 @@ const divisions = [
     index: "07",
     title: "PCB Depaneling",
     href: "/pcb-depaneling",
-    image: "/images/products/pcb-routing-at-a-glance-1.webp",
+    image: "/images/products/ttr-400-1.webp",
     blurb:
       "Automatic routing and depaneling — separating finished boards from the panel without the stress a hand break puts through a joint.",
     tags: ["Routing", "Depaneling"],

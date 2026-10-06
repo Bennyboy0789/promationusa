@@ -166,7 +166,7 @@ export const categories: CategoryMeta[] = [
     label: "PCB Depaneling",
     rootSlug: "pcb-routing-at-a-glance",
     blurb:
-      "Automatic routing and depaneling systems that separate finished boards from the panel without stressing the joints.",
+      "Full-featured table-top PCB depaneling — servo gantry, vision and a high-speed spindle for seamless separation.",
   },
   {
     key: "label-placement",

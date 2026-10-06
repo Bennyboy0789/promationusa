@@ -5321,13 +5321,14 @@
     "url": "https://www.promationusa.com/labelpro",
     "title": "LabelPRO Table-Top Label Placement System",
     "category": "label-placement",
-    "description": "Our LABELPRO is a table-top system used to print and place labels onto PCBs. This station is integrated with a high resolution 600 dpi zebra label printer that is compatible with most common labels. 1d / 2d code verifiers are also available with “re-print” feature and internal flip options.\n\nLCD with advanced GUI bar code generator software.\n\nLeft to right & right to left process flow available; front fixed rail.\n\nProcessing speed: average. 2 ~ 4.5 sec (depends upon verification feature).\n\nOverhead gantry for x-axis, y-axis: x-axis 500mm, y-axis 500mm",
+    "description": "The LABEL PRO has been designed to remove the redundant operation of picking and placing labels by operator. Mated with a 600 DPI Zebra printer, the system can print on demand or through an MES network, with labels as small as 6 mm square at a high degree of resolution. PCB mapping allows for on-screen programming, vision for accurate placement, verification for readability (with re-print function), and an internal scaleable PCB holder eliminating the need for fixtures.",
     "features": [
       "High-resolution printing: integrated 600 dpi Zebra thermal printer, labels as small as 6 mm square",
       "Vision-led programming: PCB mapping for on-screen programming and fiducial alignment",
       "Verify, reject and reprint: overhead barcode verification before placement; rejects trigger an automatic repeat print",
       "Precise, flexible placement: servo gantry with 180-degree orientation and Z-height placement",
-      "Built for the connected factory: MES ready, intuitive software, remote support capable"
+      "Built for the connected factory: MES ready, intuitive software, remote support capable",
+      "Internal scaleable PCB holder — no fixturing required"
     ],
     "models": [],
     "videos": [],
@@ -5344,7 +5345,8 @@
       "Minimum Label Size": "6 mm square",
       "Verification": "Overhead barcode scan before placement, auto re-print on reject",
       "Placement": "Servo gantry, 180-degree orientation, Z-height control",
-      "Connectivity": "MES ready, remote support capable"
+      "Connectivity": "MES ready, remote support capable",
+      "Placement Accuracy": "0.1 mm via servo gantry; vision selectable per job"
     }
   },
   {
@@ -6811,6 +6813,42 @@
         "src": "/images/products/agv-3.webp",
         "width": 1104,
         "height": 1104
+      }
+    ]
+  },
+  {
+    "slug": "ttr-400",
+    "title": "TTR-400 Table-Top PCB Depaneling System",
+    "category": "depaneling",
+    "tagline": "Full-featured table-top depaneling — servo gantry, vision and high-speed spindle",
+    "description": "Tabletop hand load/unload solution with 400 mm x 400 mm PCB handling capability. Large access area with automatic opening door.\n\nPROMATION's TTR-400 is easy to program, easy to use, and requires no fixturing. Standard features include PCB mapping for on-screen programming, vision alignment, a high-speed spindle, automatic bit change-over, bit indexing, bit detection, and a Windows 11 OS that is MES ready and remote support capable.\n\nThe heart of the TTR-400 is a high-speed Nakanishi spindle coupled with a servo gantry motion-control platform, Basler vision, and a downward-draft dual-port vacuum system. PROMATION's proprietary software includes PCB mapping for clear, concise on-screen programming, adjustable vision lighting, ionized air flow, automatic bit indexing, automatic bit detection, and much more. PROMATION's motion control and I/O cards are integrated, allowing 100% control over the entire system when remote support is required. The system can seamlessly cut, jump, arc, and move swiftly through PCBs of varying thickness. The front door is fully automatic and may be integrated with cobots for automatic loading and unloading. A DuClean vacuum system is included to round out this solution.",
+    "features": [
+      "PCB mapping for clear on-screen programming — no fixturing required",
+      "Basler vision alignment with adjustable lighting",
+      "High-speed Nakanishi spindle with automatic bit change-over, indexing and detection",
+      "Cuts, jumps and arcs through PCBs of varying thickness",
+      "Fully automatic front door — integrates with cobots for auto load/unload",
+      "Downward-draft dual-port vacuum with DuClean system included",
+      "Windows 11, MES ready, remote support capable"
+    ],
+    "specs": {
+      "Work Area": "400 x 400 mm",
+      "Loading": "Hand load/unload, automatic front door (cobot-integrable)",
+      "Spindle": "High-speed Nakanishi, automatic bit change-over",
+      "Vision": "Basler camera, adjustable vision lighting",
+      "Dust Extraction": "Downward-draft dual-port vacuum, DuClean included",
+      "Software": "PCB mapping, Windows 11, MES ready, remote support"
+    },
+    "images": [
+      {
+        "src": "/images/products/ttr-400-1.webp",
+        "width": 1578,
+        "height": 996
+      },
+      {
+        "src": "/images/products/ttr-400-2.webp",
+        "width": 813,
+        "height": 1046
       }
     ]
   },

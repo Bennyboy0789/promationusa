@@ -28,7 +28,7 @@ const LINES: Line[] = [
   {
     name: "PCB Handling",
     href: "/pcb-handling",
-    image: "/images/products/bare-board-loading-stations-1.webp",
+    image: "/images/products/pcb-handling-main.webp",
     brands: "SMEMA-compliant",
     // Crop high: the badge and the window read as the machine; the cabinet does not.
     position: "object-[center_32%]",
